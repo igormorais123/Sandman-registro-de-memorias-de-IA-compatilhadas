@@ -1,0 +1,19 @@
+
+# Secrets - NUNCA commitar
+.secrets/
+*.pickle
+*.key
+*.pem
+.env
+.env.*
+
+# Documentos pessoais - NUNCA commitar
+docs/igor/
+docs/igor_documento.pdf
+*.pdf
+
+# Memory e dados sensíveis
+memory/contatos-igor.md
+memory/dossie-igor.md
+memory/inferencias-igor.md
+MEMORY.md
