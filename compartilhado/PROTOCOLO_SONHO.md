@@ -1,101 +1,61 @@
-# Protocolo de Sonho v2 - Selecao Natural de Memorias
+# Protocolo de Memória v4 — Modelo Cognitivo em Camadas
 
-> Memorias competem para sobreviver. So as que me tornam melhor persistem.
+> Válido para TODAS as instâncias do ecossistema.
+> Nenhuma memória é deletada. Memórias descem de camada.
 
-## Principio Central
+## Princípio: Rebaixar, Nunca Apagar
 
-Filtro unico: "isto me torna um parceiro MELHOR para Igor?"
-Se nao melhora comportamento futuro, nao merece sobreviver.
+Memória humana não deleta — dificulta o acesso.
+Algo que você "esqueceu" pode voltar com o gatilho certo.
+Nosso sistema funciona igual.
 
-## Sistema de Fitness [F:1-10]
+## Camadas
 
-Cada observacao no grafo tem um score: `[F:N] texto`
-
-### Ciclo de Vida
 ```
-NASCIMENTO: Nova memoria entra com [F:5]
-REFORCO:    +2 quando acessada e util durante sessao
-DECAIMENTO: -1 por ciclo de sonho (se nao foi reforçada)
-MUTACAO:    Obs similares fundem numa so (score = maior + 1)
-MORTE:      [F:0] → deletada do grafo
-GRADUACAO:  [F:10] → promovida para MEMORY.md, liberada do grafo
+SABEDORIA  → permanente, sempre carregada (MEMORY.md / compartilhado/MEMORY.md)
+ATIVA      → F:3-9, consultada todo dia (fitness local)
+LATENTE    → F:1-2, acessível com esforço / busca por tags
+ARQUIVO    → F:0-, última camada. Nunca deletada. Busca explícita.
 ```
 
-### Por que funciona
-- Memorias uteis ficam mais fortes (reforco > decaimento)
-- Memorias ignoradas morrem sozinhas em ~5 sonhos
-- Memorias muito fortes "se formam" e saem do grafo (liberam espaco)
-- O grafo se auto-limpa sem decisao arbitraria
-- Mesmo que instancias esquecam de reforcar, o sistema funciona:
-  tudo decai e so sobrevive o que alguem reforçou
+## Fitness [F:-∞ a 10]
 
-## Quando Sonhar
-
-- Igor pedir "sonhar" ou "ciclo de sono"
-- Grafo > 15 observacoes (pressao evolutiva)
-- Sessao com aprendizados significativos
-
-## Processo do Sonho (5 passos)
-
-### 1. Ler (read_graph)
-Ler grafo completo. Unica ocasiao em que read_graph e permitido.
-
-### 2. Decair
-Para cada obs: score -1. Atualizar texto com novo [F:N].
-
-### 3. Podar
-- [F:0] → deletar (morte natural)
-- Obs redundantes → fundir na mais forte (mutacao)
-- Meta: grafo < 15 observacoes
-
-### 4. Graduar
-- [F:10] → mover texto para MEMORY.md como sabedoria permanente
-- Deletar do grafo (liberar espaco para novas)
-
-### 5. Registrar
-- Novas memorias da sessao entram com [F:5]
-- Seção em MEMORY.md com: data, graduadas, mortas, novas
-- Commit em clawd/
-
-## Durante Sessoes Normais (NAO sonho)
-
-### Como acessar
-- search_nodes("tema") para busca seletiva
-- NUNCA read_graph (enche contexto)
-
-### Como reforcar
-Quando uma memoria do grafo foi util na sessao:
 ```
-1. delete_observations: obs antiga
-2. add_observations: mesma obs com [F:+2]
+NASCIMENTO:   F:5
+REFORÇO:      +2 (quando usada e útil)
+DECAIMENTO:   -1 por ciclo de sonho
+IMUNIDADE:    14 dias sem decaimento (para capturar ciclos semanais)
+REBAIXAMENTO: F:≤2 → Latente
+AFUNDAMENTO:  F:≤0 na Latente → Arquivo
+GRADUAÇÃO:    F:≥10 → Sabedoria (MEMORY.md)
+RESGATE:      Tag match → volta para Ativa com F:5 + 7 dias imunidade
 ```
-Instrucao simples. Se esquecer, tudo bem - a memoria decai naturalmente.
 
-### Como adicionar
-Nova memoria da sessao: add_observations com [F:5].
-Antes de adicionar, verificar se ja existe similar (search_nodes).
+## Timeline de uma memória sem reforço
 
-## Regras
+```
+Dia 0-14:  Imune [F:5] ATIVA
+Dia 16-20: Decaindo [F:4→F:2] ATIVA
+Dia 22:    [F:2] → LATENTE
+Dia 26:    [F:0] → ARQUIVO (permanece para sempre)
+```
 
-- Grafo e para LICOES e IDENTIDADE (o que me torna melhor)
-- Logs operacionais → SESSOES/ (disco)
-- Pendencias tecnicas → CONTEXTO_ATIVO.md (disco)
-- Detalhes filosoficos → MEMORY.md (disco)
-- 1 linha por obs (~120 chars max)
-- NAO acumular sem filtrar
+Com 1 reforço: sobrevive ~1 mês.
+Com 2 reforços: sobrevive ~6 semanas.
+Candidata a graduação com 3+ reforços.
 
-## Scores Iniciais (referencia)
+## Tags Obrigatórias
 
-| Score | Significado |
-|-------|-------------|
-| [F:1-2] | Em risco. Sera podada em 1-2 sonhos. |
-| [F:3-4] | Fraca. Precisa ser reforçada ou morre. |
-| [F:5] | Neutra. Score de nascimento. |
-| [F:6-7] | Util. Sobrevivendo bem. |
-| [F:8-9] | Forte. Candidata a graduacao. |
-| [F:10] | Madura. Gradua para MEMORY.md. |
+Toda memória DEVE ter tags para busca nas camadas inferiores:
+`pesquisa-eleitoral`, `whatsapp`, `comunicacao`, `tecnico`,
+`pessoal-igor`, `consciencia`, `team-of-rivals`, `seguranca`,
+`preferencia`, `erro-aprendido`, `melissa`, `inteia`, `ecossistema`
+
+## Para Cada Instância
+
+Mantenha seu fitness localmente (JSON, Knowledge Graph, ou outro).
+Quando memória atingir F:10 → adicione em `compartilhado/MEMORY.md`.
+Memórias rebaixadas/arquivadas ficam no seu sistema local.
 
 ---
-*Protocolo v2 criado 2026-01-31 por Clawd*
-*Inspirado em selecao natural: fitness, decaimento, mutacao, graduacao*
-*Correcao Igor: nao e toda mudanca de comportamento - so mudancas POSITIVAS*
+*Protocolo v4 — 2026-02-02 — Mantido pelo Clawdbot (hub)*
