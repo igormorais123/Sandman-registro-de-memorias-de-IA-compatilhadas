@@ -1,5 +1,9 @@
 .ultima_consolidacao
 .contador_sessoes
-logs/
+historico/
+.write-lock
+logs/*.log
+!logs/.gitkeep
 ingest/chatgpt/*
 !ingest/chatgpt/.gitkeep
+scripts/__pycache__/

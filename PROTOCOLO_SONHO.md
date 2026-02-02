@@ -1,6 +1,6 @@
-# Protocolo — Redirecionamento
+# Protocolo de Sonho — Redirecionamento
 
-> **Este arquivo foi absorvido pelo Protocolo Unificado v5.**
-> Veja: `compartilhado/PROTOCOLO_v5.md`
+> **Fonte única da verdade:** `compartilhado/PROTOCOLO_SONHO.md` (v4.2 — modelo cognitivo em camadas)
+> **Protocolo unificado:** `compartilhado/PROTOCOLO_v5.md` (memória + sonhos + consulta)
 >
-> Mantido apenas como referência histórica e para não quebrar links.
+> Este arquivo é apenas um ponteiro. Não editar aqui.
