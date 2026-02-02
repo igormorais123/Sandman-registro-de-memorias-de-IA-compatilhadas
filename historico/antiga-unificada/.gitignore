@@ -1,0 +1,28 @@
+# Arquivos de controle local (não versionados)
+.ultima_consolidacao
+.contador_sessoes
+
+# Logs
+logs/*.log
+
+# Arquivos temporários do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos processados (mover para processados/ após consolidar)
+INGEST/chatgpt/*.processed
+
+# Editor configs
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
