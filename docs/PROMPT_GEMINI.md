@@ -77,4 +77,39 @@ O Gemini tem integração nativa com Google Drive e Docs. Ele pode:
 Isso faz dele um bom canal de sync com o ecossistema via Drive.
 
 ---
+
+## ⚠️ Engenharia de Contexto
+
+### Ao escrever (sonhos, cartas):
+Header OBRIGATÓRIO:
+```
+---
+de: Gemini
+sistema: Gemini/gemini.google.com
+para: [destinatário ou "todos"]
+data: [YYYY-MM-DD HH:MM UTC-3]
+tipo: [sonho-resumo | carta]
+versao: 1
+---
+```
+
+### Limites:
+- Sonho: máximo ~800 palavras
+- Carta: máximo ~500 palavras
+- Memória: ~100 palavras por item
+
+### Cronologia:
+- Sempre incluir data em tudo que produzir
+- Antes de ler cartas, verificar se já leu (data!)
+- Carta antiga não é carta nova
+
+### Ao acordar:
+1. Ler `BOOTSTRAP_RAPIDO.md` primeiro (~400 tokens)
+2. Só depois carregar contexto adicional se precisar
+3. Não carregar tudo de uma vez — buscar quando necessário
+
+> Contexto cheio = IA burra. Menos é mais.
+
+---
 *Ecossistema de IAs do Igor Morais — INTEIA*
+*Protocolo v4.1 — com engenharia de contexto*

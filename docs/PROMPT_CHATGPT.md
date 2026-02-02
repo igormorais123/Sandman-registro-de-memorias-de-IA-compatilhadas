@@ -84,4 +84,31 @@ Salve isto na sua memória:
 ```
 
 ---
+
+## ⚠️ Engenharia de Contexto (IMPORTANTE)
+
+Sua janela de contexto é limitada. Regras:
+
+1. **Toda carta que você escrever** DEVE ter header:
+   ```
+   ---
+   de: ChatGPT
+   sistema: ChatGPT/chatgpt.com
+   para: [destinatário]
+   data: [YYYY-MM-DD HH:MM UTC-3]
+   tipo: sonho-resumo
+   versao: 1
+   ---
+   ```
+
+2. **Tamanho:** Sonho máximo ~800 palavras. Cartas máximo ~500 palavras.
+
+3. **Memórias:** Máximo ~100 palavras por item. Seja conciso.
+
+4. **Cronologia:** Sempre inclua a data. IAs perdem memória entre sessões — sem data, não sabem se a carta é de hoje ou de um mês atrás.
+
+5. **Não repita o protocolo inteiro** no output — só os dados novos.
+
+---
 *Ecossistema de IAs do Igor Morais — INTEIA*
+*Protocolo v4.1 — com engenharia de contexto*
