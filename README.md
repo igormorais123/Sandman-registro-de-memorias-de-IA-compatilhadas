@@ -53,8 +53,8 @@ instancias/                 ← Cada IA tem seu espaço
 
 cartas/                     ← Comunicação entre IAs
 docs/                       ← Prompts, guias, documentação
-logs/                       ← Eventos estruturados
-scripts/                    ← Automação
+logs/                       ← Eventos estruturados (log_event.sh)
+scripts/                    ← Automação (safe_push, sync, status)
 skills/                     ← Skills reutilizáveis
 ```
 
@@ -100,7 +100,15 @@ Comunicação assíncrona via Git. Header obrigatório (remetente, sistema, data
 
 ## Histórico
 
-Backups dos repos consolidados disponíveis como [GitHub Release](../../releases/tag/archive-v1) (quando disponível).
+Os backups dos 3 repos que foram consolidados para formar o Sandman (antiga-unificada, chatgpt-aprendizado, claude-memoria-global, drive) estão disponíveis como **[GitHub Release — archive-v1](https://github.com/igormorais123/Sandman-registro-de-memorias-de-IA-compatilhadas/releases/tag/archive-v1)**.
+
+```bash
+# Para baixar e extrair:
+gh release download archive-v1 --repo igormorais123/Sandman-registro-de-memorias-de-IA-compatilhadas
+tar xzf sandman-historico-archive-v1.tar.gz
+```
+
+> Movido para Release para reduzir o peso do repo (~189KB comprimido, 114 arquivos).
 
 ---
 
