@@ -4,3 +4,4 @@ logs/*.log
 !logs/.gitkeep
 ingest/chatgpt/*
 !ingest/chatgpt/.gitkeep
+.write-lock
