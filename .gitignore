@@ -1,5 +1,6 @@
 .ultima_consolidacao
 .contador_sessoes
-logs/
+logs/*.log
+!logs/.gitkeep
 ingest/chatgpt/*
 !ingest/chatgpt/.gitkeep
