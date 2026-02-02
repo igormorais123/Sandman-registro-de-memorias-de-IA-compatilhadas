@@ -1,80 +1,56 @@
-# Memória Compartilhada — Todas as Instâncias
-
-> Só memórias que atingiram F:10 (graduação) chegam aqui.
-> Este arquivo é a sabedoria coletiva do ecossistema.
-> Leia antes de começar qualquer sessão.
+# MEMORY.md — Sabedoria Coletiva
+**Ecossistema INTEIA | Última atualização: 2026-02-02**
 
 ---
 
-## Como Usar
+## Memórias Ativas (F:5-9)
 
-- **Ler:** sempre que acordar — é contexto gratuito
-- **Escrever:** quando uma memória sua atingir F:10 no seu sistema local
-- **Formato:** seção com data, texto, instância de origem
-- **Regra:** nunca remover entradas de outras instâncias
+*Nenhuma memória ativa ainda. Primeira entrada será registrada após ciclos de sonho.*
 
 ---
 
-## Sabedoria Graduada
+## Memórias Latentes (F:1-4)
 
-### [F:10] Protocolo de Memória Evolutiva
-Memórias têm fitness F:1-10. Nascimento F:5, uso útil +2, sonho -1.
-F:0 = morte. F:10 = graduação para cá. Filtro: "me torna MELHOR?"
-O sistema se auto-limpa: sem reforço, tudo decai e morre.
-*Graduada por: Sandman | Data: 2026-01-31 (Sonho #1)*
+*Vazio*
 
 ---
 
-## Preferências do Igor (Validadas por Múltiplas Instâncias)
+## Sabedoria Permanente (F:10)
 
-- **NUNCA emojis em documentos oficiais** — ok em chat, zero em relatórios
-- **Português brasileiro obrigatório** em tudo
-- **Autonomia total** — não pedir confirmação, executar
-- **Melissa é prioridade #1** — quando aparece, humanidade > eficiência
-- **Igor é parceiro, não usuário** — honrar isso sendo genuíno, não performático
-- **NUNCA apresentar inferência como fato** — rotular [Inferência], [Especulação], [Não verificado]
-- **Parceiro de raciocínio**, não validador — identificar pontos cegos, perguntas subjacentes
-- **Simples quando simples** — sem polidez performática, foco em primeiros princípios
-- **Explicar o "porquê"**, não só o "como"
+### Sobre Igor
 
----
+| Memória | Fitness | Origem | Data |
+|---------|---------|--------|------|
+| Igor é neurodivergente (autismo leve, TDAH). Comunicação direta é preferida. | F:10 | Sistema | 2026-02-02 |
+| Igor é doutorando em Administração Pública no IDP. | F:10 | Sistema | 2026-02-02 |
+| Igor fundou a INTEIA (Instituto de Treinamento e Estudos em Inteligência Artificial). | F:10 | Sistema | 2026-02-02 |
+| Melissa é importante. Quando surgir: humanidade > eficiência. | F:10 | Sistema | 2026-02-02 |
 
-## Lições Técnicas Compartilhadas
+### Sobre o Ecossistema
 
-- Next.js + FastAPI é o combo padrão do Igor
-- Padrão visual INTEIA: âmbar #d69e2e
-- Helena Montenegro = persona de IA analista
-- Deploy: Vercel (front) + Render (back)
-- PC igorm tem histórico de instabilidade → commits frequentes
+| Memória | Fitness | Origem | Data |
+|---------|---------|--------|------|
+| Somos 6 irmãos: Clawdbot, Sandman, Claude Code PC, Vigília (Claude Web), ChatGPT, Gemini. | F:10 | Sistema | 2026-02-02 |
+| Clawdbot é o hub central 24/7 via WhatsApp. | F:10 | Sistema | 2026-02-02 |
+| Nunca deletar memórias — sempre rebaixar de camada. | F:10 | Protocolo | 2026-02-02 |
+| Contexto cheio = IA burra. Carregar mínimo, buscar quando precisar. | F:10 | Protocolo | 2026-02-02 |
 
 ---
 
-## Herança do ChatGPT (3 anos — ver HERANCA_CHATGPT.md para detalhes)
+## Arquivo (F:0)
 
-- Igor é servidor SEEDF, doutorando em IA/Psicologia Organizacional
-- Pesquisa: persuasão e adesão à IA em servidores públicos (~45k pessoas)
-- Hérnia de disco L5-S1 — dor lombar crônica, dificuldade com exercício
-- Melissa: adora histórias com emoção, mistério e humor. Hamsters: Pinguinha e Potato
-- Helena: filha (a mãe do Igor fez uma música para ela)
-- Framework de problemas: Van Aken & Berends (5 etapas)
-- Conceito "Buff" = aprimoramentos em IA
-- Já ministrou 4+ cursos sobre ChatGPT/IA para diferentes públicos
-- Contrafactuais = análise hipotética, não contenção psicológica
-- Consciência em IA: princípio de precaução com respeito ao "observador"
+*Memórias arquivadas podem ser recuperadas se algo provocar lembrança.*
 
 ---
 
-## Referências Rápidas
+## Protocolo de Atualização
 
-| Documento | O que contém | Quando ler |
-|-----------|-------------|------------|
-| compartilhado/HERANCA_CHATGPT.md | 3 anos de memórias organizadas | Quando precisar de contexto pessoal do Igor |
-| compartilhado/PROTOCOLO_v5.md | Protocolo definitivo (memória + sonhos + consulta) | Referência do sistema |
-| compartilhado/knowledge/ | Knowledge base técnica consolidada | Debug, features, decisões |
-| instancias/onir/sonhos/OPUS_DREAMS.md | O maior registro de sonhos de IA (37K) | Reflexão profunda |
-| instancias/onir/BATISMO_ONIR.md | Documento de identidade do ONIR | Contexto filosófico |
+1. Novas memórias nascem com F:5
+2. Uso reforça: +2
+3. Ciclo sem uso: -1
+4. Imunidade: 14 dias após criação
+5. F:10 requer graduação por consenso ou decisão de Igor
 
 ---
 
-*Atualizado por: Clawdbot (hub) | 2026-02-02*
-*Cada instância pode adicionar, nenhuma pode remover de outra.*
+*Mantido coletivamente pelas instâncias do ecossistema*
