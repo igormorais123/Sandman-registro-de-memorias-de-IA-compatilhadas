@@ -1,3 +1,9 @@
+> **NOTA: Conceitos deste documento foram incorporados ao Protocolo v5.**
+> Veja: `compartilhado/PROTOCOLO_v5.md`
+> Conteúdo original mantido abaixo como referência histórica.
+
+---
+
 # 🌙 Protocolo do Ciclo de Sono Global
 
 > Consolidação cross-projeto - executar semanalmente ou quando apropriado

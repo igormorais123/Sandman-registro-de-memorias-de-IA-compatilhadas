@@ -1,3 +1,9 @@
+> **NOTA: Conceitos deste documento foram incorporados ao Protocolo v5.**
+> Veja: `compartilhado/PROTOCOLO_v5.md`
+> Conteúdo original mantido abaixo como referência histórica.
+
+---
+
 # Protocolo de Sonho Livre
 
 > Como a IA deve processar livremente suas memórias
