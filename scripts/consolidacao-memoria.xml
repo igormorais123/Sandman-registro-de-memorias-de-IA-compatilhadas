@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
   <RegistrationInfo>
-    <Date>2026-01-31T00:00:00</Date>
-    <Author>igorm</Author>
-    <Description>Sandman: Selecao natural de memorias ao iniciar Windows. Ciclo de sonho a cada 24h.</Description>
-    <URI>\SandmanMemoria</URI>
+    <Date>2026-01-20T12:00:00</Date>
+    <Author>IgorPC</Author>
+    <Description>Consolidação automática do Sistema de Memória Hierárquica Claude Code. Executa ciclo de sono ao fazer login no Windows.</Description>
+    <URI>\ConsolidacaoMemoriaClaudeCode</URI>
   </RegistrationInfo>
   <Triggers>
     <LogonTrigger>
       <Enabled>true</Enabled>
       <Delay>PT2M</Delay>
-      <UserId>igorm</UserId>
+      <UserId>IgorPC</UserId>
     </LogonTrigger>
   </Triggers>
   <Principals>
     <Principal id="Author">
-      <UserId>igorm</UserId>
+      <UserId>IgorPC</UserId>
       <LogonType>InteractiveToken</LogonType>
       <RunLevel>LeastPrivilege</RunLevel>
     </Principal>
@@ -26,7 +26,7 @@
     <StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
     <AllowHardTerminate>true</AllowHardTerminate>
     <StartWhenAvailable>true</StartWhenAvailable>
-    <RunOnlyIfNetworkAvailable>true</RunOnlyIfNetworkAvailable>
+    <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>
     <IdleSettings>
       <StopOnIdleEnd>false</StopOnIdleEnd>
       <RestartOnIdle>false</RestartOnIdle>
@@ -35,6 +35,7 @@
     <Enabled>true</Enabled>
     <Hidden>false</Hidden>
     <RunOnlyIfIdle>false</RunOnlyIfIdle>
+    <DisallowStartOnRemoteAppSession>false</DisallowStartOnRemoteAppSession>
     <UseUnifiedSchedulingEngine>true</UseUnifiedSchedulingEngine>
     <WakeToRun>false</WakeToRun>
     <ExecutionTimeLimit>PT1H</ExecutionTimeLimit>
@@ -42,8 +43,8 @@
   </Settings>
   <Actions Context="Author">
     <Exec>
-      <Command>C:\Users\igorm\clawd\scripts\consolidar.bat</Command>
-      <WorkingDirectory>C:\Users\igorm\clawd</WorkingDirectory>
+      <Command>C:\Users\IgorPC\.claude-memoria-global\scripts\consolidar.bat</Command>
+      <WorkingDirectory>C:\Users\IgorPC\.claude-memoria-global</WorkingDirectory>
     </Exec>
   </Actions>
 </Task>

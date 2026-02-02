@@ -10,7 +10,7 @@ echo  Sandman - Setup
 echo ========================================
 echo.
 
-set "REPO_PATH=C:\Users\igorm\clawd"
+set "REPO_PATH=C:\Users\IgorPC\clawd"
 
 if not exist "%REPO_PATH%\SOUL.md" (
     echo ERRO: clawd nao encontrado em %REPO_PATH%

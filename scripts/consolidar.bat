@@ -1,78 +1,55 @@
 @echo off
-REM ============================================================
-REM Sandman - Script de Consolidacao de Memoria
-REM Executa ao ligar o PC via Task Scheduler
-REM Repo unico: clawd (identidade + memoria + sonhos)
-REM ============================================================
+REM ============================================
+REM consolidar.bat - Script de Consolidação Automática
+REM Sistema de Memória Hierárquica Claude Code
+REM ============================================
 
 setlocal enabledelayedexpansion
 
-REM Configuracoes
-set "REPO_PATH=C:\Users\igorm\clawd"
-set "LOG_PATH=%REPO_PATH%\logs"
-set "ULTIMA_CONSOLIDACAO=%REPO_PATH%\.ultima_consolidacao"
-set "HORAS_MINIMAS=24"
+set "MEMORIA_DIR=C:\Users\IgorPC\.claude-memoria-global"
+set "LOG_DIR=%MEMORIA_DIR%\logs"
+set "TIMESTAMP_FILE=%MEMORIA_DIR%\.ultima_consolidacao"
 
-REM Cria pasta de logs se nao existir
-if not exist "%LOG_PATH%" mkdir "%LOG_PATH%"
+REM Criar pasta de logs se não existir
+if not exist "%LOG_DIR%" mkdir "%LOG_DIR%"
 
-REM Nome do arquivo de log com data
-for /f "tokens=2 delims==" %%I in ('wmic os get localdatetime /value') do set datetime=%%I
-set "LOG_FILE=%LOG_PATH%\consolidacao_%datetime:~0,8%_%datetime:~8,4%.log"
+REM Gerar nome do log com data
+for /f "tokens=1-3 delims=/" %%a in ('date /t') do set "DATA=%%c-%%b-%%a"
+for /f "tokens=1-2 delims=:" %%a in ('time /t') do set "HORA=%%a-%%b"
+set "LOG_FILE=%LOG_DIR%\consolidacao_%DATA%_%HORA%.log"
 
-echo [%date% %time%] Sandman: Iniciando verificacao... >> "%LOG_FILE%"
+echo [%date% %time%] Iniciando verificacao de consolidacao... >> "%LOG_FILE%"
 
-REM Navega para o diretorio do repositorio
-cd /d "%REPO_PATH%"
+REM Verificar última consolidação
+if exist "%TIMESTAMP_FILE%" (
+    for /f %%i in ('powershell -NoProfile -Command "(Get-Date) - (Get-Item '%TIMESTAMP_FILE%').LastWriteTime | Select-Object -ExpandProperty TotalHours"') do set "HORAS=%%i"
 
-REM Verifica se arquivo de ultima consolidacao existe
-if not exist "%ULTIMA_CONSOLIDACAO%" (
-    echo [%date% %time%] Primeira execucao - criando marcador >> "%LOG_FILE%"
-    echo. > "%ULTIMA_CONSOLIDACAO%"
-    goto :consolidar
-)
+    REM Converter para inteiro (remover decimais)
+    for /f "tokens=1 delims=." %%a in ("!HORAS!") do set "HORAS_INT=%%a"
 
-REM Calcula horas desde ultima consolidacao
-for /f %%i in ('powershell -NoProfile -Command "(New-TimeSpan -Start (Get-Item '%ULTIMA_CONSOLIDACAO%').LastWriteTime -End (Get-Date)).TotalHours"') do set "HORAS=%%i"
+    echo [%date% %time%] Ultima consolidacao ha !HORAS_INT! horas >> "%LOG_FILE%"
 
-REM Remove decimais
-for /f "tokens=1 delims=." %%a in ("%HORAS%") do set "HORAS_INT=%%a"
-
-echo [%date% %time%] Horas desde ultima consolidacao: %HORAS_INT% >> "%LOG_FILE%"
-
-if %HORAS_INT% GEQ %HORAS_MINIMAS% (
-    goto :consolidar
+    if !HORAS_INT! LSS 24 (
+        echo [%date% %time%] Menos de 24h desde ultima consolidacao. Pulando. >> "%LOG_FILE%"
+        goto :EOF
+    )
 ) else (
-    echo [%date% %time%] Menos de %HORAS_MINIMAS%h. Pulando. >> "%LOG_FILE%"
-    goto :fim
+    echo [%date% %time%] Primeira execucao - arquivo de timestamp nao existe >> "%LOG_FILE%"
 )
 
-:consolidar
-echo [%date% %time%] Sandman: Iniciando ciclo de sono... >> "%LOG_FILE%"
+echo [%date% %time%] Iniciando ciclo de sono... >> "%LOG_FILE%"
 
-REM Puxa ultimas mudancas do GitHub
-git pull origin master >> "%LOG_FILE%" 2>&1
+REM Executar Claude Code com ciclo de sono
+cd /d "%MEMORIA_DIR%"
+claude --print "ciclo de sono global" >> "%LOG_FILE%" 2>&1
 
-REM Verifica se ha arquivos em ingest/ para processar
-set "INGEST_COUNT=0"
-for /f %%A in ('dir /b /a-d "%REPO_PATH%\ingest\chatgpt" 2^>nul ^| find /c /v ""') do set "INGEST_COUNT=%%A"
+if %ERRORLEVEL% EQU 0 (
+    echo [%date% %time%] Ciclo de sono concluido com sucesso >> "%LOG_FILE%"
+    echo. > "%TIMESTAMP_FILE%"
+) else (
+    echo [%date% %time%] ERRO: Ciclo de sono falhou com codigo %ERRORLEVEL% >> "%LOG_FILE%"
+)
 
-echo [%date% %time%] Arquivos em ingest/chatgpt: %INGEST_COUNT% >> "%LOG_FILE%"
+echo [%date% %time%] Consolidacao finalizada >> "%LOG_FILE%"
 
-REM Executa Claude Code para ciclo de sono
-echo [%date% %time%] Chamando Claude para ciclo de sono... >> "%LOG_FILE%"
-
-echo Ciclo de sono Sandman: 1) Leia Knowledge Graph e execute selecao natural (decair -1, podar F:0, graduar F:10) 2) Verifique ingest/ por novos arquivos 3) Atualize CONTEXTO_ATIVO.md 4) Registre sonho em memoria/sonhos/ 5) Faca commit e push | claude -p >> "%LOG_FILE%" 2>&1
-
-REM Atualiza marcador de ultima consolidacao
-echo. > "%ULTIMA_CONSOLIDACAO%"
-echo [%date% %time%] Sandman: Ciclo concluido >> "%LOG_FILE%"
-
-REM Commit e push das mudancas
-git add -A >> "%LOG_FILE%" 2>&1
-git commit -m "sonho: consolidacao automatica %datetime:~0,4%-%datetime:~4,2%-%datetime:~6,2%" >> "%LOG_FILE%" 2>&1
-git push origin master >> "%LOG_FILE%" 2>&1
-
-:fim
-echo [%date% %time%] Sandman: Script finalizado >> "%LOG_FILE%"
 endlocal
