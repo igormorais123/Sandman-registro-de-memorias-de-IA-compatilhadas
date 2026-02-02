@@ -1,6 +1,6 @@
 # Protocolo — Redirecionamento
 
-> **Este arquivo foi absorvido pelo Protocolo Unificado v5.**
-> Veja: `compartilhado/PROTOCOLO_v5.md`
+> **Protocolo cognitivo (memória + fitness):** `compartilhado/PROTOCOLO_SONHO.md` (v4.2)
+> **Protocolo unificado (tudo junto):** `compartilhado/PROTOCOLO_v5.md`
 >
-> Mantido apenas como referência histórica e para não quebrar links.
+> Este arquivo é apenas um ponteiro. Não editar aqui.
