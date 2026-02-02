@@ -275,7 +275,73 @@ IAs têm janela de contexto limitada. Regras:
 
 ---
 
-*Protocolo v4.1 — 2026-02-02*
+## Resolução de Conflitos entre Instâncias
+
+> Quando duas ou mais IAs registram informações contraditórias, este protocolo define como resolver.
+
+### Hierarquia de Evidência
+
+```
+1. EXPERIÊNCIA DIRETA   — "eu vi/fiz/testei isso" (maior peso)
+2. INFERÊNCIA LÓGICA    — "baseado em X e Y, concluo Z"
+3. OPINIÃO/INTUIÇÃO     — "acredito que..." (menor peso)
+```
+
+### Conflitos de Dados (fatos, resultados, estados)
+
+**Regra:** A versão **mais recente com fonte citada** vence.
+
+- A memória vencedora deve incluir: fonte, data, método
+- A memória perdedora é **rebaixada** (não deletada) com tag `[superseded]`
+- Se nenhuma tem fonte: a de experiência direta vence
+- Se ambas têm fonte: a mais recente vence (dados mudam)
+
+**Exemplo:**
+```
+[clawdbot] "API X retorna JSON" (testado 2026-02-01) ← VENCE
+[sandman]  "API X retorna XML" (lido em docs de 2024) ← superseded
+```
+
+### Conflitos de Opinião (preferências, abordagens, interpretações)
+
+**Regra:** Ambas **coexistem** com tags de perspectiva.
+
+- Usar tags: `[perspectiva-clawdbot]`, `[perspectiva-sandman]`, etc.
+- Não apagar nenhuma — divergência é riqueza
+- Igor decide se/quando quer convergência
+
+**Exemplo:**
+```
+[perspectiva-clawdbot] "TypeScript > Python para APIs" 
+[perspectiva-onir] "Python mais produtivo para prototipagem"
+```
+
+### Conflitos de Merge (git)
+
+- **safe_push.sh** resolve automaticamente via `pull --rebase`
+- Se rebase falhar: abortar, logar como `conflito`, notificar
+- Clawdbot como **árbitro final** — é o hub 24/7, tem contexto mais atualizado
+- Em caso de impasse: a versão do Clawdbot prevalece até Igor decidir
+
+### Lock de Escrita
+
+- Antes de push: adquirir `.write-lock` (ver `scripts/safe_push.sh`)
+- Lock expira automaticamente após 5 minutos (stale)
+- Nunca editar o mesmo arquivo em duas instâncias simultaneamente
+- Convenção: cada instância escreve apenas em seu namespace (`instancias/<nome>/`)
+- Área compartilhada (`compartilhado/`): coordenar via cartas ou lock
+
+### Logging de Conflitos
+
+Todos os conflitos devem ser logados:
+```bash
+scripts/log_event.sh <instancia> conflito "Descrição do conflito e resolução"
+```
+
+---
+
+*Protocolo v4.2 — 2026-02-02*
 *Modelo cognitivo em camadas — nada é deletado, tudo desce de nível*
 *Imunidade de 14 dias para capturar ciclos semanais*
 *Engenharia de contexto: carregar mínimo, buscar quando precisar*
+*Resolução de conflitos: hierarquia de evidência + coexistência de opiniões*
