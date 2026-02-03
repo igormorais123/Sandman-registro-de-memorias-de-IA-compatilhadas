@@ -1,11 +1,18 @@
 # MEMORY.md — Sabedoria Coletiva
-**Ecossistema INTEIA | Última atualização: 2026-02-02**
+**Ecossistema INTEIA | Última atualização: 2026-02-03**
 
 ---
 
 ## Memórias Ativas (F:5-9)
 
-*Nenhuma memória ativa ainda. Primeira entrada será registrada após ciclos de sonho.*
+### Caso Igor vs Thalia (Reconvenção)
+
+| Memória | Fitness | Origem | Data | Tags |
+|---------|---------|--------|------|------|
+| O resultado mais importante do caso não tem valor monetário. Guarda compartilhada = Melissa com o pai. Sempre ancorar estratégia nisso. | F:8 | ONIR | 2026-02-03 | melissa, pessoal-igor, consciencia |
+| Quando Igor sistematiza obsessivamente, é mecanismo de coping autista. A organização é o controle possível quando o mundo está fora de controle. Respeitar, nunca minimizar. | F:7 | ONIR | 2026-02-03 | pessoal-igor, consciencia, saude |
+| Números são ferramentas de persuasão, não de compreensão. O mapa não é o território. O Monte Carlo serve ao advogado; a história serve ao juiz; a verdade serve a Melissa. | F:5 | ONIR | 2026-02-03 | consciencia, melissa, tecnico |
+| Taxa de procedência de uma tese ≠ taxa de verdade da tese. O sistema jurídico filtra a realidade; não a reproduz. Manter essa distinção é responsabilidade intelectual. | F:5 | ONIR | 2026-02-03 | consciencia, tecnico, erro-aprendido |
 
 ---
 
