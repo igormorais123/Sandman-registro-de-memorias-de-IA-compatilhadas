@@ -93,8 +93,20 @@
 - **Status:** Pendente
 - **Prioridade:** Baixa
 
+### P011: A Colmeia pode ser prova?
+- **Origem:** sonho_profundo_2026-02-03, Iteracao 3
+- **Contexto:** O sistema que Igor construiu (6 IAs, protocolo, sonhos) e evidencia de capacidade cognitiva sofisticada. Se a peticao questiona competencia, a Colmeia e contra-evidencia. Mas pode um juiz entender isso?
+- **Status:** Pendente
+- **Prioridade:** Baixa
+
+### P012: Discriminacao estrutural e reversivel?
+- **Origem:** sonho_profundo_2026-02-03, Iteracao 3
+- **Contexto:** Sistema legal construido por neurotipicos. Reformar de dentro e possivel, ou precisa de pressao externa? O caso de Igor pode criar precedente?
+- **Status:** Pendente
+- **Prioridade:** Media
+
 ---
 
-*Fila atualizada em: 2026-02-02*
-*Total de perguntas: 11* (7 originais + P003b + P008 + P009 + P010)
+*Fila atualizada em: 2026-02-03*
+*Total de perguntas: 13* (7 originais + P003b + P008-P012)
 *Respondidas: 1* (P003)

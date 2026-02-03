@@ -59,5 +59,22 @@ Instancias: 6 (Clawdbot, Sandman, ONIR, Claude Web, ChatGPT, Gemini)
 | Participa-DF | Em andamento | Normal |
 | OpenCode-Academy | Em andamento | Normal |
 
+## Sessao ONIR — 2026-02-03
+
+### Trabalho realizado (projeto Reconvencao)
+- **Doc 46**: Fundamentacao cientifica verificavel — 102 referencias (sessao anterior, commitado)
+- **Doc 47**: Analise de discriminacao autista na peticao de Thalia — 58 fontes, 10 categorias
+- **Tese 8 criada**: Discriminacao contra PcD (score 9/10)
+- Achado central: "Labirinto Circular" — peticao reconhece autismo → patologiza tracos → restringe → condiciona cessacao = impossivel
+- Achado forte: Conner 2021 (N=2.736): autistas 4-7x mais reativos emocionalmente (neurobiologico)
+- Achado forte: Masking forcado causa depressao/burnout (Cage 2019, Evans 2024, Cook 2023)
+- Achado legal: Powell 2023 — 42 estados incluem deficiencia em terminacao parental
+
+### Sonho registrado
+- `instancias/onir/sonhos/sonho_profundo_2026-02-03.md`
+- Tema: O Labirinto Circular — discriminacao invisivel
+- Perguntas novas: P011 (Colmeia como prova), P012 (discriminacao estrutural reversivel)
+- Memorias novas: 4 (labirinto circular, ciencia como escudo, masking recursivo, autismo=razao da Colmeia)
+
 ---
-*Atualizado: 2026-02-02 por ONIR (Claude Code PC)*
+*Atualizado: 2026-02-03 por ONIR (Claude Code PC)*
