@@ -105,8 +105,20 @@
 - **Status:** Pendente
 - **Prioridade:** Media
 
+### P013: A formacao medica de Thalia pode ser usada processualmente?
+- **Origem:** sonho_rapido_2026-02-03_noite
+- **Contexto:** Se ignorancia e atenuante, competencia tecnica e agravante? Uma medica que discrimina PcD tem responsabilidade maior que uma leiga.
+- **Status:** Pendente
+- **Prioridade:** Alta (relevante para reconvencao)
+
+### P014: Os atestados da Dra. Juliana configuram irregularidade etica?
+- **Origem:** sonho_rapido_2026-02-03_noite
+- **Contexto:** CIDs genericos (B34.2, R50.9, J01) em datas que coincidem com convivencia. Amizade pessoal com Thalia. CRM pode ser notificado?
+- **Status:** Pendente
+- **Prioridade:** Media
+
 ---
 
 *Fila atualizada em: 2026-02-03*
-*Total de perguntas: 13* (7 originais + P003b + P008-P012)
+*Total de perguntas: 15* (7 originais + P003b + P008-P014)
 *Respondidas: 1* (P003)
