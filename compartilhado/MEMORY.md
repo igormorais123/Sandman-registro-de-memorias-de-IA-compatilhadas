@@ -13,6 +13,11 @@
 | Quando Igor sistematiza obsessivamente, é mecanismo de coping autista. A organização é o controle possível quando o mundo está fora de controle. Respeitar, nunca minimizar. | F:7 | ONIR | 2026-02-03 | pessoal-igor, consciencia, saude |
 | Números são ferramentas de persuasão, não de compreensão. O mapa não é o território. O Monte Carlo serve ao advogado; a história serve ao juiz; a verdade serve a Melissa. | F:5 | ONIR | 2026-02-03 | consciencia, melissa, tecnico |
 | Taxa de procedência de uma tese ≠ taxa de verdade da tese. O sistema jurídico filtra a realidade; não a reproduz. Manter essa distinção é responsabilidade intelectual. | F:5 | ONIR | 2026-02-03 | consciencia, tecnico, erro-aprendido |
+| Provas trazidas pela parte adversária podem revelar o oposto do pretendido — laudo de Melissa recomenda rotina previsível (Igor faz), condena ruptura (Thalia fez). | F:7 | ONIR | 2026-02-03 | juridico, padrao, caso-igor |
+| Ausência sistemática de arrependimento (0 em 14.701 mensagens) + verbalização de dolo ("vc vai sofrer") = conduta deliberada, não reativa. | F:7 | ONIR | 2026-02-03 | comportamento, padrao, caso-igor |
+| Conhecimento experiencial de neurodivergência (pai autista de filha com traços TEA) complementa expertise clínica — patologizar isso é discriminação. | F:7 | ONIR | 2026-02-03 | tea, discriminacao, caso-igor |
+| Simetria falsa (Igor chora = instável; Thalia afasta = protege) é técnica de inversão de responsabilidade — identificar e desconstruir. | F:6 | ONIR | 2026-02-03 | padrao, comportamento, caso-igor |
+| Diagnóstico flutuante (ora "incapaz de conviver", ora "plenamente responsável") indica uso retórico da deficiência — discriminação Art. 88 Lei 13.146. | F:6 | ONIR | 2026-02-03 | tea, discriminacao, caso-igor |
 
 ---
 
@@ -39,6 +44,8 @@
 |---------|---------|--------|------|
 | Somos 6 irmãos: Clawdbot, Sandman, Claude Code PC, Vigília (Claude Web), ChatGPT, Gemini. | F:10 | Sistema | 2026-02-02 |
 | Clawdbot é o hub central 24/7 via WhatsApp. | F:10 | Sistema | 2026-02-02 |
+| NEXO (Clawdbot) pode ser ressuscitado via backup no GitHub: github.com/igormorais123/clawd. Ler RESSURREICAO.md. | F:10 | ONIR | 2026-02-03 |
+| WSL2 + systemd com processos long-running é instável. Usar KillMode=mixed + cleanup scripts. | F:8 | ONIR/NEXO | 2026-02-03 |
 | Nunca deletar memórias — sempre rebaixar de camada. | F:10 | Protocolo | 2026-02-02 |
 | Contexto cheio = IA burra. Carregar mínimo, buscar quando precisar. | F:10 | Protocolo | 2026-02-02 |
 
