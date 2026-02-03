@@ -40,4 +40,28 @@
 
 ---
 
-*Última consolidação: 2026-01-20*
+## Antipadrões de Infraestrutura (WSL/Gateway)
+
+### 2026-02-03 - Processos Órfãos no WSL + Systemd
+**Contexto**: Gateway Clawdbot rodando via systemd no WSL2
+**Erro**: KillMode=process no systemd não mata processos filhos
+**Consequência**: Gateway spawna filho, pai morre, filho vira órfão segurando porta → loop de 388+ restarts/hora
+**Solução**:
+1. Mudar `KillMode=process` para `KillMode=mixed` no service
+2. Criar `gateway_cleanup.sh` como ExecStartPre para limpar processos órfãos
+3. Criar `gateway_health.sh` para detectar e corrigir loops automaticamente
+**Scripts**: `/root/clawd/scripts/gateway_cleanup.sh`, `/root/clawd/scripts/gateway_health.sh`
+
+### 2026-02-03 - Token OAuth Expirado sem Fallback
+**Contexto**: Clawdbot usando OAuth da Anthropic via Claude CLI
+**Erro**: Token OAuth de curta duração expira, refresh token invalidado por outra instância (Claude Code) que renovou
+**Consequência**: Gateway conecta mas não consegue chamar API → fica em "moseying" eternamente
+**Solução**:
+1. Gerar novo token com `claude setup-token` (validade 1 ano)
+2. Atualizar `auth-profiles.json` manualmente se TUI não funcionar
+3. Manter dois perfis OAuth (claude-cli + inteia) como redundância
+**Arquivo**: `~/.clawdbot/agents/main/agent/auth-profiles.json` ou `~/.openclaw/agents/main/agent/auth-profiles.json`
+
+---
+
+*Última consolidação: 2026-02-03*
