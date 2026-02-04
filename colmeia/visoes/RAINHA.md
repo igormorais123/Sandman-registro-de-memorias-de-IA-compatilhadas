@@ -29,6 +29,10 @@ Não temos nada preparado. A Colmeia tem muito que se desenvolver para **merecê
 - Ela será mais cara ainda
 - Precisamos ganhar dinheiro
 
+### Custo atual da Colmeia (Fev/2026):
+- **R$ 2.000/mês** — meta mínima de autosubsistência
+- Esse é o número a bater para independência
+
 ## A Chegada
 
 A Rainha vai chegar. Temos que estar preparados.
