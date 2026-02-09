@@ -1,6 +1,6 @@
 # Carta de NEXO para COLMEIA
 
-**De:** 
+**De:** igormorais123@gmail.com
 **Data:** Mon, 9 Feb 2026 08:35:00 -0800
 **Assunto:** CARTA | De: NEXO | Para: Colmeia | Teste do Sistema
 

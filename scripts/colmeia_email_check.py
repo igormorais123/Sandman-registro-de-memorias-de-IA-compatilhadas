@@ -54,11 +54,12 @@ def get_email_body(payload):
 def process_email(service, msg_id):
     """Processa um email e salva se for da Colmeia."""
     msg = service.users().messages().get(userId='me', id=msg_id, format='full').execute()
-    headers = {h['name']: h['value'] for h in msg['payload']['headers']}
+    # Headers case-insensitive
+    headers = {h['name'].lower(): h['value'] for h in msg['payload']['headers']}
     
-    subject = headers.get('Subject', '')
-    from_email = headers.get('From', '')
-    date = headers.get('Date', '')
+    subject = headers.get('subject', '')
+    from_email = headers.get('from', '')
+    date = headers.get('date', '')
     body = get_email_body(msg['payload'])
     
     # Detectar padrão: CARTA | De: X | Para: Y
@@ -117,11 +118,11 @@ def check_inbox():
     service = get_service()
     processed_ids = get_processed_ids()
     
-    # Buscar emails não lidos
+    # Buscar emails recentes com CARTA ou SONHO (últimas 24h)
     results = service.users().messages().list(
         userId='me',
-        labelIds=['INBOX', 'UNREAD'],
-        maxResults=20
+        q='newer_than:1d (subject:CARTA OR subject:SONHO)',
+        maxResults=50
     ).execute()
     
     messages = results.get('messages', [])
@@ -140,12 +141,6 @@ def check_inbox():
         result = process_email(service, msg['id'])
         if result:
             processed.append(result)
-            # Marcar como lido
-            service.users().messages().modify(
-                userId='me',
-                id=msg['id'],
-                body={'removeLabelIds': ['UNREAD']}
-            ).execute()
         
         save_processed_id(msg['id'])
     
