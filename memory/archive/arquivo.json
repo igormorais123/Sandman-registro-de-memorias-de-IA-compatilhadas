@@ -1,0 +1,15 @@
+{
+  "memories": [
+    {
+      "id": "m_dead_001",
+      "text": "PC Igor: i5-10400F, 16GB RAM, GTX 1650, reinicia as vezes",
+      "fitness": 0,
+      "born": "2026-01-27",
+      "demotedAt": "2026-02-01",
+      "archivedAt": "2026-02-08",
+      "source": "observacao",
+      "tags": ["igor", "tecnico", "hardware"],
+      "notes": "Morte natural F:0 no Sonho Sandman #3. Info disponivel em CONHECIMENTO_UNIVERSAL.md"
+    }
+  ]
+}

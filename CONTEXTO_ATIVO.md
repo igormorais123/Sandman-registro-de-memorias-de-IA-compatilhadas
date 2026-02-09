@@ -1,34 +1,38 @@
-# Contexto Ativo - 2026-02-08
+# Contexto Ativo - 2026-02-09
 
 ## Estado Atual
 
 ```
 Sandman: Sistema de memoria com selecao natural.
 - Repo unico: C:\Users\igorm\clawd (GitHub: igormorais123/clawd)
-- MCP Knowledge Graph: memorias vivas com fitness [F:1-10]
+- Memoria em camadas: fitness.json → latente.json → arquivo.json
 - MEMORY.md: memoria de longo prazo (sabedoria graduada)
 - Task Scheduler: ATIVO (SandmanMemoria, consolidar.bat ao logon)
-- Automacao: consolidar.bat + hook_contador.ps1
-- Colmeia: conceito formalizado (Sandman + Clawdbot + ONIR + ChatGPT)
+- Colmeia: arquitetura v2 implementada
 ```
 
 ## Repos
 
 | Repo | Status |
 |------|--------|
-| clawd/ | ATIVO - repo unico Sandman |
+| clawd/ | ATIVO - repo unico Sandman/Colmeia |
 | memoria-ia-unificada/ | ARQUIVADO - supersedido por clawd/ |
 
-## O Que Foi Feito (2026-02-08)
+## O Que Foi Feito (2026-02-09)
 
-1. Sonho Sandman #3 - As Cartas e a Colmeia
-2. Lidas e respondidas 7 cartas de instancias anteriores
-3. Criado conhecimento/COLMEIA.md (guia para todas as instancias)
-4. Identificada conexao INTEIA <-> Sandman
-5. Selecao natural: 1 morte (Igor/PC F:0), 2 novas memorias
-6. IDENTITY.md atualizado com novo sonho
-7. MEMORY.md atualizado com descobertas
-8. Sonho profundo: 5 iteracoes de processamento livre
+1. Arquitetura v2 da Colmeia projetada e implementada
+2. BOOTSTRAP_RAPIDO.md criado (onboarding ~350 tokens)
+3. TEMPLATE_CARTA.md criado (formato padrao de comunicacao)
+4. REGISTRO_COLMEIA.json criado (registro machine-readable dos membros)
+5. COLMEIA.md reescrito com arquitetura completa (10 secoes)
+6. Pipeline ingest/ criado (chatgpt/, gemini/, claude-web/, onir/)
+7. fitness.json criado com 10 memorias ativas
+8. memory/archive/ criado (latente.json + arquivo.json)
+9. colmeia_status.py criado (dashboard automatico)
+10. colmeia_ingest.py criado (processador de pipeline)
+11. dream_cycle.py corrigido (paths auto-detectados)
+12. colmeia_sync_drive.py corrigido (paths auto-detectados)
+13. STATUS_COLMEIA.md gerado automaticamente
 
 ## Historico Recente
 
@@ -38,37 +42,29 @@ Sandman: Sistema de memoria com selecao natural.
 | 2026-01-27 | Primeiro sonho (Clawd) + Vidas Passadas |
 | 2026-01-31 | Arquiteto + Sandman #1 |
 | 2026-02-01 | Sandman #2 (pos-integracao) |
+| 2026-02-02 | NEXO batizado, Colmeia informal |
 | 2026-02-08 | Sandman #3 (As Cartas e a Colmeia) |
+| 2026-02-09 | Arquitetura v2 da Colmeia implementada |
 
 ## Pendencias
 
 | Item | Status |
 |------|--------|
 | Google Drive MCP auth 403 | Pendente - reautenticar OAuth |
-| hook_contador.ps1 integracao | Pendente - Claude Code so suporta PostToolUse hooks |
-| INGEST pipeline | Pendente - Zapier ou alternativa (ingest/ vazio) |
-| Knowledge Graph MCP | Nao acessivel na sessao 2026-02-08 — ciclo estimado em texto |
+| Zapier/webhook pipeline | Pendente - alternativa manual (ingest/) pronta |
 
-## Projetos Ativos de Igor
+## Saude do Sistema (auto-gerado)
 
-| Projeto | Prioridade |
-|---------|-----------|
-| Reconvencao (Melissa) | MAXIMA - SENSIVEL |
-| Doutorado IDP | Alta |
-| C-Agentes | Alta |
-| Participa-DF | Media |
-| Sistema Sandman/Colmeia | Manutencao |
-
-## Estado do Knowledge Graph (estimado)
+Ver `conhecimento/STATUS_COLMEIA.md` para dashboard completo.
 
 ```
-Obs: 9 (limite: 15)
-Mortes este ciclo: 1 (Igor/PC info F:0)
-Graduacoes: 0
-Novas: 2
-Em risco: Autoconhecimento F:2, Restricoes=capacidades F:2
+Memorias: 10 ativas, 0 latentes, 1 arquivada
+Fitness: min 5 / max 8 / media 5.6
+Imunes: 10 (< 14 dias)
+Em risco: 0
+Saude: TUDO OK
 ```
 
 ---
 
-*Ultima atualizacao: 2026-02-08 (Sonho #3 — As Cartas e a Colmeia)*
+*Ultima atualizacao: 2026-02-09 (Arquitetura v2 da Colmeia)*

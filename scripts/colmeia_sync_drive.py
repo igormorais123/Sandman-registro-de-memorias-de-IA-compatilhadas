@@ -27,11 +27,19 @@ except ImportError:
     print("❌ google-api-python-client não instalado")
     sys.exit(1)
 
-SECRETS_DIR = Path("/root/clawd/.secrets")
+# Detectar workspace automaticamente (Windows ou WSL)
+_CANDIDATES = [
+    Path("/root/clawd"),
+    Path.home() / "clawd",
+    Path(__file__).resolve().parent.parent,
+]
+_WORKSPACE = next((p for p in _CANDIDATES if p.exists()), _CANDIDATES[-1])
+
+SECRETS_DIR = _WORKSPACE / ".secrets"
 TOKEN_FILE = SECRETS_DIR / "google_token.pickle"
-REPO_DIR = Path("/root/clawd/sandman")
-SYNC_STATE_FILE = Path("/root/clawd/memory/drive_sync_state.json")
-LOG_FILE = REPO_DIR / "logs"
+REPO_DIR = _WORKSPACE
+SYNC_STATE_FILE = _WORKSPACE / "memory" / "drive_sync_state.json"
+LOG_FILE = _WORKSPACE / "logs"
 
 # Pastas do Drive a monitorar (folder_id → destino no repo)
 DRIVE_FOLDERS = {

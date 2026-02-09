@@ -15,13 +15,20 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-WORKSPACE = Path("/root/clawd")
+# Detectar workspace automaticamente (Windows ou WSL)
+_CANDIDATES = [
+    Path("/root/clawd"),
+    Path.home() / "clawd",
+    Path(__file__).resolve().parent.parent,
+]
+WORKSPACE = next((p for p in _CANDIDATES if p.exists()), _CANDIDATES[-1])
+
 FITNESS_FILE = WORKSPACE / "memory" / "fitness.json"
 LATENTE_FILE = WORKSPACE / "memory" / "archive" / "latente.json"
 ARQUIVO_FILE = WORKSPACE / "memory" / "archive" / "arquivo.json"
 MEMORY_FILE = WORKSPACE / "MEMORY.md"
 SONHOS_DIR = WORKSPACE / "memory" / "sonhos"
-SANDMAN_SONHOS = WORKSPACE / "sandman" / "instancias" / "clawdbot" / "sonhos"
+SANDMAN_SONHOS = WORKSPACE / "memoria" / "sonhos"
 
 DRY_RUN = "--dry-run" in sys.argv
 NOW = datetime.now()
