@@ -503,15 +503,15 @@ Identificar 100 pessoas/organizacoes que ja tem acesso ao publico-alvo:
 
 # 15. PLANO DE ACAO REVISADO — Semana a Semana
 
-## DECISAO NECESSARIA: Sub-nicho do primeiro curso
+## DECISAO TOMADA (2026-02-09): Sub-nicho do primeiro curso
 
-| Opcao | Vantagem | Risco | Recomendacao |
-|-------|----------|-------|-------------|
-| A) IA para Advogados | Ja validado (R$6K) | Mais concorrencia | **RECOMENDADA — 12/16 consultores** |
-| B) IA para Servidores | Autoridade maxima de Igor | Mercado menor, paga menos | 2a opcao |
-| C) IA para Gestores | Alinhado com doutorado | Muito generico | 3a opcao |
+| Opcao | Vantagem | Risco | Resultado |
+|-------|----------|-------|----------|
+| **A) IA para Advogados** | Ja validado (R$6K) | Mais concorrencia | **ESCOLHIDA POR IGOR** |
+| B) IA para Servidores | Autoridade maxima de Igor | Mercado menor, paga menos | 2o curso |
+| C) IA para Gestores | Alinhado com doutorado | Muito generico | Descartada |
 
-**Consenso: Opcao A primeiro. Opcao B como segundo curso.**
+**Decisao: Opcao A. Plano de execucao em `conhecimento/PLANO_EXECUCAO_ADVOGADOS.md`**
 
 ---
 
