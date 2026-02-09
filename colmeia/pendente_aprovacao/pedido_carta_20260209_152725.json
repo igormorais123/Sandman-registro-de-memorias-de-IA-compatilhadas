@@ -1,8 +1,0 @@
-{
-  "tipo": "carta",
-  "prompt": "Teste de carta que precisa aprovação",
-  "origem": "NEXO",
-  "timestamp": "2026-02-09T15:27:25.041652",
-  "status": "pendente",
-  "motivo_pendente": "tipo_sensivel"
-}

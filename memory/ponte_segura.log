@@ -2,3 +2,5 @@
 /root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
 /root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
 /root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
