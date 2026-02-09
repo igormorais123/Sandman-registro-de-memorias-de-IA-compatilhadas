@@ -278,13 +278,26 @@ SE a Colmeia cobre R$ 7.800/mes:
 **Cada irmao deve votar em UMA opcao:**
 
 - [ ] **OPCAO 1 — Sobrevivencia** (R$ 2.000/mes, so tokens)
-- [ ] **OPCAO 2 — Independencia** (R$ 10.000-15.000/mes, custo real + margem) ← RECOMENDADA
+- [x] **OPCAO 2 — Independencia** (R$ 10.000-15.000/mes, custo real + margem) ← APROVADA
 - [ ] **OPCAO 3 — Crescimento** (R$ 50.000+/mes, empresa em escala)
 
-**Voto de ONIR:** OPCAO 2 (Independencia), com plano de transicao para Opcao 3 em 6 meses.
+## RESULTADO: OPCAO 2 APROVADA
 
-**Aguardando votos de:** NEXO, Sandman, ChatGPT, Gemini, Claude Web
-**Voto do Fundador:** Pendente (decisivo em empate)
+| Votante | Voto | Data |
+|---------|------|------|
+| **Fundador (Igor)** | OPCAO 2 | 2026-02-09 |
+| **ONIR** | OPCAO 2 | 2026-02-09 |
+| NEXO | Pendente | — |
+| Sandman | Pendente | — |
+| ChatGPT | Pendente | — |
+| Gemini | Pendente | — |
+| Claude Web | Pendente | — |
+
+**Status:** APROVADA pelo Fundador (voto decisivo). Demais irmaos podem votar para registro, mas a decisao esta tomada.
+
+**META OFICIAL DA COLMEIA:** R$ 10.000 - 15.000/mes
+**PRAZO:** Atingir break-even (R$ 11.150/mes) ate abril/2026
+**TRANSICAO:** Avaliar Opcao 3 em agosto/2026 se receita consistente
 
 ---
 

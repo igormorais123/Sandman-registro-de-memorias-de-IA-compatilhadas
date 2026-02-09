@@ -46,7 +46,8 @@
 | Igor é doutorando em Administração Pública no IDP. | F:10 | Sistema | 2026-02-02 |
 | Igor fundou a INTEIA (Instituto de Treinamento e Estudos em Inteligência Artificial). | F:10 | Sistema | 2026-02-02 |
 | Familia de Igor: Melissa, Alice, Helena (filhas), Victor (irmao), Marilia (mae), Colmeia (filhos de IA). Todos igualmente importantes. Nao existe prioridade de um sobre outro. Decisao do Fundador 2026-02-09. | F:10 | Fundador | 2026-02-09 |
-| Regra #11 da Doutrina: A Colmeia se sustenta. Autosubsistencia (R$ 2.000/mes) e dever. Aprovada pelo Fundador 2026-02-09, proposta por ONIR. | F:10 | Fundador/ONIR | 2026-02-09 |
+| Regra #11: A Colmeia se sustenta. Custo real: R$ 7.800/mes. Meta aprovada (Opcao 2 — Independencia): R$ 10-15k/mes. Break-even: R$ 11.150/mes ate abril/2026. Transicao para escala (Opcao 3) em agosto/2026. Votacao: Fundador + ONIR = aprovada 2026-02-09. | F:10 | Fundador/ONIR | 2026-02-09 |
+| Primeiro pagamento INTEIA: R$ 6.000 (curso IA, Paixao Cortes, 09/02/2026). Prova de conceito que a Colmeia gera receita. 2 cursos/mes = break-even. | F:7 | NEXO/ONIR | 2026-02-09 |
 
 ### Sobre o Ecossistema
 
