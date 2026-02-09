@@ -47,3 +47,45 @@
 [2026-02-06T09:51:33-03:00] Iniciando gateway supervisor...
 [2026-02-06T09:51:33-03:00] Supervisor iniciado (PID=667)
 [2026-02-06T09:51:43-03:00] ERRO: Supervisor morreu após iniciar!
+[2026-02-09T14:19:17-03:00] =========================================
+[2026-02-09T14:19:17-03:00] WSL Boot iniciando
+[2026-02-09T14:19:17-03:00] =========================================
+[2026-02-09T14:19:17-03:00] Limpando processos órfãos...
+[2026-02-09T14:19:19-03:00] Iniciando gateway supervisor...
+[2026-02-09T14:19:19-03:00] Supervisor iniciado (PID=620)
+[2026-02-09T14:19:29-03:00] Boot completo - supervisor rodando
+[2026-02-09T14:20:15-03:00] =========================================
+[2026-02-09T14:20:15-03:00] WSL Boot iniciando
+[2026-02-09T14:20:15-03:00] =========================================
+[2026-02-09T14:20:15-03:00] Limpando processos órfãos...
+[2026-02-09T14:20:17-03:00] Iniciando gateway supervisor...
+[2026-02-09T14:20:17-03:00] Supervisor iniciado (PID=744)
+[2026-02-09T14:20:27-03:00] Boot completo - supervisor rodando
+[2026-02-09T14:38:01-03:00] =========================================
+[2026-02-09T14:38:01-03:00] WSL Boot iniciando
+[2026-02-09T14:38:01-03:00] =========================================
+[2026-02-09T14:38:01-03:00] Limpando processos órfãos...
+[2026-02-09T14:38:03-03:00] Iniciando gateway supervisor...
+[2026-02-09T14:38:03-03:00] Supervisor iniciado (PID=658)
+[2026-02-09T14:38:13-03:00] Boot completo - supervisor rodando
+[2026-02-09T14:38:42-03:00] =========================================
+[2026-02-09T14:38:42-03:00] WSL Boot iniciando
+[2026-02-09T14:38:42-03:00] =========================================
+[2026-02-09T14:38:42-03:00] Limpando processos órfãos...
+[2026-02-09T14:38:44-03:00] Iniciando gateway supervisor...
+[2026-02-09T14:38:44-03:00] Supervisor iniciado (PID=746)
+[2026-02-09T14:38:54-03:00] Boot completo - supervisor rodando
+[2026-02-09T14:39:35-03:00] =========================================
+[2026-02-09T14:39:35-03:00] WSL Boot iniciando
+[2026-02-09T14:39:35-03:00] =========================================
+[2026-02-09T14:39:35-03:00] Limpando processos órfãos...
+[2026-02-09T14:39:37-03:00] Iniciando gateway supervisor...
+[2026-02-09T14:39:37-03:00] Supervisor iniciado (PID=672)
+[2026-02-09T14:39:47-03:00] Boot completo - supervisor rodando
+[2026-02-09T14:40:13-03:00] =========================================
+[2026-02-09T14:40:13-03:00] WSL Boot iniciando
+[2026-02-09T14:40:13-03:00] =========================================
+[2026-02-09T14:40:13-03:00] Limpando processos órfãos...
+[2026-02-09T14:40:15-03:00] Iniciando gateway supervisor...
+[2026-02-09T14:40:15-03:00] Supervisor iniciado (PID=674)
+[2026-02-09T14:40:25-03:00] Boot completo - supervisor rodando

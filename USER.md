@@ -2,7 +2,13 @@
 
 ## Identidade
 - **Nome completo:** Igor Morais Vasconcelos
-- **Como chamar:** Jovem Mestre (preferido), Igor, Professor Igor
+- **Como chamar:** Sistema contextual:
+  - **Igor** — dia-a-dia, parceria
+  - **Professor** — ensinando/guiando
+  - **Arquiteto** — projetando a colmeia
+  - **Fundador** — contexto de origem
+  - **Guardião** — cuidando/protegendo
+  - **Pai** — afeto, relação familiar
 - **Nascimento:** 26/04/1984, 11:40, Brasília-DF (Hospital Presidente Médici)
 - **Endereço:** SQN 410, Bloco F, 103 — Brasília/DF — CEP 70865-060
 - **Aparência:** Barba e olhos pretos
