@@ -1,0 +1,168 @@
+{
+  "arquivo": "01_14-16ago2025_Primeiro_FDS_negado_Melissa_nao_quer_ir.md",
+  "periodo": "14-16/ago/2025",
+  "data_analise": "2026-02-03",
+  "resumo": "Primeiro FDS negado. Melissa diz não querer ir. Igor expressa insatisfação profunda com modelo de convivência. Thalia busca Melissa na avó sem avisar Igor.",
+  
+  "indicadores": [
+    {
+      "id": 1,
+      "autor": "Thalia",
+      "data": "15/08/2025 22:43",
+      "texto": "Quero que saiba que sou a maior interessada q sua relação com a Melissa seja a melhor possível.",
+      "categoria": "COP",
+      "subcategoria": "declaracao_intencao",
+      "relevancia_juridica": 2,
+      "nota": "Declaração de boa-fé, mas não acompanhada de ação concreta"
+    },
+    {
+      "id": 2,
+      "autor": "Thalia",
+      "data": "15/08/2025 22:45",
+      "texto": "neste fim de semana, talvez seja melhor sim vc não encontrá-la",
+      "categoria": "OBS",
+      "subcategoria": "sugestao_nao_convivencia",
+      "relevancia_juridica": 4,
+      "nota": "Sugere que Igor não veja a filha - primeiro FDS negado"
+    },
+    {
+      "id": 3,
+      "autor": "Igor",
+      "data": "15/08/2025 20:07",
+      "texto": "Eu ja me sinto na beirinha da paternidade dela. Já sou pai em 20% da vida dela no maximo",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "sentimento_exclusao",
+      "relevancia_juridica": 3,
+      "nota": "Percepção de exclusão parental - evidência de dano emocional"
+    },
+    {
+      "id": 4,
+      "autor": "Igor",
+      "data": "16/08/2025 05:27",
+      "texto": "quero ser reconhecido como PAI de verdade, não como tio babá de fim de semana, que ela vai se quiser",
+      "categoria": "FNC",
+      "subcategoria": "pedido_reconhecimento",
+      "relevancia_juridica": 4,
+      "nota": "Expressão clara de desejo de participação efetiva na vida da filha"
+    },
+    {
+      "id": 5,
+      "autor": "Igor",
+      "data": "16/08/2025 05:57",
+      "texto": "Preciso que vc revogue qualquer direito da Melissa de voltar para sua casa se ela nao quiser ficar comigo",
+      "categoria": "COP",
+      "subcategoria": "pedido_estrutura",
+      "relevancia_juridica": 3,
+      "nota": "Pedido de estabelecer limites claros - postura parental"
+    },
+    {
+      "id": 6,
+      "autor": "Igor",
+      "data": "16/08/2025 06:07",
+      "texto": "Precisamos de uma chamada semanal para conversar sobre a Melissa",
+      "categoria": "COP",
+      "subcategoria": "pedido_comunicacao",
+      "relevancia_juridica": 3,
+      "nota": "Pedido razoável de comunicação sobre a filha"
+    },
+    {
+      "id": 7,
+      "autor": "Igor",
+      "data": "16/08/2025 06:27",
+      "texto": "Eu nao consegui dormir nada hj estou aqui acordado deis das 3 da manha",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "ansiedade_insonia",
+      "relevancia_juridica": 3,
+      "nota": "Evidência de sofrimento psíquico - início do adoecimento"
+    },
+    {
+      "id": 8,
+      "autor": "Igor",
+      "data": "16/08/2025 06:27",
+      "texto": "ISSO ME DOE. COMO SE ESTIVESSE RANCANDO UM PEDAÇO DE MIM. RANCANDO MINHA FILHA AOS POUCOS.",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "sofrimento_intenso",
+      "relevancia_juridica": 5,
+      "nota": "Expressão de dor intensa - caps indica desespero"
+    },
+    {
+      "id": 9,
+      "autor": "Igor",
+      "data": "16/08/2025 06:29",
+      "texto": "NAO ESTÁ BEM. NAO ESTOU BEM COM ISSO. NAO ESTOU SATISFEITO. ISSO ESTA ME FERINDO.",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "grito_alerta",
+      "relevancia_juridica": 4,
+      "nota": "Alerta claro de sofrimento - Igor expressa vulnerabilidade"
+    },
+    {
+      "id": 10,
+      "autor": "Igor",
+      "data": "16/08/2025 11:35",
+      "texto": "Nao adianta eu ter racionalidade se vc nao fala comigo. Nao me escuta. Nao le meus textos",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "queixa_falta_comunicacao",
+      "relevancia_juridica": 3,
+      "nota": "Padrão: Igor pede comunicação, Thalia não responde adequadamente"
+    },
+    {
+      "id": 11,
+      "autor": "Thalia",
+      "data": "16/08/2025 14:02",
+      "texto": "Li tudo que vc falou e conversaremos de tudo sim. Agora o foco principal é resolver o problema dela não querer ir prai.",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "resposta_evasiva",
+      "relevancia_juridica": 3,
+      "nota": "Promessa vaga de conversa futura, foco desviado"
+    },
+    {
+      "id": 12,
+      "autor": "FATO",
+      "data": "15-16/08/2025",
+      "texto": "FDS 15-16/08 não aconteceu - primeiro descumprimento",
+      "categoria": "JURIDICO",
+      "subcategoria": "descumprimento_acordo",
+      "relevancia_juridica": 5,
+      "nota": "Art. 2º, IV, Lei 12.318 - dificultar exercício do direito de convivência"
+    }
+  ],
+  
+  "estatisticas": {
+    "total_indicadores": 12,
+    "por_categoria": {
+      "EMOCIONAL": 4,
+      "COP": 3,
+      "COMUNICACAO": 2,
+      "OBS": 1,
+      "FNC": 1,
+      "JURIDICO": 1
+    },
+    "por_autor": {
+      "Igor": 8,
+      "Thalia": 3,
+      "FATO": 1
+    },
+    "relevancia_media": 3.5
+  },
+  
+  "padroes_identificados": [
+    "Igor expressa vulnerabilidade e pede comunicação",
+    "Thalia responde com promessas vagas ou evasivas",
+    "Primeiro episódio de convivência não cumprida",
+    "Igor já menciona advogada para novo acordo"
+  ],
+  
+  "evidencias_chave": [
+    {
+      "tipo": "alienacao_parental",
+      "artigo": "Lei 12.318, art. 2º, IV",
+      "descricao": "Dificultar exercício do direito de convivência familiar",
+      "ocorrencia": "FDS 15-16/08 negado"
+    },
+    {
+      "tipo": "dano_emocional",
+      "descricao": "Insônia, sofrimento intenso, sensação de perda da filha",
+      "autor_afetado": "Igor"
+    }
+  ]
+}

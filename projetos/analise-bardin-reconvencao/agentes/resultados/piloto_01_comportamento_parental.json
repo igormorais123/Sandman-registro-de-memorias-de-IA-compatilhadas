@@ -1,0 +1,192 @@
+{
+  "agente": "AGENTE_COMPORTAMENTO_PARENTAL",
+  "arquivo": "03_23-31ago2025_Terceiro_FDS_negado_exigencias_legais.md",
+  "data_analise": "2026-02-03",
+  "modelo": "GPT-5.2-codex",
+  "tokens_usados": 5790,
+  "indicadores": [
+    {
+      "autor": "Thalia",
+      "texto_exato": "Esse final de semana ela realmente não irá.",
+      "indicador": "OBS",
+      "relevancia_juridica": 4
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "considerando que ja faz 3 semanas que não vejo ou falo com a Melissa, em descumprimento do meu direito de visita.",
+      "indicador": "OBS",
+      "relevancia_juridica": 4
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Então vamos voltar ao legalmente previsto até estabelecermos um novo acordo.",
+      "indicador": "COP",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Eu expressamente não autorizo o descumprimento do acordo atual.",
+      "indicador": "OBS",
+      "relevancia_juridica": 4
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Mas vc não tem cumprido sua parte de manter o convívio dela comigo e manter o direito dela e meu de nos vermos.",
+      "indicador": "OBS",
+      "relevancia_juridica": 4
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Mandei mensagem para a Dra. Rachel, sua advogada sobre a oficialização de novo acordo judicial de guarda da Melissa e sobre o problema do descumprimento do nosso acordo relativo às minhas visitas e consequências jurídicas de eventual alienação parental.",
+      "indicador": "AP",
+      "relevancia_juridica": 4
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Sobre amanhã, amanhã eu prefiro buscar ela na escola conforme está no acordo.",
+      "indicador": "COP",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Dado o ocorrido e recorrido vamos cumprir certinho. Preciso do meu direito de exigir o disposto no acordo.",
+      "indicador": "COP",
+      "relevancia_juridica": 4
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Dada as circunstancia irei me apegar ao mínimo legal que eventualmente poderei cobrar em caso de descumprimento.",
+      "indicador": "OBS",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Thalia",
+      "texto_exato": "Esses dias todos *eu fiquei pontuando com ela as coisas positivas suas e a importância de ter vínculo com o pai.*",
+      "indicador": "COP",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Thalia",
+      "texto_exato": "*Eu literalmente estava convencendo ela a ir e despertando a vontade dela ir num contexto positivo, p não ir forçada.*",
+      "indicador": "COP",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Thalia",
+      "texto_exato": "*Sobre as compensações de final de semana, sempre foi assim.*",
+      "indicador": "COP",
+      "relevancia_juridica": 2
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Eu não sei os dias da sua viagem.",
+      "indicador": "OBS",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Vc ja esta com uma divida de 2 finais de semana",
+      "indicador": "OBS",
+      "relevancia_juridica": 4
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "por pressionar ela a falar que nao quer vir para minha casa e todo contexto de alienacao parental.",
+      "indicador": "AP",
+      "relevancia_juridica": 5
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Nao dar endereço da sua casa.",
+      "indicador": "OBS",
+      "relevancia_juridica": 4
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Exijo ela na minha casa quintas e sabado ou domingo TODOS finais de semana.",
+      "indicador": "COP",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Se eu deixar de pagar pensao eu posso ser preso e vc tb tem suas responsabilidades que agora eu vou cobrar literalmente e judicialmente com multas indenizações e com força policial se for necessario.",
+      "indicador": "FNO",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Me manda seu endereço para eu levar a Melissa.",
+      "indicador": "COP",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Vc esta descumprindo o acordo judicial. Eu preciso saber o de vc está morando com minha filha.",
+      "indicador": "OBS",
+      "relevancia_juridica": 4
+    },
+    {
+      "autor": "Thalia",
+      "texto_exato": "para tentar resolver e (talvez) realinhar alguns pontos, tudo para o bem da melissa e para não ter problemas com vc e que a gente possa seguir em paz, pelo bem dela.",
+      "indicador": "FNC",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Thalia",
+      "texto_exato": "Jamais pressionei a melissa para NÃO ir para a sua casa ou a ter qualquer reação de resistência a vc e sua família. Jamais.",
+      "indicador": "AP",
+      "relevancia_juridica": 4
+    },
+    {
+      "autor": "Thalia",
+      "texto_exato": "Foi ela quem não quis ir e, como te falei, eu não tenho como amarrá-la e levar a força.",
+      "indicador": "OBS",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Thalia",
+      "texto_exato": "minhas férias e viagens já marcada",
+      "indicador": "OBS",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Vc buscou melissa e nao ligou nem me avisou. Deveria ter me avisado.",
+      "indicador": "OBS",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Vc nao me disse data da viagem de de que data a que data",
+      "indicador": "OBS",
+      "relevancia_juridica": 3
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "eu desautorizou expressamente toda viagem ou descumprimento do acordo até que acordamos expressamente. Por escrito.",
+      "indicador": "OBS",
+      "relevancia_juridica": 4
+    },
+    {
+      "autor": "Igor",
+      "texto_exato": "Entao a Melissa pode ter medo na sua casa tb e ligar para mim ir buscar ela tb. Mas eu nao tenho o endereço seu.",
+      "indicador": "OBS",
+      "relevancia_juridica": 3
+    }
+  ],
+  "estatisticas": {
+    "total_indicadores": 28,
+    "por_indicador": {
+      "OBS": 16,
+      "COP": 7,
+      "AP": 3,
+      "FNC": 1,
+      "FNO": 1
+    },
+    "por_autor": {
+      "Igor": 22,
+      "Thalia": 6
+    },
+    "relevancia_media": 3.5
+  }
+}

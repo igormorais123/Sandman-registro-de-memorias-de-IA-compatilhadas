@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-02-07T23:36:27.411354",
+  "total_processados": 50,
+  "enriquecidos": 50,
+  "com_dados_especificos": 8,
+  "com_dados_padrao": 42,
+  "nao_encontrados": [
+    "Alexandre Laranjeira",
+    "Alexandre Vasconcelos",
+    "Ana Carolina Roman",
+    "Antonio Saldanha Palheiro",
+    "Antonio Scarpa",
+    "Carlos Eduardo Moreira Alves",
+    "Carlos Pires Brandão",
+    "César Jatahy",
+    "Daniela Teixeira",
+    "Daniele Maranhão"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "projeto": "Análise Bardin - Reconvenção Igor vs Thalia",
+    "data_analise": "2026-02-03",
+    "analista": "NEXO (Clawdbot)",
+    "metodologia": "Análise de Conteúdo Bardin",
+    "periodo_analisado": "14/ago/2025 - 31/out/2025",
+    "total_arquivos": 7,
+    "total_indicadores": 114
+  },
+  
+  "estatisticas_gerais": {
+    "indicadores_por_arquivo": {
+      "01_Primeiro_FDS": 12,
+      "02_Segundo_FDS": 21,
+      "03_Terceiro_FDS": 21,
+      "04_Viagem_Adoecimento": 23,
+      "05_Medicacao_Aristab": 17,
+      "06_Estabilizacao": 7,
+      "07_COVID_Final": 13
+    },
+    "indicadores_por_categoria": {
+      "FNC_Foco_Crianca": 22,
+      "COP_Cooperacao": 21,
+      "EMOCIONAL": 17,
+      "JURIDICO": 14,
+      "OBS_Obstrucao": 14,
+      "COMUNICACAO": 13,
+      "AP_Alienacao": 10,
+      "SAUDE": 5
+    },
+    "indicadores_por_autor": {
+      "Igor": 91,
+      "Thalia": 22,
+      "Fato_Observacao": 1
+    },
+    "relevancia_media_geral": 3.9
+  },
+  
+  "cronologia_eventos_criticos": [
+    {
+      "data": "15-16/08/2025",
+      "evento": "PRIMEIRO FDS NEGADO",
+      "descricao": "Melissa diz não querer ir ao pai. Thalia acolhe e sugere que Igor não veja a filha",
+      "impacto": "Início do padrão de obstrução"
+    },
+    {
+      "data": "20/08/2025",
+      "evento": "IGOR CONSIDERA DESISTIR",
+      "descricao": "Igor em desespero diz que não vale mais investir emocionalmente",
+      "impacto": "Primeiro sinal grave de adoecimento"
+    },
+    {
+      "data": "22/08/2025",
+      "evento": "SEGUNDO FDS NEGADO",
+      "descricao": "Melissa com medo de briga com pai - quem disse isso a ela?",
+      "impacto": "Evidência de implantação de medo"
+    },
+    {
+      "data": "30-31/08/2025",
+      "evento": "TERCEIRO FDS NEGADO",
+      "descricao": "Era FDS do pai pelo acordo. Thalia viaja com Melissa sem datas",
+      "impacto": "3 semanas consecutivas sem convívio"
+    },
+    {
+      "data": "02/09/2025",
+      "evento": "NEXO CAUSAL - ADOECIMENTO",
+      "descricao": "Igor consulta Dra. Deborah, volta antidepressivo + Rivotril",
+      "impacto": "PROVA CENTRAL do dano causado"
+    },
+    {
+      "data": "04/09/2025",
+      "evento": "PROPOSTA DE ACORDO",
+      "descricao": "Igor envia proposta formal com 4 alternativas",
+      "impacto": "Evidência de boa-fé e busca de solução"
+    },
+    {
+      "data": "08/09/2025",
+      "evento": "36 DIAS SEM CONVÍVIO",
+      "descricao": "Maior afastamento em 7 anos de vida da criança",
+      "impacto": "Marco histórico negativo"
+    },
+    {
+      "data": "Set-Out/2025",
+      "evento": "ESTABILIZAÇÃO",
+      "descricao": "Após pressão jurídica, acordo começa a ser cumprido",
+      "impacto": "Prova que conflito vem do descumprimento"
+    }
+  ],
+  
+  "padroes_comportamentais_thalia": [
+    {
+      "padrao": "Transferência de decisão para criança",
+      "descricao": "Permite que Melissa de 7 anos decida se cumpre acordo judicial",
+      "frequencia": "Constante nos arquivos 01-03",
+      "artigo_lei": "Lei 12.318, art. 2º, II"
+    },
+    {
+      "padrao": "Uso seletivo da vontade da criança",
+      "descricao": "Vontade de Melissa vale para negar pai, mas não para ter cachorro",
+      "frequencia": "Explícito no arquivo 03",
+      "artigo_lei": "Contradição lógica"
+    },
+    {
+      "padrao": "Silêncio como controle",
+      "descricao": "Não responde pedidos, encerra comunicação unilateralmente",
+      "frequencia": "Recorrente em todos os arquivos",
+      "artigo_lei": "Lei 12.318, art. 2º, III"
+    },
+    {
+      "padrao": "Omissão de informações",
+      "descricao": "Não dá endereço, não informa datas de viagem, não consulta sobre medicação",
+      "frequencia": "Constante",
+      "artigo_lei": "Lei 12.318, art. 2º, V"
+    },
+    {
+      "padrao": "Inversão de vítima",
+      "descricao": "Ameaça delegacia da mulher quando Igor cobra direitos",
+      "frequencia": "Arquivo 04",
+      "artigo_lei": "Comportamento manipulativo"
+    }
+  ],
+  
+  "padroes_comportamentais_igor": [
+    {
+      "padrao": "Busca de comunicação",
+      "descricao": "Pede informações, propõe reuniões semanais, faz perguntas",
+      "frequencia": "Constante em todos os arquivos",
+      "avaliacao": "Positivo - pai envolvido"
+    },
+    {
+      "padrao": "Expressão de vulnerabilidade",
+      "descricao": "Expressa dor, insônia, desespero abertamente",
+      "frequencia": "Arquivos 01-04",
+      "avaliacao": "Positivo - honestidade emocional"
+    },
+    {
+      "padrao": "Busca de solução legal",
+      "descricao": "Consulta advogados, envia proposta formal, cita leis",
+      "frequencia": "Arquivos 03-05",
+      "avaliacao": "Positivo - boa-fé"
+    },
+    {
+      "padrao": "Conhecimento técnico",
+      "descricao": "Pesquisa sobre medicação, questiona uso off-label com referências",
+      "frequencia": "Arquivo 05",
+      "avaliacao": "Positivo - pai informado"
+    },
+    {
+      "padrao": "Organização da vida para a filha",
+      "descricao": "Ajusta doutorado, trabalho, terapia para ter tempo com Melissa",
+      "frequencia": "Arquivo 07",
+      "avaliacao": "Positivo - priorização"
+    }
+  ],
+  
+  "evidencias_juridicas_principais": [
+    {
+      "tipo": "Descumprimento de acordo judicial",
+      "ocorrencias": "3 FDS consecutivos negados (15-16/08, 22-24/08, 30-31/08)",
+      "prova": "Mensagens com datas e recusas explícitas",
+      "artigo": "Art. 249 ECA"
+    },
+    {
+      "tipo": "Alienação parental - dificultar convivência",
+      "ocorrencias": "36 dias sem convívio significativo",
+      "prova": "Contagem documentada nas mensagens",
+      "artigo": "Lei 12.318, art. 2º, IV"
+    },
+    {
+      "tipo": "Alienação parental - dificultar autoridade",
+      "ocorrencias": "Criança decide se cumpre acordo, pai não consultado sobre medicação",
+      "prova": "Mensagens e contexto",
+      "artigo": "Lei 12.318, art. 2º, II"
+    },
+    {
+      "tipo": "Omissão de informações",
+      "ocorrencias": "Endereço não informado, datas de viagem não comunicadas",
+      "prova": "Pedidos repetidos sem resposta",
+      "artigo": "Lei 12.318, art. 2º, V"
+    },
+    {
+      "tipo": "Implantação de medo",
+      "ocorrencias": "Melissa com medo de briga com pai",
+      "prova": "Mensagem de 22/08: 'você iria brigar muito com ela'",
+      "artigo": "Lei 12.318, art. 2º, VI"
+    },
+    {
+      "tipo": "Nexo causal - dano à saúde",
+      "ocorrencias": "Adoecimento psiquiátrico documentado em 02/09/2025",
+      "prova": "Mensagem explícita sobre consulta psiquiátrica e medicação",
+      "artigo": "Art. 186 CC - responsabilidade civil"
+    }
+  ],
+  
+  "sintese_narrativa": {
+    "resumo": "Entre agosto e outubro de 2025, Igor sofreu obstrução sistemática de convívio com a filha Melissa (7 anos). O padrão começou em 15/08 com a recusa do primeiro FDS e escalou até 36 dias de afastamento, o maior período na vida da criança. Igor adoeceu psiquiatricamente em 02/09, voltando a antidepressivos e Rivotril. Apesar disso, manteve postura de buscar acordo (proposta formal com 4 alternativas) e demonstrou conhecimento profundo sobre a filha (pesquisa de 3000 palavras sobre medicação). Após pressão jurídica, o acordo passou a ser cumprido e a relação estabilizou.",
+    
+    "argumento_central": "O conflito não é causado por Igor, mas pelo descumprimento do acordo. Quando cumprido (set-out/2025), não há conflito. Igor demonstra ser pai presente, informado e dedicado. Thalia usa a vontade da criança de forma seletiva e omite informações sistematicamente.",
+    
+    "pedido_sugerido": "1) Cumprimento integral do acordo com multa por descumprimento; 2) Indenização por danos morais pelo adoecimento documentado; 3) Compensação dos 36 dias de convívio suprimido; 4) Determinação de informar endereço e compartilhar informações médicas/escolares."
+  }
+}

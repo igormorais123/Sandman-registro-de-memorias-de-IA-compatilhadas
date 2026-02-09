@@ -1,0 +1,13 @@
+{
+  "job_id": "corretor-inteia-2026-02-07",
+  "status": "completed",
+  "started_at": "2026-02-07T23:34:37.769649",
+  "checkpoints": [],
+  "resume_count": 0,
+  "descricao": "Correção e enriquecimento das bases INTEIA",
+  "eleitores_para_corrigir": 81,
+  "magistrados_para_enriquecer": 50,
+  "session_key": "agent:main:subagent:0a70af3a-d487-480f-8ef4-5fa33a10d324",
+  "iniciado_em": "2026-02-07 23:34",
+  "completed_at": "2026-02-07T23:37:15.820947"
+}

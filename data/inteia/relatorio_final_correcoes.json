@@ -1,0 +1,60 @@
+{
+  "titulo": "RELATÓRIO DE CORREÇÕES - BASES INTEIA",
+  "timestamp": "2026-02-07T23:36:46.174265",
+  "resumo_geral": {
+    "total_correcoes": 141,
+    "eleitores_corrigidos": 91,
+    "magistrados_enriquecidos": 50
+  },
+  "detalhamento_eleitores": {
+    "total_base": 1000,
+    "com_erros_originais": 81,
+    "correcoes_por_tipo": {
+      "idade_menor_18": 28,
+      "historia_idade": 30,
+      "escolaridade": 7,
+      "renda": 6,
+      "valores": 20
+    },
+    "tipos_de_correcao": {
+      "idade_menor_18": "Eleitores menores de 18 anos ajustados para 18",
+      "historia_idade": "Histórias que mencionavam idade diferente da ficha",
+      "escolaridade": "Escolaridade incompatível com idade (ex: pós-graduação aos 16 anos)",
+      "renda": "Renda incompatível com ocupação (ex: estudante com renda alta)",
+      "valores": "Valores incoerentes com orientação política (esquerda com meritocracia sem igualdade)"
+    },
+    "arquivo_corrigido": "eleitores/eleitores_df_corrigido.json"
+  },
+  "detalhamento_magistrados": {
+    "total_base": 50,
+    "com_campos_vazios_originais": 50,
+    "enriquecidos_com_dados_pesquisados": 8,
+    "enriquecidos_com_dados_padrao": 42,
+    "campos_preenchidos": [
+      "graduacao",
+      "mestrado",
+      "doutorado",
+      "perfil_filosofico",
+      "tendencia_jurisprudencial"
+    ],
+    "magistrados_com_dados_detalhados": [
+      "Alexandre de Moraes (STF)",
+      "Gilmar Mendes (STF)",
+      "Cristiano Zanin (STF)",
+      "André Mendonça (STF)",
+      "Cármen Lúcia (STF)",
+      "Luiz Fux (STF)",
+      "Dias Toffoli (STF)",
+      "Edson Fachin (STF)"
+    ],
+    "arquivo_enriquecido": "magistrados/magistrados_enriquecido.json"
+  },
+  "arquivos_gerados": [
+    "eleitores/eleitores_df_corrigido.json",
+    "magistrados/magistrados_enriquecido.json",
+    "log_correcoes_eleitores.json",
+    "log_enriquecimento_magistrados.json",
+    "relatorio_final_correcoes.json"
+  ],
+  "status": "CONCLUÍDO COM SUCESSO"
+}

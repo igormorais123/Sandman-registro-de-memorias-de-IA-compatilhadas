@@ -1,0 +1,235 @@
+{
+  "arquivo": "05_08-17set2025_Retorno_medicacao_Aristab.md",
+  "periodo": "08-17/set/2025",
+  "data_analise": "2026-02-03",
+  "resumo": "Thalia recusa proposta de acordo. 36 dias sem convívio. Igor questiona uso off-label de Aristab (aripiprazol) para ansiedade infantil. Demonstra conhecimento técnico profundo.",
+  
+  "indicadores": [
+    {
+      "id": 1,
+      "autor": "Igor",
+      "data": "08/09/2025 07:55",
+      "texto": "hj completa 36 dias sem a Melissa. Nunca fiquei tanto tempo longe dela nos 7 anos dela",
+      "categoria": "JURIDICO",
+      "subcategoria": "marco_36_dias",
+      "relevancia_juridica": 5,
+      "nota": "MARCO: 36 dias completos de afastamento"
+    },
+    {
+      "id": 2,
+      "autor": "Thalia",
+      "data": "08/09/2025 17:30",
+      "texto": "Eu escolho realmente não lidar diretamente com vc para resolver qq questão jurídica",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "recusa_dialogo",
+      "relevancia_juridica": 4,
+      "nota": "Thalia recusa dialogar diretamente - delega a advogada"
+    },
+    {
+      "id": 3,
+      "autor": "Thalia",
+      "data": "08/09/2025 20:37",
+      "texto": "caso não seja suficiente para você isso... pode judicializar. Estou tranquila",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "desafio_tranquilo",
+      "relevancia_juridica": 3,
+      "nota": "Tom desafiador - 'pode judicializar, estou tranquila'"
+    },
+    {
+      "id": 4,
+      "autor": "Thalia",
+      "data": "08/09/2025 19:40",
+      "texto": "Envio novamente os contatos para que você possa agendar as sessões",
+      "categoria": "COP",
+      "subcategoria": "compartilha_contatos",
+      "relevancia_juridica": 4,
+      "nota": "Finalmente compartilha contatos dos profissionais - após 36 dias"
+    },
+    {
+      "id": 5,
+      "autor": "Igor",
+      "data": "08/09/2025 19:49",
+      "texto": "Puxa, finalmente. Algo bem básico que nunca tive",
+      "categoria": "OBS",
+      "subcategoria": "informacao_atrasada",
+      "relevancia_juridica": 3,
+      "nota": "Igor expressa que informação básica demorou demais"
+    },
+    {
+      "id": 6,
+      "autor": "Igor",
+      "data": "08/09/2025 21:39",
+      "texto": "O que vc nao entende é que alienacao parental nao é só falar mal do genitor",
+      "categoria": "AP",
+      "subcategoria": "definicao_ampla",
+      "relevancia_juridica": 5,
+      "nota": "Igor explica formas sutis de alienação parental"
+    },
+    {
+      "id": 7,
+      "autor": "Igor",
+      "data": "08/09/2025 21:39",
+      "texto": "É fazer o genitor refém das vontades da criança",
+      "categoria": "AP",
+      "subcategoria": "forma_sutil",
+      "relevancia_juridica": 5,
+      "nota": "Identificação de padrão: pai refém da vontade da criança"
+    },
+    {
+      "id": 8,
+      "autor": "Igor",
+      "data": "08/09/2025 21:39",
+      "texto": "É nao dar endereço de casa dever judicial para dificultar acesso do pai",
+      "categoria": "OBS",
+      "subcategoria": "omissao_endereco",
+      "relevancia_juridica": 5,
+      "nota": "Repetição: endereço não informado"
+    },
+    {
+      "id": 9,
+      "autor": "Igor",
+      "data": "15/09/2025 10:17",
+      "texto": "Melissa vomitou 3x e fez coco mole, não quis comer",
+      "categoria": "FNC",
+      "subcategoria": "cuidado_saude",
+      "relevancia_juridica": 2,
+      "nota": "Igor relata estado de saúde da filha - cuidado paterno"
+    },
+    {
+      "id": 10,
+      "autor": "Igor",
+      "data": "15/09/2025 10:17",
+      "texto": "Melissa falou que está tomando remédio do psiquiatra. Um em seringa toda manhã, que remédio é esse?",
+      "categoria": "FNC",
+      "subcategoria": "pergunta_medicacao",
+      "relevancia_juridica": 4,
+      "nota": "Igor não sabia que filha estava tomando medicação"
+    },
+    {
+      "id": 11,
+      "autor": "Igor",
+      "data": "16/09/2025 18:10",
+      "texto": "Aristab não é indicado para Melissa",
+      "categoria": "FNC",
+      "subcategoria": "questionamento_tecnico",
+      "relevancia_juridica": 4,
+      "nota": "Igor questiona adequação do medicamento"
+    },
+    {
+      "id": 12,
+      "autor": "Igor",
+      "data": "16/09/2025 18:16",
+      "texto": "Nem pela Anvisa no brasil nem EUA ele é aprovado para uso em criança",
+      "categoria": "FNC",
+      "subcategoria": "pesquisa_regulatoria",
+      "relevancia_juridica": 5,
+      "nota": "Igor pesquisa regulamentação - medicamento off-label"
+    },
+    {
+      "id": 13,
+      "autor": "Igor",
+      "data": "16/09/2025 18:30",
+      "texto": "Somente se houver irritabilidade marcante, explosões comportamentais ou agressividade",
+      "categoria": "FNC",
+      "subcategoria": "indicacao_correta",
+      "relevancia_juridica": 4,
+      "nota": "Igor mostra indicações corretas do medicamento"
+    },
+    {
+      "id": 14,
+      "autor": "Igor",
+      "data": "16/09/2025 18:31",
+      "texto": "Não é o mais recomendado iniciar aripiprazol para uma menina de 7 anos com ansiedade generalizada",
+      "categoria": "FNC",
+      "subcategoria": "conclusao_pesquisa",
+      "relevancia_juridica": 5,
+      "nota": "Conclusão fundamentada em literatura médica"
+    },
+    {
+      "id": 15,
+      "autor": "Igor",
+      "data": "16/09/2025 19:08",
+      "texto": "usar aripiprazol para ansiedade generalizada aos 7 anos é off-label e não é recomendado",
+      "categoria": "FNC",
+      "subcategoria": "alerta_offlabel",
+      "relevancia_juridica": 5,
+      "nota": "CRÍTICO: Igor alerta sobre uso off-label inadequado"
+    },
+    {
+      "id": 16,
+      "autor": "Thalia",
+      "data": "16/09/2025 20:59",
+      "texto": "Entendi seus pontos, levarei seus questionamentos aos profissionais, e considerarei o que vc enviou",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "reconhecimento_pesquisa",
+      "relevancia_juridica": 3,
+      "nota": "Thalia reconhece pesquisa de Igor"
+    },
+    {
+      "id": 17,
+      "autor": "Igor",
+      "data": "17/09/2025 08:27",
+      "texto": "[PESQUISA PROFUNDA SOBRE ARISTAB - ~3000 palavras com referências científicas]",
+      "categoria": "FNC",
+      "subcategoria": "pesquisa_completa",
+      "relevancia_juridica": 5,
+      "nota": "CRÍTICO: Igor produz pesquisa de 3000 palavras com referências"
+    }
+  ],
+  
+  "estatisticas": {
+    "total_indicadores": 17,
+    "por_categoria": {
+      "FNC": 9,
+      "COMUNICACAO": 3,
+      "AP": 2,
+      "OBS": 2,
+      "JURIDICO": 1,
+      "COP": 1
+    },
+    "por_autor": {
+      "Igor": 14,
+      "Thalia": 3
+    },
+    "relevancia_media": 4.2
+  },
+  
+  "padroes_identificados": [
+    "Igor demonstra conhecimento técnico profundo sobre saúde da filha",
+    "Thalia recusa dialogar diretamente - delega a advogada",
+    "Thalia usa tom desafiador ('pode judicializar, estou tranquila')",
+    "Medicamento dado à criança é off-label e não indicado para o quadro",
+    "Igor não foi consultado sobre decisão de medicar a filha"
+  ],
+  
+  "evidencias_chave": [
+    {
+      "tipo": "envolvimento_paterno",
+      "descricao": "Igor produz pesquisa médica de 3000 palavras sobre medicação da filha",
+      "relevancia": "Demonstra pai extremamente envolvido e informado"
+    },
+    {
+      "tipo": "exclusao_decisao_medica",
+      "descricao": "Igor não foi consultado sobre início de medicação psiquiátrica",
+      "relevancia": "Art. 2º, II, Lei 12.318 - dificultar autoridade parental"
+    },
+    {
+      "tipo": "uso_offlabel",
+      "descricao": "Aristab não é indicado para ansiedade infantil",
+      "relevancia": "Preocupação legítima do pai ignorada"
+    }
+  ],
+  
+  "citacoes_criticas": [
+    {
+      "autor": "Igor",
+      "texto": "O que vc nao entende é que alienacao parental nao é só falar mal do genitor. É fazer o genitor refém das vontades da criança.",
+      "relevancia": "Define alienação sutil - mecanismo em uso"
+    },
+    {
+      "autor": "Igor",
+      "texto": "usar aripiprazol para ansiedade generalizada aos 7 anos é off-label e não é recomendado",
+      "relevancia": "Questionamento médico fundamentado ignorado"
+    }
+  ]
+}

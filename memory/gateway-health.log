@@ -1,0 +1,2264 @@
+[2026-02-03T15:44:45-03:00] GATEWAY_ALERT: Loop de restart detectado (388 restarts/hora)
+[2026-02-03T15:44:45-03:00] GATEWAY_ALERT: Processo órfão detectado (systemd=failed mas porta ocupada)
+[2026-02-03T15:44:45-03:00] Problema detectado: ORPHAN_PROCESS - Iniciando correção automática
+[2026-02-03T15:44:45-03:00] Parando serviço e limpando...
+[2026-02-03T15:44:53-03:00] GATEWAY_RECOVERED: Problema corrigido automaticamente
+[2026-02-03T15:54:56-03:00] GATEWAY_ALERT: Loop de restart detectado (326 restarts/hora)
+[2026-02-03T15:54:56-03:00] Problema detectado: RESTART_LOOP - Iniciando correção automática
+[2026-02-03T15:54:56-03:00] Parando serviço e limpando...
+[2026-02-03T15:55:04-03:00] GATEWAY_RECOVERED: Problema corrigido automaticamente
+[2026-02-03T20:40:01-03:00] GATEWAY_ALERT: Processo órfão detectado (systemd=failed mas porta ocupada)
+GATEWAY_ALERT: Processo órfão detectado (systemd=failed mas porta ocupada)
+[2026-02-03T20:40:01-03:00] Problema detectado: ORPHAN_PROCESS - Iniciando correção automática
+Problema detectado: ORPHAN_PROCESS - Iniciando correção automática
+[2026-02-03T20:40:01-03:00] Parando serviço e limpando...
+Parando serviço e limpando...
+[2026-02-03T20:40:04-03:00] Gateway cleanup iniciando para porta 18789
+[2026-02-03T20:40:04-03:00] Porta 18789 ocupada por PID 489 (clawdbot-gatewa)
+[2026-02-03T20:40:04-03:00] Enviando SIGTERM para 489
+[2026-02-03T20:40:05-03:00] Processo 489 terminou após 2s
+[2026-02-03T20:40:05-03:00] Porta 18789 livre, pronto para iniciar
+[2026-02-03T20:40:09-03:00] GATEWAY_RECOVERED: Problema corrigido automaticamente
+GATEWAY_RECOVERED: Problema corrigido automaticamente
+GATEWAY_RECOVERED
+GATEWAY_OK
+GATEWAY_OK
+GATEWAY_OK
+GATEWAY_OK
+GATEWAY_OK
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+GATEWAY_OK
+GATEWAY_OK
+GATEWAY_OK
+GATEWAY_OK
+GATEWAY_OK
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK
+/root/clawd/scripts/gateway_health.sh: line 52: [: 0
+0: integer expression expected
+GATEWAY_OK

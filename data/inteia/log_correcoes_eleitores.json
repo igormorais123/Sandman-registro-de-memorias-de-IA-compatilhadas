@@ -1,0 +1,458 @@
+{
+  "timestamp": "2026-02-07T23:34:59.077156",
+  "correcoes": {
+    "idade_menor_18": [
+      {
+        "nome": "Adriana Marques Ramos",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Alice Almeida Ferreira",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Bruna Gomes Souza",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Camila Lima Cardoso",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Davi Alves Oliveira",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Débora Barbosa Ribeiro",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Débora Dias Pereira",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Fábio Moreira Silva",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Fernanda Santana Martins",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Francisco Pinto Gonçalves",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Gabriela Fernandes Freitas",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Henrique Lopes Andrade",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Igor Lima Martins",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "João Santana Ramos",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Juliana Fernandes Silva",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Márcia Ramos Freitas",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Marcos Carvalho Ramos",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Marcos Nascimento Ramos",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Marcos Santos Rocha",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Marta Araújo Pinto",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Patricia Carvalho Souza",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Patrícia Mendes Dias",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Pedro Lopes Vieira",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Renata Ferreira Nascimento",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Rosa Rodrigues Cardoso",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Samuel Ribeiro Ramos",
+        "de": 16,
+        "para": 18
+      },
+      {
+        "nome": "Sandra Soares Cardoso",
+        "de": 17,
+        "para": 18
+      },
+      {
+        "nome": "Thiago Lima Ribeiro",
+        "de": 16,
+        "para": 18
+      }
+    ],
+    "historia_idade": [
+      {
+        "nome": "Adriana Santana Correia",
+        "idade_mencionada": "15",
+        "idade_correta": "32"
+      },
+      {
+        "nome": "Amanda Freitas Pinto",
+        "idade_mencionada": "20",
+        "idade_correta": "29"
+      },
+      {
+        "nome": "Ana Oliveira Silva",
+        "idade_mencionada": "20",
+        "idade_correta": "26"
+      },
+      {
+        "nome": "Anderson Cardoso Machado",
+        "idade_mencionada": "20",
+        "idade_correta": "50"
+      },
+      {
+        "nome": "André Lopes Teixeira",
+        "idade_mencionada": "20",
+        "idade_correta": "43"
+      },
+      {
+        "nome": "Carla Campos Lopes",
+        "idade_mencionada": "20",
+        "idade_correta": "43"
+      },
+      {
+        "nome": "Daniela Machado Vieira",
+        "idade_mencionada": "20",
+        "idade_correta": "62"
+      },
+      {
+        "nome": "Daniel Cardoso Alves",
+        "idade_mencionada": "20",
+        "idade_correta": "51"
+      },
+      {
+        "nome": "Francisca Santos Soares",
+        "idade_mencionada": "20",
+        "idade_correta": "58"
+      },
+      {
+        "nome": "Henrique Dias Martins",
+        "idade_mencionada": "20",
+        "idade_correta": "41"
+      },
+      {
+        "nome": "Henrique Lopes Rocha",
+        "idade_mencionada": "15",
+        "idade_correta": "26"
+      },
+      {
+        "nome": "Jéssica Ramos Ribeiro",
+        "idade_mencionada": "15",
+        "idade_correta": "63"
+      },
+      {
+        "nome": "João Freitas Freitas",
+        "idade_mencionada": "20",
+        "idade_correta": "51"
+      },
+      {
+        "nome": "Jorge Alves Fernandes",
+        "idade_mencionada": "15",
+        "idade_correta": "32"
+      },
+      {
+        "nome": "Jorge Correia Freitas",
+        "idade_mencionada": "15",
+        "idade_correta": "64"
+      },
+      {
+        "nome": "Jorge Moreira Pinto",
+        "idade_mencionada": "20",
+        "idade_correta": "37"
+      },
+      {
+        "nome": "Leandro Vieira Gomes",
+        "idade_mencionada": "20",
+        "idade_correta": "32"
+      },
+      {
+        "nome": "Letícia Borges Marques",
+        "idade_mencionada": "15",
+        "idade_correta": "50"
+      },
+      {
+        "nome": "Luís Lima Soares",
+        "idade_mencionada": "20",
+        "idade_correta": "28"
+      },
+      {
+        "nome": "Luís Nascimento Ribeiro",
+        "idade_mencionada": "20",
+        "idade_correta": "47"
+      },
+      {
+        "nome": "Mateus Freitas Rodrigues",
+        "idade_mencionada": "15",
+        "idade_correta": "38"
+      },
+      {
+        "nome": "Natália Costa Andrade",
+        "idade_mencionada": "15",
+        "idade_correta": "39"
+      },
+      {
+        "nome": "Natália Ramos Vieira",
+        "idade_mencionada": "20",
+        "idade_correta": "37"
+      },
+      {
+        "nome": "Paula Gomes Costa",
+        "idade_mencionada": "20",
+        "idade_correta": "40"
+      },
+      {
+        "nome": "Paula Martins Campos",
+        "idade_mencionada": "20",
+        "idade_correta": "44"
+      },
+      {
+        "nome": "Samuel Souza Martins",
+        "idade_mencionada": "20",
+        "idade_correta": "37"
+      },
+      {
+        "nome": "Sérgio Costa Souza",
+        "idade_mencionada": "15",
+        "idade_correta": "35"
+      },
+      {
+        "nome": "Sérgio Oliveira Barbosa",
+        "idade_mencionada": "20",
+        "idade_correta": "31"
+      },
+      {
+        "nome": "Vanessa Soares Ribeiro",
+        "idade_mencionada": "15",
+        "idade_correta": "39"
+      },
+      {
+        "nome": "Viviane Almeida Costa",
+        "idade_mencionada": "15",
+        "idade_correta": "62"
+      }
+    ],
+    "escolaridade": [
+      {
+        "nome": "Bruna Gomes Souza",
+        "de": "superior_completo_ou_pos",
+        "para": "medio_completo_ou_sup_incompleto"
+      },
+      {
+        "nome": "Débora Dias Pereira",
+        "de": "superior_completo_ou_pos",
+        "para": "medio_completo_ou_sup_incompleto"
+      },
+      {
+        "nome": "Fernanda Santana Martins",
+        "de": "superior_completo_ou_pos",
+        "para": "medio_completo_ou_sup_incompleto"
+      },
+      {
+        "nome": "Joana Rocha Silva",
+        "de": "superior_completo_ou_pos",
+        "para": "medio_completo_ou_sup_incompleto"
+      },
+      {
+        "nome": "Luciana Martins Carvalho",
+        "de": "superior_completo_ou_pos",
+        "para": "medio_completo_ou_sup_incompleto"
+      },
+      {
+        "nome": "Rosa Souza Borges",
+        "de": "superior_completo_ou_pos",
+        "para": "medio_completo_ou_sup_incompleto"
+      },
+      {
+        "nome": "Sérgio Borges Pinto",
+        "de": "superior_completo_ou_pos",
+        "para": "medio_completo_ou_sup_incompleto"
+      }
+    ],
+    "renda": [
+      {
+        "nome": "Bruna Gomes Souza",
+        "de": "mais_de_10_ate_20",
+        "para": "mais_de_1_ate_2"
+      },
+      {
+        "nome": "Débora Barbosa Ribeiro",
+        "de": "mais_de_10_ate_20",
+        "para": "mais_de_1_ate_2"
+      },
+      {
+        "nome": "Mariana Lopes Correia",
+        "de": "mais_de_10_ate_20",
+        "para": "mais_de_1_ate_2"
+      },
+      {
+        "nome": "Patricia Carvalho Souza",
+        "de": "mais_de_10_ate_20",
+        "para": "mais_de_1_ate_2"
+      },
+      {
+        "nome": "Rosa Souza Borges",
+        "de": "mais_de_10_ate_20",
+        "para": "mais_de_1_ate_2"
+      },
+      {
+        "nome": "Sérgio Borges Pinto",
+        "de": "mais_de_10_ate_20",
+        "para": "mais_de_1_ate_2"
+      }
+    ],
+    "valores": [
+      {
+        "nome": "Amanda Gomes Oliveira",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Caio Gomes Ramos",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Carolina Gonçalves Gomes",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Cláudio Batista Correia",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Eduardo Araújo Araújo",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Elaine Fernandes Rodrigues",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Erick Fernandes Vieira",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Helena Souza Lima",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Isabella Santos Rodrigues",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Juliana Correia Oliveira",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Larissa Correia Ferreira",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Maria Carvalho Costa",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Mariana Lopes Correia",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Marta Araújo Pinto",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Matheus Santos Silva",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Natália Ramos Moura",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Ricardo Barbosa Campos",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Roberto Andrade Dias",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Samuel Carvalho Rodrigues",
+        "acao": "Substituído Meritocracia por Igualdade"
+      },
+      {
+        "nome": "Vera Mendes Silva",
+        "acao": "Substituído Meritocracia por Igualdade"
+      }
+    ]
+  },
+  "totais": {
+    "idade_menor_18": 28,
+    "historia_idade": 30,
+    "escolaridade": 7,
+    "renda": 6,
+    "valores": 20
+  },
+  "total_geral": 91
+}

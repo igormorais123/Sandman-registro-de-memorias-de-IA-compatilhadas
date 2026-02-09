@@ -1,0 +1,3 @@
+#!/bin/bash
+# Atalho para o cofre de senhas
+python3 /root/clawd/.vault/vault.py "$@"

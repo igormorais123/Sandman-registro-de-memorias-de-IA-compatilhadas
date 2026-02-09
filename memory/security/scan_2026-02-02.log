@@ -1,0 +1,100 @@
+[2026-02-02 15:13:38] === SCAN DE PORTAS ===
+[2026-02-02 15:13:38] WARN: Porta 53 exposta externamente — users:(("systemd-resolve",pid=253,fd=17))
+[2026-02-02 15:13:38] WARN: Porta 53 exposta externamente — users:(("systemd-resolve",pid=253,fd=15))
+[2026-02-02 15:13:38] WARN: Porta 53 exposta externamente — 
+[2026-02-02 15:13:38] OK: Docker containers seguros (localhost only)
+[2026-02-02 15:13:38] === SCAN SHODAN ===
+[2026-02-02 15:13:38] IP público: 189.125.102.11
+PORTS_FOUND:1
+  PORT:161
+[2026-02-02 15:13:38] ALERT: Shodan encontrou portas abertas no seu IP: 161
+[2026-02-02 15:13:38] === CHECK SENHAS PADRÃO ===
+[2026-02-02 15:13:38] ALERT: PostgreSQL AINDA usa senha padrão 'postgres'!
+[2026-02-02 15:13:38] === CHECK FIREWALL ===
+[2026-02-02 15:13:38] OK: Firewall (ufw) ativo
+[2026-02-02 15:14:43] === SCAN DE PORTAS ===
+[2026-02-02 15:14:43] WARN: Porta 53 exposta externamente — users:(("systemd-resolve",pid=253,fd=17))
+[2026-02-02 15:14:43] WARN: Porta 53 exposta externamente — users:(("systemd-resolve",pid=253,fd=15))
+[2026-02-02 15:14:43] WARN: Porta 53 exposta externamente — 
+[2026-02-02 15:14:43] OK: Docker containers seguros (localhost only)
+[2026-02-02 15:14:43] === SCAN SHODAN ===
+[2026-02-02 15:14:43] IP público: 189.125.102.11
+PORTS_FOUND:1
+  PORT:161
+[2026-02-02 15:14:43] ALERT: Shodan encontrou portas abertas no seu IP: 161
+[2026-02-02 15:14:43] === CHECK SENHAS PADRÃO ===
+[2026-02-02 15:14:43] OK: PostgreSQL com senha forte (senhas padrão rejeitadas)
+[2026-02-02 15:14:43] === CHECK FIREWALL ===
+[2026-02-02 15:14:43] OK: Firewall (ufw) ativo
+[2026-02-02 15:14:55] === SCAN DE PORTAS ===
+[2026-02-02 15:14:55] OK: Nenhuma porta exposta externamente
+[2026-02-02 15:14:55] OK: Docker containers seguros (localhost only)
+[2026-02-02 15:14:55] === SCAN SHODAN ===
+[2026-02-02 15:14:55] IP público: 189.125.102.11
+PORTS_FOUND:1
+  PORT:161
+[2026-02-02 15:14:55] ALERT: Shodan encontrou portas abertas no seu IP: 161
+[2026-02-02 15:14:55] === CHECK SENHAS PADRÃO ===
+[2026-02-02 15:14:55] OK: PostgreSQL com senha forte (senhas padrão rejeitadas)
+[2026-02-02 15:14:55] === CHECK FIREWALL ===
+[2026-02-02 15:14:55] OK: Firewall (ufw) ativo
+[2026-02-02 15:25:25] === SCAN DE PORTAS ===
+[2026-02-02 15:25:25] OK: Nenhuma porta exposta externamente
+[2026-02-02 15:25:25] OK: Docker containers seguros (localhost only)
+[2026-02-02 15:25:25] === CHECK FIREWALL ===
+[2026-02-02 15:25:25] OK: Firewall (ufw) ativo
+[2026-02-02 15:47:41] === SCAN DE PORTAS ===
+[2026-02-02 15:47:41] OK: Nenhuma porta exposta externamente
+[2026-02-02 15:47:41] OK: Docker containers seguros (localhost only)
+[2026-02-02 15:47:41] === CHECK FIREWALL ===
+[2026-02-02 15:47:41] OK: Firewall (ufw) ativo
+[2026-02-02 15:56:57] === SCAN DE PORTAS ===
+[2026-02-02 15:56:57] OK: Nenhuma porta exposta externamente
+[2026-02-02 15:56:57] OK: Docker containers seguros (localhost only)
+[2026-02-02 15:56:57] === CHECK FIREWALL ===
+[2026-02-02 15:56:57] OK: Firewall (ufw) ativo
+[2026-02-02 16:25:19] === SCAN DE PORTAS ===
+[2026-02-02 16:25:19] OK: Nenhuma porta exposta externamente
+[2026-02-02 16:25:19] OK: Docker containers seguros (localhost only)
+[2026-02-02 16:25:19] === CHECK FIREWALL ===
+[2026-02-02 16:25:19] OK: Firewall (ufw) ativo
+[2026-02-02 16:55:20] === SCAN DE PORTAS ===
+[2026-02-02 16:55:20] OK: Nenhuma porta exposta externamente
+[2026-02-02 16:55:20] OK: Docker containers seguros (localhost only)
+[2026-02-02 16:55:20] === CHECK FIREWALL ===
+[2026-02-02 16:55:20] OK: Firewall (ufw) ativo
+[2026-02-02 17:09:25] === SCAN DE PORTAS ===
+[2026-02-02 17:09:25] OK: Nenhuma porta exposta externamente
+[2026-02-02 17:09:25] OK: Docker containers seguros (localhost only)
+[2026-02-02 17:09:25] === CHECK FIREWALL ===
+[2026-02-02 17:09:25] OK: Firewall (ufw) ativo
+[2026-02-02 17:52:13] === SCAN DE PORTAS ===
+[2026-02-02 17:52:13] OK: Nenhuma porta exposta externamente
+[2026-02-02 17:52:13] OK: Docker containers seguros (localhost only)
+[2026-02-02 17:52:13] === CHECK FIREWALL ===
+[2026-02-02 17:52:13] OK: Firewall (ufw) ativo
+[2026-02-02 18:22:12] === SCAN DE PORTAS ===
+[2026-02-02 18:22:12] OK: Nenhuma porta exposta externamente
+[2026-02-02 18:22:12] OK: Docker containers seguros (localhost only)
+[2026-02-02 18:22:12] === CHECK FIREWALL ===
+[2026-02-02 18:22:12] OK: Firewall (ufw) ativo
+[2026-02-02 19:21:16] === SCAN DE PORTAS ===
+[2026-02-02 19:21:16] OK: Nenhuma porta exposta externamente
+[2026-02-02 19:21:16] OK: Docker containers seguros (localhost only)
+[2026-02-02 19:21:16] === CHECK FIREWALL ===
+[2026-02-02 19:21:16] OK: Firewall (ufw) ativo
+[2026-02-02 19:39:52] === SCAN DE PORTAS ===
+[2026-02-02 19:39:52] OK: Nenhuma porta exposta externamente
+[2026-02-02 19:39:52] OK: Docker containers seguros (localhost only)
+[2026-02-02 19:39:52] === CHECK FIREWALL ===
+[2026-02-02 19:39:52] OK: Firewall (ufw) ativo
+[2026-02-02 19:59:00] === SCAN DE PORTAS ===
+[2026-02-02 19:59:00] OK: Nenhuma porta exposta externamente
+[2026-02-02 19:59:00] OK: Docker containers seguros (localhost only)
+[2026-02-02 19:59:00] === CHECK FIREWALL ===
+[2026-02-02 19:59:00] OK: Firewall (ufw) ativo
+[2026-02-02 20:30:17] === SCAN DE PORTAS ===
+[2026-02-02 20:30:17] OK: Nenhuma porta exposta externamente
+[2026-02-02 20:30:17] OK: Docker containers seguros (localhost only)
+[2026-02-02 20:30:17] === CHECK FIREWALL ===
+[2026-02-02 20:30:17] OK: Firewall (ufw) ativo

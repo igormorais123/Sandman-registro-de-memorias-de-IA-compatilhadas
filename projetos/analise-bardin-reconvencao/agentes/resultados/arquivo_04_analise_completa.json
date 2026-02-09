@@ -1,0 +1,309 @@
+{
+  "arquivo": "04_01-07set2025_Viagem_Jeri_Igor_adoece_36dias.md",
+  "periodo": "01-07/set/2025",
+  "data_analise": "2026-02-03",
+  "resumo": "ARQUIVO CRÍTICO - NEXO CAUSAL. Igor adoece dia 02/09 (30 dias sem filha), volta antidepressivo + Rivotril. Thalia viaja com Melissa e se recusa a negociar. Proposta formal de acordo enviada.",
+  
+  "indicadores": [
+    {
+      "id": 1,
+      "autor": "Thalia",
+      "data": "01/09/2025 08:15",
+      "texto": "Melissa está bem, animada, nenhuma intercorrência no período",
+      "categoria": "COP",
+      "subcategoria": "informacao_basica",
+      "relevancia_juridica": 2,
+      "nota": "Informação superficial após semanas sem contato"
+    },
+    {
+      "id": 2,
+      "autor": "Igor",
+      "data": "01/09/2025 11:05",
+      "texto": "Que te custa responder minhas perguntas. Informar melhor sobre a melissa",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "pedido_informacao",
+      "relevancia_juridica": 3,
+      "nota": "Padrão: Igor pede informações, Thalia não fornece"
+    },
+    {
+      "id": 3,
+      "autor": "Thalia",
+      "data": "01/09/2025 21:40",
+      "texto": "Nestes dias fora eu não quero falar disso. São minhas ferias",
+      "categoria": "OBS",
+      "subcategoria": "recusa_comunicacao",
+      "relevancia_juridica": 4,
+      "nota": "Se recusa a tratar do assunto durante férias - mesmo pai em crise"
+    },
+    {
+      "id": 4,
+      "autor": "Thalia",
+      "data": "01/09/2025 21:41",
+      "texto": "vc está assustando com esse tom... ameaças, críticas, acusações...vc não tem esse direito",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "inversao_vitima",
+      "relevancia_juridica": 4,
+      "nota": "Inversão: quem descumpriu acordo acusa quem cobra de 'ameaçar'"
+    },
+    {
+      "id": 5,
+      "autor": "Igor",
+      "data": "02/09/2025 17:33",
+      "texto": "Hj faz 30 dias que nao fico com melissa. Tem 1 mes que nao fico com ela além de 2h na quinta",
+      "categoria": "JURIDICO",
+      "subcategoria": "contagem_dias",
+      "relevancia_juridica": 5,
+      "nota": "MARCO: 30 dias sem convívio significativo"
+    },
+    {
+      "id": 6,
+      "autor": "Igor",
+      "data": "02/09/2025 17:36",
+      "texto": "acabo de voltar da Debora psiquiatra e vou ter que voltar tomar antidepressivo rivotril diario",
+      "categoria": "SAUDE",
+      "subcategoria": "adoecimento_nexo_causal",
+      "relevancia_juridica": 5,
+      "nota": "CRÍTICO: NEXO CAUSAL - adoecimento psiquiátrico documentado 02/09/2025"
+    },
+    {
+      "id": 7,
+      "autor": "Igor",
+      "data": "02/09/2025 17:36",
+      "texto": "pela dewcompensa que me causou sua invasão nos meus dias",
+      "categoria": "SAUDE",
+      "subcategoria": "causa_identificada",
+      "relevancia_juridica": 5,
+      "nota": "Igor explicita causa do adoecimento: obstrução de convívio"
+    },
+    {
+      "id": 8,
+      "autor": "Igor",
+      "data": "02/09/2025 17:36",
+      "texto": "Hj de manha visitei outro advogado para discutir o caso",
+      "categoria": "JURIDICO",
+      "subcategoria": "busca_solucao_legal",
+      "relevancia_juridica": 3,
+      "nota": "Igor busca solução legal - boa-fé"
+    },
+    {
+      "id": 9,
+      "autor": "Igor",
+      "data": "02/09/2025 17:37",
+      "texto": "Eu nao estou conseguindo trabalhar com voltar remedio para dormir 2 eemedios novos",
+      "categoria": "SAUDE",
+      "subcategoria": "impacto_funcional",
+      "relevancia_juridica": 5,
+      "nota": "Impacto funcional do adoecimento - não consegue trabalhar"
+    },
+    {
+      "id": 10,
+      "autor": "Igor",
+      "data": "02/09/2025 17:37",
+      "texto": "foi agua abaixo a minha terapia que ia vem de retirada dos medicamentos",
+      "categoria": "SAUDE",
+      "subcategoria": "retrocesso_tratamento",
+      "relevancia_juridica": 5,
+      "nota": "Retrocesso em tratamento que estava progredindo"
+    },
+    {
+      "id": 11,
+      "autor": "Igor",
+      "data": "02/09/2025 17:43",
+      "texto": "Eu faco doutorado. Tenho uma filha de 3 meses e preciso agora cuidar da minha saude mental",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "sobrecarga_contexto",
+      "relevancia_juridica": 4,
+      "nota": "Contexto: doutorado + bebê de 3 meses + crise mental"
+    },
+    {
+      "id": 12,
+      "autor": "Igor",
+      "data": "03/09/2025 13:49",
+      "texto": "Hoje completa 31 dias sem a Melissa conviver com o pai",
+      "categoria": "JURIDICO",
+      "subcategoria": "contagem_dias",
+      "relevancia_juridica": 5,
+      "nota": "31 dias - contagem continuada"
+    },
+    {
+      "id": 13,
+      "autor": "Igor",
+      "data": "03/09/2025 15:43",
+      "texto": "A criança não participa da decisão se convive ou não com os pais, até que tenha idade suficiente",
+      "categoria": "FNC",
+      "subcategoria": "principio_parental",
+      "relevancia_juridica": 4,
+      "nota": "Igor articula princípio: criança não decide sobre convívio"
+    },
+    {
+      "id": 14,
+      "autor": "Igor",
+      "data": "03/09/2025 15:43",
+      "texto": "Inadmissível a intromissão de um dos pais na esfera de autoridade do outro",
+      "categoria": "FNC",
+      "subcategoria": "principio_parental",
+      "relevancia_juridica": 4,
+      "nota": "Princípio de respeito mútuo entre genitores"
+    },
+    {
+      "id": 15,
+      "autor": "Igor",
+      "data": "03/09/2025 15:43",
+      "texto": "Um pai tem o direito e dever até de errar com sua filha. O pai tem que ter o direito de poder resolver, se desculpar, corrigir",
+      "categoria": "FNC",
+      "subcategoria": "direito_errar_corrigir",
+      "relevancia_juridica": 5,
+      "nota": "CRÍTICO: Pai tem direito de resolver problemas com filha diretamente"
+    },
+    {
+      "id": 16,
+      "autor": "Igor",
+      "data": "04/09/2025 09:23",
+      "texto": "Art. 249 - Subtrair menor de dezoito anos... Pena - detenção, de dois meses a dois anos",
+      "categoria": "JURIDICO",
+      "subcategoria": "tipificacao_penal",
+      "relevancia_juridica": 4,
+      "nota": "Igor cita art. 249 CP - subtração de incapaz"
+    },
+    {
+      "id": 17,
+      "autor": "Igor",
+      "data": "04/09/2025 09:26",
+      "texto": "Art. 249./ECA Descumprir... os deveres inerentes ao pátrio poder... Pena - multa",
+      "categoria": "JURIDICO",
+      "subcategoria": "tipificacao_eca",
+      "relevancia_juridica": 4,
+      "nota": "Igor cita art. 249 ECA - descumprimento de deveres"
+    },
+    {
+      "id": 18,
+      "autor": "Igor",
+      "data": "04/09/2025 09:31",
+      "texto": "Art. 2o Considera-se ato de alienação parental... II - DIFICULTAR O EXERCÍCIO DA AUTORIDADE PARENTAL",
+      "categoria": "AP",
+      "subcategoria": "tipificacao_lei",
+      "relevancia_juridica": 5,
+      "nota": "Igor cita Lei 12.318 - incisos II, III, IV, V"
+    },
+    {
+      "id": 19,
+      "autor": "Thalia",
+      "data": "04/09/2025 15:23",
+      "texto": "Se vc entende que deva levar essa questão a delegacia, faça isso. Estará no seu direito.",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "desafio_provocativo",
+      "relevancia_juridica": 3,
+      "nota": "Tom desafiador - 'faça isso se quiser'"
+    },
+    {
+      "id": 20,
+      "autor": "Thalia",
+      "data": "04/09/2025 15:23",
+      "texto": "quem vai à delegacia da mulher sou eu",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "ameaca_contra",
+      "relevancia_juridica": 4,
+      "nota": "Ameaça de ir à delegacia da mulher - inversão de papéis"
+    },
+    {
+      "id": 21,
+      "autor": "Igor",
+      "data": "04/09/2025 19:18",
+      "texto": "Nunca fiquei tanto tempo longe da Melissa nos 7 anos de vida dela",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "marco_negativo",
+      "relevancia_juridica": 5,
+      "nota": "CRÍTICO: Maior afastamento em 7 anos de vida da criança"
+    },
+    {
+      "id": 22,
+      "autor": "Igor",
+      "data": "04/09/2025 19:21",
+      "texto": "Só se imagina no meu lado tendo que passar 41 dias longe da Melissa",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "pedido_empatia",
+      "relevancia_juridica": 3,
+      "nota": "Igor pede empatia - projeção de 41 dias (inclui viagem)"
+    },
+    {
+      "id": 23,
+      "autor": "Igor",
+      "data": "04/09/2025 21:44",
+      "texto": "Segue minha proposta final assinada... quatro alternativas objetivas de composição",
+      "categoria": "COP",
+      "subcategoria": "proposta_formal",
+      "relevancia_juridica": 5,
+      "nota": "Igor envia proposta formal com 4 alternativas - boa-fé extrema"
+    }
+  ],
+  
+  "estatisticas": {
+    "total_indicadores": 23,
+    "por_categoria": {
+      "JURIDICO": 6,
+      "SAUDE": 5,
+      "EMOCIONAL": 4,
+      "FNC": 3,
+      "COMUNICACAO": 3,
+      "COP": 2,
+      "AP": 1,
+      "OBS": 1
+    },
+    "por_autor": {
+      "Igor": 19,
+      "Thalia": 4
+    },
+    "relevancia_media": 4.2
+  },
+  
+  "padroes_identificados": [
+    "NEXO CAUSAL: obstrução → adoecimento psiquiátrico documentado",
+    "Igor busca solução negociada mesmo adoecido (proposta 4 alternativas)",
+    "Thalia se recusa a negociar durante férias",
+    "Thalia ameaça delegacia da mulher quando pressionada",
+    "30+ dias sem convívio significativo pai-filha"
+  ],
+  
+  "evidencias_chave": [
+    {
+      "tipo": "nexo_causal",
+      "data": "02/09/2025",
+      "descricao": "Igor consulta psiquiatra Dra. Deborah, volta antidepressivo + Rivotril",
+      "causa": "30 dias de obstrução de convívio",
+      "relevancia": "PROVA CENTRAL do dano causado pela alienação"
+    },
+    {
+      "tipo": "boa_fe_igor",
+      "data": "04/09/2025",
+      "descricao": "Proposta formal com 4 alternativas de acordo",
+      "relevancia": "Igor tenta resolver negociando mesmo em crise"
+    },
+    {
+      "tipo": "inversao_vitima",
+      "data": "04/09/2025",
+      "descricao": "Thalia ameaça ir à delegacia da mulher",
+      "relevancia": "Quem descumpriu acordo ameaça quem cobra"
+    }
+  ],
+  
+  "citacoes_criticas": [
+    {
+      "autor": "Igor",
+      "data": "02/09/2025 17:36",
+      "texto": "acabo de voltar da Debora psiquiatra e vou ter que voltar tomar antidepressivo rivotril diario pela dewcompensa que me causou sua invasão nos meus dias",
+      "relevancia": "NEXO CAUSAL - adoecimento documentado com causa explícita"
+    },
+    {
+      "autor": "Igor",
+      "data": "04/09/2025 19:18",
+      "texto": "Nunca fiquei tanto tempo longe da Melissa nos 7 anos de vida dela",
+      "relevancia": "Marco histórico negativo - maior afastamento da vida"
+    }
+  ],
+  
+  "documentos_relacionados": [
+    "08_DRA_DEBORA_PSIQUIATRA_NEXO_CAUSAL.md",
+    "Receituário médico 02/09/2025",
+    "Proposta de acordo assinada 04/09/2025"
+  ]
+}

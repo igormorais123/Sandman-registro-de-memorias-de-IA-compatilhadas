@@ -1,0 +1,116 @@
+{
+  "arquivo": "06_18set-14out2025_Compensacoes_viagens_ajustes.md",
+  "periodo": "18/set - 14/out/2025",
+  "data_analise": "2026-02-03",
+  "resumo": "Período de ajustes e retomada da rotina. Igor exige cumprimento do acordo. Rotina quinta + domingo estabelecida. Menos conflito - cumprimento parcial.",
+  
+  "indicadores": [
+    {
+      "id": 1,
+      "autor": "Thalia",
+      "data": "10/09/2025 07:46",
+      "texto": "Quinta pela regra judicial é seu dia, como sei que vc trabalha e não costumava ir antes",
+      "categoria": "COP",
+      "subcategoria": "reconhece_direito",
+      "relevancia_juridica": 3,
+      "nota": "Thalia reconhece que quinta é dia do pai"
+    },
+    {
+      "id": 2,
+      "autor": "Igor",
+      "data": "10/09/2025 15:09",
+      "texto": "Eu nao autorizo viagem agora nos meus dias depois de vc ja ter pego mais de 9 dias do meu convívio",
+      "categoria": "JURIDICO",
+      "subcategoria": "exige_compensacao",
+      "relevancia_juridica": 4,
+      "nota": "Igor não autoriza mais viagens até compensar"
+    },
+    {
+      "id": 3,
+      "autor": "Igor",
+      "data": "10/09/2025 15:09",
+      "texto": "Eu cumpro e sempre cunpri acordos",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "autoafirmacao",
+      "relevancia_juridica": 3,
+      "nota": "Igor afirma seu histórico de cumprimento"
+    },
+    {
+      "id": 4,
+      "autor": "Thalia",
+      "data": "11/09/2025 07:53",
+      "texto": "Deixei Melissa na escola e ela já sabe q vc irá buscá-la desde ontem",
+      "categoria": "COP",
+      "subcategoria": "cumpre_visita",
+      "relevancia_juridica": 4,
+      "nota": "Cumprimento da visita de quinta - progresso"
+    },
+    {
+      "id": 5,
+      "autor": "Thalia",
+      "data": "11/09/2025 07:53",
+      "texto": "Só informando, acredito q a rotina aí pode ser diferente sim e ela se acostumará",
+      "categoria": "COP",
+      "subcategoria": "flexibilidade",
+      "relevancia_juridica": 3,
+      "nota": "Thalia aceita que rotina do pai pode ser diferente"
+    },
+    {
+      "id": 6,
+      "autor": "Thalia",
+      "data": "11/09/2025 12:36",
+      "texto": "Veja o que vc consegue acolhê-la e acalma-la",
+      "categoria": "COP",
+      "subcategoria": "confia_pai",
+      "relevancia_juridica": 3,
+      "nota": "Thalia confia no cuidado do pai"
+    },
+    {
+      "id": 7,
+      "autor": "Observação",
+      "data": "set-out/2025",
+      "texto": "[Período com poucas mensagens indica que a rotina estava sendo cumprida]",
+      "categoria": "COP",
+      "subcategoria": "estabilizacao",
+      "relevancia_juridica": 4,
+      "nota": "Ausência de conflito = cumprimento do acordo"
+    }
+  ],
+  
+  "estatisticas": {
+    "total_indicadores": 7,
+    "por_categoria": {
+      "COP": 5,
+      "JURIDICO": 1,
+      "EMOCIONAL": 1
+    },
+    "por_autor": {
+      "Thalia": 4,
+      "Igor": 2,
+      "Observacao": 1
+    },
+    "relevancia_media": 3.4
+  },
+  
+  "padroes_identificados": [
+    "Período de relativa estabilidade após 36 dias de conflito",
+    "Rotina de quinta + domingo começando a funcionar",
+    "Thalia cooperando mais após pressão jurídica",
+    "Igor mantém posição de exigir cumprimento"
+  ],
+  
+  "evidencias_chave": [
+    {
+      "tipo": "melhora_cumprimento",
+      "descricao": "Poucas mensagens = menos conflito = acordo sendo cumprido",
+      "relevancia": "Mostra que quando há cumprimento, relação melhora"
+    },
+    {
+      "tipo": "efeito_pressao",
+      "descricao": "Após 36 dias e ameaça judicial, Thalia passa a cooperar",
+      "relevancia": "Pressão jurídica foi necessária para cumprimento"
+    }
+  ],
+  
+  "observacao_geral": "Este período mais calmo demonstra que quando o acordo é cumprido, não há conflito. O conflito surge do descumprimento, não da personalidade de Igor."
+}

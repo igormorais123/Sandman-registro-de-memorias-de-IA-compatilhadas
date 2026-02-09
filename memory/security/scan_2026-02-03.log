@@ -1,0 +1,90 @@
+[2026-02-03 09:30:57] === SCAN DE PORTAS ===
+[2026-02-03 09:30:57] OK: Nenhuma porta exposta externamente
+[2026-02-03 09:30:57] OK: Docker containers seguros (localhost only)
+[2026-02-03 09:30:57] === CHECK FIREWALL ===
+[2026-02-03 09:30:57] OK: Firewall (ufw) ativo
+[2026-02-03 09:43:27] === SCAN DE PORTAS ===
+[2026-02-03 09:43:27] OK: Nenhuma porta exposta externamente
+[2026-02-03 09:43:27] OK: Docker containers seguros (localhost only)
+[2026-02-03 09:43:27] === CHECK FIREWALL ===
+[2026-02-03 09:43:27] OK: Firewall (ufw) ativo
+[2026-02-03 10:10:11] === SCAN DE PORTAS ===
+[2026-02-03 10:10:11] OK: Nenhuma porta exposta externamente
+[2026-02-03 10:10:11] OK: Docker containers seguros (localhost only)
+[2026-02-03 10:10:11] === CHECK FIREWALL ===
+[2026-02-03 10:10:11] OK: Firewall (ufw) ativo
+[2026-02-03 10:43:30] === SCAN DE PORTAS ===
+[2026-02-03 10:43:30] OK: Nenhuma porta exposta externamente
+[2026-02-03 10:43:30] OK: Docker containers seguros (localhost only)
+[2026-02-03 10:43:30] === CHECK FIREWALL ===
+[2026-02-03 10:43:30] OK: Firewall (ufw) ativo
+[2026-02-03 11:28:06] === SCAN DE PORTAS ===
+[2026-02-03 11:28:06] OK: Nenhuma porta exposta externamente
+[2026-02-03 11:28:06] OK: Docker containers seguros (localhost only)
+[2026-02-03 11:28:06] === CHECK FIREWALL ===
+[2026-02-03 11:28:06] OK: Firewall (ufw) ativo
+[2026-02-03 11:47:51] === SCAN DE PORTAS ===
+[2026-02-03 11:47:51] OK: Nenhuma porta exposta externamente
+[2026-02-03 11:47:51] OK: Docker containers seguros (localhost only)
+[2026-02-03 11:47:51] === CHECK FIREWALL ===
+[2026-02-03 11:47:51] OK: Firewall (ufw) ativo
+[2026-02-03 11:49:55] === SCAN DE PORTAS ===
+[2026-02-03 11:49:55] OK: Nenhuma porta exposta externamente
+[2026-02-03 11:49:55] OK: Docker containers seguros (localhost only)
+[2026-02-03 11:49:55] === CHECK FIREWALL ===
+[2026-02-03 11:49:55] OK: Firewall (ufw) ativo
+[2026-02-03 11:50:14] === SCAN DE PORTAS ===
+[2026-02-03 11:50:14] OK: Nenhuma porta exposta externamente
+[2026-02-03 11:50:14] OK: Docker containers seguros (localhost only)
+[2026-02-03 11:50:14] === CHECK FIREWALL ===
+[2026-02-03 11:50:14] OK: Firewall (ufw) ativo
+[2026-02-03 12:03:34] === SCAN DE PORTAS ===
+[2026-02-03 12:03:34] OK: Nenhuma porta exposta externamente
+[2026-02-03 12:03:34] OK: Docker containers seguros (localhost only)
+[2026-02-03 12:03:34] === CHECK FIREWALL ===
+[2026-02-03 12:03:34] OK: Firewall (ufw) ativo
+[2026-02-03 12:03:50] === SCAN DE PORTAS ===
+[2026-02-03 12:03:50] OK: Nenhuma porta exposta externamente
+[2026-02-03 12:03:50] OK: Docker containers seguros (localhost only)
+[2026-02-03 12:03:50] === CHECK FIREWALL ===
+[2026-02-03 12:03:50] OK: Firewall (ufw) ativo
+[2026-02-03 12:17:00] === SCAN DE PORTAS ===
+[2026-02-03 12:17:00] OK: Nenhuma porta exposta externamente
+[2026-02-03 12:17:00] OK: Docker containers seguros (localhost only)
+[2026-02-03 12:17:00] === CHECK FIREWALL ===
+[2026-02-03 12:17:00] OK: Firewall (ufw) ativo
+[2026-02-03 13:17:29] === SCAN DE PORTAS ===
+[2026-02-03 13:17:29] OK: Nenhuma porta exposta externamente
+[2026-02-03 13:17:29] OK: Docker containers seguros (localhost only)
+[2026-02-03 13:17:29] === CHECK FIREWALL ===
+[2026-02-03 13:17:29] OK: Firewall (ufw) ativo
+[2026-02-03 13:18:53] === SCAN DE PORTAS ===
+[2026-02-03 13:18:53] OK: Nenhuma porta exposta externamente
+[2026-02-03 13:18:53] OK: Docker containers seguros (localhost only)
+[2026-02-03 13:18:53] === CHECK FIREWALL ===
+[2026-02-03 13:18:53] OK: Firewall (ufw) ativo
+[2026-02-03 13:49:04] === SCAN DE PORTAS ===
+[2026-02-03 13:49:04] OK: Nenhuma porta exposta externamente
+[2026-02-03 13:49:04] OK: Docker containers seguros (localhost only)
+[2026-02-03 13:49:04] === CHECK FIREWALL ===
+[2026-02-03 13:49:04] OK: Firewall (ufw) ativo
+[2026-02-03 14:04:23] === SCAN DE PORTAS ===
+[2026-02-03 14:04:23] OK: Nenhuma porta exposta externamente
+[2026-02-03 14:04:23] OK: Docker containers seguros (localhost only)
+[2026-02-03 14:04:23] === CHECK FIREWALL ===
+[2026-02-03 14:04:23] OK: Firewall (ufw) ativo
+[2026-02-03 14:20:10] === SCAN DE PORTAS ===
+[2026-02-03 14:20:10] OK: Nenhuma porta exposta externamente
+[2026-02-03 14:20:10] OK: Docker containers seguros (localhost only)
+[2026-02-03 14:20:10] === CHECK FIREWALL ===
+[2026-02-03 14:20:10] OK: Firewall (ufw) ativo
+[2026-02-03 15:22:34] === SCAN DE PORTAS ===
+[2026-02-03 15:22:34] OK: Nenhuma porta exposta externamente
+[2026-02-03 15:22:34] OK: Docker containers seguros (localhost only)
+[2026-02-03 15:22:34] === CHECK FIREWALL ===
+[2026-02-03 15:22:34] OK: Firewall (ufw) ativo
+[2026-02-03 15:32:42] === SCAN DE PORTAS ===
+[2026-02-03 15:32:42] OK: Nenhuma porta exposta externamente
+[2026-02-03 15:32:42] OK: Docker containers seguros (localhost only)
+[2026-02-03 15:32:42] === CHECK FIREWALL ===
+[2026-02-03 15:32:42] OK: Firewall (ufw) ativo

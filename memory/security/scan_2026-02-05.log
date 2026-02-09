@@ -1,0 +1,5 @@
+[2026-02-05 10:31:11] === SCAN DE PORTAS ===
+[2026-02-05 10:31:11] OK: Nenhuma porta exposta externamente
+[2026-02-05 10:31:11] OK: Docker containers seguros (localhost only)
+[2026-02-05 10:31:11] === CHECK FIREWALL ===
+[2026-02-05 10:31:11] OK: Firewall (ufw) ativo

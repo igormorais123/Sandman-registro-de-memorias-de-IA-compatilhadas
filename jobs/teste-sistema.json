@@ -1,0 +1,41 @@
+{
+  "job_id": "teste-sistema",
+  "status": "completed",
+  "started_at": "2026-02-03T09:29:00.529461",
+  "checkpoints": [
+    {
+      "timestamp": "2026-02-03T09:29:05.034256",
+      "message": "Etapa 1 completa",
+      "data": {
+        "etapa": 1,
+        "resultado": "ok"
+      }
+    },
+    {
+      "timestamp": "2026-02-03T09:29:05.059518",
+      "message": "Etapa 2 completa",
+      "data": {
+        "etapa": 2,
+        "resultado": "ok"
+      }
+    }
+  ],
+  "resume_count": 0,
+  "descricao": "Teste do sistema de jobs",
+  "total_etapas": 3,
+  "last_checkpoint": {
+    "timestamp": "2026-02-03T09:29:05.059518",
+    "message": "Etapa 2 completa",
+    "data": {
+      "etapa": 2,
+      "resultado": "ok"
+    }
+  },
+  "etapa": 2,
+  "resultado": "ok",
+  "completed_at": "2026-02-03T09:29:05.084212",
+  "result": {
+    "total_processado": 2,
+    "sucesso": true
+  }
+}

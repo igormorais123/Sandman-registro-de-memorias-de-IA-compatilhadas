@@ -1,0 +1,275 @@
+{
+  "arquivo": "03_23-31ago2025_Terceiro_FDS_negado_exigencias_legais.md",
+  "periodo": "23-31/ago/2025",
+  "data_analise": "2026-02-03",
+  "resumo": "Terceiro FDS negado (era DO PAI pelo acordo). Igor exige cumprimento literal, menciona advogada, multas, força policial. Thalia viaja com Melissa sem informar datas. Endereço não informado.",
+  
+  "indicadores": [
+    {
+      "id": 1,
+      "autor": "Thalia",
+      "data": "23/08/2025 07:47",
+      "texto": "Esse final de semana ela realmente não irá.",
+      "categoria": "OBS",
+      "subcategoria": "terceiro_fds_negado",
+      "relevancia_juridica": 5,
+      "nota": "TERCEIRO FDS consecutivo negado - padrão sistemático"
+    },
+    {
+      "id": 2,
+      "autor": "Thalia",
+      "data": "23/08/2025 07:47",
+      "texto": "estou fazendo os destaques de tudo positivo. Construir e colher.",
+      "categoria": "COP",
+      "subcategoria": "declaracao_intencao",
+      "relevancia_juridica": 2,
+      "nota": "Declaração de boa intenção - contrasta com ação de negar visita"
+    },
+    {
+      "id": 3,
+      "autor": "Igor",
+      "data": "27/08/2025 16:23",
+      "texto": "ja faz 3 semanas que não vejo ou falo com a Melissa, em descumprimento do meu direito de visita",
+      "categoria": "JURIDICO",
+      "subcategoria": "contagem_descumprimentos",
+      "relevancia_juridica": 5,
+      "nota": "Registro formal de 3 semanas sem convívio"
+    },
+    {
+      "id": 4,
+      "autor": "Igor",
+      "data": "27/08/2025 16:23",
+      "texto": "Então vamos voltar ao legalmente previsto até estabelecermos um novo acordo",
+      "categoria": "COP",
+      "subcategoria": "pedido_cumprimento",
+      "relevancia_juridica": 4,
+      "nota": "Igor pede retorno ao acordo judicial - postura razoável"
+    },
+    {
+      "id": 5,
+      "autor": "Igor",
+      "data": "27/08/2025 16:23",
+      "texto": "Eu expressamente não autorizo o descumprimento do acordo atual",
+      "categoria": "JURIDICO",
+      "subcategoria": "registro_formal",
+      "relevancia_juridica": 5,
+      "nota": "Manifestação expressa por escrito - prova de oposição"
+    },
+    {
+      "id": 6,
+      "autor": "Igor",
+      "data": "27/08/2025 20:55",
+      "texto": "Mandei mensagem para a Dra. Rachel, sua advogada sobre a oficialização de novo acordo judicial",
+      "categoria": "JURIDICO",
+      "subcategoria": "busca_solucao_legal",
+      "relevancia_juridica": 3,
+      "nota": "Igor busca solução via advogados - boa-fé"
+    },
+    {
+      "id": 7,
+      "autor": "Igor",
+      "data": "27/08/2025 20:55",
+      "texto": "consequências jurídicas de eventual alienação parental",
+      "categoria": "AP",
+      "subcategoria": "mencao_lei",
+      "relevancia_juridica": 4,
+      "nota": "Igor já menciona Lei de Alienação Parental"
+    },
+    {
+      "id": 8,
+      "autor": "Thalia",
+      "data": "28/08/2025 08:33",
+      "texto": "Eu literalmente estava convencendo ela a ir e despertando a vontade dela ir num contexto positivo",
+      "categoria": "COP",
+      "subcategoria": "declaracao_esforco",
+      "relevancia_juridica": 3,
+      "nota": "Thalia diz fazer esforço - mas resultado é negativo"
+    },
+    {
+      "id": 9,
+      "autor": "Igor",
+      "data": "28/08/2025 08:59",
+      "texto": "Eu não sei os dias da sua viagem",
+      "categoria": "OBS",
+      "subcategoria": "falta_informacao",
+      "relevancia_juridica": 4,
+      "nota": "Thalia não informou datas da viagem"
+    },
+    {
+      "id": 10,
+      "autor": "Igor",
+      "data": "28/08/2025 08:59",
+      "texto": "por pressionar ela a falar que nao quer vir para minha casa e todo contexto de alienacao parental",
+      "categoria": "AP",
+      "subcategoria": "acusacao_pressao",
+      "relevancia_juridica": 4,
+      "nota": "Acusação de pressionar Melissa a não querer ir"
+    },
+    {
+      "id": 11,
+      "autor": "Igor",
+      "data": "28/08/2025 08:59",
+      "texto": "Nao dar endereço da sua casa",
+      "categoria": "OBS",
+      "subcategoria": "ocultacao_endereco",
+      "relevancia_juridica": 5,
+      "nota": "Thalia não informa endereço onde mora com a filha"
+    },
+    {
+      "id": 12,
+      "autor": "Igor",
+      "data": "28/08/2025 08:59",
+      "texto": "Se eu deixar de pagar pensao eu posso ser preso e vc tb tem suas responsabilidades",
+      "categoria": "JURIDICO",
+      "subcategoria": "reciprocidade_obrigacoes",
+      "relevancia_juridica": 4,
+      "nota": "Igor argumenta que obrigações são recíprocas"
+    },
+    {
+      "id": 13,
+      "autor": "Igor",
+      "data": "28/08/2025 08:59",
+      "texto": "com multas indenizações e com força policial se for necessario",
+      "categoria": "JURIDICO",
+      "subcategoria": "aviso_consequencias",
+      "relevancia_juridica": 3,
+      "nota": "Igor avisa sobre possíveis medidas judiciais"
+    },
+    {
+      "id": 14,
+      "autor": "Thalia",
+      "data": "29/08/2025 12:55",
+      "texto": "Jamais pressionei a melissa para NÃO ir para a sua casa ou a ter qualquer reação de resistência",
+      "categoria": "AP",
+      "subcategoria": "negacao_categorica",
+      "relevancia_juridica": 4,
+      "nota": "Negação expressa de alienação - pode contrastar com evidências"
+    },
+    {
+      "id": 15,
+      "autor": "Thalia",
+      "data": "29/08/2025 12:55",
+      "texto": "Foi ela quem não quis ir e, como te falei, eu não tenho como amarrá-la e levar a força",
+      "categoria": "OBS",
+      "subcategoria": "transferencia_decisao",
+      "relevancia_juridica": 5,
+      "nota": "CRÍTICO: Transfere decisão parental para criança de 7 anos"
+    },
+    {
+      "id": 16,
+      "autor": "Thalia",
+      "data": "29/08/2025 12:55",
+      "texto": "minhas férias e viagens já marcada",
+      "categoria": "OBS",
+      "subcategoria": "agenda_unilateral",
+      "relevancia_juridica": 3,
+      "nota": "Viagem marcada sem confirmar datas com o pai"
+    },
+    {
+      "id": 17,
+      "autor": "Igor",
+      "data": "30/08/2025 15:29",
+      "texto": "Melissa nao decide pauta dela. Acorde deve ser cumprido mesmo se ela nao quiser",
+      "categoria": "FNC",
+      "subcategoria": "autoridade_parental",
+      "relevancia_juridica": 4,
+      "nota": "Igor defende que criança não decide agenda parental"
+    },
+    {
+      "id": 18,
+      "autor": "Igor",
+      "data": "30/08/2025 15:29",
+      "texto": "Melissa nao quer tomar vacina, tem que tomar vacina, melissa nao quer ir para escola ela precisa ir",
+      "categoria": "FNC",
+      "subcategoria": "analogia_educacao",
+      "relevancia_juridica": 4,
+      "nota": "Argumento lógico: vontade da criança não governa decisões importantes"
+    },
+    {
+      "id": 19,
+      "autor": "Igor",
+      "data": "30/08/2025 15:47",
+      "texto": "como vou ter autoridade de pai se a Melissa sabe que basta falar que nao quer vir para minha casa e eu sou punido?",
+      "categoria": "AP",
+      "subcategoria": "erosao_autoridade",
+      "relevancia_juridica": 5,
+      "nota": "CRÍTICO: Criança aprende que pode vetar o pai"
+    },
+    {
+      "id": 20,
+      "autor": "Igor",
+      "data": "30/08/2025 17:08",
+      "texto": "A Melissa quer mt um cachorro... Mas vc nao gosta de cachorro... Agora pq basta Melissa nao quer vir para minha casa que ela nao vem?",
+      "categoria": "AP",
+      "subcategoria": "contradicao_exposta",
+      "relevancia_juridica": 5,
+      "nota": "CRÍTICO: Vontade de Melissa vale para negar pai mas não para ter cachorro"
+    },
+    {
+      "id": 21,
+      "autor": "Igor",
+      "data": "30/08/2025 19:41",
+      "texto": "a Melissa pode ter medo na sua casa tb e ligar para mim ir buscar ela tb. Mas eu nao tenho o endereço seu",
+      "categoria": "OBS",
+      "subcategoria": "assimetria_acesso",
+      "relevancia_juridica": 4,
+      "nota": "Pai não tem endereço onde filha mora - assimetria grave"
+    }
+  ],
+  
+  "estatisticas": {
+    "total_indicadores": 21,
+    "por_categoria": {
+      "OBS": 6,
+      "JURIDICO": 5,
+      "AP": 5,
+      "COP": 2,
+      "FNC": 3
+    },
+    "por_autor": {
+      "Igor": 16,
+      "Thalia": 5
+    },
+    "relevancia_media": 4.1
+  },
+  
+  "padroes_identificados": [
+    "3 semanas consecutivas sem convívio pai-filha",
+    "Thalia transfere decisão parental para criança de 7 anos",
+    "Contradição: vontade de Melissa vale para negar pai, não para ter cachorro",
+    "Igor busca solução legal (advogada, acordo)",
+    "Thalia não informa endereço nem datas de viagem"
+  ],
+  
+  "evidencias_chave": [
+    {
+      "tipo": "alienacao_parental",
+      "artigo": "Lei 12.318, art. 2º, IV e V",
+      "descricao": "Dificultar convivência + omitir informações (endereço, viagem)",
+      "ocorrencia": "3 FDS negados + endereço oculto"
+    },
+    {
+      "tipo": "contradição_logica",
+      "descricao": "Vontade da criança vale para negar pai mas não para outras coisas",
+      "relevancia": "Expõe uso seletivo da 'vontade da criança'"
+    },
+    {
+      "tipo": "transferencia_autoridade",
+      "descricao": "Criança de 7 anos decide se cumpre acordo judicial",
+      "relevancia": "Erosão da autoridade paterna"
+    }
+  ],
+  
+  "citacoes_criticas": [
+    {
+      "autor": "Igor",
+      "texto": "como vou ter autoridade de pai se a Melissa sabe que basta falar que nao quer vir para minha casa e eu sou punido?",
+      "relevancia": "Expõe mecanismo de alienação - criança tem poder de veto sobre o pai"
+    },
+    {
+      "autor": "Igor",
+      "texto": "Pq a vontade relacioanada a mim é um fato suficiente... E a vontade dela para ter um cachorro nao deve ser cumprida?",
+      "relevancia": "Contradição irrefutável - uso seletivo da vontade da criança"
+    }
+  ]
+}

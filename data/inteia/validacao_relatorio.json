@@ -1,0 +1,2430 @@
+{
+  "timestamp": "2026-02-07T23:34:04.804471",
+  "resumo": {
+    "eleitores": {
+      "total": 1000,
+      "com_erros": 81,
+      "taxa_erro": 8.1
+    },
+    "magistrados": {
+      "total": 50,
+      "com_erros": 50,
+      "taxa_erro": 100.0
+    },
+    "consultores": {
+      "total": 50,
+      "com_erros": 0,
+      "taxa_erro": 0.0
+    }
+  },
+  "erros_por_base": {
+    "eleitores": [
+      {
+        "nome": "Adriana Marques Ramos",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Adriana Santana Correia",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 32",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Alice Almeida Ferreira",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Amanda Freitas Pinto",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 29",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Amanda Gomes Oliveira",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Honestidade",
+              "Ordem",
+              "Solidariedade",
+              "Meritocracia",
+              "Trabalho"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Ana Oliveira Silva",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 26",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Anderson Cardoso Machado",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 50",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "André Lopes Teixeira",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 43",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Bruna Gomes Souza",
+        "erros": [
+          {
+            "campo": "escolaridade",
+            "erro": "Idade 16 incompatível com pós-graduação",
+            "valor_atual": "superior_completo_ou_pos",
+            "sugestao": "medio_completo_ou_sup_incompleto"
+          },
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          },
+          {
+            "campo": "renda_salarios_minimos",
+            "erro": "Estudante com renda muito alta (mais_de_10_ate_20)",
+            "valor_atual": "mais_de_10_ate_20",
+            "sugestao": "mais_de_1_ate_2"
+          }
+        ]
+      },
+      {
+        "nome": "Caio Gomes Ramos",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Família",
+              "Educação",
+              "Meritocracia",
+              "Estabilidade",
+              "Saúde"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Camila Lima Cardoso",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Carla Campos Lopes",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 43",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Carolina Gonçalves Gomes",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Democracia",
+              "Saúde",
+              "Meritocracia",
+              "Solidariedade",
+              "Justiça"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Cláudio Batista Correia",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Liberdade",
+              "Honestidade",
+              "Meritocracia",
+              "Saúde",
+              "Família"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Daniela Machado Vieira",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 62",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Daniel Cardoso Alves",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 51",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Davi Alves Oliveira",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Débora Barbosa Ribeiro",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          },
+          {
+            "campo": "renda_salarios_minimos",
+            "erro": "Estudante com renda muito alta (mais_de_10_ate_20)",
+            "valor_atual": "mais_de_10_ate_20",
+            "sugestao": "mais_de_1_ate_2"
+          }
+        ]
+      },
+      {
+        "nome": "Débora Dias Pereira",
+        "erros": [
+          {
+            "campo": "escolaridade",
+            "erro": "Idade 17 incompatível com pós-graduação",
+            "valor_atual": "superior_completo_ou_pos",
+            "sugestao": "medio_completo_ou_sup_incompleto"
+          },
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Eduardo Araújo Araújo",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Família",
+              "Trabalho",
+              "Honestidade",
+              "Meio ambiente",
+              "Meritocracia"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Elaine Fernandes Rodrigues",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Família",
+              "Direitos humanos",
+              "Educação",
+              "Segurança",
+              "Meritocracia"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Erick Fernandes Vieira",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Honestidade",
+              "Educação",
+              "Meritocracia",
+              "Trabalho",
+              "Respeito"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Fábio Moreira Silva",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Fernanda Santana Martins",
+        "erros": [
+          {
+            "campo": "escolaridade",
+            "erro": "Idade 17 incompatível com pós-graduação",
+            "valor_atual": "superior_completo_ou_pos",
+            "sugestao": "medio_completo_ou_sup_incompleto"
+          },
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Francisca Santos Soares",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 58",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Francisco Pinto Gonçalves",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Gabriela Fernandes Freitas",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Helena Souza Lima",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Trabalho",
+              "Honestidade",
+              "Meritocracia",
+              "Segurança",
+              "Saúde"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Henrique Dias Martins",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 41",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Henrique Lopes Andrade",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Henrique Lopes Rocha",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 26",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Igor Lima Martins",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Isabella Santos Rodrigues",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Trabalho",
+              "Saúde",
+              "Liberdade",
+              "Democracia",
+              "Meritocracia"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Jéssica Ramos Ribeiro",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 63",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Joana Rocha Silva",
+        "erros": [
+          {
+            "campo": "escolaridade",
+            "erro": "Idade 19 incompatível com pós-graduação",
+            "valor_atual": "superior_completo_ou_pos",
+            "sugestao": "medio_completo_ou_sup_incompleto"
+          }
+        ]
+      },
+      {
+        "nome": "João Freitas Freitas",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 51",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "João Santana Ramos",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Jorge Alves Fernandes",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 32",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Jorge Correia Freitas",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 64",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Jorge Moreira Pinto",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 37",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Juliana Correia Oliveira",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Honestidade",
+              "Fé e religião",
+              "Solidariedade",
+              "Família",
+              "Meritocracia"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Juliana Fernandes Silva",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Larissa Correia Ferreira",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Saúde",
+              "Meritocracia",
+              "Trabalho",
+              "Solidariedade",
+              "Democracia"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Leandro Vieira Gomes",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 32",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Letícia Borges Marques",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 50",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Luciana Martins Carvalho",
+        "erros": [
+          {
+            "campo": "escolaridade",
+            "erro": "Idade 18 incompatível com pós-graduação",
+            "valor_atual": "superior_completo_ou_pos",
+            "sugestao": "medio_completo_ou_sup_incompleto"
+          }
+        ]
+      },
+      {
+        "nome": "Luís Lima Soares",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 28",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Luís Nascimento Ribeiro",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 47",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Márcia Ramos Freitas",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Marcos Carvalho Ramos",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Marcos Nascimento Ramos",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Marcos Santos Rocha",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Maria Carvalho Costa",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Honestidade",
+              "Educação",
+              "Liberdade",
+              "Meritocracia",
+              "Segurança"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Mariana Lopes Correia",
+        "erros": [
+          {
+            "campo": "renda_salarios_minimos",
+            "erro": "Estudante com renda muito alta (mais_de_10_ate_20)",
+            "valor_atual": "mais_de_10_ate_20",
+            "sugestao": "mais_de_1_ate_2"
+          },
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Família",
+              "Honestidade",
+              "Trabalho",
+              "Meritocracia"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Marta Araújo Pinto",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          },
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Meritocracia",
+              "Solidariedade",
+              "Saúde",
+              "Direitos humanos",
+              "Respeito"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Mateus Freitas Rodrigues",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 38",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Matheus Santos Silva",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Liberdade",
+              "Estabilidade",
+              "Justiça",
+              "Respeito",
+              "Meritocracia"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Natália Costa Andrade",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 39",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Natália Ramos Moura",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Saúde",
+              "Respeito",
+              "Liberdade",
+              "Meritocracia",
+              "Justiça"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Natália Ramos Vieira",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 37",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Patricia Carvalho Souza",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          },
+          {
+            "campo": "renda_salarios_minimos",
+            "erro": "Estudante com renda muito alta (mais_de_10_ate_20)",
+            "valor_atual": "mais_de_10_ate_20",
+            "sugestao": "mais_de_1_ate_2"
+          }
+        ]
+      },
+      {
+        "nome": "Patrícia Mendes Dias",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Paula Gomes Costa",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 40",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Paula Martins Campos",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 44",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Pedro Lopes Vieira",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Renata Ferreira Nascimento",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Ricardo Barbosa Campos",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Família",
+              "Fé e religião",
+              "Meritocracia",
+              "Justiça",
+              "Honestidade"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Roberto Andrade Dias",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Família",
+              "Meritocracia",
+              "Trabalho",
+              "Justiça",
+              "Respeito"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Rosa Rodrigues Cardoso",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Rosa Souza Borges",
+        "erros": [
+          {
+            "campo": "escolaridade",
+            "erro": "Idade 19 incompatível com pós-graduação",
+            "valor_atual": "superior_completo_ou_pos",
+            "sugestao": "medio_completo_ou_sup_incompleto"
+          },
+          {
+            "campo": "renda_salarios_minimos",
+            "erro": "Estudante com renda muito alta (mais_de_10_ate_20)",
+            "valor_atual": "mais_de_10_ate_20",
+            "sugestao": "mais_de_1_ate_2"
+          }
+        ]
+      },
+      {
+        "nome": "Samuel Carvalho Rodrigues",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Trabalho",
+              "Saúde",
+              "Meritocracia",
+              "Liberdade",
+              "Justiça"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Samuel Ribeiro Ramos",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Samuel Souza Martins",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 37",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Sandra Soares Cardoso",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Sérgio Borges Pinto",
+        "erros": [
+          {
+            "campo": "escolaridade",
+            "erro": "Idade 19 incompatível com pós-graduação",
+            "valor_atual": "superior_completo_ou_pos",
+            "sugestao": "medio_completo_ou_sup_incompleto"
+          },
+          {
+            "campo": "renda_salarios_minimos",
+            "erro": "Estudante com renda muito alta (mais_de_10_ate_20)",
+            "valor_atual": "mais_de_10_ate_20",
+            "sugestao": "mais_de_1_ate_2"
+          }
+        ]
+      },
+      {
+        "nome": "Sérgio Costa Souza",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 35",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Sérgio Oliveira Barbosa",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 31",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Thiago Lima Ribeiro",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (16)",
+            "valor_atual": 16,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Vanessa Soares Ribeiro",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 39",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Vera Mendes Silva",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Justiça",
+              "Meritocracia",
+              "Honestidade",
+              "Família",
+              "Respeito"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      },
+      {
+        "nome": "Viviane Almeida Costa",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 62",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      }
+    ],
+    "magistrados": [
+      {
+        "nome": "Afrânio Vilela",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Alexandre de Moraes",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Alexandre Laranjeira",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Alexandre Vasconcelos",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Ana Carolina Roman",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Andre Mendonca",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Antonio Carlos Ferreira",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Antonio Saldanha Palheiro",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Antonio Scarpa",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Benedito Gonçalves",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Carlos Eduardo Moreira Alves",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Carlos Pires Brandão",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Carmen Lucia",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "César Jatahy",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Cristiano Zanin",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Daniela Teixeira",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Daniele Maranhão",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Ana Maria Cantarino",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Carmen Nícea Nogueira Bittencourt",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Diva Lucy de Faria Pereira",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Gislene Pinheiro de Oliveira",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Leila Cristina Garbin Arlanch",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Alexandre Jorge Fontes Laranjeira",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Alexandre Machado Vasconcelos",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Alfeu Gonzaga Machado",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Lucimeire Maria da Silva",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Alvaro Luis De Araujo Sales Ciarlini",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Maria de Fátima Rafael de Aguiar",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Maria de Lourdes Abreu",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Maria Ivatônia Barbosa dos Santos",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Ana Carolina Alves Araújo Roman",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Angelo Canducci Passareli",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Nilsoni de Freitas Custodio",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Antônio Oswaldo Scarpa",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Arnoldo Camanho de Assis",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Arquibaldo Carneiro Portela",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Sandra Reves Vasques Tonussi",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Simone Costa Lucindo Ferreira",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Soníria Rocha Campos D'Assunção",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Desa. Vera Lucia Andrighi",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Candice Lavocat Galvão Jobim",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Carlos Augusto Pires Brandão",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Carlos Eduardo Maul Moreira Alves",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Carlos Pires Soares Neto",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. César Cintra Jatahy Fonseca",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Daniele Maranhão Costa",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Diaulas Costa Ribeiro",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Eduardo Filipe Alves Martins",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Eduardo Morais da Rocha",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Des. Esdras Neves Almeida",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      }
+    ],
+    "consultores": []
+  },
+  "amostras_erros": {
+    "eleitores": [
+      {
+        "nome": "Adriana Marques Ramos",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Adriana Santana Correia",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 15 anos, ficha diz 32",
+            "valor_atual": "...15 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Alice Almeida Ferreira",
+        "erros": [
+          {
+            "campo": "idade",
+            "erro": "Eleitor com menos de 18 anos (17)",
+            "valor_atual": 17,
+            "sugestao": 18
+          }
+        ]
+      },
+      {
+        "nome": "Amanda Freitas Pinto",
+        "erros": [
+          {
+            "campo": "historia_resumida",
+            "erro": "História menciona 20 anos, ficha diz 29",
+            "valor_atual": "...20 anos...",
+            "sugestao": "Ajustar história para refletir idade correta"
+          }
+        ]
+      },
+      {
+        "nome": "Amanda Gomes Oliveira",
+        "erros": [
+          {
+            "campo": "valores",
+            "erro": "Esquerda com meritocracia mas sem igualdade",
+            "valor_atual": [
+              "Honestidade",
+              "Ordem",
+              "Solidariedade",
+              "Meritocracia",
+              "Trabalho"
+            ],
+            "sugestao": "Adicionar \"Igualdade\" ou \"Justiça social\""
+          }
+        ]
+      }
+    ],
+    "magistrados": [
+      {
+        "nome": "Afrânio Vilela",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Alexandre de Moraes",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Alexandre Laranjeira",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Alexandre Vasconcelos",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      },
+      {
+        "nome": "Ana Carolina Roman",
+        "erros": [
+          {
+            "campo": "graduacao",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "perfil_filosofico",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          },
+          {
+            "campo": "tendencia_jurisprudencial",
+            "erro": "Campo importante vazio ou inválido",
+            "valor_atual": "",
+            "sugestao": "Preencher com dados pesquisados"
+          }
+        ]
+      }
+    ],
+    "consultores": []
+  }
+}

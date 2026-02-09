@@ -1,0 +1,276 @@
+{
+  "arquivo": "02_17-22ago2025_Tensoes_acusacoes_segundo_FDS_negado.md",
+  "periodo": "17-22/ago/2025",
+  "data_analise": "2026-02-03",
+  "resumo": "Escalada do conflito. Igor acusa manipulação, Thalia ignora pedidos objetivos. Igor considera desistir da paternidade. Segundo FDS negado. Melissa com ansiedade.",
+  
+  "indicadores": [
+    {
+      "id": 1,
+      "autor": "Igor",
+      "data": "17/08/2025 21:49",
+      "texto": "Confirma para mim expressamente que Melissa nao tem direito de Ligar para vc e vc ir buscar sem meu consentimento",
+      "categoria": "COP",
+      "subcategoria": "pedido_objetivo_1",
+      "relevancia_juridica": 3,
+      "nota": "Pedido objetivo claro - nunca respondido diretamente"
+    },
+    {
+      "id": 2,
+      "autor": "Igor",
+      "data": "17/08/2025 21:49",
+      "texto": "QUAL O DIA e HORA VC ESCOLHE PARA CONVERSAMOS SEMANALMENTE SOBRE A MELISSA?",
+      "categoria": "COP",
+      "subcategoria": "pedido_objetivo_2",
+      "relevancia_juridica": 3,
+      "nota": "Pedido objetivo claro - nunca respondido diretamente"
+    },
+    {
+      "id": 3,
+      "autor": "Thalia",
+      "data": "19/08/2025 21:23",
+      "texto": "A Melissa não vai deixar de me procurar se se sentir insegura ou angustiada. Isso é um direito dela como criança",
+      "categoria": "OBS",
+      "subcategoria": "recusa_estrutura",
+      "relevancia_juridica": 4,
+      "nota": "Recusa em estabelecer limite - criança pode interromper convivência a qualquer momento"
+    },
+    {
+      "id": 4,
+      "autor": "Thalia",
+      "data": "19/08/2025 21:23",
+      "texto": "não há espaço para alienação parental da minha parte",
+      "categoria": "AP",
+      "subcategoria": "negacao_preventiva",
+      "relevancia_juridica": 3,
+      "nota": "Negação explícita de AP - pode ser usada como contraste com ações"
+    },
+    {
+      "id": 5,
+      "autor": "Thalia",
+      "data": "19/08/2025 21:29",
+      "texto": "Se você alterar o tom, em ligação, áudio ou escrito, já adianto que eu vou parar e voltamos a conversar só quando você acalmar",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "ameaca_silencio",
+      "relevancia_juridica": 4,
+      "nota": "Padrão: usar silêncio como punição/controle"
+    },
+    {
+      "id": 6,
+      "autor": "Igor",
+      "data": "19/08/2025 22:35",
+      "texto": "ela aprende mta coisa boa com vc. Mas aprende a manipular tb",
+      "categoria": "AP",
+      "subcategoria": "acusacao_manipulacao",
+      "relevancia_juridica": 3,
+      "nota": "Igor acusa Thalia de ensinar manipulação à Melissa"
+    },
+    {
+      "id": 7,
+      "autor": "Igor",
+      "data": "19/08/2025 22:44",
+      "texto": "manipular. Ignorar. Excluir. Isolar tb é agressividade, ate pior que verbal",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "identificacao_padrao",
+      "relevancia_juridica": 4,
+      "nota": "Igor nomeia o padrão de violência silenciosa"
+    },
+    {
+      "id": 8,
+      "autor": "Igor",
+      "data": "19/08/2025 23:02",
+      "texto": "vc manda a Melissa para minha mae. Vc busca ela. Nao me avisa. E nem depois.",
+      "categoria": "OBS",
+      "subcategoria": "busca_sem_aviso",
+      "relevancia_juridica": 5,
+      "nota": "Thalia buscou Melissa na casa da avó sem avisar Igor - violação de acordo"
+    },
+    {
+      "id": 9,
+      "autor": "Igor",
+      "data": "19/08/2025 23:21",
+      "texto": "Manda um relatorio escrito toda semana com o que aconteceu com a Melissa",
+      "categoria": "COP",
+      "subcategoria": "alternativa_comunicacao",
+      "relevancia_juridica": 3,
+      "nota": "Igor oferece alternativa flexível - nunca atendida"
+    },
+    {
+      "id": 10,
+      "autor": "Igor",
+      "data": "20/08/2025 00:21",
+      "texto": "Já nao vale mais investir emocionalmente. Nao é comigo. Procura outro tio.",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "desistencia_anunciada",
+      "relevancia_juridica": 5,
+      "nota": "CRÍTICO: Igor considera abandonar paternidade por esgotamento"
+    },
+    {
+      "id": 11,
+      "autor": "Igor",
+      "data": "20/08/2025 00:21",
+      "texto": "Eu ja pago um preço alto demais pela paternidade que vc me submeteu",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "percepcao_custos",
+      "relevancia_juridica": 4,
+      "nota": "Sentimento de paternidade como fardo - indicador de dano"
+    },
+    {
+      "id": 12,
+      "autor": "Igor",
+      "data": "20/08/2025 00:21",
+      "texto": "Vc venceu. Eu e Melissa perdemos.",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "derrota_declarada",
+      "relevancia_juridica": 4,
+      "nota": "Percepção de jogo soma-zero onde pai e filha perdem juntos"
+    },
+    {
+      "id": 13,
+      "autor": "Igor",
+      "data": "20/08/2025 01:49",
+      "texto": "Vc não merece ter um bom pai para sua filha.",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "ressentimento_maximo",
+      "relevancia_juridica": 3,
+      "nota": "Pico de ressentimento - horário 01:49 indica insônia"
+    },
+    {
+      "id": 14,
+      "autor": "Thalia",
+      "data": "20/08/2025 08:27",
+      "texto": "Levarei a Melissa até você no sábado cedo como estava combinado",
+      "categoria": "COP",
+      "subcategoria": "promessa_visita",
+      "relevancia_juridica": 3,
+      "nota": "Promessa de visita - NÃO cumprida (ver 22/08)"
+    },
+    {
+      "id": 15,
+      "autor": "Igor",
+      "data": "20/08/2025 18:50",
+      "texto": "Eu já estou vivendo o luto deis de sexta",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "luto_antecipado",
+      "relevancia_juridica": 5,
+      "nota": "CRÍTICO: Igor em luto pela paternidade - evidência de adoecimento"
+    },
+    {
+      "id": 16,
+      "autor": "Igor",
+      "data": "20/08/2025 20:06",
+      "texto": "EU só tenho 2 armas ou ficar com ela bem mais. Ou bem menos.",
+      "categoria": "EMOCIONAL",
+      "subcategoria": "binarismo_desesperado",
+      "relevancia_juridica": 3,
+      "nota": "Pensamento binário - tudo ou nada - indicador de crise"
+    },
+    {
+      "id": 17,
+      "autor": "Thalia",
+      "data": "22/08/2025 14:11",
+      "texto": "ela disse que não era para dormir e começou a ficar muito ansiosa e agitada",
+      "categoria": "FNC",
+      "subcategoria": "relato_estado_melissa",
+      "relevancia_juridica": 4,
+      "nota": "Melissa ansiosa sobre ir ao pai - mas quem criou essa ansiedade?"
+    },
+    {
+      "id": 18,
+      "autor": "Thalia",
+      "data": "22/08/2025 14:11",
+      "texto": "E que você iria brigar muito com ela por ela ter pedido para sair",
+      "categoria": "AP",
+      "subcategoria": "implantacao_medo",
+      "relevancia_juridica": 5,
+      "nota": "CRÍTICO: Melissa tem medo de briga com pai - quem disse isso a ela?"
+    },
+    {
+      "id": 19,
+      "autor": "Thalia",
+      "data": "22/08/2025 14:11",
+      "texto": "Então para esse final de semana será assim e depois viajo com ela",
+      "categoria": "OBS",
+      "subcategoria": "segundo_fds_negado",
+      "relevancia_juridica": 5,
+      "nota": "SEGUNDO FDS NEGADO - Art. 2º, IV, Lei 12.318"
+    },
+    {
+      "id": 20,
+      "autor": "Thalia",
+      "data": "22/08/2025 21:09",
+      "texto": "Igor, vou dormir. Tô exausta. Foi difícil hj.",
+      "categoria": "COMUNICACAO",
+      "subcategoria": "encerramento_unilateral",
+      "relevancia_juridica": 3,
+      "nota": "Encerra comunicação sem resolver - padrão recorrente"
+    },
+    {
+      "id": 21,
+      "autor": "Igor",
+      "data": "22/08/2025 22:07",
+      "texto": "Ela esta culpada. Sentindo vergonha. Medo. Ansiedade. Rigidez. Tudo isso é transtorno psicológico.",
+      "categoria": "FNC",
+      "subcategoria": "preocupacao_saude_mental",
+      "relevancia_juridica": 4,
+      "nota": "Igor identifica sinais de sofrimento psíquico em Melissa"
+    }
+  ],
+  
+  "estatisticas": {
+    "total_indicadores": 21,
+    "por_categoria": {
+      "EMOCIONAL": 6,
+      "COP": 4,
+      "OBS": 3,
+      "AP": 3,
+      "COMUNICACAO": 3,
+      "FNC": 2
+    },
+    "por_autor": {
+      "Igor": 14,
+      "Thalia": 7
+    },
+    "relevancia_media": 3.8
+  },
+  
+  "padroes_identificados": [
+    "Igor faz pedidos objetivos → Thalia ignora ou recusa",
+    "Thalia usa silêncio como controle",
+    "Igor em espiral de desespero - considera desistir",
+    "Melissa com ansiedade e medo do pai - origem questionável",
+    "Segundo FDS consecutivo negado"
+  ],
+  
+  "evidencias_chave": [
+    {
+      "tipo": "alienacao_parental",
+      "artigo": "Lei 12.318, art. 2º, IV e VI",
+      "descricao": "Dificultar convivência + criar medo do pai",
+      "ocorrencia": "FDS 23-24/08 negado + Melissa com medo de briga"
+    },
+    {
+      "tipo": "dano_emocional_pai",
+      "descricao": "Luto antecipado, desistência anunciada, pensamento binário",
+      "autor_afetado": "Igor"
+    },
+    {
+      "tipo": "dano_emocional_crianca",
+      "descricao": "Ansiedade, medo de briga com pai, culpa",
+      "autor_afetado": "Melissa"
+    }
+  ],
+  
+  "citacoes_criticas": [
+    {
+      "autor": "Igor",
+      "texto": "Vc venceu. Eu e Melissa perdemos.",
+      "relevancia": "Percepção de derrota - pai e filha como vítimas juntas"
+    },
+    {
+      "autor": "Thalia",
+      "texto": "E que você iria brigar muito com ela",
+      "relevancia": "Implantação de medo do pai na criança - AP art. 2º, VI"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "job_id": "reconvencao-58-nexus",
+  "status": "running",
+  "started_at": "2026-02-05T12:49:44.409762",
+  "checkpoints": [
+    {
+      "timestamp": "2026-02-05T12:50:34.599143",
+      "message": null,
+      "data": {
+        "etapa": 1,
+        "feito": "plano escrito",
+        "file": "PLANO_58_NEXUS.md"
+      }
+    },
+    {
+      "timestamp": "2026-02-05T12:51:03.899855",
+      "message": null,
+      "data": {
+        "etapa": 2,
+        "feito": "subagentes spawn + pastas criadas",
+        "dirs": [
+          "57_DOCX_EXTRATOS",
+          "58_DIAGRAMAS"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-05T12:51:25.712687",
+      "message": null,
+      "data": {
+        "etapa": 3,
+        "feito": "criada 58_INTEGRADA bruta (base 56) + section map preliminar",
+        "files": [
+          "58_RECONVENCAO_NEXUS_INTEGRADA.md",
+          "58_SECTION_MAP_PRELIMINAR.md"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-05T12:55:22.831084",
+      "message": null,
+      "data": {
+        "etapa": 4,
+        "feito": "relatórios de merge/auditoria/diagramas recebidos"
+      }
+    },
+    {
+      "timestamp": "2026-02-05T12:56:04.374672",
+      "message": null,
+      "data": {
+        "etapa": 5,
+        "feito": "58 integrada atualizada com Visual Law + vieses; anexos A/B extraídos",
+        "files": [
+          "58_RECONVENCAO_NEXUS_INTEGRADA.md",
+          "58_ANEXO_A_QUADRO_76_ALEGACOES.md",
+          "58_ANEXO_B_QUESTIONARIO_SAUDE_ROTINA.md"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-05T12:56:16.215874",
+      "message": null,
+      "data": {
+        "etapa": 6,
+        "feito": "anexo C (ameaças) extraído",
+        "file": "58_ANEXO_C_AMEACAS_DELEGACIA_POLICIA.md"
+      }
+    },
+    {
+      "timestamp": "2026-02-06T03:45:20.255899",
+      "message": null,
+      "data": {
+        "etapa": 7,
+        "feito": "anexo D (FATO→RÓTULO→EFEITO + espelho) extraído",
+        "file": "58_ANEXO_D_FATO_ROTULO_EFEITO_E_ESPELHO.md"
+      }
+    },
+    {
+      "timestamp": "2026-02-06T05:15:21.870274",
+      "message": null,
+      "data": {
+        "etapa": 8,
+        "feito": "indice de anexos inserido na 58 integrada"
+      }
+    },
+    {
+      "timestamp": "2026-02-06T05:41:06.032813",
+      "message": null,
+      "data": {
+        "etapa": 9,
+        "feito": "limpeza parcial: removido Art.88 LBI e neutralizada contagem 36 dias para [N]"
+      }
+    }
+  ],
+  "resume_count": 0,
+  "total": 12,
+  "phase": "planning",
+  "last_checkpoint": {
+    "timestamp": "2026-02-06T05:41:06.032813",
+    "message": null,
+    "data": {
+      "etapa": 9,
+      "feito": "limpeza parcial: removido Art.88 LBI e neutralizada contagem 36 dias para [N]"
+    }
+  },
+  "etapa": 9,
+  "feito": "limpeza parcial: removido Art.88 LBI e neutralizada contagem 36 dias para [N]",
+  "file": "58_ANEXO_D_FATO_ROTULO_EFEITO_E_ESPELHO.md",
+  "dirs": [
+    "57_DOCX_EXTRATOS",
+    "58_DIAGRAMAS"
+  ],
+  "files": [
+    "58_RECONVENCAO_NEXUS_INTEGRADA.md",
+    "58_ANEXO_A_QUADRO_76_ALEGACOES.md",
+    "58_ANEXO_B_QUESTIONARIO_SAUDE_ROTINA.md"
+  ]
+}

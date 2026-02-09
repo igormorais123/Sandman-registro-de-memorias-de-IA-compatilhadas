@@ -1,0 +1,94 @@
+{
+  "job_id": "analise-bardin-reconvencao",
+  "status": "completed",
+  "started_at": "2026-02-03T09:32:29.966968",
+  "checkpoints": [
+    {
+      "timestamp": "2026-02-03T09:33:27.165482",
+      "message": "Arquivo 01 completo - 12 indicadores",
+      "data": {
+        "arquivos_processados": 1,
+        "ultimo_arquivo": "01",
+        "indicadores_total": 12
+      }
+    },
+    {
+      "timestamp": "2026-02-03T09:34:15.156119",
+      "message": "Arquivo 02 completo - 21 indicadores",
+      "data": {
+        "arquivos_processados": 2,
+        "ultimo_arquivo": "02",
+        "indicadores_total": 33
+      }
+    },
+    {
+      "timestamp": "2026-02-03T09:35:07.400301",
+      "message": "Arquivo 03 completo - 21 indicadores",
+      "data": {
+        "arquivos_processados": 3,
+        "ultimo_arquivo": "03",
+        "indicadores_total": 54
+      }
+    },
+    {
+      "timestamp": "2026-02-03T09:36:01.800092",
+      "message": "Arquivo 04 completo - NEXO CAUSAL - 23 indicadores",
+      "data": {
+        "arquivos_processados": 4,
+        "ultimo_arquivo": "04",
+        "indicadores_total": 77
+      }
+    },
+    {
+      "timestamp": "2026-02-03T09:36:44.537813",
+      "message": "Arquivo 05 completo - 17 indicadores",
+      "data": {
+        "arquivos_processados": 5,
+        "ultimo_arquivo": "05",
+        "indicadores_total": 94
+      }
+    },
+    {
+      "timestamp": "2026-02-03T09:37:07.862695",
+      "message": "Arquivo 06 completo - 7 indicadores",
+      "data": {
+        "arquivos_processados": 6,
+        "ultimo_arquivo": "06",
+        "indicadores_total": 101
+      }
+    },
+    {
+      "timestamp": "2026-02-03T09:37:40.450729",
+      "message": "Todos 7 arquivos processados - iniciando consolidação",
+      "data": {
+        "arquivos_processados": 7,
+        "ultimo_arquivo": "07",
+        "indicadores_total": 114,
+        "fase": "consolidacao"
+      }
+    }
+  ],
+  "resume_count": 0,
+  "total_arquivos": 7,
+  "total_agentes": 6,
+  "fase": "consolidacao",
+  "last_checkpoint": {
+    "timestamp": "2026-02-03T09:37:40.450729",
+    "message": "Todos 7 arquivos processados - iniciando consolidação",
+    "data": {
+      "arquivos_processados": 7,
+      "ultimo_arquivo": "07",
+      "indicadores_total": 114,
+      "fase": "consolidacao"
+    }
+  },
+  "arquivos_processados": 7,
+  "ultimo_arquivo": "07",
+  "indicadores_total": 114,
+  "completed_at": "2026-02-03T09:39:04.907445",
+  "result": {
+    "arquivos": 7,
+    "indicadores": 114,
+    "relatorio": "/root/clawd/projetos/analise-bardin-reconvencao/resultados/RELATORIO_FINAL.md"
+  }
+}

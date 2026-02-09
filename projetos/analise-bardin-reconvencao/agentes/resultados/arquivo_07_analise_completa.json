@@ -1,0 +1,181 @@
+{
+  "arquivo": "07_18-31out2025_Doenca_Melissa_COVID_final.md",
+  "periodo": "18-31/out/2025",
+  "data_analise": "2026-02-03",
+  "resumo": "Melissa adoece com COVID. Igor cuida dela mesmo doente. Rotina quinta 8h-19h + domingo 8h-19h estabelecida. Igor informa sobre aulas do doutorado. Período final mais estável.",
+  
+  "indicadores": [
+    {
+      "id": 1,
+      "autor": "Thalia",
+      "data": "18/10/2025 07:48",
+      "texto": "Melissa acordou cedo com fome, aí dei só um leite... ela já deve chegar com fome p comer aí",
+      "categoria": "COP",
+      "subcategoria": "comunicacao_rotina",
+      "relevancia_juridica": 3,
+      "nota": "Comunicação fluida sobre necessidades da criança"
+    },
+    {
+      "id": 2,
+      "autor": "Igor",
+      "data": "22/10/2025 21:22",
+      "texto": "Sempre busco na quinta devolvo 19h e pego 8h no domingo e devolvo 19h",
+      "categoria": "COP",
+      "subcategoria": "rotina_estabelecida",
+      "relevancia_juridica": 4,
+      "nota": "Igor estabelece rotina previsível"
+    },
+    {
+      "id": 3,
+      "autor": "Thalia",
+      "data": "23/10/2025 08:09",
+      "texto": "Melissa teve febre 2 X de madrugada e agora cedo",
+      "categoria": "COP",
+      "subcategoria": "informa_saude",
+      "relevancia_juridica": 3,
+      "nota": "Thalia informa sobre estado de saúde - melhora na comunicação"
+    },
+    {
+      "id": 4,
+      "autor": "Igor",
+      "data": "23/10/2025 10:25",
+      "texto": "Deixa ela aqui no shopping id comigo. Pode deixar que cuido dela",
+      "categoria": "FNC",
+      "subcategoria": "assume_cuidado",
+      "relevancia_juridica": 4,
+      "nota": "Igor assume cuidado da filha mesmo doente"
+    },
+    {
+      "id": 5,
+      "autor": "Igor",
+      "data": "24/10/2025 10:36",
+      "texto": "Pediatra, disse que está tendo surto de influenza... Ela fica boa quando medicada",
+      "categoria": "FNC",
+      "subcategoria": "consulta_pediatra",
+      "relevancia_juridica": 4,
+      "nota": "Igor leva Melissa ao pediatra - cuidado ativo"
+    },
+    {
+      "id": 6,
+      "autor": "Igor",
+      "data": "24/10/2025 10:45",
+      "texto": "Qual é o risco para Helena viajar com a Melissa?",
+      "categoria": "FNC",
+      "subcategoria": "preocupacao_familia",
+      "relevancia_juridica": 3,
+      "nota": "Igor preocupado com bebê Helena - responsabilidade"
+    },
+    {
+      "id": 7,
+      "autor": "Igor",
+      "data": "24/10/2025 15:33",
+      "texto": "Jamais tomar decisão unilateral... Nunca decida nada que tem haver comigo sem me falar",
+      "categoria": "COP",
+      "subcategoria": "pede_comunicacao",
+      "relevancia_juridica": 3,
+      "nota": "Igor pede que decisões sejam comunicadas"
+    },
+    {
+      "id": 8,
+      "autor": "Igor",
+      "data": "24/10/2025 15:36",
+      "texto": "Me atende eu quero falar com a Melissa. Saber como ela está",
+      "categoria": "FNC",
+      "subcategoria": "quer_falar_filha",
+      "relevancia_juridica": 3,
+      "nota": "Igor quer saber da filha doente"
+    },
+    {
+      "id": 9,
+      "autor": "Igor",
+      "data": "24/10/2025 15:50",
+      "texto": "Como vc me da uma informação dessa e nao atende? Nao me deixa falar com a Melissa?",
+      "categoria": "OBS",
+      "subcategoria": "nao_atende",
+      "relevancia_juridica": 3,
+      "nota": "Thalia não atende após informar diagnóstico"
+    },
+    {
+      "id": 10,
+      "autor": "Thalia",
+      "data": "30/10/2025 08:10",
+      "texto": "Passado os sintomas da infecção ficou ótima e está indo à escola desde terça",
+      "categoria": "COP",
+      "subcategoria": "update_recuperacao",
+      "relevancia_juridica": 2,
+      "nota": "Thalia informa recuperação"
+    },
+    {
+      "id": 11,
+      "autor": "Igor",
+      "data": "31/10/2025 09:16",
+      "texto": "a partir desse mes ate final de dezembro eu vou precisar da melissa nos domingos... toda sexta e sabado terei aula",
+      "categoria": "COP",
+      "subcategoria": "transparencia_agenda",
+      "relevancia_juridica": 3,
+      "nota": "Igor informa sobre aulas do doutorado - transparência"
+    },
+    {
+      "id": 12,
+      "autor": "Igor",
+      "data": "31/10/2025 09:17",
+      "texto": "As quintas eu ja estabelecido minha terapia para ter abono a tarde do trabalho",
+      "categoria": "COP",
+      "subcategoria": "organizacao_vida",
+      "relevancia_juridica": 3,
+      "nota": "Igor organizou vida para ter tempo com filha"
+    },
+    {
+      "id": 13,
+      "autor": "Thalia",
+      "data": "31/10/2025 09:22",
+      "texto": "ok",
+      "categoria": "COP",
+      "subcategoria": "acordo_simples",
+      "relevancia_juridica": 2,
+      "nota": "Acordo sem resistência - período estável"
+    }
+  ],
+  
+  "estatisticas": {
+    "total_indicadores": 13,
+    "por_categoria": {
+      "COP": 8,
+      "FNC": 4,
+      "OBS": 1
+    },
+    "por_autor": {
+      "Igor": 8,
+      "Thalia": 5
+    },
+    "relevancia_media": 3.1
+  },
+  
+  "padroes_identificados": [
+    "Período mais estável - rotina funcionando",
+    "Igor cuida de Melissa mesmo doente",
+    "Comunicação melhorada sobre saúde",
+    "Igor organizou vida (doutorado, terapia, trabalho) para ter tempo com filha",
+    "Acordo sendo cumprido - conflito reduzido"
+  ],
+  
+  "evidencias_chave": [
+    {
+      "tipo": "cuidado_paterno",
+      "descricao": "Igor cuida de Melissa com COVID, leva ao pediatra",
+      "relevancia": "Demonstra capacidade e disposição de cuidar"
+    },
+    {
+      "tipo": "organizacao_vida",
+      "descricao": "Igor organiza doutorado, trabalho e terapia para ter tempo com filha",
+      "relevancia": "Pai que prioriza convívio"
+    },
+    {
+      "tipo": "melhora_relacao",
+      "descricao": "Período final com menos conflito - acordo cumprido",
+      "relevancia": "Prova que conflito vem do descumprimento"
+    }
+  ],
+  
+  "observacao_geral": "Arquivo final mostra que quando há cumprimento do acordo, a relação funciona. Igor demonstra ser pai presente, organizado e dedicado."
+}

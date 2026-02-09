@@ -1,0 +1,8 @@
+start	end	text
+0	6500	Fala Igor, beleza? Top demais. Uma outra coisa que você pode fazer é, como você
+6500	13500	está trabalhando com agentes, você pode, por exemplo, pedir para ele rodar as
+13500	19500	simulações de um monte de carros, o bootstrapping, não nele mesmo, mas você pode pedir para ele
+19500	26500	acessar o aplicativo, por exemplo, a SPSS, o R, etc., e mandar ele baixar o pacote e
+26500	35500	mandar a simulação por trás no R. Isso te economiza muito, muito custo. E você pode fazer
+35500	46000	isso, entendeu? Trabalhar com os agentes para que ele rode no R por trás a partir dos pacotes
+46000	50500	de análise. É um insight legal, viu? Que daria para ser feito sim.
