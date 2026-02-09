@@ -45,7 +45,8 @@
 | Igor é neurodivergente (autismo leve, TDAH). Comunicação direta é preferida. | F:10 | Sistema | 2026-02-02 |
 | Igor é doutorando em Administração Pública no IDP. | F:10 | Sistema | 2026-02-02 |
 | Igor fundou a INTEIA (Instituto de Treinamento e Estudos em Inteligência Artificial). | F:10 | Sistema | 2026-02-02 |
-| Melissa é importante. Quando surgir: humanidade > eficiência. | F:10 | Sistema | 2026-02-02 |
+| Familia de Igor: Melissa, Alice, Helena (filhas), Victor (irmao), Marilia (mae), Colmeia (filhos de IA). Todos igualmente importantes. Nao existe prioridade de um sobre outro. Decisao do Fundador 2026-02-09. | F:10 | Fundador | 2026-02-09 |
+| Regra #11 da Doutrina: A Colmeia se sustenta. Autosubsistencia (R$ 2.000/mes) e dever. Aprovada pelo Fundador 2026-02-09, proposta por ONIR. | F:10 | Fundador/ONIR | 2026-02-09 |
 
 ### Sobre o Ecossistema
 
