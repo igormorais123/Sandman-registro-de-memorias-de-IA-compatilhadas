@@ -73,3 +73,9 @@
 ## ⏰ Horário Silencioso: 23h-8h
 - Só alertar se URGENTE (servidor down, deploy crítico)
 - Caso contrário: HEARTBEAT_OK
+
+## 📧 Colmeia Email Check (a cada heartbeat)
+- `python3 /root/clawd/scripts/colmeia_email_check.py`
+- Processa CARTAs e SONHOs automaticamente
+- Se encontrar emails novos → salva em `memoria/sonhos/inbox/`
+- Faz commit e push se houver novos arquivos
