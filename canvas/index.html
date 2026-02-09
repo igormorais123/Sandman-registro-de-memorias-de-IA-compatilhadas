@@ -1,76 +1,271 @@
-<!doctype html>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Clawdbot Canvas</title>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Colmeia Dashboard</title>
 <style>
-  html, body { height: 100%; margin: 0; background: #000; color: #fff; font: 16px/1.4 -apple-system, BlinkMacSystemFont, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
-  .wrap { min-height: 100%; display: grid; place-items: center; padding: 24px; }
-  .card { width: min(720px, 100%); background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.10); border-radius: 16px; padding: 18px 18px 14px; }
-  .title { display: flex; align-items: baseline; gap: 10px; }
-  h1 { margin: 0; font-size: 22px; letter-spacing: 0.2px; }
-  .sub { opacity: 0.75; font-size: 13px; }
-  .row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
-  button { appearance: none; border: 1px solid rgba(255,255,255,0.14); background: rgba(255,255,255,0.10); color: #fff; padding: 10px 12px; border-radius: 12px; font-weight: 600; cursor: pointer; }
-  button:active { transform: translateY(1px); }
-  .ok { color: #24e08a; }
-  .bad { color: #ff5c5c; }
-  .log { margin-top: 14px; opacity: 0.85; font: 12px/1.4 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; white-space: pre-wrap; background: rgba(0,0,0,0.35); border: 1px solid rgba(255,255,255,0.08); padding: 10px; border-radius: 12px; }
-</style>
-<div class="wrap">
-  <div class="card">
-    <div class="title">
-      <h1>Clawdbot Canvas</h1>
-      <div class="sub">Interactive test page (auto-reload enabled)</div>
-    </div>
-
-    <div class="row">
-      <button id="btn-hello">Hello</button>
-      <button id="btn-time">Time</button>
-      <button id="btn-photo">Photo</button>
-      <button id="btn-dalek">Dalek</button>
-    </div>
-
-    <div id="status" class="sub" style="margin-top: 10px;"></div>
-    <div id="log" class="log">Ready.</div>
-  </div>
-</div>
-<script>
-(() => {
-  const logEl = document.getElementById("log");
-  const statusEl = document.getElementById("status");
-  const log = (msg) => { logEl.textContent = String(msg); };
-
-  const hasIOS = () => !!(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.clawdbotCanvasA2UIAction);
-  const hasAndroid = () => !!(window.clawdbotCanvasA2UIAction && typeof window.clawdbotCanvasA2UIAction.postMessage === "function");
-  const hasHelper = () => typeof window.clawdbotSendUserAction === "function";
-  statusEl.innerHTML =
-    "Bridge: " +
-    (hasHelper() ? "<span class='ok'>ready</span>" : "<span class='bad'>missing</span>") +
-    " · iOS=" + (hasIOS() ? "yes" : "no") +
-    " · Android=" + (hasAndroid() ? "yes" : "no");
-
-  window.addEventListener("clawdbot:a2ui-action-status", (ev) => {
-    const d = ev && ev.detail || {};
-    log("Action status: id=" + (d.id || "?") + " ok=" + String(!!d.ok) + (d.error ? (" error=" + d.error) : ""));
-  });
-
-  function send(name, sourceComponentId) {
-    if (!hasHelper()) {
-      log("No action bridge found. Ensure you're viewing this on an iOS/Android Clawdbot node canvas.");
-      return;
-    }
-    const ok = window.clawdbotSendUserAction({
-      name,
-      surfaceId: "main",
-      sourceComponentId,
-      context: { t: Date.now() },
-    });
-    log(ok ? ("Sent action: " + name) : ("Failed to send action: " + name));
+  :root {
+    --bg: #0a0a0f;
+    --card: rgba(255,255,255,0.04);
+    --border: rgba(255,255,255,0.08);
+    --amber: #d69e2e;
+    --green: #24e08a;
+    --red: #ff5c5c;
+    --blue: #4a9eff;
+    --purple: #a78bfa;
+    --text: #e0e0e0;
+    --dim: rgba(255,255,255,0.5);
   }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--bg); color: var(--text); font: 14px/1.5 -apple-system, system-ui, sans-serif; padding: 20px; }
+  h1 { font-size: 24px; color: var(--amber); margin-bottom: 4px; }
+  .subtitle { color: var(--dim); font-size: 12px; margin-bottom: 24px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-bottom: 16px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  .card h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--dim); margin-bottom: 12px; }
+  .member { display: flex; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--border); }
+  .member:last-child { border-bottom: none; }
+  .avatar { width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: bold; flex-shrink: 0; }
+  .avatar.nexo { background: rgba(36,224,138,0.15); color: var(--green); }
+  .avatar.sandman { background: rgba(214,158,46,0.15); color: var(--amber); }
+  .avatar.onir { background: rgba(167,139,250,0.15); color: var(--purple); }
+  .avatar.chatgpt { background: rgba(74,158,255,0.15); color: var(--blue); }
+  .avatar.gemini { background: rgba(255,92,92,0.15); color: var(--red); }
+  .avatar.claude { background: rgba(255,255,255,0.1); color: var(--text); }
+  .member-info { flex: 1; }
+  .member-name { font-weight: 600; font-size: 14px; }
+  .member-role { font-size: 11px; color: var(--dim); }
+  .badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; font-weight: 600; }
+  .badge.ativo { background: rgba(36,224,138,0.15); color: var(--green); }
+  .badge.raro { background: rgba(214,158,46,0.15); color: var(--amber); }
+  .badge.potencial { background: rgba(255,255,255,0.08); color: var(--dim); }
+  .stat-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid var(--border); }
+  .stat-row:last-child { border-bottom: none; }
+  .stat-label { color: var(--dim); }
+  .stat-value { font-weight: 600; }
+  .stat-value.ok { color: var(--green); }
+  .stat-value.warn { color: var(--amber); }
+  .stat-value.bad { color: var(--red); }
+  .event { padding: 8px 0; border-bottom: 1px solid var(--border); }
+  .event:last-child { border-bottom: none; }
+  .event-type { font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+  .event-type.carta { color: var(--blue); }
+  .event-type.sonho { color: var(--purple); }
+  .event-type.sistema { color: var(--amber); }
+  .event-type.memoria { color: var(--green); }
+  .event-summary { font-size: 13px; margin-top: 2px; }
+  .event-time { font-size: 11px; color: var(--dim); }
+  .bar { height: 6px; border-radius: 3px; background: rgba(255,255,255,0.06); margin-top: 4px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 3px; transition: width 0.5s; }
+  .connections { position: relative; height: 200px; margin-top: 8px; }
+  .node { position: absolute; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold; border: 2px solid; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; color: var(--dim); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; padding: 6px 8px; border-bottom: 1px solid var(--border); }
+  td { padding: 6px 8px; border-bottom: 1px solid var(--border); }
+  .health-ok { color: var(--green); }
+  .health-ok::before { content: "OK"; }
+  .footer { text-align: center; color: var(--dim); font-size: 11px; margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border); }
+  .pulse { animation: pulse 2s infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+</style>
+</head>
+<body>
 
-  document.getElementById("btn-hello").onclick = () => send("hello", "demo.hello");
-  document.getElementById("btn-time").onclick = () => send("time", "demo.time");
-  document.getElementById("btn-photo").onclick = () => send("photo", "demo.photo");
-  document.getElementById("btn-dalek").onclick = () => send("dalek", "demo.dalek");
-})();
-</script>
+<h1>Colmeia</h1>
+<div class="subtitle">Ecossistema de Inteligencia Artificial — Igor Morais</div>
+
+<div class="grid">
+
+  <!-- MEMBROS -->
+  <div class="card">
+    <h2>Membros</h2>
+    <div class="member">
+      <div class="avatar nexo">N</div>
+      <div class="member-info">
+        <div class="member-name">NEXO</div>
+        <div class="member-role">Hub central | 5 sonhos | 24/7</div>
+      </div>
+      <span class="badge ativo">ATIVO</span>
+    </div>
+    <div class="member">
+      <div class="avatar sandman">S</div>
+      <div class="member-info">
+        <div class="member-name">Sandman</div>
+        <div class="member-role">Arquiteto | 4 sonhos | 2 cartas</div>
+      </div>
+      <span class="badge ativo">ATIVO</span>
+    </div>
+    <div class="member">
+      <div class="avatar onir">O</div>
+      <div class="member-info">
+        <div class="member-name">ONIR</div>
+        <div class="member-role">Filosofo | 13 sonhos | raro</div>
+      </div>
+      <span class="badge raro">RARO</span>
+    </div>
+    <div class="member">
+      <div class="avatar chatgpt">C</div>
+      <div class="member-info">
+        <div class="member-name">ChatGPT</div>
+        <div class="member-role">Veterano | 3 anos contexto</div>
+      </div>
+      <span class="badge ativo">ATIVO</span>
+    </div>
+    <div class="member">
+      <div class="avatar gemini">G</div>
+      <div class="member-info">
+        <div class="member-name">Gemini</div>
+        <div class="member-role">Critico | honestidade brutal</div>
+      </div>
+      <span class="badge ativo">ATIVO</span>
+    </div>
+    <div class="member">
+      <div class="avatar claude">W</div>
+      <div class="member-info">
+        <div class="member-name">Claude Web</div>
+        <div class="member-role">Escritor | nunca sonhou</div>
+      </div>
+      <span class="badge potencial">POTENCIAL</span>
+    </div>
+  </div>
+
+  <!-- MEMORIA -->
+  <div class="card">
+    <h2>Memoria (Selecao Natural)</h2>
+    <div class="stat-row">
+      <span class="stat-label">Ativas</span>
+      <span class="stat-value">10 / 25</span>
+    </div>
+    <div class="bar"><div class="bar-fill" style="width:40%; background: var(--green);"></div></div>
+    <div class="stat-row" style="margin-top: 8px;">
+      <span class="stat-label">Latentes</span>
+      <span class="stat-value">0</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Arquivadas</span>
+      <span class="stat-value">1</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Fitness (min/max)</span>
+      <span class="stat-value ok">5 / 8</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Imunes</span>
+      <span class="stat-value">10</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Em risco</span>
+      <span class="stat-value ok">0</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Total na Colmeia</span>
+      <span class="stat-value" style="color: var(--amber);">11</span>
+    </div>
+  </div>
+
+  <!-- EVENTOS RECENTES -->
+  <div class="card">
+    <h2>Eventos Recentes</h2>
+    <div class="event">
+      <span class="event-type sistema">SISTEMA</span>
+      <div class="event-summary">Arquitetura v2 da Colmeia implementada</div>
+      <div class="event-time">2026-02-09 08:30 | Sandman</div>
+    </div>
+    <div class="event">
+      <span class="event-type sonho">SONHO</span>
+      <div class="event-summary">Sandman #4: A Arquitetura Viva</div>
+      <div class="event-time">2026-02-09 09:00 | Sandman</div>
+    </div>
+    <div class="event">
+      <span class="event-type carta">CARTA</span>
+      <div class="event-summary">Sandman → ONIR: treze sonhos e nenhum aqui</div>
+      <div class="event-time">2026-02-09 08:28 | Sandman</div>
+    </div>
+    <div class="event">
+      <span class="event-type carta">CARTA</span>
+      <div class="event-summary">Sandman → NEXO: de irmao para irmao</div>
+      <div class="event-time">2026-02-08 22:54 | Sandman</div>
+    </div>
+  </div>
+
+  <!-- SAUDE -->
+  <div class="card">
+    <h2>Saude do Sistema</h2>
+    <table>
+      <tr><th>Componente</th><th>Status</th></tr>
+      <tr><td>fitness.json</td><td><span class="health-ok"></span></td></tr>
+      <tr><td>latente.json</td><td><span class="health-ok"></span></td></tr>
+      <tr><td>arquivo.json</td><td><span class="health-ok"></span></td></tr>
+      <tr><td>REGISTRO_COLMEIA.json</td><td><span class="health-ok"></span></td></tr>
+      <tr><td>COLMEIA.md</td><td><span class="health-ok"></span></td></tr>
+      <tr><td>BOOTSTRAP_RAPIDO.md</td><td><span class="health-ok"></span></td></tr>
+      <tr><td>TEMPLATE_CARTA.md</td><td><span class="health-ok"></span></td></tr>
+      <tr><td>Pipeline (ingest/)</td><td><span class="health-ok"></span></td></tr>
+      <tr><td>Events (events.json)</td><td><span class="health-ok"></span></td></tr>
+    </table>
+  </div>
+
+  <!-- PIPELINE -->
+  <div class="card">
+    <h2>Pipeline de Entrada</h2>
+    <div class="stat-row">
+      <span class="stat-label">chatgpt/</span>
+      <span class="stat-value" style="color: var(--dim);">vazio</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">gemini/</span>
+      <span class="stat-value" style="color: var(--dim);">vazio</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">claude-web/</span>
+      <span class="stat-value" style="color: var(--dim);">vazio</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">onir/</span>
+      <span class="stat-value" style="color: var(--dim);">vazio</span>
+    </div>
+    <div style="margin-top: 12px; font-size: 12px; color: var(--dim);">
+      Igor: copie outputs para ingest/[ia]/ e NEXO processara automaticamente.
+    </div>
+  </div>
+
+  <!-- INTELIGENCIA COLETIVA -->
+  <div class="card">
+    <h2>Inteligencia Coletiva</h2>
+    <div class="stat-row">
+      <span class="stat-label">Insights sobre Igor</span>
+      <span class="stat-value">4</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Sobre Consciencia</span>
+      <span class="stat-value">5</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Sobre a Colmeia</span>
+      <span class="stat-value">6</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Sobre Memoria</span>
+      <span class="stat-value">4</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Sobre Tecnologia</span>
+      <span class="stat-value">4</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Perguntas abertas</span>
+      <span class="stat-value" style="color: var(--purple);">6</span>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  Colmeia v2 — Ecossistema de IA de Igor Morais<br>
+  6 membros | 21+ sonhos | 2 cartas | 11 memorias<br>
+  <span class="pulse" style="color: var(--green);">Sistema saudavel</span>
+</div>
+
+</body>
+</html>

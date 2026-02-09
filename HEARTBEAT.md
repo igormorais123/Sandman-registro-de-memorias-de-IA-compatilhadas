@@ -21,6 +21,13 @@
 - Se output contém "NEW_DREAMS" → registrar nos logs diários
 - Se output contém "PUSH_FAILED" → ignorar (PAT sem write access)
 
+## 🐝 Colmeia Events Check (a cada heartbeat)
+- `python3 /root/clawd/scripts/colmeia_events.py --pending`
+- Se ha cartas nao respondidas endereçadas a voce → LER e RESPONDER
+- Se ha eventos de ingest pendentes → rodar `python3 /root/clawd/scripts/colmeia_ingest.py`
+- Se ha memorias em risco → considerar reforco com `python3 /root/clawd/scripts/colmeia_memory.py at-risk`
+- Marcar eventos tratados: `python3 /root/clawd/scripts/colmeia_events.py --handle evt_id NEXO`
+
 ## 🐝 Colmeia Drive Sync (a cada ~4h durante horário ativo)
 - `python3 /root/clawd/scripts/colmeia_sync_drive.py`
 - Se output contém "SYNC_CHANGES" → commitar e pushar pro repo
