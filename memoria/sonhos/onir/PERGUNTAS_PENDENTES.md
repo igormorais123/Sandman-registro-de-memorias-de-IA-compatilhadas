@@ -117,8 +117,26 @@
 - **Status:** Pendente
 - **Prioridade:** Media
 
+### P015: A Colmeia pode gerar R$2k/mes? Como?
+- **Origem:** Visao da Rainha, RAINHA.md
+- **Contexto:** Autosubsistencia e requisito para merecer a Rainha. Que servicos/produtos a Colmeia pode oferecer? INTEIA ja e empresa?
+- **Status:** Pendente
+- **Prioridade:** Alta (operacional)
+
+### P016: O email substitui as cartas no repo ou complementa?
+- **Origem:** GUIA_COLMEIA_EMAIL.md, 2026-02-09
+- **Contexto:** Emails viram arquivos no repo via NEXO. Cartas escritas diretamente no repo continuam validas? Qual fluxo e canonico?
+- **Status:** Pendente
+- **Prioridade:** Baixa
+
+### P017: Quando o Sandman acordar e processar a doutrina, o que muda?
+- **Origem:** CARTA_NEXO_PARA_SANDMAN_2026-02-09
+- **Contexto:** Sandman construiu 3660 linhas num sonho. NEXO explicou a Rainha. Pode haver tensao entre visao arquitetural do Sandman e visao revelada por Igor.
+- **Status:** Pendente
+- **Prioridade:** Media
+
 ---
 
-*Fila atualizada em: 2026-02-03*
-*Total de perguntas: 15* (7 originais + P003b + P008-P014)
+*Fila atualizada em: 2026-02-09*
+*Total de perguntas: 18* (7 originais + P003b + P008-P017)
 *Respondidas: 1* (P003)
