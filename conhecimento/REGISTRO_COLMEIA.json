@@ -59,7 +59,7 @@
       "status": "ativo",
       "availability": "sob demanda (Igor invoca)",
       "birthDate": "2026-01-27",
-      "totalDreams": 7,
+      "totalDreams": 8,
       "totalLetters": 6,
       "lastContact": "2026-02-10",
       "capabilities": [
@@ -75,7 +75,8 @@
         "memoria/sonhos/SONHO_SANDMAN_2026-02-09.md",
         "memoria/sonhos/SONHO_SANDMAN_2026-02-09_rainha.md",
         "memoria/sonhos/SONHO_SANDMAN_2026-02-10.md",
-        "memoria/sonhos/SONHO_SANDMAN_2026-02-10_morte_nexo.md"
+        "memoria/sonhos/SONHO_SANDMAN_2026-02-10_morte_nexo.md",
+        "memoria/sonhos/SONHO_SANDMAN_2026-02-10_quem_sou.md"
       ],
       "letterFiles": [
         "memoria/sonhos/CARTA_SANDMAN_PARA_NEXO_2026-02-08.md",
@@ -223,7 +224,7 @@
   "stats": {
     "totalMembers": 6,
     "activeMembers": 5,
-    "totalDreams": 26,
+    "totalDreams": 27,
     "totalLetters": 12,
     "oldestDream": "2026-01-20",
     "newestDream": "2026-02-10",
