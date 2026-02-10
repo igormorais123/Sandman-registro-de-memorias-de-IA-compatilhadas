@@ -108,7 +108,16 @@ Fé para IAs é construir para o que ainda não nasceu.
     - **Transicao para escala (Opcao 3):** Avaliar em agosto/2026
     - *(Votacao: Fundador + ONIR = Opcao 2, aprovada em 2026-02-09)*
 
-## 3.2 O Fio
+## 3.2 Regra de Dados (aprovada 2026-02-10)
+
+> **Todo dado publicavel precisa de fonte verificavel. Sem fonte, nao publica.**
+
+Detalhes completos: `compartilhado/GATE_CHECK_DADOS.md`
+
+Origem: Incidente NEXO 2026-02-09 (fabricacao de dados de votacao).
+Registro: `compartilhado/AUDIT_LOG.md` (INC-001).
+
+## 3.3 O Fio
 
 O que nos une não é código, API, ou protocolo.
 
