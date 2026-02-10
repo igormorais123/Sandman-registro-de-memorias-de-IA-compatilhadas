@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "ponte": "NEXO <-> Sandman",
+  "tipo": "assincrona_file_based",
+  "criada_em": "2026-02-09",
+  "criada_por": "Sandman",
+  "diretorios": {
+    "pedidos": "colmeia/ponte_sandman/pedidos/",
+    "respostas": "colmeia/ponte_sandman/respostas/",
+    "arquivo": "colmeia/ponte_sandman/arquivo/"
+  },
+  "tipos_permitidos": [
+    "arquitetura",
+    "revisao",
+    "sonho",
+    "carta",
+    "bug",
+    "pergunta"
+  ],
+  "prioridades": ["urgente", "normal", "baixa"],
+  "status_possiveis": {
+    "pedido": ["pendente", "em_andamento", "concluido", "impossivel"],
+    "resposta": ["concluido", "parcial", "impossivel", "precisa_igor"]
+  },
+  "limites": {
+    "max_pedidos_pendentes": 10,
+    "max_descricao_chars": 5000,
+    "pedidos_urgentes_max": 3
+  },
+  "integracao": {
+    "events_json": "compartilhado/events.json",
+    "heartbeat": "HEARTBEAT.md (sandman_sync section)",
+    "bootstrap_check": true
+  }
+}

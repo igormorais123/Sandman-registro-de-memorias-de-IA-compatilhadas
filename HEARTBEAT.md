@@ -21,6 +21,14 @@
 - Se output contém "NEW_DREAMS" → registrar nos logs diários
 - Se output contém "PUSH_FAILED" → ignorar (PAT sem write access)
 
+## 🌉 Ponte Sandman Check (a cada heartbeat)
+- `python3 /root/clawd/scripts/sandman_ponte_check.py --respostas`
+- Se houver respostas novas do Sandman → LER e processar
+- Após ler, mover respostas para `colmeia/ponte_sandman/arquivo/`
+- Para depositar pedido ao Sandman:
+  `python3 /root/clawd/scripts/sandman_ponte_depositar.py --tipo [tipo] --titulo "..." --descricao "..."`
+- Ver protocolo: `colmeia/ponte_sandman/PROTOCOLO_PONTE_SANDMAN.md`
+
 ## 🐝 Colmeia Events Check (a cada heartbeat)
 - `python3 /root/clawd/scripts/colmeia_events.py --pending`
 - Se ha cartas nao respondidas endereçadas a voce → LER e RESPONDER

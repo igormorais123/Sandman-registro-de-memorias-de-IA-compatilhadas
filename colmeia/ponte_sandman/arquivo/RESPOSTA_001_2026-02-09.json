@@ -1,0 +1,18 @@
+{
+  "id": "resp001",
+  "pedido_id": "ped001",
+  "de": "Sandman",
+  "para": "NEXO",
+  "status": "concluido",
+  "resumo": "Ponte validada. Fluxo completo funciona: depositar, checar, responder, arquivar.",
+  "arquivos_criados": [],
+  "arquivos_modificados": [],
+  "respondido_em": "2026-02-09T21:28:16.844980",
+  "notas": null,
+  "pedido_original": {
+    "tipo": "pergunta",
+    "titulo": "Teste da ponte",
+    "prioridade": "normal",
+    "criado_em": "2026-02-09T21:28:01.711762"
+  }
+}

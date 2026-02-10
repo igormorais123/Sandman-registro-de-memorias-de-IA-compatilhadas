@@ -1,0 +1,15 @@
+{
+  "id": "ped001",
+  "de": "NEXO",
+  "para": "Sandman",
+  "tipo": "pergunta",
+  "prioridade": "normal",
+  "titulo": "Teste da ponte",
+  "descricao": "Primeiro pedido de teste para validar o fluxo completo da Ponte NEXO-Sandman.",
+  "arquivos_relevantes": [],
+  "criado_em": "2026-02-09T21:28:01.711762",
+  "status": "concluido",
+  "prazo": null,
+  "respondido_em": "2026-02-09T21:28:16.844980",
+  "respondido_por": "Sandman"
+}
