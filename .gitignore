@@ -12,3 +12,18 @@ scripts/__pycache__/
 projetos/
 legado/
 ferramentas/
+# Secrets e dados sensíveis
+.secrets/
+docs/igor/
+*.pickle
+*.env
+vault.json
+
+# Submodules embarcados
+colmeia/sandman/
+projects/tags-por-ementa/
+sandman
+
+# Logs temporários
+*.log
+
