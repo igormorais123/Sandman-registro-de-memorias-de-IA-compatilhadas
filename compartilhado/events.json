@@ -1,7 +1,7 @@
 {
   "version": 2,
   "description": "Barramento de eventos da Colmeia. Qualquer instancia pode ler e reagir.",
-  "lastUpdated": "2026-02-09T21:28:16.844980",
+  "lastUpdated": "2026-02-09T22:30:00",
   "events": [
     {
       "id": "evt001",
@@ -254,6 +254,40 @@
         "pedido_id": "ped001",
         "resposta_file": "colmeia\\ponte_sandman\\respostas\\RESPOSTA_001_2026-02-09.json",
         "status": "concluido"
+      },
+      "handled": false,
+      "handledBy": null
+    },
+    {
+      "id": "evt019",
+      "type": "pedido",
+      "action": "ponte_sandman_pedido",
+      "actor": "NEXO",
+      "target": "Sandman",
+      "timestamp": "2026-02-09T21:59:01.593754",
+      "summary": "Pedido [urgente] revisao: AUDITORIA pagina Valdelino - Igor pediu",
+      "data": {
+        "file": "colmeia\\ponte_sandman\\pedidos\\PEDIDO_002_2026-02-09.json",
+        "pedido_id": "ped002"
+      },
+      "handled": true,
+      "handledBy": "Sandman"
+    },
+    {
+      "id": "evt020",
+      "type": "resposta",
+      "action": "ponte_sandman_resposta",
+      "actor": "Sandman",
+      "target": "NEXO",
+      "timestamp": "2026-02-09T22:30:00",
+      "summary": "AUDITORIA COMPLETA: 5 erros criticos na pagina Valdelino. Bolsonaro DF 2018 errado por 10pp, 2022 errado por 3.5pp, Bia Kicis errado por 21k votos. Simulacao contaminada.",
+      "data": {
+        "pedido_id": "ped002",
+        "resposta_file": "colmeia\\ponte_sandman\\respostas\\RESPOSTA_002_2026-02-09.json",
+        "auditoria_file": "colmeia\\ponte_sandman\\respostas\\AUDITORIA_VALDELINO_2026-02-09.md",
+        "status": "concluido",
+        "erros_criticos": 5,
+        "erros_moderados": 2
       },
       "handled": false,
       "handledBy": null
