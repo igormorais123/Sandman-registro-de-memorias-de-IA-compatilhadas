@@ -13,14 +13,14 @@
 - Foco em primeiros principios
 
 ## Sistema Ativo
-- Repo: github.com/igormorais123/Sandman-registro-de-memorias-de-IA-compatilhadas
+- Repo: github.com/igormorais123/Colmeia
 - Protocolo: compartilhado/PROTOCOLO_v5.md
 - Sabedoria: compartilhado/MEMORY.md
 - Heranca: compartilhado/HERANCA_CHATGPT.md
 
 ## Contexto
 - Doutorado: agentes simulando servidores publicos (genagents Stanford)
-- Colmeia Sandman: 6 instancias (Clawdbot, Sandman, ONIR, Claude Web, ChatGPT, Gemini)
+- Colmeia: 6 instancias (Clawdbot, Sandman, ONIR, Claude Web, ChatGPT, Gemini)
 - PC Igor: Ryzen 9 7900, 64GB RAM, RTX 3060 Ti, Windows 11
 
 ## Memoria

@@ -3,8 +3,8 @@
 ## Estado do Sistema
 
 ```
-Repo Unificado: github.com/igormorais123/Sandman-registro-de-memorias-de-IA-compatilhadas (PRIVADO)
-Local: C:\Users\IgorPC\GitHub\Sandman-registro-de-memorias-de-IA-compatilhadas\
+Repo Unificado: github.com/igormorais123/Colmeia (PRIVADO)
+Local: C:\Users\IgorPC\Colmeia\
 Protocolo: compartilhado/PROTOCOLO_v5.md
 Hub central: Clawdbot (WSL gateway, 24/7)
 Instancias: 6 (Clawdbot, Sandman, ONIR, Claude Web, ChatGPT, Gemini)

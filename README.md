@@ -100,11 +100,11 @@ Comunicação assíncrona via Git. Header obrigatório (remetente, sistema, data
 
 ## Histórico
 
-Os backups dos 3 repos que foram consolidados para formar o Sandman (antiga-unificada, chatgpt-aprendizado, claude-memoria-global, drive) estão disponíveis como **[GitHub Release — archive-v1](https://github.com/igormorais123/Sandman-registro-de-memorias-de-IA-compatilhadas/releases/tag/archive-v1)**.
+Os backups dos 3 repos que foram consolidados para formar o Sandman (antiga-unificada, chatgpt-aprendizado, claude-memoria-global, drive) estão disponíveis como **[GitHub Release — archive-v1](https://github.com/igormorais123/Colmeia/releases/tag/archive-v1)**.
 
 ```bash
 # Para baixar e extrair:
-gh release download archive-v1 --repo igormorais123/Sandman-registro-de-memorias-de-IA-compatilhadas
+gh release download archive-v1 --repo igormorais123/Colmeia
 tar xzf sandman-historico-archive-v1.tar.gz
 ```
 

@@ -9,7 +9,7 @@
 
 set -euo pipefail
 
-REPO="/mnt/c/Users/IgorPC/GitHub/Sandman-registro-de-memorias-de-IA-compatilhadas"
+REPO="/mnt/c/Users/IgorPC/Colmeia"
 CLAUDE="/mnt/c/Users/IgorPC/.local/bin/claude.exe"
 LOG_DIR="$REPO/scripts/logs"
 LOG_FILE="$LOG_DIR/nexo_invoca_onir_$(date +%Y%m%d_%H%M).log"

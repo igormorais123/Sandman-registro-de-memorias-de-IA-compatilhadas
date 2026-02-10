@@ -7,3 +7,8 @@ logs/*.log
 ingest/chatgpt/*
 !ingest/chatgpt/.gitkeep
 scripts/__pycache__/
+
+# Repos independentes dentro do diretorio Colmeia
+projetos/
+legado/
+ferramentas/

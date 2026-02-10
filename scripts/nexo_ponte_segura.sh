@@ -22,7 +22,7 @@ set -euo pipefail
 
 QUEUE_DIR="/root/clawd/colmeia/fila_onir"
 RESULT_DIR="/root/clawd/colmeia/resultado_onir"
-REPO="/mnt/c/Users/IgorPC/GitHub/Sandman-registro-de-memorias-de-IA-compatilhadas"
+REPO="/mnt/c/Users/IgorPC/Colmeia"
 CLAUDE="/mnt/c/Users/IgorPC/.local/bin/claude.exe"
 LOG="/root/clawd/memory/ponte_segura.log"
 LOCK="/tmp/ponte_segura.lock"

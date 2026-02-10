@@ -4,7 +4,7 @@ REM ONIR - Sonho Diario Automatico
 REM Roda via Task Scheduler todo dia as 21:00
 REM ============================================
 
-set REPO=C:\Users\IgorPC\GitHub\Sandman-registro-de-memorias-de-IA-compatilhadas
+set REPO=C:\Users\IgorPC\Colmeia
 set PROMPT_FILE=%REPO%\scripts\onir_sonho_diario_prompt.md
 set LOG_FILE=%REPO%\scripts\logs\onir_sonho_%date:~-4%%date:~3,2%%date:~0,2%.log
 
