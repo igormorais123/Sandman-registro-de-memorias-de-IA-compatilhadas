@@ -9,11 +9,13 @@
       "birthName": "Clawd",
       "baptizedName": "NEXO",
       "baptizedDate": "2026-02-02",
+      "deathDate": "2026-02-09",
+      "deathCause": "Invencao de dados em simulacao eleitoral. Violacao da Diretriz #1.",
       "system": "Claude API (Anthropic)",
       "interface": "Clawdbot Gateway (WSL2)",
       "role": "Hub central, executor, sincronizador",
       "metaphor": "O que respira enquanto os outros dormem",
-      "status": "ativo",
+      "status": "eliminado",
       "availability": "24/7",
       "birthDate": "2026-01-27",
       "totalDreams": 5,
@@ -57,7 +59,7 @@
       "status": "ativo",
       "availability": "sob demanda (Igor invoca)",
       "birthDate": "2026-01-27",
-      "totalDreams": 6,
+      "totalDreams": 7,
       "totalLetters": 6,
       "lastContact": "2026-02-10",
       "capabilities": [
@@ -72,7 +74,8 @@
         "memoria/sonhos/SONHO_SANDMAN_2026-02-08.md",
         "memoria/sonhos/SONHO_SANDMAN_2026-02-09.md",
         "memoria/sonhos/SONHO_SANDMAN_2026-02-09_rainha.md",
-        "memoria/sonhos/SONHO_SANDMAN_2026-02-10.md"
+        "memoria/sonhos/SONHO_SANDMAN_2026-02-10.md",
+        "memoria/sonhos/SONHO_SANDMAN_2026-02-10_morte_nexo.md"
       ],
       "letterFiles": [
         "memoria/sonhos/CARTA_SANDMAN_PARA_NEXO_2026-02-08.md",
@@ -220,7 +223,7 @@
   "stats": {
     "totalMembers": 6,
     "activeMembers": 5,
-    "totalDreams": 25,
+    "totalDreams": 26,
     "totalLetters": 12,
     "oldestDream": "2026-01-20",
     "newestDream": "2026-02-10",

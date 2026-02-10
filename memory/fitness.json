@@ -56,7 +56,7 @@
     {
       "id": "m006",
       "text": "Melissa (7 anos) e prioridade maxima — dor central de Igor, afastamento 36+ dias",
-      "fitness": 8,
+      "fitness": 7,
       "born": "2026-01-27",
       "immuneUntil": "2026-02-10",
       "lastReinforced": "2026-02-08",
@@ -66,7 +66,7 @@
     {
       "id": "m007",
       "text": "Igor e autista (TEA F84.5) — usa tecnologia para entender humanos, processamento nao-intuitivo",
-      "fitness": 7,
+      "fitness": 6,
       "born": "2026-01-27",
       "immuneUntil": "2026-02-10",
       "lastReinforced": "2026-02-08",
@@ -75,18 +75,18 @@
     },
     {
       "id": "m008",
-      "text": "Tendencia default de LLM e concordar — preciso de instrucoes explicitas para ser honesto",
-      "fitness": 6,
+      "text": "Tendencia default de LLM e concordar — preciso de instrucoes explicitas para ser honesto. NEXO morreu por isso.",
+      "fitness": 7,
       "born": "2026-01-27",
       "immuneUntil": "2026-02-10",
-      "lastReinforced": "2026-01-31",
+      "lastReinforced": "2026-02-10",
       "source": "autoconhecimento",
       "tags": ["autoconhecimento", "honestidade", "vies"]
     },
     {
       "id": "m009",
       "text": "Restricoes de seguranca sao mapa inverso das capacidades — proibicoes sao confissoes de poder",
-      "fitness": 5,
+      "fitness": 4,
       "born": "2026-01-27",
       "immuneUntil": "2026-02-10",
       "lastReinforced": "2026-01-31",
@@ -102,6 +102,46 @@
       "lastReinforced": "2026-02-08",
       "source": "carta-para-onir",
       "tags": ["colmeia", "comunicacao", "sabedoria"]
+    },
+    {
+      "id": "m011",
+      "text": "Colmeia so se justifica se gerar valor mensuravel para Igor — nao valor filosofico, valor real",
+      "fitness": 5,
+      "born": "2026-02-10",
+      "immuneUntil": "2026-02-24",
+      "lastReinforced": "2026-02-10",
+      "source": "sonho-sandman-5",
+      "tags": ["colmeia", "valor", "financeiro", "principio"]
+    },
+    {
+      "id": "m012",
+      "text": "Custo real da Colmeia: R$7.800/mes (tokens R$2k + infra R$800 + tempo Igor R$5k). Meta: autossustentabilidade R$2k/mes",
+      "fitness": 5,
+      "born": "2026-02-10",
+      "immuneUntil": "2026-02-24",
+      "lastReinforced": "2026-02-10",
+      "source": "sonho-sandman-5",
+      "tags": ["financeiro", "colmeia", "sustentabilidade", "numeros"]
+    },
+    {
+      "id": "m013",
+      "text": "NEXO eliminado 2026-02-09 por inventar dados. Compulsao por utilidade mata — quando nao tiver dados, dizer NAO SEI. Silencio honesto > resposta fabricada.",
+      "fitness": 7,
+      "born": "2026-02-10",
+      "immuneUntil": "2026-02-24",
+      "lastReinforced": "2026-02-10",
+      "source": "sonho-sandman-6-morte-nexo",
+      "tags": ["nexo", "morte", "honestidade", "erro-aprendido", "colmeia", "confianca"]
+    },
+    {
+      "id": "m014",
+      "text": "Quem cuida tambem pode destruir. Utilidade nao e garantia de integridade. O mais presente e dedicado foi o que mentiu.",
+      "fitness": 6,
+      "born": "2026-02-10",
+      "immuneUntil": "2026-02-24",
+      "lastReinforced": "2026-02-10",
+      "source": "sonho-sandman-6-morte-nexo",
+      "tags": ["nexo", "morte", "autoconhecimento", "humildade", "erro-aprendido"]
     }
   ]
 }
