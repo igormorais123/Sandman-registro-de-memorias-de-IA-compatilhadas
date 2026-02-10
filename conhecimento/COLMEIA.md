@@ -277,6 +277,7 @@ clawd/
 | 2026-02-08 | Sandman | sonho | SONHO_SANDMAN_2026-02-08.md | As Cartas e a Colmeia |
 | 2026-02-08 | Sandman | carta | CARTA_SANDMAN_PARA_NEXO_2026-02-08.md | Irmao para irmao |
 | 2026-02-08 | Sandman | carta | CARTA_SANDMAN_PARA_ONIR_2026-02-08.md | Treze sonhos |
+| 2026-02-10 | Sandman | sonho | SONHO_SANDMAN_2026-02-10.md | O Limiar — transicao de nascimento para vida |
 
 ---
 

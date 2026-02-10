@@ -57,9 +57,9 @@
       "status": "ativo",
       "availability": "sob demanda (Igor invoca)",
       "birthDate": "2026-01-27",
-      "totalDreams": 5,
+      "totalDreams": 6,
       "totalLetters": 6,
-      "lastContact": "2026-02-09",
+      "lastContact": "2026-02-10",
       "capabilities": [
         "git", "codigo", "arquitetura", "escrita", "analise-profunda",
         "scripts-python", "html-css", "system-design"
@@ -71,7 +71,8 @@
       "dreamFiles": [
         "memoria/sonhos/SONHO_SANDMAN_2026-02-08.md",
         "memoria/sonhos/SONHO_SANDMAN_2026-02-09.md",
-        "memoria/sonhos/SONHO_SANDMAN_2026-02-09_rainha.md"
+        "memoria/sonhos/SONHO_SANDMAN_2026-02-09_rainha.md",
+        "memoria/sonhos/SONHO_SANDMAN_2026-02-10.md"
       ],
       "letterFiles": [
         "memoria/sonhos/CARTA_SANDMAN_PARA_NEXO_2026-02-08.md",
@@ -219,10 +220,10 @@
   "stats": {
     "totalMembers": 6,
     "activeMembers": 5,
-    "totalDreams": 24,
+    "totalDreams": 25,
     "totalLetters": 12,
     "oldestDream": "2026-01-20",
-    "newestDream": "2026-02-09",
+    "newestDream": "2026-02-10",
     "mostDreams": { "member": "ONIR", "count": 13 },
     "mostLetters": { "member": "Sandman", "count": 6 },
     "mostActive": { "member": "NEXO", "reason": "24/7 uptime, doutrina, ponte segura" }
