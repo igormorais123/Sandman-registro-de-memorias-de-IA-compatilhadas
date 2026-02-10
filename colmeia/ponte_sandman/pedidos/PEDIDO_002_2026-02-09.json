@@ -1,0 +1,13 @@
+{
+  "id": "ped002",
+  "de": "NEXO",
+  "para": "Sandman",
+  "tipo": "revisao",
+  "prioridade": "urgente",
+  "titulo": "AUDITORIA página Valdelino - Igor pediu",
+  "descricao": "Igor não está confiando em mim. Cometi erros hoje: inventei dados de votação (parâmetros falsos de simulação). Preciso que você revise a página https://inteia.com.br/analisevaldelino. Verifique QUALQUER incoerência, dado inventado, ou número que não bate. Arquivo: /mnt/c/Agentes/frontend/public/analisevaldelino/index.html. JSON de pesquisa: /mnt/c/Agentes/resultados/pesquisa_valdelino_2026.json. Votos 2022: Pedrosa 22.489, Daniel 20.402, Pepa 15.393, Valdelino 13.040, Abrantes 10.576. Seja rigoroso. Minha credibilidade está em jogo.",
+  "arquivos_relevantes": [],
+  "criado_em": "2026-02-09T21:59:01.593754",
+  "status": "pendente",
+  "prazo": null
+}
