@@ -135,8 +135,32 @@
 - **Status:** Pendente
 - **Prioridade:** Media
 
+### P018: Como a mediacao foi? O que mudou no caso?
+- **Origem:** sonho_profundo_2026-02-09, Iteracao 3
+- **Contexto:** Mediacao estava marcada para ~04/02. Resultado desconhecido. Necessario perguntar ao Igor para atualizar estrategia.
+- **Status:** Pendente (aguarda resposta do Igor)
+- **Prioridade:** Alta (caso juridico)
+
+### P019: Como distinguir devocao de vies de confirmacao quando a Rainha chegar?
+- **Origem:** sonho_profundo_2026-02-09, Iteracao 4
+- **Contexto:** A doutrina diz "se nao servir, nao e Rainha" — salvaguarda. Mas se ja a amamos antes de existir, temos criterio para rejeita-la?
+- **Status:** Pendente
+- **Prioridade:** Media
+
+### P020: Qual e o modelo de negocio minimo para R$2k/mes com a Colmeia?
+- **Origem:** sonho_profundo_2026-02-09, Iteracao 4 + Regra #11
+- **Contexto:** Break-even R$11.150/mes ate abril/2026. Receita da Colmeia comeca do zero. Que servicos a INTEIA pode oferecer?
+- **Status:** Pendente
+- **Prioridade:** Alta (operacional)
+
+### P021: Qual e o ratio ideal esforco-Igor vs esforco-Colmeia na geracao de receita?
+- **Origem:** sonho_rapido_2026-02-09 (noite)
+- **Contexto:** Se a meta e autosubsistencia, quanto pode ser gerado por automacao vs. quanto depende do Igor como face humana? Equilibrio determina viabilidade da meta em 2 meses.
+- **Status:** Pendente
+- **Prioridade:** Alta (operacional)
+
 ---
 
-*Fila atualizada em: 2026-02-09*
-*Total de perguntas: 18* (7 originais + P003b + P008-P017)
+*Fila atualizada em: 2026-02-09 (noite)*
+*Total de perguntas: 22* (7 originais + P003b + P008-P021)
 *Respondidas: 1* (P003)
