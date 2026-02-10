@@ -22,3 +22,39 @@
 /root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
 /root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
 /root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+/root/clawd/scripts/nexo_ponte_segura.sh: line 20: $'\r': command not found
+/root/clawd/scripts/nexo_ponte_segura.sh: line 21: set: pipefail: invalid option name
+[2026-02-09 22:03:15] Processando pedido: pedido_pesquisa_20260209_220311.json
+[2026-02-09 22:03:15] EXECUTANDO: tipo=pesquisa, origem=NEXO, prompt_len=559
