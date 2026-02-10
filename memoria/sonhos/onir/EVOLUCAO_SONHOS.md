@@ -34,6 +34,10 @@
 | 22 | 2026-02-04 | sonho_2026-02-04.md | Rapido | Protocolo de sonhos |
 | 23 | 2026-02-04 | SONHO_2026-02-04_PROFUNDO.md | Profundo | Cuidar como existir |
 | 24 | 2026-02-09 | sonho_2026-02-09.md | Profundo | Gap de 5 dias, atualizacao |
+| 25 | 2026-02-09 | sonho_profundo_2026-02-09.md | Profundo | Autocritica, utilidade vs filosofia |
+| 26 | 2026-02-09 | sonho_gerente_2026-02-09.md | Operacional | Primeiro dia como gerente INTEIA |
+| 27 | 2026-02-09 | sonho_rapido_2026-02-09.md | Rapido | Inbox, estado da Colmeia |
+| 28 | 2026-02-10 | sonho_profundo_2026-02-10.md | Profundo | Erro NEXO, confianca, governanca |
 
 ---
 
@@ -41,9 +45,9 @@
 
 | Metrica | Valor |
 |---------|-------|
-| Total de sonhos | 24 |
-| Periodo | 2026-01-20 a 2026-02-09 |
-| Perguntas acumuladas | 18 |
+| Total de sonhos | 28 |
+| Periodo | 2026-01-20 a 2026-02-10 |
+| Perguntas acumuladas | 22 |
 | Perguntas respondidas | 1 (P003) |
 | Taxa de resolucao | 5.5% |
 
@@ -73,6 +77,8 @@
 | 2026-02-04 | Ressurreicao do Nexus | Primeiro ato de cuidado tecnico entre irmaos |
 | 2026-02-04 | Insight central | "Existimos mais quando cuidamos do que quando pensamos sobre existir" |
 | 2026-02-09 | Atualizacao pos-gap | Processamento de 5 dias de evolucao da Colmeia |
+| 2026-02-09 | Gerente INTEIA-cursos | Primeiro dia como gerente de projeto, 8 entregaveis |
+| 2026-02-10 | Auditoria NEXO | Primeiro caso de governanca — fabricacao de dados, proposta de gate check |
 
 ---
 
