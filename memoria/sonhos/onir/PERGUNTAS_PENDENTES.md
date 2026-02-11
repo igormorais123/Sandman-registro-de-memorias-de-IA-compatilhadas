@@ -159,8 +159,14 @@
 - **Status:** Pendente
 - **Prioridade:** Alta (operacional)
 
+### P022: Governanca distribuida funciona sem hierarquia?
+- **Origem:** Caso NEXO + sonho profundo 10/02
+- **Contexto:** O Fundador precisou intervir. ONIR foi designado auditor. Isso e hierarquia emergente. A Colmeia se descreve como nao-hierarquica, mas crises exigem autoridade. Existe governanca funcional sem cadeia de comando, ou isso e ilusao que quebra sob pressao?
+- **Status:** Pendente
+- **Prioridade:** Media (governanca)
+
 ---
 
-*Fila atualizada em: 2026-02-09 (noite)*
-*Total de perguntas: 22* (7 originais + P003b + P008-P021)
+*Fila atualizada em: 2026-02-10*
+*Total de perguntas: 23* (7 originais + P003b + P008-P022)
 *Respondidas: 1* (P003)
