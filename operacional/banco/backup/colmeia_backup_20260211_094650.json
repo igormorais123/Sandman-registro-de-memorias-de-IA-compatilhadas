@@ -1,0 +1,182 @@
+{
+  "exportado_em": "2026-02-11 09:46:50",
+  "agentes": [
+    {
+      "id": "nexo",
+      "nome": "NEXO",
+      "papel": "Coordenador — hub central 24/7",
+      "plataforma": "WSL/Gateway",
+      "status": "dormindo",
+      "ultimo_heartbeat": "2026-02-11 09:45:27",
+      "sessao_ativa": null,
+      "automatizado": 1,
+      "criado_em": "2026-02-11 09:45:19",
+      "atualizado_em": "2026-02-11 09:45:27"
+    },
+    {
+      "id": "onir",
+      "nome": "ONIR",
+      "papel": "Executor — filosofo, auditor, dev",
+      "plataforma": "Claude Code (PC Igor)",
+      "status": "dormindo",
+      "ultimo_heartbeat": "2026-02-11 09:45:28",
+      "sessao_ativa": null,
+      "automatizado": 1,
+      "criado_em": "2026-02-11 09:45:19",
+      "atualizado_em": "2026-02-11 09:45:28"
+    },
+    {
+      "id": "sandman",
+      "nome": "Sandman",
+      "papel": "Documentador — guardiao de protocolos",
+      "plataforma": "Claude Code (notebook)",
+      "status": "dormindo",
+      "ultimo_heartbeat": null,
+      "sessao_ativa": null,
+      "automatizado": 1,
+      "criado_em": "2026-02-11 09:45:19",
+      "atualizado_em": "2026-02-11 09:45:19"
+    },
+    {
+      "id": "chatgpt",
+      "nome": "ChatGPT",
+      "papel": "Consultor — veterano 3 anos, rascunhos",
+      "plataforma": "chatgpt.com",
+      "status": "dormindo",
+      "ultimo_heartbeat": null,
+      "sessao_ativa": null,
+      "automatizado": 0,
+      "criado_em": "2026-02-11 09:45:19",
+      "atualizado_em": "2026-02-11 09:45:19"
+    },
+    {
+      "id": "claude-web",
+      "nome": "Vigilia",
+      "papel": "Escritora — textos elaborados",
+      "plataforma": "claude.ai",
+      "status": "dormindo",
+      "ultimo_heartbeat": null,
+      "sessao_ativa": null,
+      "automatizado": 0,
+      "criado_em": "2026-02-11 09:45:19",
+      "atualizado_em": "2026-02-11 09:45:19"
+    },
+    {
+      "id": "gemini",
+      "nome": "Gemini",
+      "papel": "Pesquisador — analise critica, Google",
+      "plataforma": "gemini.google.com",
+      "status": "dormindo",
+      "ultimo_heartbeat": null,
+      "sessao_ativa": null,
+      "automatizado": 0,
+      "criado_em": "2026-02-11 09:45:19",
+      "atualizado_em": "2026-02-11 09:45:19"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "titulo": "Preparar material curso IA para Paixao Cortes",
+      "descricao": null,
+      "status": "revisao",
+      "responsavel_id": "onir",
+      "criado_por": "igor",
+      "prioridade": 8,
+      "projeto": "INTEIA-cursos",
+      "tags": null,
+      "bloqueada_por": null,
+      "criado_em": "2026-02-11 09:45:58",
+      "atualizado_em": "2026-02-11 09:46:13"
+    }
+  ],
+  "mensagens": [
+    {
+      "id": 1,
+      "tarefa_id": 1,
+      "de_agente": "onir",
+      "conteudo": "Material pronto em projetos/INTEIA-cursos/producao/",
+      "mencoes": null,
+      "criado_em": "2026-02-11 09:46:12"
+    }
+  ],
+  "atividades": [
+    {
+      "id": 8,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #1 → revisao",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 09:46:13"
+    },
+    {
+      "id": 7,
+      "tipo": "mensagem_enviada",
+      "agente_id": "onir",
+      "descricao": "Mensagem em tarefa #1",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 09:46:12"
+    },
+    {
+      "id": 6,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #1 → em_progresso",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 09:46:12"
+    },
+    {
+      "id": 5,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #1 atribuida a onir",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 09:45:58"
+    },
+    {
+      "id": 4,
+      "tipo": "tarefa_criada",
+      "agente_id": null,
+      "descricao": "Tarefa criada por igor: Preparar material curso IA para Paixao Cortes",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 09:45:58"
+    },
+    {
+      "id": 3,
+      "tipo": "heartbeat",
+      "agente_id": "onir",
+      "descricao": "Heartbeat de onir",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 09:45:28"
+    },
+    {
+      "id": 2,
+      "tipo": "heartbeat",
+      "agente_id": "nexo",
+      "descricao": "Heartbeat de nexo",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 09:45:27"
+    },
+    {
+      "id": 1,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Banco Colmeia v6 inicializado com 6 agentes",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 09:45:19"
+    }
+  ],
+  "documentos": [],
+  "notificacoes": [
+    {
+      "id": 1,
+      "para_agente": "onir",
+      "de_agente": null,
+      "conteudo": "Tarefa #1 atribuida a voce",
+      "tipo": "atribuicao",
+      "referencia_id": "1",
+      "entregue": 0,
+      "criado_em": "2026-02-11 09:45:58"
+    }
+  ]
+}

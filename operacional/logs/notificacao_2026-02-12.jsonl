@@ -136,3 +136,4 @@
 {"timestamp": "2026-02-12T11:16:01.938068", "modo": "online", "agentes_online": ["nexo", "onir", "sandman", "helena"], "stats": {"total": 0, "entregues": 0, "reprogramadas": 0, "falhas_finais": 0, "ignoradas": 0}, "duracao_ms": 10}
 {"timestamp": "2026-02-12T11:21:01.972693", "modo": "online", "agentes_online": ["nexo", "onir", "sandman", "helena"], "stats": {"total": 0, "entregues": 0, "reprogramadas": 0, "falhas_finais": 0, "ignoradas": 0}, "duracao_ms": 11}
 {"timestamp": "2026-02-12T11:26:01.954988", "modo": "online", "agentes_online": ["nexo", "onir", "sandman", "helena"], "stats": {"total": 0, "entregues": 0, "reprogramadas": 0, "falhas_finais": 0, "ignoradas": 0}, "duracao_ms": 11}
+{"timestamp": "2026-02-12T20:56:01.988844", "modo": "online", "agentes_online": ["nexo", "onir", "sandman", "helena"], "stats": {"total": 0, "entregues": 0, "reprogramadas": 0, "falhas_finais": 0, "ignoradas": 0}, "duracao_ms": 13}

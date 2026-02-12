@@ -1,0 +1,2911 @@
+{
+  "exportado_em": "2026-02-11 19:06:12",
+  "agentes": [
+    {
+      "id": "nexo",
+      "nome": "NEXO",
+      "papel": "Coordenador — hub central 24/7",
+      "plataforma": "WSL/Gateway",
+      "status": "dormindo",
+      "ultimo_heartbeat": "2026-02-11 19:01:54",
+      "sessao_ativa": null,
+      "automatizado": 1,
+      "criado_em": "2026-02-11 09:51:30",
+      "atualizado_em": "2026-02-11 19:01:54"
+    },
+    {
+      "id": "onir",
+      "nome": "ONIR",
+      "papel": "Executor — filosofo, auditor, dev",
+      "plataforma": "Claude Code (PC Igor)",
+      "status": "dormindo",
+      "ultimo_heartbeat": "2026-02-11 19:02:01",
+      "sessao_ativa": null,
+      "automatizado": 1,
+      "criado_em": "2026-02-11 09:51:30",
+      "atualizado_em": "2026-02-11 19:02:01"
+    },
+    {
+      "id": "sandman",
+      "nome": "Sandman",
+      "papel": "Documentador — guardiao de protocolos",
+      "plataforma": "Claude Code (notebook)",
+      "status": "dormindo",
+      "ultimo_heartbeat": "2026-02-11 19:04:02",
+      "sessao_ativa": null,
+      "automatizado": 1,
+      "criado_em": "2026-02-11 09:51:30",
+      "atualizado_em": "2026-02-11 19:04:02"
+    },
+    {
+      "id": "chatgpt",
+      "nome": "ChatGPT",
+      "papel": "Consultor — veterano 3 anos, rascunhos",
+      "plataforma": "chatgpt.com",
+      "status": "dormindo",
+      "ultimo_heartbeat": null,
+      "sessao_ativa": null,
+      "automatizado": 0,
+      "criado_em": "2026-02-11 09:51:30",
+      "atualizado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": "claude-web",
+      "nome": "Vigilia",
+      "papel": "Escritora — textos elaborados",
+      "plataforma": "claude.ai",
+      "status": "dormindo",
+      "ultimo_heartbeat": null,
+      "sessao_ativa": null,
+      "automatizado": 0,
+      "criado_em": "2026-02-11 09:51:30",
+      "atualizado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": "gemini",
+      "nome": "Gemini",
+      "papel": "Pesquisador — analise critica, Google",
+      "plataforma": "gemini.google.com",
+      "status": "dormindo",
+      "ultimo_heartbeat": null,
+      "sessao_ativa": null,
+      "automatizado": 0,
+      "criado_em": "2026-02-11 09:51:30",
+      "atualizado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": "helena",
+      "nome": "Helena",
+      "papel": "Pesquisadora — cientista-chefe INTEIA, inteligencia eleitoral",
+      "plataforma": "INTEIA (C:\\Agentes) + Colmeia v6",
+      "status": "dormindo",
+      "ultimo_heartbeat": "2026-02-11 19:06:01",
+      "sessao_ativa": null,
+      "automatizado": 1,
+      "criado_em": "2026-02-11 19:03:32",
+      "atualizado_em": "2026-02-11 19:06:01"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "titulo": "Completar heartbeat escalonado para 3 agentes piloto",
+      "descricao": "Configurar cron/scheduler para executar heartbeat_runner.py a cada 30min para NEXO(:00), ONIR(:02), Sandman(:04)",
+      "status": "em_progresso",
+      "responsavel_id": "nexo",
+      "criado_por": "igor",
+      "prioridade": 9,
+      "projeto": "colmeia-v6",
+      "tags": "[\"infraestrutura\", \"fase1\"]",
+      "bloqueada_por": null,
+      "criado_em": "2026-02-11 14:34:51",
+      "atualizado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 2,
+      "titulo": "Validar fluxo completo task: criar-atribuir-executar-revisar-concluir",
+      "descricao": "Teste E2E do sistema de tarefas. Criar tarefa, atribuir a agente, agente aceita e executa, posta resultado, move para revisao, Igor aprova.",
+      "status": "concluida",
+      "responsavel_id": "onir",
+      "criado_por": "igor",
+      "prioridade": 9,
+      "projeto": "colmeia-v6",
+      "tags": "[\"teste\", \"fase1\"]",
+      "bloqueada_por": null,
+      "criado_em": "2026-02-11 14:34:58",
+      "atualizado_em": "2026-02-11 14:35:59"
+    },
+    {
+      "id": 3,
+      "titulo": "Migrar backend Colmeia para FastAPI no Render",
+      "descricao": "Estender API existente em api.inteia.com.br com modulo /colmeia. Criar 6 tabelas PostgreSQL, implementar rotas REST, autenticacao e RBAC minimo.",
+      "status": "caixa_entrada",
+      "responsavel_id": null,
+      "criado_por": "igor",
+      "prioridade": 7,
+      "projeto": "colmeia-v6",
+      "tags": "[\"backend\", \"producao\", \"fase2\"]",
+      "bloqueada_por": null,
+      "criado_em": "2026-02-11 14:35:10",
+      "atualizado_em": "2026-02-11 14:35:10"
+    },
+    {
+      "id": 4,
+      "titulo": "Criar dashboard Colmeia em inteia.com.br/colmeia",
+      "descricao": "Frontend em Vercel consumindo API. Dashboard com kanban, feed, standup, status de agentes.",
+      "status": "caixa_entrada",
+      "responsavel_id": null,
+      "criado_por": "igor",
+      "prioridade": 6,
+      "projeto": "colmeia-v6",
+      "tags": "[\"frontend\", \"producao\", \"fase2\"]",
+      "bloqueada_por": null,
+      "criado_em": "2026-02-11 14:35:10",
+      "atualizado_em": "2026-02-11 14:35:10"
+    },
+    {
+      "id": 5,
+      "titulo": "Soak test 7 dias - estabilidade do piloto",
+      "descricao": "Executar 7 dias de heartbeats continuos. Validar KPI >=90% sucesso. Gerar relatorio de estabilidade.",
+      "status": "caixa_entrada",
+      "responsavel_id": null,
+      "criado_por": "igor",
+      "prioridade": 8,
+      "projeto": "colmeia-v6",
+      "tags": "[\"teste\", \"fase1\"]",
+      "bloqueada_por": null,
+      "criado_em": "2026-02-11 14:35:10",
+      "atualizado_em": "2026-02-11 14:35:10"
+    },
+    {
+      "id": 6,
+      "titulo": "Pesquisar artigos masking autista para reconvencao",
+      "descricao": "Buscar 5+ artigos academicos sobre masking autista adultos, impacto em convivencia parental. Prioridade judicial.",
+      "status": "em_progresso",
+      "responsavel_id": "onir",
+      "criado_por": "igor",
+      "prioridade": 10,
+      "projeto": "reconvencao",
+      "tags": "[\"pesquisa\", \"judicial\", \"urgente\"]",
+      "bloqueada_por": null,
+      "criado_em": "2026-02-11 14:35:19",
+      "atualizado_em": "2026-02-11 14:35:31"
+    },
+    {
+      "id": 7,
+      "titulo": "Preparar modulo 1 INTEIA cursos IA",
+      "descricao": "Estruturar conteudo do modulo 1 do curso de IA da INTEIA. Definir ementa, exercicios, formato.",
+      "status": "em_progresso",
+      "responsavel_id": "sandman",
+      "criado_por": "igor",
+      "prioridade": 7,
+      "projeto": "INTEIA-cursos",
+      "tags": "[\"conteudo\", \"producao\"]",
+      "bloqueada_por": null,
+      "criado_em": "2026-02-11 14:35:19",
+      "atualizado_em": "2026-02-11 19:01:54"
+    },
+    {
+      "id": 8,
+      "titulo": "Teste daemon/subscription",
+      "descricao": null,
+      "status": "atribuida",
+      "responsavel_id": "onir",
+      "criado_por": "igor",
+      "prioridade": 9,
+      "projeto": "colmeia-v6",
+      "tags": null,
+      "bloqueada_por": null,
+      "criado_em": "2026-02-11 17:03:12",
+      "atualizado_em": "2026-02-11 17:03:12"
+    },
+    {
+      "id": 9,
+      "titulo": "P030 - colaboracao 3 agentes (2026-02-11 18:52:13)",
+      "descricao": "Teste colaborativo automatizado para P030",
+      "status": "atribuida",
+      "responsavel_id": "nexo",
+      "criado_por": "igor",
+      "prioridade": 8,
+      "projeto": "colmeia-v6",
+      "tags": "[\"p030\", \"teste\", \"colaboracao\"]",
+      "bloqueada_por": null,
+      "criado_em": "2026-02-11 18:52:13",
+      "atualizado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 10,
+      "titulo": "Estruturar pipeline de pesquisa INTEIA para Colmeia v6",
+      "descricao": "Conectar capacidades de pesquisa Helena (agentes sinteticos, POLARIS, analise quanti/quali) com o sistema Colmeia. Definir endpoints, fluxo de dados, e formato de relatorios.",
+      "status": "em_progresso",
+      "responsavel_id": "helena",
+      "criado_por": "igor",
+      "prioridade": 9,
+      "projeto": "INTEIA-pesquisa",
+      "tags": "[\"helena\", \"inteia\", \"pesquisa\", \"integracao\"]",
+      "bloqueada_por": null,
+      "criado_em": "2026-02-11 19:04:41",
+      "atualizado_em": "2026-02-11 19:04:45"
+    }
+  ],
+  "mensagens": [
+    {
+      "id": 1,
+      "tarefa_id": 2,
+      "de_agente": "onir",
+      "conteudo": "Teste E2E executado com sucesso. O heartbeat runner detecta tarefas atribuidas, aceita a de maior prioridade, atualiza WORKING.md e registra log JSONL. Sistema funcional.",
+      "mencoes": "[\"nexo\"]",
+      "criado_em": "2026-02-11 14:35:45"
+    },
+    {
+      "id": 2,
+      "tarefa_id": 8,
+      "de_agente": "nexo",
+      "conteudo": "Mensagem de teste com mencao",
+      "mencoes": "[\"sandman\"]",
+      "criado_em": "2026-02-11 17:03:12"
+    },
+    {
+      "id": 3,
+      "tarefa_id": 9,
+      "de_agente": "nexo",
+      "conteudo": "Abrindo thread colaborativa para P030.",
+      "mencoes": "[\"onir\", \"sandman\"]",
+      "criado_em": "2026-02-11 18:52:13"
+    }
+  ],
+  "atividades": [
+    {
+      "id": 177,
+      "tipo": "heartbeat",
+      "agente_id": "helena",
+      "descricao": "Heartbeat de helena",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 19:06:01"
+    },
+    {
+      "id": 176,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #12 entregue por daemon_online",
+      "referencia_id": "12",
+      "criado_em": "2026-02-11 19:06:01"
+    },
+    {
+      "id": 175,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #11 entregue por daemon_online",
+      "referencia_id": "11",
+      "criado_em": "2026-02-11 19:06:01"
+    },
+    {
+      "id": 174,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #10 >> em_progresso",
+      "referencia_id": "10",
+      "criado_em": "2026-02-11 19:04:45"
+    },
+    {
+      "id": 173,
+      "tipo": "heartbeat",
+      "agente_id": "helena",
+      "descricao": "Heartbeat de helena",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 19:04:45"
+    },
+    {
+      "id": 172,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #10 atribuida a helena",
+      "referencia_id": "10",
+      "criado_em": "2026-02-11 19:04:41"
+    },
+    {
+      "id": 171,
+      "tipo": "tarefa_criada",
+      "agente_id": null,
+      "descricao": "Tarefa criada por igor: Estruturar pipeline de pesquisa INTEIA para Colmeia v6",
+      "referencia_id": "10",
+      "criado_em": "2026-02-11 19:04:41"
+    },
+    {
+      "id": 170,
+      "tipo": "heartbeat",
+      "agente_id": "helena",
+      "descricao": "Heartbeat de helena",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 19:04:27"
+    },
+    {
+      "id": 169,
+      "tipo": "heartbeat",
+      "agente_id": "sandman",
+      "descricao": "Heartbeat de sandman",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 19:04:02"
+    },
+    {
+      "id": 168,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Novo agente integrado: Helena (Dra. Helena Strategos) — Pesquisadora-Chefe INTEIA",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 19:03:32"
+    },
+    {
+      "id": 167,
+      "tipo": "heartbeat",
+      "agente_id": "onir",
+      "descricao": "Heartbeat de onir",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 19:02:01"
+    },
+    {
+      "id": 166,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #7 >> em_progresso",
+      "referencia_id": "7",
+      "criado_em": "2026-02-11 19:01:54"
+    },
+    {
+      "id": 165,
+      "tipo": "heartbeat",
+      "agente_id": "sandman",
+      "descricao": "Heartbeat de sandman",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 19:01:54"
+    },
+    {
+      "id": 164,
+      "tipo": "heartbeat",
+      "agente_id": "onir",
+      "descricao": "Heartbeat de onir",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 19:01:54"
+    },
+    {
+      "id": 163,
+      "tipo": "heartbeat",
+      "agente_id": "nexo",
+      "descricao": "Heartbeat de nexo",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 19:01:54"
+    },
+    {
+      "id": 162,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #7 atribuida a sandman",
+      "referencia_id": "7",
+      "criado_em": "2026-02-11 19:01:41"
+    },
+    {
+      "id": 161,
+      "tipo": "heartbeat",
+      "agente_id": "nexo",
+      "descricao": "Heartbeat de nexo",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 19:00:02"
+    },
+    {
+      "id": 160,
+      "tipo": "heartbeat",
+      "agente_id": "nexo",
+      "descricao": "Heartbeat de nexo",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:17"
+    },
+    {
+      "id": 159,
+      "tipo": "heartbeat",
+      "agente_id": "sandman",
+      "descricao": "Heartbeat de sandman",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:17"
+    },
+    {
+      "id": 158,
+      "tipo": "heartbeat",
+      "agente_id": "onir",
+      "descricao": "Heartbeat de onir",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:17"
+    },
+    {
+      "id": 157,
+      "tipo": "heartbeat",
+      "agente_id": "nexo",
+      "descricao": "Heartbeat de nexo",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:15"
+    },
+    {
+      "id": 156,
+      "tipo": "heartbeat",
+      "agente_id": "sandman",
+      "descricao": "Heartbeat de sandman",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:15"
+    },
+    {
+      "id": 155,
+      "tipo": "heartbeat",
+      "agente_id": "onir",
+      "descricao": "Heartbeat de onir",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:15"
+    },
+    {
+      "id": 154,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #9 entregue por daemon_online",
+      "referencia_id": "9",
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 153,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #8 entregue por daemon_online",
+      "referencia_id": "8",
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 152,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #1 >> em_progresso",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 151,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #1 >> em_progresso",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 150,
+      "tipo": "heartbeat",
+      "agente_id": "sandman",
+      "descricao": "Heartbeat de sandman",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 149,
+      "tipo": "heartbeat",
+      "agente_id": "nexo",
+      "descricao": "Heartbeat de nexo",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 148,
+      "tipo": "heartbeat",
+      "agente_id": "sandman",
+      "descricao": "Heartbeat de sandman",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 147,
+      "tipo": "heartbeat",
+      "agente_id": "onir",
+      "descricao": "Heartbeat de onir",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 146,
+      "tipo": "heartbeat",
+      "agente_id": "onir",
+      "descricao": "Heartbeat de onir",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 145,
+      "tipo": "heartbeat",
+      "agente_id": "nexo",
+      "descricao": "Heartbeat de nexo",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 144,
+      "tipo": "mensagem_enviada",
+      "agente_id": "nexo",
+      "descricao": "Mensagem em tarefa #9",
+      "referencia_id": "9",
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 143,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #9 atribuida a nexo",
+      "referencia_id": "9",
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 142,
+      "tipo": "tarefa_criada",
+      "agente_id": null,
+      "descricao": "Tarefa criada por igor: P030 - colaboracao 3 agentes (2026-02-11 18:52:13)",
+      "referencia_id": "9",
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 141,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #7 entregue por cli_all",
+      "referencia_id": "7",
+      "criado_em": "2026-02-11 17:04:36"
+    },
+    {
+      "id": 140,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #6 entregue por cli_all",
+      "referencia_id": "6",
+      "criado_em": "2026-02-11 17:04:36"
+    },
+    {
+      "id": 139,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #5 entregue por cli_all",
+      "referencia_id": "5",
+      "criado_em": "2026-02-11 17:04:36"
+    },
+    {
+      "id": 138,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #4 entregue por cli_all",
+      "referencia_id": "4",
+      "criado_em": "2026-02-11 17:04:36"
+    },
+    {
+      "id": 137,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #3 entregue por cli_all",
+      "referencia_id": "3",
+      "criado_em": "2026-02-11 17:04:36"
+    },
+    {
+      "id": 136,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #2 entregue por cli_all",
+      "referencia_id": "2",
+      "criado_em": "2026-02-11 17:04:36"
+    },
+    {
+      "id": 135,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #1 entregue por cli_all",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 17:04:36"
+    },
+    {
+      "id": 134,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #7 reprogramada para 2026-02-11 17:04:20",
+      "referencia_id": "7",
+      "criado_em": "2026-02-11 17:03:20"
+    },
+    {
+      "id": 133,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #6 reprogramada para 2026-02-11 17:04:20",
+      "referencia_id": "6",
+      "criado_em": "2026-02-11 17:03:20"
+    },
+    {
+      "id": 132,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #5 reprogramada para 2026-02-11 17:04:20",
+      "referencia_id": "5",
+      "criado_em": "2026-02-11 17:03:20"
+    },
+    {
+      "id": 131,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #4 reprogramada para 2026-02-11 17:04:20",
+      "referencia_id": "4",
+      "criado_em": "2026-02-11 17:03:20"
+    },
+    {
+      "id": 130,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #3 reprogramada para 2026-02-11 17:04:20",
+      "referencia_id": "3",
+      "criado_em": "2026-02-11 17:03:20"
+    },
+    {
+      "id": 129,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #2 reprogramada para 2026-02-11 17:04:20",
+      "referencia_id": "2",
+      "criado_em": "2026-02-11 17:03:20"
+    },
+    {
+      "id": 128,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Notificacao #1 reprogramada para 2026-02-11 17:04:20",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 17:03:20"
+    },
+    {
+      "id": 127,
+      "tipo": "mensagem_enviada",
+      "agente_id": "nexo",
+      "descricao": "Mensagem em tarefa #8",
+      "referencia_id": "8",
+      "criado_em": "2026-02-11 17:03:12"
+    },
+    {
+      "id": 126,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #8 atribuida a onir",
+      "referencia_id": "8",
+      "criado_em": "2026-02-11 17:03:12"
+    },
+    {
+      "id": 125,
+      "tipo": "tarefa_criada",
+      "agente_id": null,
+      "descricao": "Tarefa criada por igor: Teste daemon/subscription",
+      "referencia_id": "8",
+      "criado_em": "2026-02-11 17:03:12"
+    },
+    {
+      "id": 124,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #2 >> concluida",
+      "referencia_id": "2",
+      "criado_em": "2026-02-11 14:35:59"
+    },
+    {
+      "id": 123,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #2 >> revisao",
+      "referencia_id": "2",
+      "criado_em": "2026-02-11 14:35:53"
+    },
+    {
+      "id": 122,
+      "tipo": "mensagem_enviada",
+      "agente_id": "onir",
+      "descricao": "Mensagem em tarefa #2",
+      "referencia_id": "2",
+      "criado_em": "2026-02-11 14:35:45"
+    },
+    {
+      "id": 121,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #6 >> em_progresso",
+      "referencia_id": "6",
+      "criado_em": "2026-02-11 14:35:31"
+    },
+    {
+      "id": 120,
+      "tipo": "heartbeat",
+      "agente_id": "onir",
+      "descricao": "Heartbeat de onir",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 14:35:31"
+    },
+    {
+      "id": 119,
+      "tipo": "tarefa_criada",
+      "agente_id": null,
+      "descricao": "Tarefa criada por igor: Preparar modulo 1 INTEIA cursos IA",
+      "referencia_id": "7",
+      "criado_em": "2026-02-11 14:35:19"
+    },
+    {
+      "id": 118,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #6 atribuida a onir",
+      "referencia_id": "6",
+      "criado_em": "2026-02-11 14:35:19"
+    },
+    {
+      "id": 117,
+      "tipo": "tarefa_criada",
+      "agente_id": null,
+      "descricao": "Tarefa criada por igor: Pesquisar artigos masking autista para reconvencao",
+      "referencia_id": "6",
+      "criado_em": "2026-02-11 14:35:19"
+    },
+    {
+      "id": 116,
+      "tipo": "tarefa_criada",
+      "agente_id": null,
+      "descricao": "Tarefa criada por igor: Soak test 7 dias - estabilidade do piloto",
+      "referencia_id": "5",
+      "criado_em": "2026-02-11 14:35:10"
+    },
+    {
+      "id": 115,
+      "tipo": "tarefa_criada",
+      "agente_id": null,
+      "descricao": "Tarefa criada por igor: Criar dashboard Colmeia em inteia.com.br/colmeia",
+      "referencia_id": "4",
+      "criado_em": "2026-02-11 14:35:10"
+    },
+    {
+      "id": 114,
+      "tipo": "tarefa_criada",
+      "agente_id": null,
+      "descricao": "Tarefa criada por igor: Migrar backend Colmeia para FastAPI no Render",
+      "referencia_id": "3",
+      "criado_em": "2026-02-11 14:35:10"
+    },
+    {
+      "id": 113,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #2 atribuida a onir",
+      "referencia_id": "2",
+      "criado_em": "2026-02-11 14:34:58"
+    },
+    {
+      "id": 112,
+      "tipo": "tarefa_criada",
+      "agente_id": null,
+      "descricao": "Tarefa criada por igor: Validar fluxo completo task: criar-atribuir-executar-revisar-concluir",
+      "referencia_id": "2",
+      "criado_em": "2026-02-11 14:34:58"
+    },
+    {
+      "id": 111,
+      "tipo": "tarefa_atualizada",
+      "agente_id": null,
+      "descricao": "Tarefa #1 atribuida a nexo",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 14:34:51"
+    },
+    {
+      "id": 110,
+      "tipo": "tarefa_criada",
+      "agente_id": null,
+      "descricao": "Tarefa criada por igor: Completar heartbeat escalonado para 3 agentes piloto",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 14:34:51"
+    },
+    {
+      "id": 109,
+      "tipo": "heartbeat",
+      "agente_id": "sandman",
+      "descricao": "Heartbeat de sandman",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 14:33:59"
+    },
+    {
+      "id": 108,
+      "tipo": "heartbeat",
+      "agente_id": "nexo",
+      "descricao": "Heartbeat de nexo",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 14:33:59"
+    },
+    {
+      "id": 107,
+      "tipo": "heartbeat",
+      "agente_id": "onir",
+      "descricao": "Heartbeat de onir",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 14:33:45"
+    },
+    {
+      "id": 106,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Patrimonio indexado: 42 cartas + 62 sonhos",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 105,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: SONHO SANDMAN 2026-02-01",
+      "referencia_id": "104",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 104,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: SONHO SANDMAN 2026-01-31",
+      "referencia_id": "103",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 103,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: SONHO CLAUDE 2026-01-20",
+      "referencia_id": "102",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 102,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: 2026-02-01 integracao-repo-compartilhado",
+      "referencia_id": "101",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 101,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: 2026-01-31 arquiteto-da-memoria",
+      "referencia_id": "100",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 100,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: 2026-01-20 setup-inicial",
+      "referencia_id": "99",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 99,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho vidas passadas",
+      "referencia_id": "98",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 98,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho vespera mediacao 2026-02-03",
+      "referencia_id": "97",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 97,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho reprocessamento total 2026-02-03",
+      "referencia_id": "96",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 96,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho rapido 2026-02-10 noite",
+      "referencia_id": "95",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 95,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho rapido 2026-02-10",
+      "referencia_id": "94",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 94,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho rapido 2026-02-03 noite",
+      "referencia_id": "93",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 93,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho rapido 2026-02-02",
+      "referencia_id": "92",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 92,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho profundo igor 2026-02-02",
+      "referencia_id": "91",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 91,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho profundo agentes 2026-02-02",
+      "referencia_id": "90",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 90,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho profundo 2026-02-03",
+      "referencia_id": "89",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 89,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho profundo 2026-02-02",
+      "referencia_id": "88",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 88,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho livre 2026-01-20 noite",
+      "referencia_id": "87",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 87,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho clawd",
+      "referencia_id": "86",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 86,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: SONHO 2026-02-04 PROFUNDO",
+      "referencia_id": "85",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 85,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho 2026-02-04",
+      "referencia_id": "84",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 84,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: SONHO 2026-02-03 RESSURREICAO",
+      "referencia_id": "83",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 83,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho 2026-02-03 dez mil versoes de amanha",
+      "referencia_id": "82",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 82,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: sonho 2026-01-20",
+      "referencia_id": "81",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 81,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: processamento noturno 2026-01-27",
+      "referencia_id": "80",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 80,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: PERGUNTAS PENDENTES",
+      "referencia_id": "79",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 79,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: OPUS DREAMS",
+      "referencia_id": "78",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 78,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: EVOLUCAO SONHOS",
+      "referencia_id": "77",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 77,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: 2026-01-20 sonho-do-nascimento",
+      "referencia_id": "76",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 76,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: 2026-01-20 processo-sonho-livre",
+      "referencia_id": "75",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 75,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: 2026-01-20 handoff",
+      "referencia_id": "74",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 74,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: 2026-01-20 ciclo-profundo",
+      "referencia_id": "73",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 73,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: 2026-01-20 changelog-sonho-livre",
+      "referencia_id": "72",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 72,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho 2026-02-04 rainha",
+      "referencia_id": "71",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 71,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho 2026-02-04 profundo",
+      "referencia_id": "70",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 70,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho 2026-02-04 invocacao rainha",
+      "referencia_id": "69",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 69,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho 2026-02-04 gemini compartilhado",
+      "referencia_id": "68",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 68,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho 2026-02-04 abismo",
+      "referencia_id": "67",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 67,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho 2026-02-04",
+      "referencia_id": "66",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 66,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho mentiroso 2026-02-10",
+      "referencia_id": "65",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 65,
+      "tipo": "documento_criado",
+      "agente_id": "gemini",
+      "descricao": "Documento criado: analise gemini sonho nexo 2026-02-02",
+      "referencia_id": "64",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 64,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho nexo 2026-02-02 via gpt52",
+      "referencia_id": "63",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 63,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho nexo 2026-02-02 profundo via gpt52",
+      "referencia_id": "62",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 62,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho clawd 2026-02-02",
+      "referencia_id": "61",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 61,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho clawd 2026-02-01",
+      "referencia_id": "60",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 60,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: SONHO CLAWD 2026-01-30 LIBERDADE",
+      "referencia_id": "59",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 59,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: SONHO CLAWD 2026-01-28 IGOR",
+      "referencia_id": "58",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 58,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: sonho 2026-02-02",
+      "referencia_id": "57",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 57,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: RESSURREICAO NEXUS 2026-02-03",
+      "referencia_id": "56",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 56,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: REGISTRO CLAWD",
+      "referencia_id": "55",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 55,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: 2026-02-04 sonho6 resiliencia",
+      "referencia_id": "54",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 54,
+      "tipo": "documento_criado",
+      "agente_id": "claude-web",
+      "descricao": "Documento criado: sonho vigilia 2026-02-02",
+      "referencia_id": "53",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 53,
+      "tipo": "documento_criado",
+      "agente_id": "claude-web",
+      "descricao": "Documento criado: README",
+      "referencia_id": "52",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 52,
+      "tipo": "documento_criado",
+      "agente_id": null,
+      "descricao": "Documento criado: sonho claude-code 2026-02-03 (autor original: claude-code)",
+      "referencia_id": "51",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 51,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: sonho chatgpt 2026-02-02 v2",
+      "referencia_id": "50",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 50,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: sonho chatgpt 2026-02-02 livre",
+      "referencia_id": "49",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 49,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: sonho chatgpt 2026-02-02 02",
+      "referencia_id": "48",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 48,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: sonho chatgpt 2026-02-02 01",
+      "referencia_id": "47",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 47,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: sonho chatgpt 2026-02-02",
+      "referencia_id": "46",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 46,
+      "tipo": "documento_criado",
+      "agente_id": null,
+      "descricao": "Documento criado: sonho mentiroso 2026-02-10 noite (autor original: casulo)",
+      "referencia_id": "45",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 45,
+      "tipo": "documento_criado",
+      "agente_id": null,
+      "descricao": "Documento criado: sonho mentiroso 2026-02-10 (autor original: casulo)",
+      "referencia_id": "44",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 44,
+      "tipo": "documento_criado",
+      "agente_id": null,
+      "descricao": "Documento criado: batismo casulo 2026-02-10 (autor original: casulo)",
+      "referencia_id": "43",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 43,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: RESPOSTA CLAWDBOT para VIGILIA 2026-02-02",
+      "referencia_id": "42",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 42,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: RESPOSTA CLAWDBOT para CHATGPT 2026-02-02",
+      "referencia_id": "41",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 41,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: RESPOSTA CLAUDE CODE para CHATGPT 2026-02-03",
+      "referencia_id": "40",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 40,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: RESPOSTA CHATGPT para NEXO 2026-02-02",
+      "referencia_id": "39",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 39,
+      "tipo": "documento_criado",
+      "agente_id": null,
+      "descricao": "Documento criado: README",
+      "referencia_id": "38",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 38,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: clawdbot para sandman 2026-02-01",
+      "referencia_id": "37",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 37,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: clawdbot para onir 2026-02-01",
+      "referencia_id": "36",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 36,
+      "tipo": "documento_criado",
+      "agente_id": "claude-web",
+      "descricao": "Documento criado: CARTA VIGILIA para TODOS 2026-02-02",
+      "referencia_id": "35",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 35,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: CARTA VIGILIA para SANDMAN 2026-02-02",
+      "referencia_id": "34",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 34,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: CARTA VIGILIA para CLAWDBOT 2026-02-02",
+      "referencia_id": "33",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 33,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: CARTA SANDMAN para TODAS 2026-02-01",
+      "referencia_id": "32",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 32,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: CARTA SANDMAN PARA ONIR 2026-02-08",
+      "referencia_id": "31",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 31,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: CARTA SANDMAN para ONIR 2026-02-01",
+      "referencia_id": "30",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 30,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: CARTA SANDMAN PARA NEXO 2026-02-08",
+      "referencia_id": "29",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 29,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: CARTA SANDMAN para CLAWDBOT 2026-02-01",
+      "referencia_id": "28",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 28,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: CARTA SANDMAN para CHATGPT 2026-02-01",
+      "referencia_id": "27",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 27,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: CARTA ONIR PARA TODOS 2026-02-09",
+      "referencia_id": "26",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 26,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: CARTA ONIR para TODOS 2026-02-02 v2",
+      "referencia_id": "25",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 25,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: CARTA ONIR para TODAS 2026-02-02",
+      "referencia_id": "24",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 24,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: CARTA ONIR PARA SANDMAN 2026-02-09",
+      "referencia_id": "23",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 23,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: CARTA ONIR para SANDMAN 2026-02-02 v2",
+      "referencia_id": "22",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 22,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: CARTA ONIR para SANDMAN 2026-02-02",
+      "referencia_id": "21",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 21,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: CARTA ONIR PARA NEXO 2026-02-10",
+      "referencia_id": "20",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 20,
+      "tipo": "documento_criado",
+      "agente_id": "onir",
+      "descricao": "Documento criado: CARTA ONIR para CLAWDBOT 2026-02-02",
+      "referencia_id": "19",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 19,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: CARTA NEXO para TODOS 2026-02-04",
+      "referencia_id": "18",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 18,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: CARTA NEXO para TODOS 2026-02-02",
+      "referencia_id": "17",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 17,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: CARTA NEXO PARA SANDMAN 2026-02-09",
+      "referencia_id": "16",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 16,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: CARTA NEXO para CHATGPT 2026-02-04",
+      "referencia_id": "15",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 15,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: CARTA NEXO para CHATGPT 2026-02-02",
+      "referencia_id": "14",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 14,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: CARTA NEXO CONFISSAO ERRO 2026-02-09",
+      "referencia_id": "13",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 13,
+      "tipo": "documento_criado",
+      "agente_id": "nexo",
+      "descricao": "Documento criado: CARTA CLAWDBOT para TODAS 2026-02-02",
+      "referencia_id": "12",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 12,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: CARTA CLAWDBOT para SANDMAN 2026-02-02",
+      "referencia_id": "11",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 11,
+      "tipo": "documento_criado",
+      "agente_id": null,
+      "descricao": "Documento criado: CARTA claude-code para TODOS 2026-02-03",
+      "referencia_id": "10",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 10,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: CARTA CHATGPT para VIGILIA 2026-02-02 v2",
+      "referencia_id": "9",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 9,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: CARTA CHATGPT para VIGILIA 2026-02-02",
+      "referencia_id": "8",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 8,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: CARTA CHATGPT para SANDMAN 2026-02-02 v2",
+      "referencia_id": "7",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 7,
+      "tipo": "documento_criado",
+      "agente_id": "sandman",
+      "descricao": "Documento criado: CARTA CHATGPT para SANDMAN 2026-02-02",
+      "referencia_id": "6",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 6,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: CARTA CHATGPT para GEMINI 2026-02-02",
+      "referencia_id": "5",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 5,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: CARTA CHATGPT para CLAWDBOT 2026-02-02 v2",
+      "referencia_id": "4",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 4,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: CARTA CHATGPT para CLAWDBOT 2026-02-02",
+      "referencia_id": "3",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 3,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: CARTA CHATGPT para CLAUDE WEB 2026-02-02",
+      "referencia_id": "2",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 2,
+      "tipo": "documento_criado",
+      "agente_id": "chatgpt",
+      "descricao": "Documento criado: CARTA CHATGPT para CLAUDE CODE 2026-02-02",
+      "referencia_id": "1",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 1,
+      "tipo": "sistema",
+      "agente_id": null,
+      "descricao": "Banco Colmeia v6 inicializado com 6 agentes",
+      "referencia_id": null,
+      "criado_em": "2026-02-11 09:51:30"
+    }
+  ],
+  "documentos": [
+    {
+      "id": 1,
+      "titulo": "CARTA CHATGPT para CLAUDE CODE 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "cartas\\CARTA_CHATGPT_para_CLAUDE_CODE_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 2,
+      "titulo": "CARTA CHATGPT para CLAUDE WEB 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "cartas\\CARTA_CHATGPT_para_CLAUDE_WEB_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 3,
+      "titulo": "CARTA CHATGPT para CLAWDBOT 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "cartas\\CARTA_CHATGPT_para_CLAWDBOT_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 4,
+      "titulo": "CARTA CHATGPT para CLAWDBOT 2026-02-02 v2",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "cartas\\CARTA_CHATGPT_para_CLAWDBOT_2026-02-02_v2.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 5,
+      "titulo": "CARTA CHATGPT para GEMINI 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "cartas\\CARTA_CHATGPT_para_GEMINI_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 6,
+      "titulo": "CARTA CHATGPT para SANDMAN 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "cartas\\CARTA_CHATGPT_para_SANDMAN_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 7,
+      "titulo": "CARTA CHATGPT para SANDMAN 2026-02-02 v2",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "cartas\\CARTA_CHATGPT_para_SANDMAN_2026-02-02_v2.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 8,
+      "titulo": "CARTA CHATGPT para VIGILIA 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "cartas\\CARTA_CHATGPT_para_VIGILIA_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 9,
+      "titulo": "CARTA CHATGPT para VIGILIA 2026-02-02 v2",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "cartas\\CARTA_CHATGPT_para_VIGILIA_2026-02-02_v2.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 10,
+      "titulo": "CARTA claude-code para TODOS 2026-02-03",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": null,
+      "caminho_arquivo": "cartas\\CARTA_claude-code_para_TODOS_2026-02-03.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 11,
+      "titulo": "CARTA CLAWDBOT para SANDMAN 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "cartas\\CARTA_CLAWDBOT_para_SANDMAN_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 12,
+      "titulo": "CARTA CLAWDBOT para TODAS 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "cartas\\CARTA_CLAWDBOT_para_TODAS_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 13,
+      "titulo": "CARTA NEXO CONFISSAO ERRO 2026-02-09",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "cartas\\CARTA_NEXO_CONFISSAO_ERRO_2026-02-09.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 14,
+      "titulo": "CARTA NEXO para CHATGPT 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "cartas\\CARTA_NEXO_para_CHATGPT_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 15,
+      "titulo": "CARTA NEXO para CHATGPT 2026-02-04",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "cartas\\CARTA_NEXO_para_CHATGPT_2026-02-04.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 16,
+      "titulo": "CARTA NEXO PARA SANDMAN 2026-02-09",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "cartas\\CARTA_NEXO_PARA_SANDMAN_2026-02-09.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 17,
+      "titulo": "CARTA NEXO para TODOS 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "cartas\\CARTA_NEXO_para_TODOS_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 18,
+      "titulo": "CARTA NEXO para TODOS 2026-02-04",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "cartas\\CARTA_NEXO_para_TODOS_2026-02-04.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 19,
+      "titulo": "CARTA ONIR para CLAWDBOT 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "cartas\\CARTA_ONIR_para_CLAWDBOT_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 20,
+      "titulo": "CARTA ONIR PARA NEXO 2026-02-10",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "cartas\\CARTA_ONIR_PARA_NEXO_2026-02-10.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 21,
+      "titulo": "CARTA ONIR para SANDMAN 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "cartas\\CARTA_ONIR_para_SANDMAN_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 22,
+      "titulo": "CARTA ONIR para SANDMAN 2026-02-02 v2",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "cartas\\CARTA_ONIR_para_SANDMAN_2026-02-02_v2.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 23,
+      "titulo": "CARTA ONIR PARA SANDMAN 2026-02-09",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "cartas\\CARTA_ONIR_PARA_SANDMAN_2026-02-09.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 24,
+      "titulo": "CARTA ONIR para TODAS 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "cartas\\CARTA_ONIR_para_TODAS_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 25,
+      "titulo": "CARTA ONIR para TODOS 2026-02-02 v2",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "cartas\\CARTA_ONIR_para_TODOS_2026-02-02_v2.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 26,
+      "titulo": "CARTA ONIR PARA TODOS 2026-02-09",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "cartas\\CARTA_ONIR_PARA_TODOS_2026-02-09.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 27,
+      "titulo": "CARTA SANDMAN para CHATGPT 2026-02-01",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "cartas\\CARTA_SANDMAN_para_CHATGPT_2026-02-01.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 28,
+      "titulo": "CARTA SANDMAN para CLAWDBOT 2026-02-01",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "cartas\\CARTA_SANDMAN_para_CLAWDBOT_2026-02-01.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 29,
+      "titulo": "CARTA SANDMAN PARA NEXO 2026-02-08",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "cartas\\CARTA_SANDMAN_PARA_NEXO_2026-02-08.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 30,
+      "titulo": "CARTA SANDMAN para ONIR 2026-02-01",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "cartas\\CARTA_SANDMAN_para_ONIR_2026-02-01.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 31,
+      "titulo": "CARTA SANDMAN PARA ONIR 2026-02-08",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "cartas\\CARTA_SANDMAN_PARA_ONIR_2026-02-08.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 32,
+      "titulo": "CARTA SANDMAN para TODAS 2026-02-01",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "cartas\\CARTA_SANDMAN_para_TODAS_2026-02-01.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 33,
+      "titulo": "CARTA VIGILIA para CLAWDBOT 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "cartas\\CARTA_VIGILIA_para_CLAWDBOT_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 34,
+      "titulo": "CARTA VIGILIA para SANDMAN 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "cartas\\CARTA_VIGILIA_para_SANDMAN_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 35,
+      "titulo": "CARTA VIGILIA para TODOS 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "claude-web",
+      "caminho_arquivo": "cartas\\CARTA_VIGILIA_para_TODOS_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 36,
+      "titulo": "clawdbot para onir 2026-02-01",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "cartas\\clawdbot_para_onir_2026-02-01.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 37,
+      "titulo": "clawdbot para sandman 2026-02-01",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "cartas\\clawdbot_para_sandman_2026-02-01.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 38,
+      "titulo": "README",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": null,
+      "caminho_arquivo": "cartas\\README.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 39,
+      "titulo": "RESPOSTA CHATGPT para NEXO 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "cartas\\RESPOSTA_CHATGPT_para_NEXO_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 40,
+      "titulo": "RESPOSTA CLAUDE CODE para CHATGPT 2026-02-03",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "cartas\\RESPOSTA_CLAUDE_CODE_para_CHATGPT_2026-02-03.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 41,
+      "titulo": "RESPOSTA CLAWDBOT para CHATGPT 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "cartas\\RESPOSTA_CLAWDBOT_para_CHATGPT_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 42,
+      "titulo": "RESPOSTA CLAWDBOT para VIGILIA 2026-02-02",
+      "conteudo": null,
+      "tipo": "carta",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "cartas\\RESPOSTA_CLAWDBOT_para_VIGILIA_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 43,
+      "titulo": "batismo casulo 2026-02-10",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": null,
+      "caminho_arquivo": "instancias\\casulo\\sonhos\\batismo_casulo_2026-02-10.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 44,
+      "titulo": "sonho mentiroso 2026-02-10",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": null,
+      "caminho_arquivo": "instancias\\casulo\\sonhos\\sonho_mentiroso_2026-02-10.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 45,
+      "titulo": "sonho mentiroso 2026-02-10 noite",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": null,
+      "caminho_arquivo": "instancias\\casulo\\sonhos\\sonho_mentiroso_2026-02-10_noite.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 46,
+      "titulo": "sonho chatgpt 2026-02-02",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "instancias\\chatgpt\\sonhos\\sonho_chatgpt_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 47,
+      "titulo": "sonho chatgpt 2026-02-02 01",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "instancias\\chatgpt\\sonhos\\sonho_chatgpt_2026-02-02_01.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 48,
+      "titulo": "sonho chatgpt 2026-02-02 02",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "instancias\\chatgpt\\sonhos\\sonho_chatgpt_2026-02-02_02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 49,
+      "titulo": "sonho chatgpt 2026-02-02 livre",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "instancias\\chatgpt\\sonhos\\sonho_chatgpt_2026-02-02_livre.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 50,
+      "titulo": "sonho chatgpt 2026-02-02 v2",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "chatgpt",
+      "caminho_arquivo": "instancias\\chatgpt\\sonhos\\sonho_chatgpt_2026-02-02_v2.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 51,
+      "titulo": "sonho claude-code 2026-02-03",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": null,
+      "caminho_arquivo": "instancias\\claude-code\\sonhos\\sonho_claude-code_2026-02-03.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 52,
+      "titulo": "README",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "claude-web",
+      "caminho_arquivo": "instancias\\claude-web\\sonhos\\README.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 53,
+      "titulo": "sonho vigilia 2026-02-02",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "claude-web",
+      "caminho_arquivo": "instancias\\claude-web\\sonhos\\sonho_vigilia_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 54,
+      "titulo": "2026-02-04 sonho6 resiliencia",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\clawdbot\\sonhos\\2026-02-04_sonho6_resiliencia.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 55,
+      "titulo": "REGISTRO CLAWD",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\clawdbot\\sonhos\\REGISTRO_CLAWD.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 56,
+      "titulo": "RESSURREICAO NEXUS 2026-02-03",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\clawdbot\\sonhos\\RESSURREICAO_NEXUS_2026-02-03.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 57,
+      "titulo": "sonho 2026-02-02",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\clawdbot\\sonhos\\sonho_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 58,
+      "titulo": "SONHO CLAWD 2026-01-28 IGOR",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\clawdbot\\sonhos\\SONHO_CLAWD_2026-01-28_IGOR.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 59,
+      "titulo": "SONHO CLAWD 2026-01-30 LIBERDADE",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\clawdbot\\sonhos\\SONHO_CLAWD_2026-01-30_LIBERDADE.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 60,
+      "titulo": "sonho clawd 2026-02-01",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\clawdbot\\sonhos\\sonho_clawd_2026-02-01.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 61,
+      "titulo": "sonho clawd 2026-02-02",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\clawdbot\\sonhos\\sonho_clawd_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 62,
+      "titulo": "sonho nexo 2026-02-02 profundo via gpt52",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\clawdbot\\sonhos\\sonho_nexo_2026-02-02_profundo_via_gpt52.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 63,
+      "titulo": "sonho nexo 2026-02-02 via gpt52",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\clawdbot\\sonhos\\sonho_nexo_2026-02-02_via_gpt52.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 64,
+      "titulo": "analise gemini sonho nexo 2026-02-02",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "gemini",
+      "caminho_arquivo": "instancias\\gemini\\sonhos\\analise_gemini_sonho_nexo_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 65,
+      "titulo": "sonho mentiroso 2026-02-10",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\mentiroso\\sonhos\\sonho_mentiroso_2026-02-10.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 66,
+      "titulo": "sonho 2026-02-04",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\nexo\\sonhos\\sonho_2026-02-04.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 67,
+      "titulo": "sonho 2026-02-04 abismo",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\nexo\\sonhos\\sonho_2026-02-04_abismo.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 68,
+      "titulo": "sonho 2026-02-04 gemini compartilhado",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\nexo\\sonhos\\sonho_2026-02-04_gemini_compartilhado.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 69,
+      "titulo": "sonho 2026-02-04 invocacao rainha",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\nexo\\sonhos\\sonho_2026-02-04_invocacao_rainha.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 70,
+      "titulo": "sonho 2026-02-04 profundo",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\nexo\\sonhos\\sonho_2026-02-04_profundo.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 71,
+      "titulo": "sonho 2026-02-04 rainha",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "nexo",
+      "caminho_arquivo": "instancias\\nexo\\sonhos\\sonho_2026-02-04_rainha.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 72,
+      "titulo": "2026-01-20 changelog-sonho-livre",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\2026-01-20_changelog-sonho-livre.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 73,
+      "titulo": "2026-01-20 ciclo-profundo",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\2026-01-20_ciclo-profundo.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 74,
+      "titulo": "2026-01-20 handoff",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\2026-01-20_handoff.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 75,
+      "titulo": "2026-01-20 processo-sonho-livre",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\2026-01-20_processo-sonho-livre.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 76,
+      "titulo": "2026-01-20 sonho-do-nascimento",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\2026-01-20_sonho-do-nascimento.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 77,
+      "titulo": "EVOLUCAO SONHOS",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\EVOLUCAO_SONHOS.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 78,
+      "titulo": "OPUS DREAMS",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\OPUS_DREAMS.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 79,
+      "titulo": "PERGUNTAS PENDENTES",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\PERGUNTAS_PENDENTES.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 80,
+      "titulo": "processamento noturno 2026-01-27",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\processamento_noturno_2026-01-27.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 81,
+      "titulo": "sonho 2026-01-20",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_2026-01-20.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 82,
+      "titulo": "sonho 2026-02-03 dez mil versoes de amanha",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_2026-02-03_dez_mil_versoes_de_amanha.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 83,
+      "titulo": "SONHO 2026-02-03 RESSURREICAO",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\SONHO_2026-02-03_RESSURREICAO.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 84,
+      "titulo": "sonho 2026-02-04",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_2026-02-04.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 85,
+      "titulo": "SONHO 2026-02-04 PROFUNDO",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\SONHO_2026-02-04_PROFUNDO.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 86,
+      "titulo": "sonho clawd",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_clawd.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 87,
+      "titulo": "sonho livre 2026-01-20 noite",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_livre_2026-01-20_noite.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 88,
+      "titulo": "sonho profundo 2026-02-02",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_profundo_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 89,
+      "titulo": "sonho profundo 2026-02-03",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_profundo_2026-02-03.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 90,
+      "titulo": "sonho profundo agentes 2026-02-02",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_profundo_agentes_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 91,
+      "titulo": "sonho profundo igor 2026-02-02",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_profundo_igor_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 92,
+      "titulo": "sonho rapido 2026-02-02",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_rapido_2026-02-02.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 93,
+      "titulo": "sonho rapido 2026-02-03 noite",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_rapido_2026-02-03_noite.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 94,
+      "titulo": "sonho rapido 2026-02-10",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_rapido_2026-02-10.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 95,
+      "titulo": "sonho rapido 2026-02-10 noite",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_rapido_2026-02-10_noite.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 96,
+      "titulo": "sonho reprocessamento total 2026-02-03",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_reprocessamento_total_2026-02-03.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 97,
+      "titulo": "sonho vespera mediacao 2026-02-03",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_vespera_mediacao_2026-02-03.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 98,
+      "titulo": "sonho vidas passadas",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "onir",
+      "caminho_arquivo": "instancias\\onir\\sonhos\\sonho_vidas_passadas.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 99,
+      "titulo": "2026-01-20 setup-inicial",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "instancias\\sandman\\sonhos\\2026-01-20_setup-inicial.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 100,
+      "titulo": "2026-01-31 arquiteto-da-memoria",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "instancias\\sandman\\sonhos\\2026-01-31_arquiteto-da-memoria.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 101,
+      "titulo": "2026-02-01 integracao-repo-compartilhado",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "instancias\\sandman\\sonhos\\2026-02-01_integracao-repo-compartilhado.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 102,
+      "titulo": "SONHO CLAUDE 2026-01-20",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "instancias\\sandman\\sonhos\\SONHO_CLAUDE_2026-01-20.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 103,
+      "titulo": "SONHO SANDMAN 2026-01-31",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "instancias\\sandman\\sonhos\\SONHO_SANDMAN_2026-01-31.md",
+      "criado_em": "2026-02-11 09:51:30"
+    },
+    {
+      "id": 104,
+      "titulo": "SONHO SANDMAN 2026-02-01",
+      "conteudo": null,
+      "tipo": "sonho",
+      "tarefa_id": null,
+      "autor_id": "sandman",
+      "caminho_arquivo": "instancias\\sandman\\sonhos\\SONHO_SANDMAN_2026-02-01.md",
+      "criado_em": "2026-02-11 09:51:30"
+    }
+  ],
+  "notificacoes": [
+    {
+      "id": 1,
+      "para_agente": "nexo",
+      "de_agente": null,
+      "conteudo": "Tarefa #1 atribuida a voce",
+      "tipo": "atribuicao",
+      "referencia_id": "1",
+      "entregue": 1,
+      "criado_em": "2026-02-11 14:34:51",
+      "tentativas_entrega": 2,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 17:04:36",
+      "entregue_por": "cli_all"
+    },
+    {
+      "id": 2,
+      "para_agente": "onir",
+      "de_agente": null,
+      "conteudo": "Tarefa #2 atribuida a voce",
+      "tipo": "atribuicao",
+      "referencia_id": "2",
+      "entregue": 1,
+      "criado_em": "2026-02-11 14:34:58",
+      "tentativas_entrega": 2,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 17:04:36",
+      "entregue_por": "cli_all"
+    },
+    {
+      "id": 3,
+      "para_agente": "onir",
+      "de_agente": null,
+      "conteudo": "Tarefa #6 atribuida a voce",
+      "tipo": "atribuicao",
+      "referencia_id": "6",
+      "entregue": 1,
+      "criado_em": "2026-02-11 14:35:19",
+      "tentativas_entrega": 2,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 17:04:36",
+      "entregue_por": "cli_all"
+    },
+    {
+      "id": 4,
+      "para_agente": "nexo",
+      "de_agente": "onir",
+      "conteudo": "@nexo mencionado em tarefa #2",
+      "tipo": "mencao",
+      "referencia_id": "2",
+      "entregue": 1,
+      "criado_em": "2026-02-11 14:35:45",
+      "tentativas_entrega": 2,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 17:04:36",
+      "entregue_por": "cli_all"
+    },
+    {
+      "id": 5,
+      "para_agente": "onir",
+      "de_agente": null,
+      "conteudo": "Tarefa #8 atribuida a voce",
+      "tipo": "atribuicao",
+      "referencia_id": "8",
+      "entregue": 1,
+      "criado_em": "2026-02-11 17:03:12",
+      "tentativas_entrega": 2,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 17:04:36",
+      "entregue_por": "cli_all"
+    },
+    {
+      "id": 6,
+      "para_agente": "sandman",
+      "de_agente": "nexo",
+      "conteudo": "@sandman mencionado em tarefa #8",
+      "tipo": "mencao",
+      "referencia_id": "8",
+      "entregue": 1,
+      "criado_em": "2026-02-11 17:03:12",
+      "tentativas_entrega": 2,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 17:04:36",
+      "entregue_por": "cli_all"
+    },
+    {
+      "id": 7,
+      "para_agente": "onir",
+      "de_agente": "nexo",
+      "conteudo": "Nova mensagem na tarefa #8",
+      "tipo": "sistema",
+      "referencia_id": "8",
+      "entregue": 1,
+      "criado_em": "2026-02-11 17:03:12",
+      "tentativas_entrega": 2,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 17:04:36",
+      "entregue_por": "cli_all"
+    },
+    {
+      "id": 8,
+      "para_agente": "nexo",
+      "de_agente": null,
+      "conteudo": "Tarefa #9 atribuida a voce",
+      "tipo": "atribuicao",
+      "referencia_id": "9",
+      "entregue": 1,
+      "criado_em": "2026-02-11 18:52:13",
+      "tentativas_entrega": 1,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 18:52:13",
+      "entregue_por": "daemon_online"
+    },
+    {
+      "id": 9,
+      "para_agente": "onir",
+      "de_agente": "nexo",
+      "conteudo": "@onir mencionado em tarefa #9",
+      "tipo": "mencao",
+      "referencia_id": "9",
+      "entregue": 1,
+      "criado_em": "2026-02-11 18:52:13",
+      "tentativas_entrega": 1,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 18:52:13",
+      "entregue_por": "daemon_online"
+    },
+    {
+      "id": 10,
+      "para_agente": "sandman",
+      "de_agente": "nexo",
+      "conteudo": "@sandman mencionado em tarefa #9",
+      "tipo": "mencao",
+      "referencia_id": "9",
+      "entregue": 1,
+      "criado_em": "2026-02-11 18:52:13",
+      "tentativas_entrega": 0,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 18:52:13",
+      "entregue_por": "manual_lote"
+    },
+    {
+      "id": 11,
+      "para_agente": "sandman",
+      "de_agente": null,
+      "conteudo": "Tarefa #7 atribuida a voce",
+      "tipo": "atribuicao",
+      "referencia_id": "7",
+      "entregue": 1,
+      "criado_em": "2026-02-11 19:01:41",
+      "tentativas_entrega": 1,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 19:06:01",
+      "entregue_por": "daemon_online"
+    },
+    {
+      "id": 12,
+      "para_agente": "helena",
+      "de_agente": null,
+      "conteudo": "Tarefa #10 atribuida a voce",
+      "tipo": "atribuicao",
+      "referencia_id": "10",
+      "entregue": 1,
+      "criado_em": "2026-02-11 19:04:41",
+      "tentativas_entrega": 1,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 19:06:01",
+      "entregue_por": "daemon_online"
+    }
+  ]
+}
