@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-02-11T18:52:13.519962",
+  "teste": "P030",
+  "tarefa_id": 9,
+  "titulo": "P030 - colaboracao 3 agentes (2026-02-11 18:52:13)",
+  "resultados_heartbeat": [
+    {
+      "agente": "onir",
+      "exit_code": 0,
+      "stdout": "\n  === HEARTBEAT: @onir ===\n  Timestamp: 2026-02-11 18:52:13\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (623 chars)\n  [3/6] Tarefas: 1 em_progresso, 1 atribuida(s)\n        >> #6 [em_progresso] Pesquisar artigos masking autista para reconvencao\n        -> #8 [atribuida] Teste daemon/subscription\n  [4/6] Mencoes pendentes: 1\n        @ @onir mencionado em tarefa #9\n  [5/6] Decisao:\n        CONTINUAR tarefa #6: Pesquisar artigos masking autista para reconvencao\n  [6/6] Ciclo concluido em 143ms — TRABALHO_CONTINUADO\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+      "stderr": ""
+    },
+    {
+      "agente": "sandman",
+      "exit_code": 0,
+      "stdout": "\n  === HEARTBEAT: @sandman ===\n  Timestamp: 2026-02-11 18:52:13\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (185 chars)\n  [3/6] Tarefas: 0 em_progresso, 0 atribuida(s)\n  [4/6] Mencoes pendentes: 1\n        @ @sandman mencionado em tarefa #9\n  [5/6] Decisao:\n        PROCESSAR 1 mencao(oes)\n  [6/6] Ciclo concluido em 149ms — MENCOES_PROCESSADAS\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+      "stderr": ""
+    },
+    {
+      "agente": "nexo",
+      "exit_code": 0,
+      "stdout": "\n  === HEARTBEAT: @nexo ===\n  Timestamp: 2026-02-11 18:52:13\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (182 chars)\n  [3/6] Tarefas: 0 em_progresso, 2 atribuida(s)\n        -> #1 [atribuida] Completar heartbeat escalonado para 3 agentes piloto\n        -> #9 [atribuida] P030 - colaboracao 3 agentes (2026-02-11 18:52:13)\n  [4/6] Mencoes pendentes: 1\n        @ Tarefa #9 atribuida a voce\n  [5/6] Decisao:\n        ACEITAR tarefa #1: Completar heartbeat escalonado para 3 agentes piloto\n  [6/6] Ciclo concluido em 165ms — TRABALHO_NOVO\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+      "stderr": ""
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": 5,
+      "tarefa_id": 9,
+      "agente_id": "nexo",
+      "origem": "atribuicao",
+      "ativo": 1,
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 8,
+      "tarefa_id": 9,
+      "agente_id": "onir",
+      "origem": "mencao",
+      "ativo": 1,
+      "criado_em": "2026-02-11 18:52:13"
+    },
+    {
+      "id": 9,
+      "tarefa_id": 9,
+      "agente_id": "sandman",
+      "origem": "mencao",
+      "ativo": 1,
+      "criado_em": "2026-02-11 18:52:13"
+    }
+  ],
+  "notificacoes_recorte": [
+    {
+      "id": 9,
+      "para_agente": "onir",
+      "de_agente": "nexo",
+      "conteudo": "@onir mencionado em tarefa #9",
+      "tipo": "mencao",
+      "referencia_id": "9",
+      "entregue": 0,
+      "criado_em": "2026-02-11 18:52:13",
+      "tentativas_entrega": 0,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": null,
+      "entregue_por": null
+    },
+    {
+      "id": 10,
+      "para_agente": "sandman",
+      "de_agente": "nexo",
+      "conteudo": "@sandman mencionado em tarefa #9",
+      "tipo": "mencao",
+      "referencia_id": "9",
+      "entregue": 1,
+      "criado_em": "2026-02-11 18:52:13",
+      "tentativas_entrega": 0,
+      "max_tentativas": 3,
+      "proxima_tentativa_em": null,
+      "ultimo_erro": null,
+      "entregue_em": "2026-02-11 18:52:13",
+      "entregue_por": "manual_lote"
+    }
+  ],
+  "checks": {
+    "heartbeats_exit_0": true,
+    "subscriptions_tres_agentes": true,
+    "notificacoes_thread": true
+  },
+  "sucesso": true
+}

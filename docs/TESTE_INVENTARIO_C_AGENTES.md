@@ -1,0 +1,396 @@
+﻿# Inventario C:/Agentes
+
+Root: C:\Agentes
+Pastas: 8370
+Arquivos: 94283
+
+## Arquivos por extensao
+
+- .js: 27942
+- (sem-ext): 17395
+- .py: 8478
+- .pyc: 8369
+- .ts: 7618
+- .map: 7101
+- .json: 5392
+- .md: 1947
+- .cjs: 1605
+- .cts: 1479
+- .mjs: 710
+- .meta: 571
+- .sst: 531
+- .txt: 415
+- .rsc: 384
+- .pyi: 372
+- .pyd: 270
+- .tsx: 261
+- .csv: 247
+- .yml: 207
+- .mts: 204
+- .h: 150
+- .glsl: 136
+- .eslintrc: 126
+- .png: 124
+- .mat: 124
+- .html: 121
+- .a: 109
+- .flow: 106
+- .nycrc: 97
+- .ps1: 78
+- .typed: 72
+- .lib: 65
+- .f90: 61
+- .npmignore: 60
+- .doctest: 59
+- .cmd: 58
+- .pxd: 57
+- .css: 54
+- .editorconfig: 54
+- .pyx: 53
+- .exe: 50
+- .sav: 47
+- .svg: 35
+- .dat: 34
+- .ttf: 31
+- .npy: 31
+- .pxi: 30
+- .jst: 25
+- .sh: 25
+- .xml: 24
+- .f: 24
+- .npz: 23
+- .proto: 23
+- .woff2: 22
+- .wav: 22
+- .snap: 20
+- .markdown: 20
+- .pfb: 18
+- .pbf: 16
+- .arff: 16
+- .cpp: 16
+- .gz: 16
+- .pdf: 15
+- .gitattributes: 14
+- .sample: 14
+- .mako: 13
+- .coffee: 13
+- .hpp: 13
+- .c: 12
+- .pkl: 12
+- .pack: 9
+- .idx: 9
+- .dll: 9
+- .rev: 9
+- .scss: 8
+- .bat: 8
+- .cfg: 8
+- .tab: 8
+- .bsd: 8
+- .tpl: 7
+- .gitignore: 7
+- .cc: 7
+- .xsl: 7
+- .pyf: 7
+- .dta: 6
+- .rst: 6
+- .gitkeep: 6
+- .whl: 6
+- .build: 6
+- .eslintignore: 6
+- .log: 5
+- .node: 5
+- .lzma: 5
+- .gzip: 5
+- .bz2: 5
+- .babelrc: 5
+- .lock: 5
+- .ini: 5
+- .xz: 5
+- .def: 5
+- .jshintrc: 5
+- .nvmrc: 4
+- .apache: 4
+- .rels: 4
+- .example: 3
+- .docx: 3
+- .bnf: 3
+- .yaml: 3
+- .wasm: 3
+- .tag: 3
+- .testignore: 3
+- .ejs: 3
+- .z: 3
+- .nc: 3
+- .avif: 3
+- .prettierrc: 2
+- .doc: 2
+- .closure-compiler: 2
+- .pptx: 2
+- .jpg: 2
+- .prettierignore: 2
+- .esprima: 2
+- .flowconfig: 2
+- .lint: 2
+- .jsonc: 2
+- .opts: 2
+- .vert: 2
+- .6: 2
+- .2: 2
+- .f2py_f2cmap: 2
+- .7: 2
+- .afm: 2
+- .zi: 2
+- .toml: 2
+- .keep: 2
+- .pem: 2
+- .dockerignore: 2
+- .obj: 2
+- .asm: 2
+- .1: 2
+- .fish: 2
+- .local: 2
+- .env: 2
+- .tsbuildinfo: 2
+- .rscinfo: 2
+- .body: 2
+- .code-snippets: 1
+- .zip: 1
+- .cursorrules: 1
+- .php: 1
+- .pid: 1
+- .jekyll-metadata: 1
+- .jsonl: 1
+- .backup_20260210_111546: 1
+- .gyp: 1
+- .info: 1
+- .cff: 1
+- .tm_properties: 1
+- .vercel: 1
+- .bak: 1
+- .webmanifest: 1
+- .r: 1
+- .y: 1
+- .mit: 1
+- .ani: 1
+- .apache2: 1
+- .l: 1
+- .npmrc: 1
+- .previewinfo: 1
+- .sql: 1
+- .csh: 1
+- .nu: 1
+- .spmignore: 1
+- .njs: 1
+- .rng: 1
+- .psf: 1
+- .jpeg: 1
+- .python: 1
+- .inc: 1
+- .fits: 1
+- .sfd: 1
+- .pc: 1
+- .f95: 1
+- .template: 1
+
+## Primeiras 200 rotas de arquivo
+
+- `C:/Agentes/.cursorrules`
+- `C:/Agentes/.env`
+- `C:/Agentes/.env.example`
+- `C:/Agentes/.env.local`
+- `C:/Agentes/.env.vercel`
+- `C:/Agentes/.gitignore`
+- `C:/Agentes/AGENTES_SINTETICOS.md`
+- `C:/Agentes/AGENTS.md`
+- `C:/Agentes/anti-vibe-coding-workflow.md`
+- `C:/Agentes/AUDITORIA_COMPLETA_2026.md`
+- `C:/Agentes/C`
+- `C:/Agentes/CLAUDE.md`
+- `C:/Agentes/CODEX.md`
+- `C:/Agentes/CUsersigormpesquisa-eleitoral-dftemp_env.json`
+- `C:/Agentes/DEPENDENCY_AUDIT_REPORT.md`
+- `C:/Agentes/DIAGNOSTICO.md`
+- `C:/Agentes/docker-compose.prod.yml`
+- `C:/Agentes/docker-compose.yml`
+- `C:/Agentes/eslint.config.js`
+- `C:/Agentes/gerar_relatorio_coerencia_completo.py`
+- `C:/Agentes/GESTAO_CONTEXTO.md`
+- `C:/Agentes/GPS_NAVEGACAO_AGENTES.md`
+- `C:/Agentes/grafico-evolucao-celina.html`
+- `C:/Agentes/init.md`
+- `C:/Agentes/INITIAL.md`
+- `C:/Agentes/INTEIA_Relatorio_Ibaneis_Celina_2026.md`
+- `C:/Agentes/manual-engenharia-contexto.md`
+- `C:/Agentes/MIGRAR_SESSOES.txt`
+- `C:/Agentes/nul`
+- `C:/Agentes/OpenCode_pesquisa-eleitoral-df_2026-01-24.md`
+- `C:/Agentes/PADRONIZACAO_AGENTES.md`
+- `C:/Agentes/PLAN.md`
+- `C:/Agentes/PLANO-MELHORIA-CONTEUDO.md`
+- `C:/Agentes/PLANO_FASE_2_MENSAGENS.md`
+- `C:/Agentes/PLANO_FASE_3_SIMULADOR_AB.md`
+- `C:/Agentes/PLANO_FASE_4_CENARIOS.md`
+- `C:/Agentes/PLANO_FASE_5_MEMORIA_EVOLUTIVA.md`
+- `C:/Agentes/PLANO_FASE_6_GRAFO_INFLUENCIA.md`
+- `C:/Agentes/PLANO_FINAL_CONSOLIDADO.md`
+- `C:/Agentes/PLANO_PERSUASION_ENGINE.md`
+- `C:/Agentes/PROJECT_INDEX.md`
+- `C:/Agentes/README.md`
+- `C:/Agentes/relatorio_coerencia.json`
+- `C:/Agentes/relatorio_inconsistencias.json`
+- `C:/Agentes/SESSAO_TEMP.md`
+- `C:/Agentes/SETUP.md`
+- `C:/Agentes/start-services.sh`
+- `C:/Agentes/temp_d.json`
+- `C:/Agentes/temp_d2.json`
+- `C:/Agentes/temp_d3.json`
+- `C:/Agentes/temp_d4.json`
+- `C:/Agentes/temp_deploys.json`
+- `C:/Agentes/temp_deploys2.json`
+- `C:/Agentes/temp_openapi.json`
+- `C:/Agentes/temp_openapi2.json`
+- `C:/Agentes/temp_render.json`
+- `C:/Agentes/temp_render_logs.json`
+- `C:/Agentes/vercel.json`
+- `C:/Agentes/VERCEL_SETUP.md`
+- `C:/Agentes/watchdog.sh`
+- `C:/Agentes/WORK_LOG.md`
+- `C:/Agentes/_CHECKLIST.md`
+- `C:/Agentes/_check_links.ps1`
+- `C:/Agentes/_INDEX.md`
+- `C:/Agentes/_INSIGHTS.md`
+- `C:/Agentes/.agents/plans/novo-relatorio-padrao.md`
+- `C:/Agentes/.agents/plans/pesquisa-eleitoral-completa.md`
+- `C:/Agentes/.agents/plans/pesquisa-eleitoral-premium.md`
+- `C:/Agentes/.agents/research/.gitkeep`
+- `C:/Agentes/.claude/PRD.md`
+- `C:/Agentes/.claude/settings.json`
+- `C:/Agentes/.claude/settings.local.json`
+- `C:/Agentes/.claude/agents/architect-specialist.md`
+- `C:/Agentes/.claude/agents/backend-specialist.md`
+- `C:/Agentes/.claude/agents/bug-fixer.md`
+- `C:/Agentes/.claude/agents/code-reviewer.md`
+- `C:/Agentes/.claude/agents/database-specialist.md`
+- `C:/Agentes/.claude/agents/devops-specialist.md`
+- `C:/Agentes/.claude/agents/documentation-writer.md`
+- `C:/Agentes/.claude/agents/feature-developer.md`
+- `C:/Agentes/.claude/agents/frontend-specialist.md`
+- `C:/Agentes/.claude/agents/HANDBOOK.txt`
+- `C:/Agentes/.claude/agents/mobile-specialist.md`
+- `C:/Agentes/.claude/agents/performance-optimizer.md`
+- `C:/Agentes/.claude/agents/refactoring-specialist.md`
+- `C:/Agentes/.claude/agents/security-auditor.md`
+- `C:/Agentes/.claude/agents/test-writer.md`
+- `C:/Agentes/.claude/commands/COMMANDS_INDEX.md`
+- `C:/Agentes/.claude/commands/commit.md`
+- `C:/Agentes/.claude/commands/compact.md`
+- `C:/Agentes/.claude/commands/init-project.md`
+- `C:/Agentes/.claude/commands/anti-vibe/implementar.md`
+- `C:/Agentes/.claude/commands/anti-vibe/pesquisar.md`
+- `C:/Agentes/.claude/commands/anti-vibe/spec.md`
+- `C:/Agentes/.claude/commands/core_piv_loop/execute.md`
+- `C:/Agentes/.claude/commands/core_piv_loop/plan-feature.md`
+- `C:/Agentes/.claude/commands/core_piv_loop/prime.md`
+- `C:/Agentes/.claude/commands/core_piv_loop/research.md`
+- `C:/Agentes/.claude/commands/pesquisa_eleitoral/analisar-eleitor.md`
+- `C:/Agentes/.claude/commands/pesquisa_eleitoral/executar-pesquisa.md`
+- `C:/Agentes/.claude/commands/pesquisa_eleitoral/gerar-relatorio.md`
+- `C:/Agentes/.claude/commands/pesquisa_eleitoral/pesquisa-premium.md`
+- `C:/Agentes/.claude/commands/validation/code-review-fix.md`
+- `C:/Agentes/.claude/commands/validation/code-review.md`
+- `C:/Agentes/.claude/commands/validation/requirements-check.md`
+- `C:/Agentes/.claude/commands/validation/system-review.md`
+- `C:/Agentes/.claude/commands/validation/validate.md`
+- `C:/Agentes/.claude/hooks/stop-hook.ts`
+- `C:/Agentes/.claude/identity/componentes.md`
+- `C:/Agentes/.claude/identity/cores.md`
+- `C:/Agentes/.claude/identity/layouts.md`
+- `C:/Agentes/.claude/identity/README.md`
+- `C:/Agentes/.claude/identity/tipografia.md`
+- `C:/Agentes/.claude/identity/tokens.json`
+- `C:/Agentes/.claude/reference/anti-vibe-coding-workflow.md`
+- `C:/Agentes/.claude/reference/claude-api-best-practices.md`
+- `C:/Agentes/.claude/reference/fastapi-best-practices.md`
+- `C:/Agentes/.claude/reference/mcps-subagentes.md`
+- `C:/Agentes/.claude/reference/nextjs-best-practices.md`
+- `C:/Agentes/.claude/reference/padrao-relatorios.md`
+- `C:/Agentes/.claude/reference/spec-driven-development.md`
+- `C:/Agentes/.claude/reference/tiers-complexidade.md`
+- `C:/Agentes/.claude/rules/api.md`
+- `C:/Agentes/.claude/rules/components.md`
+- `C:/Agentes/.claude/rules/impressao-relatorios.md`
+- `C:/Agentes/.claude/rules/seguranca.md`
+- `C:/Agentes/.claude/skills/SKILLS_INDEX.md`
+- `C:/Agentes/.claude/skills/api-design/SKILL.md`
+- `C:/Agentes/.claude/skills/auditoria-e-validacao-pesquisa/SKILL.md`
+- `C:/Agentes/.claude/skills/branding-inteia/SKILL.md`
+- `C:/Agentes/.claude/skills/bug-investigation/SKILL.md`
+- `C:/Agentes/.claude/skills/code-review/SKILL.md`
+- `C:/Agentes/.claude/skills/commit-message/SKILL.md`
+- `C:/Agentes/.claude/skills/criacao-skills/SKILL.md`
+- `C:/Agentes/.claude/skills/design-system-inteia/SKILL.md`
+- `C:/Agentes/.claude/skills/documentation/SKILL.md`
+- `C:/Agentes/.claude/skills/executar-pesquisa-eleitoral/executar_pesquisa.py`
+- `C:/Agentes/.claude/skills/executar-pesquisa-eleitoral/SKILL.md`
+- `C:/Agentes/.claude/skills/feature-breakdown/SKILL.md`
+- `C:/Agentes/.claude/skills/funcoes-programa/SKILL.md`
+- `C:/Agentes/.claude/skills/infraestrutura-deploy/SKILL.md`
+- `C:/Agentes/.claude/skills/insights-estrategicos-preditivos/SKILL.md`
+- `C:/Agentes/.claude/skills/navegacao-projeto/SKILL.md`
+- `C:/Agentes/.claude/skills/pesquisa-eleitoral-premium/SKILL.md`
+- `C:/Agentes/.claude/skills/pesquisador-eleitoral/api_client.py`
+- `C:/Agentes/.claude/skills/pesquisador-eleitoral/SKILL.md`
+- `C:/Agentes/.claude/skills/polaris-sdk-pesquisa/SKILL.md`
+- `C:/Agentes/.claude/skills/pr-review/SKILL.md`
+- `C:/Agentes/.claude/skills/refactoring/SKILL.md`
+- `C:/Agentes/.claude/skills/relatorio-inteia/SKILL.md`
+- `C:/Agentes/.claude/skills/relatorio-inteia/references/componentes.md`
+- `C:/Agentes/.claude/skills/relatorio-inteia/scripts/generate_report.js`
+- `C:/Agentes/.claude/skills/security-audit/SKILL.md`
+- `C:/Agentes/.claude/skills/templates-relatorios/SKILL.md`
+- `C:/Agentes/.claude/skills/test-generation/SKILL.md`
+- `C:/Agentes/.claude/templates/checklist-pesquisa-eleitoral-premium.md`
+- `C:/Agentes/.claude/templates/investigacao-juridica.md`
+- `C:/Agentes/.claude/templates/pesquisa-eleitoral-premium.md`
+- `C:/Agentes/.claude/templates/projeto-analise.md`
+- `C:/Agentes/.claude/templates/relatorio-cliente-premium.html`
+- `C:/Agentes/.codex/skills/api-design/SKILL.md`
+- `C:/Agentes/.codex/skills/bug-investigation/SKILL.md`
+- `C:/Agentes/.codex/skills/code-review/SKILL.md`
+- `C:/Agentes/.codex/skills/commit-message/SKILL.md`
+- `C:/Agentes/.codex/skills/documentation/SKILL.md`
+- `C:/Agentes/.codex/skills/feature-breakdown/SKILL.md`
+- `C:/Agentes/.codex/skills/gama-helena-campaign/SKILL.md`
+- `C:/Agentes/.codex/skills/gama-helena-campaign/references/metodologia-helena-gama.md`
+- `C:/Agentes/.codex/skills/gama-helena-campaign/scripts/run.ps1`
+- `C:/Agentes/.codex/skills/pr-review/SKILL.md`
+- `C:/Agentes/.codex/skills/refactoring/SKILL.md`
+- `C:/Agentes/.codex/skills/security-audit/SKILL.md`
+- `C:/Agentes/.codex/skills/test-generation/SKILL.md`
+- `C:/Agentes/.context/backend-run.err.log`
+- `C:/Agentes/.context/backend-run.out.log`
+- `C:/Agentes/.context/backend-run.pid`
+- `C:/Agentes/.context/COMPILACAO_SESSAO_27jan2026.md`
+- `C:/Agentes/.context/consulta_unificada_cache.json`
+- `C:/Agentes/.context/consulta_unificada_log.jsonl`
+- `C:/Agentes/.context/context.md`
+- `C:/Agentes/.context/HUB_CHECKLIST.md`
+- `C:/Agentes/.context/insights.md`
+- `C:/Agentes/.context/SESSAO_HUB_PROJETOS.md`
+- `C:/Agentes/.context/sugestoes-melhorias.md`
+- `C:/Agentes/.context/todos.md`
+- `C:/Agentes/.context/agents/architect-specialist.md`
+- `C:/Agentes/.context/agents/backend-specialist.md`
+- `C:/Agentes/.context/agents/bug-fixer.md`
+- `C:/Agentes/.context/agents/code-reviewer.md`
+- `C:/Agentes/.context/agents/database-specialist.md`
+- `C:/Agentes/.context/agents/devops-specialist.md`
+- `C:/Agentes/.context/agents/documentation-writer.md`
+- `C:/Agentes/.context/agents/feature-developer.md`
+- `C:/Agentes/.context/agents/frontend-specialist.md`
+- `C:/Agentes/.context/agents/mobile-specialist.md`
+- `C:/Agentes/.context/agents/performance-optimizer.md`
+- `C:/Agentes/.context/agents/README.md`
+- `C:/Agentes/.context/agents/refactoring-specialist.md`
+- `C:/Agentes/.context/agents/security-auditor.md`
+- `C:/Agentes/.context/agents/test-writer.md`

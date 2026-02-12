@@ -24,6 +24,12 @@ colmeia/sandman/
 projects/tags-por-ementa/
 sandman
 
+# Banco de dados operacional (SQLite)
+operacional/banco/colmeia.db
+operacional/banco/colmeia.db-wal
+operacional/banco/colmeia.db-shm
+operacional/banco/__pycache__/
+
 # Logs temporários
 *.log
 

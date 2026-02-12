@@ -1,0 +1,107 @@
+{
+  "inicio": "2026-02-11T18:52:13.240539",
+  "fim": "2026-02-11T18:52:18.119539",
+  "duracao_segundos": 4,
+  "parametros": {
+    "cycles": 3,
+    "interval_sec": 2,
+    "retry_delay_min": 1
+  },
+  "metricas": {
+    "ciclos": 3,
+    "heartbeats_total": 9,
+    "heartbeats_ok": 9,
+    "heartbeat_success_rate": 100.0,
+    "daemon_ok": 3,
+    "meta_90": true
+  },
+  "ciclos": [
+    {
+      "cycle": 1,
+      "timestamp": "2026-02-11T18:52:13.585562",
+      "heartbeats": [
+        {
+          "agente": "onir",
+          "exit_code": 0,
+          "stdout": "\n  === HEARTBEAT: @onir ===\n  Timestamp: 2026-02-11 18:52:13\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (623 chars)\n  [3/6] Tarefas: 1 em_progresso, 1 atribuida(s)\n        >> #6 [em_progresso] Pesquisar artigos masking autista para reconvencao\n        -> #8 [atribuida] Teste daemon/subscription\n  [4/6] Mencoes pendentes: 1\n        @ @onir mencionado em tarefa #9\n  [5/6] Decisao:\n        CONTINUAR tarefa #6: Pesquisar artigos masking autista para reconvencao\n  [6/6] Ciclo concluido em 41ms — TRABALHO_CONTINUADO\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+          "stderr": ""
+        },
+        {
+          "agente": "sandman",
+          "exit_code": 0,
+          "stdout": "\n  === HEARTBEAT: @sandman ===\n  Timestamp: 2026-02-11 18:52:13\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (185 chars)\n  [3/6] Tarefas: 0 em_progresso, 0 atribuida(s)\n  [4/6] Mencoes pendentes: 1\n        @ @sandman mencionado em tarefa #9\n  [5/6] Decisao:\n        PROCESSAR 1 mencao(oes)\n  [6/6] Ciclo concluido em 37ms — MENCOES_PROCESSADAS\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+          "stderr": ""
+        },
+        {
+          "agente": "nexo",
+          "exit_code": 0,
+          "stdout": "\n  === HEARTBEAT: @nexo ===\n  Timestamp: 2026-02-11 18:52:13\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (182 chars)\n  [3/6] Tarefas: 0 em_progresso, 2 atribuida(s)\n        -> #1 [atribuida] Completar heartbeat escalonado para 3 agentes piloto\n        -> #9 [atribuida] P030 - colaboracao 3 agentes (2026-02-11 18:52:13)\n  [4/6] Mencoes pendentes: 1\n        @ Tarefa #9 atribuida a voce\n  [5/6] Decisao:\n        ACEITAR tarefa #1: Completar heartbeat escalonado para 3 agentes piloto\n  [6/6] Ciclo concluido em 62ms — TRABALHO_NOVO\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+          "stderr": ""
+        }
+      ],
+      "daemon": {
+        "exit_code": 0,
+        "stdout": "{\"timestamp\": \"2026-02-11T18:52:13.576717\", \"modo\": \"online\", \"agentes_online\": [\"nexo\", \"onir\", \"sandman\"], \"stats\": {\"total\": 2, \"entregues\": 2, \"reprogramadas\": 0, \"falhas_finais\": 0, \"ignoradas\": 0}, \"duracao_ms\": 20}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "cycle": 2,
+      "timestamp": "2026-02-11T18:52:15.855573",
+      "heartbeats": [
+        {
+          "agente": "nexo",
+          "exit_code": 0,
+          "stdout": "\n  === HEARTBEAT: @nexo ===\n  Timestamp: 2026-02-11 18:52:15\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (255 chars)\n  [3/6] Tarefas: 1 em_progresso, 1 atribuida(s)\n        >> #1 [em_progresso] Completar heartbeat escalonado para 3 agentes piloto\n        -> #9 [atribuida] P030 - colaboracao 3 agentes (2026-02-11 18:52:13)\n  [4/6] Mencoes pendentes: 0\n  [5/6] Decisao:\n        CONTINUAR tarefa #1: Completar heartbeat escalonado para 3 agentes piloto\n  [6/6] Ciclo concluido em 23ms — TRABALHO_CONTINUADO\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+          "stderr": ""
+        },
+        {
+          "agente": "onir",
+          "exit_code": 0,
+          "stdout": "\n  === HEARTBEAT: @onir ===\n  Timestamp: 2026-02-11 18:52:15\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (247 chars)\n  [3/6] Tarefas: 1 em_progresso, 1 atribuida(s)\n        >> #6 [em_progresso] Pesquisar artigos masking autista para reconvencao\n        -> #8 [atribuida] Teste daemon/subscription\n  [4/6] Mencoes pendentes: 0\n  [5/6] Decisao:\n        CONTINUAR tarefa #6: Pesquisar artigos masking autista para reconvencao\n  [6/6] Ciclo concluido em 62ms — TRABALHO_CONTINUADO\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+          "stderr": ""
+        },
+        {
+          "agente": "sandman",
+          "exit_code": 0,
+          "stdout": "\n  === HEARTBEAT: @sandman ===\n  Timestamp: 2026-02-11 18:52:15\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (195 chars)\n  [3/6] Tarefas: 0 em_progresso, 0 atribuida(s)\n  [4/6] Mencoes pendentes: 0\n  [5/6] Decisao:\n        HEARTBEAT_OK — nenhuma acao necessaria\n  [6/6] Ciclo concluido em 72ms — HEARTBEAT_OK\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+          "stderr": ""
+        }
+      ],
+      "daemon": {
+        "exit_code": 0,
+        "stdout": "{\"timestamp\": \"2026-02-11T18:52:15.846034\", \"modo\": \"online\", \"agentes_online\": [\"nexo\", \"onir\", \"sandman\"], \"stats\": {\"total\": 0, \"entregues\": 0, \"reprogramadas\": 0, \"falhas_finais\": 0, \"ignoradas\": 0}, \"duracao_ms\": 9}\n",
+        "stderr": ""
+      }
+    },
+    {
+      "cycle": 3,
+      "timestamp": "2026-02-11T18:52:18.119508",
+      "heartbeats": [
+        {
+          "agente": "sandman",
+          "exit_code": 0,
+          "stdout": "\n  === HEARTBEAT: @sandman ===\n  Timestamp: 2026-02-11 18:52:17\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (185 chars)\n  [3/6] Tarefas: 0 em_progresso, 0 atribuida(s)\n  [4/6] Mencoes pendentes: 0\n  [5/6] Decisao:\n        HEARTBEAT_OK — nenhuma acao necessaria\n  [6/6] Ciclo concluido em 46ms — HEARTBEAT_OK\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+          "stderr": ""
+        },
+        {
+          "agente": "nexo",
+          "exit_code": 0,
+          "stdout": "\n  === HEARTBEAT: @nexo ===\n  Timestamp: 2026-02-11 18:52:17\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (248 chars)\n  [3/6] Tarefas: 1 em_progresso, 1 atribuida(s)\n        >> #1 [em_progresso] Completar heartbeat escalonado para 3 agentes piloto\n        -> #9 [atribuida] P030 - colaboracao 3 agentes (2026-02-11 18:52:13)\n  [4/6] Mencoes pendentes: 0\n  [5/6] Decisao:\n        CONTINUAR tarefa #1: Completar heartbeat escalonado para 3 agentes piloto\n  [6/6] Ciclo concluido em 49ms — TRABALHO_CONTINUADO\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+          "stderr": ""
+        },
+        {
+          "agente": "onir",
+          "exit_code": 0,
+          "stdout": "\n  === HEARTBEAT: @onir ===\n  Timestamp: 2026-02-11 18:52:17\n\n  [1/6] Heartbeat registrado\n  [2/6] WORKING.md carregado (247 chars)\n  [3/6] Tarefas: 1 em_progresso, 1 atribuida(s)\n        >> #6 [em_progresso] Pesquisar artigos masking autista para reconvencao\n        -> #8 [atribuida] Teste daemon/subscription\n  [4/6] Mencoes pendentes: 0\n  [5/6] Decisao:\n        CONTINUAR tarefa #6: Pesquisar artigos masking autista para reconvencao\n  [6/6] Ciclo concluido em 92ms — TRABALHO_CONTINUADO\n        Log: C:\\Users\\IgorPC\\Colmeia\\operacional\\logs\\heartbeat_2026-02-11.jsonl\n\n",
+          "stderr": ""
+        }
+      ],
+      "daemon": {
+        "exit_code": 0,
+        "stdout": "{\"timestamp\": \"2026-02-11T18:52:18.109103\", \"modo\": \"online\", \"agentes_online\": [\"nexo\", \"onir\", \"sandman\"], \"stats\": {\"total\": 0, \"entregues\": 0, \"reprogramadas\": 0, \"falhas_finais\": 0, \"ignoradas\": 0}, \"duracao_ms\": 9}\n",
+        "stderr": ""
+      }
+    }
+  ]
+}

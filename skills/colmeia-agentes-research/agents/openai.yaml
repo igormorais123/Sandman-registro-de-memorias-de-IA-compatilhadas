@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agentes Research"
+  short_description: "Pesquisa em C:\\Agentes e consultas via Colmeia"
+  default_prompt: "Use $colmeia-agentes-research para pesquisar agentes simulados em C:/Agentes e gerar analises quanti/quali."

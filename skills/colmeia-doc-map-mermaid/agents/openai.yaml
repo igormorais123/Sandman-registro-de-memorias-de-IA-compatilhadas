@@ -1,0 +1,4 @@
+interface:
+  display_name: "Colmeia Doc Mapper"
+  short_description: "Mapeia docs com Mermaid e atualiza navegacao"
+  default_prompt: "Use $colmeia-doc-map-mermaid para mapear e atualizar a navegacao documental da Colmeia."

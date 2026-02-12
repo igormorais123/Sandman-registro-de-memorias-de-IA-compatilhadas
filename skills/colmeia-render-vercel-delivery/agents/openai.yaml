@@ -1,0 +1,4 @@
+interface:
+  display_name: "Colmeia Delivery"
+  short_description: "Entrega modulos Colmeia em Render e Vercel"
+  default_prompt: "Use $colmeia-render-vercel-delivery para implementar e publicar modulos da Colmeia em /colmeia."
