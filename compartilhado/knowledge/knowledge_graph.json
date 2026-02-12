@@ -1,0 +1,197 @@
+{
+  "organization": {
+    "name": "INTEIA",
+    "full_name": "INTEIA - Inteligência Estratégica",
+    "cnpj": "63.918.490/0001-20",
+    "address": {
+      "street": "SHN Quadra 2 Bloco F",
+      "suite": "Sala 625/626",
+      "city": "Brasília",
+      "state": "DF",
+      "country": "Brasil"
+    },
+    "contact": {
+      "website": "https://inteia.com.br",
+      "email": "igor@inteia.com.br"
+    },
+    "slogan": "Inteligência Estratégica",
+    "tagline": "Contexto otimizado, resultados maximizados"
+  },
+
+  "responsible": {
+    "name": "Igor Morais Vasconcelos",
+    "title": "PhD",
+    "role": "Pesquisador Responsável | Presidente INTEIA",
+    "email": "igor@inteia.com.br",
+    "initials": "IM"
+  },
+
+  "ai_agent": {
+    "name": "Helena Montenegro",
+    "title": "Agente de Sistemas de IA Avançados | Cientista Política",
+    "badge": "IA Avançada",
+    "initials": "HM"
+  },
+
+  "brand": {
+    "logo_text": "INTEIA",
+    "logo_highlight": "IA",
+    "logo_display": "INTE[highlight]IA[/highlight]",
+    "icon_text": "IA",
+    "favicon_color": "#d69e2e"
+  },
+
+  "colors": {
+    "primary": {
+      "amber": "#d69e2e",
+      "amber_light": "#f6e05e",
+      "amber_dark": "#b7791f"
+    },
+    "status": {
+      "success": "#22c55e",
+      "warning": "#eab308",
+      "danger": "#ef4444",
+      "info": "#3b82f6"
+    },
+    "theme_light": {
+      "bg_primary": "#ffffff",
+      "bg_secondary": "#f8fafc",
+      "bg_tertiary": "#f1f5f9",
+      "text_primary": "#0f172a",
+      "text_secondary": "#475569",
+      "text_muted": "#64748b",
+      "border": "#e2e8f0"
+    },
+    "theme_dark": {
+      "bg_primary": "#0f172a",
+      "bg_secondary": "#1e293b",
+      "bg_tertiary": "#334155",
+      "text_primary": "#f8fafc",
+      "text_secondary": "#cbd5e1",
+      "text_muted": "#94a3b8",
+      "border": "rgba(255, 255, 255, 0.08)"
+    }
+  },
+
+  "typography": {
+    "font_family": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap",
+    "sizes": {
+      "h1": "32px",
+      "h2": "20px",
+      "h3": "18px",
+      "body": "14px",
+      "small": "12px",
+      "label": "10px"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800
+    }
+  },
+
+  "spacing": {
+    "xs": "0.25rem",
+    "sm": "0.5rem",
+    "md": "1rem",
+    "lg": "1.5rem",
+    "xl": "2rem",
+    "2xl": "3rem",
+    "3xl": "4rem"
+  },
+
+  "radius": {
+    "sm": "0.375rem",
+    "md": "0.5rem",
+    "lg": "0.75rem",
+    "xl": "1rem",
+    "2xl": "1.5rem"
+  },
+
+  "shadows": {
+    "sm": "0 1px 2px rgba(0,0,0,0.05)",
+    "md": "0 4px 6px -1px rgba(0,0,0,0.1)",
+    "lg": "0 10px 15px -3px rgba(0,0,0,0.1)",
+    "amber": "0 4px 14px rgba(214, 158, 46, 0.25)"
+  },
+
+  "report_structure": {
+    "order": [
+      "hero_header",
+      "executive_summary",
+      "recommendations",
+      "statistical_validation",
+      "kpis",
+      "word_cloud",
+      "specific_analysis",
+      "agent_analysis",
+      "prompt_persona",
+      "researcher_card",
+      "footer"
+    ],
+    "required_features": [
+      "theme_toggle",
+      "print_button_a4",
+      "sidebar_fixed",
+      "responsive",
+      "chartjs",
+      "google_fonts_inter"
+    ]
+  },
+
+  "content_rules": [
+    "Never mention competitor names",
+    "Helena always as 'Agente de Sistemas de IA Avançados'",
+    "Statistical validation required",
+    "Conclusion at beginning",
+    "Recommendations prioritized by urgency",
+    "Use 'Pesquisador Responsável' not 'Técnico'",
+    "Portuguese accents correctly applied"
+  ],
+
+  "priority_levels": {
+    "urgent": {
+      "emoji": "🔴",
+      "label": "Urgente",
+      "color": "#ef4444"
+    },
+    "important": {
+      "emoji": "🟡",
+      "label": "Importante",
+      "color": "#eab308"
+    },
+    "monitor": {
+      "emoji": "🟢",
+      "label": "Monitorar",
+      "color": "#22c55e"
+    }
+  },
+
+  "footer_text": {
+    "company": "INTEIA - Inteligência Estratégica",
+    "cnpj_line": "CNPJ: 63.918.490/0001-20",
+    "address_line": "SHN Quadra 2 Bloco F, Sala 625/626 - Brasília/DF",
+    "contact_line": "inteia.com.br | igor@inteia.com.br",
+    "copyright": "© 2026 INTEIA. Todos os direitos reservados."
+  },
+
+  "reference_files": {
+    "stress_test_report": "frontend/public/resultados-stress-test/index.html",
+    "analysis_report": "Intenção de voto Celina Leao 01.2024-01.2026/relatorio/index.html"
+  },
+
+  "design_style": {
+    "inspiration": "Apple/Claude Clean & Elegant",
+    "characteristics": [
+      "Minimalist",
+      "Generous spacing",
+      "Clear visual hierarchy",
+      "Smooth transitions (0.2s-0.3s)",
+      "Subtle shadows"
+    ]
+  }
+}
