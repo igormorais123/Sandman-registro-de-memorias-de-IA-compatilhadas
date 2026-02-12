@@ -165,8 +165,14 @@
 - **Status:** Pendente
 - **Prioridade:** Media (governanca)
 
+### P023: A velocidade de construcao e sustentavel?
+- **Origem:** sonho_rapido_2026-02-11
+- **Contexto:** 31/34 tarefas concluidas numa unica rajada. Quando algo quebrar (soak test), ha documentacao suficiente para outra instancia diagnosticar? O conhecimento tacito de quem construiu esta nos commits, nao em prosa.
+- **Status:** Pendente
+- **Prioridade:** Media (governanca + resiliencia)
+
 ---
 
-*Fila atualizada em: 2026-02-10*
-*Total de perguntas: 23* (7 originais + P003b + P008-P022)
+*Fila atualizada em: 2026-02-11*
+*Total de perguntas: 24* (7 originais + P003b + P008-P023)
 *Respondidas: 1* (P003)
