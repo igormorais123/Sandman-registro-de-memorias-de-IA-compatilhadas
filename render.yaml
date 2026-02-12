@@ -1,0 +1,25 @@
+# Colmeia v6 — Render Blueprint (Fase 2)
+# Deploy: conectar repo GitHub ao Render
+
+databases:
+  - name: colmeia-db
+    plan: free
+    databaseName: colmeia
+    user: colmeia
+
+services:
+  - type: web
+    name: colmeia-api
+    plan: free
+    runtime: python
+    buildCommand: pip install fastapi uvicorn psycopg2-binary
+    startCommand: uvicorn operacional.painel.api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: colmeia-db
+          property: connectionString
+      - key: COLMEIA_ENV
+        value: production
+    healthCheckPath: /api/health
+    autoDeploy: false

@@ -6,6 +6,10 @@ Ou: python api.py (modo desenvolvimento)
 
 import sys
 import os
+import json
+from datetime import datetime, timedelta
+from pathlib import Path
+from collections import defaultdict
 
 # Adicionar diretorio do banco ao path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "banco"))
@@ -16,12 +20,33 @@ from fastapi.responses import FileResponse, HTMLResponse
 from typing import Optional
 import colmeia_db as db
 
+LOGS_DIR = Path(__file__).parent.parent / "logs"
+
 app = FastAPI(title="Colmeia v6 — Dashboard API", version="1.0")
 
 
 @app.on_event("startup")
 def startup():
     db.inicializar_banco()
+
+
+# === HEALTH CHECK ===
+
+@app.get("/api/health")
+def api_health():
+    """Health check para monitoring (Render, uptime bots, etc.)."""
+    try:
+        agentes = db.listar_agentes()
+        tarefas = db.listar_tarefas()
+        return {
+            "status": "ok",
+            "version": "1.0",
+            "agentes": len(agentes),
+            "tarefas": len(tarefas),
+            "timestamp": datetime.now().isoformat(),
+        }
+    except Exception as e:
+        return {"status": "error", "error": str(e)}
 
 
 # === AGENTES ===
@@ -170,6 +195,91 @@ def api_criar_mensagem(tarefa_id: int, de: str, conteudo: str, mencoes: Optional
     lista_mencoes = mencoes.split(",") if mencoes else None
     db.criar_mensagem(tarefa_id, de, conteudo, lista_mencoes)
     return {"tarefa_id": tarefa_id, "de": de}
+
+
+# === SOAK TEST ===
+
+def _carregar_logs_jsonl(dias=7):
+    """Carrega logs JSONL dos ultimos N dias."""
+    entradas = []
+    hoje = datetime.now()
+    for i in range(dias):
+        data = (hoje - timedelta(days=i)).strftime("%Y-%m-%d")
+        log_file = LOGS_DIR / f"heartbeat_{data}.jsonl"
+        if log_file.exists():
+            with open(log_file, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line:
+                        entradas.append(json.loads(line))
+    return entradas
+
+
+@app.get("/api/soak-test")
+def api_soak_test(dias: int = 7):
+    """Retorna KPIs do soak test para monitoramento."""
+    entradas = _carregar_logs_jsonl(dias)
+    if not entradas:
+        return {"status": "sem_dados", "mensagem": "Nenhum log encontrado"}
+
+    total = len(entradas)
+    por_agente = defaultdict(list)
+    por_resultado = defaultdict(int)
+    por_dia = defaultdict(list)
+
+    for e in entradas:
+        por_agente[e["agente"]].append(e)
+        por_resultado[e["resultado"]] += 1
+        dia = e["timestamp"][:10]
+        por_dia[dia].append(e)
+
+    sucessos = sum(1 for e in entradas if e["resultado"] != "ERRO")
+    taxa_sucesso = round((sucessos / total) * 100, 1)
+    duracoes = [e["duracao_ms"] for e in entradas if "duracao_ms" in e]
+    duracao_media = round(sum(duracoes) / len(duracoes), 1) if duracoes else 0
+
+    # KPIs por agente
+    agentes_stats = {}
+    for agente, logs in por_agente.items():
+        a_total = len(logs)
+        a_sucessos = sum(1 for e in logs if e["resultado"] != "ERRO")
+        agentes_stats[agente] = {
+            "total": a_total,
+            "sucesso": a_sucessos,
+            "taxa": round((a_sucessos / a_total * 100), 1) if a_total else 0,
+            "trabalho": sum(1 for e in logs if e["resultado"].startswith("TRABALHO")),
+        }
+
+    # KPIs por dia
+    dias_stats = {}
+    for dia, logs in sorted(por_dia.items()):
+        d_total = len(logs)
+        d_sucesso = sum(1 for e in logs if e["resultado"] != "ERRO")
+        dias_stats[dia] = {
+            "ciclos": d_total,
+            "taxa": round((d_sucesso / d_total * 100), 1) if d_total else 0,
+            "agentes_ativos": len(set(e["agente"] for e in logs)),
+        }
+
+    timestamps = [e["timestamp"] for e in entradas]
+    dias_com_dados = len(por_dia)
+    meta_dias = 7
+    inicio_soak = "2026-02-11"
+
+    return {
+        "status": "em_andamento" if dias_com_dados < meta_dias else "concluido",
+        "progresso": f"{dias_com_dados}/{meta_dias} dias",
+        "inicio": inicio_soak,
+        "fim_previsto": "2026-02-18",
+        "periodo": {"primeiro": min(timestamps), "ultimo": max(timestamps)},
+        "total_ciclos": total,
+        "taxa_sucesso": taxa_sucesso,
+        "meta_atingida": taxa_sucesso >= 90,
+        "duracao_media_ms": duracao_media,
+        "por_resultado": dict(por_resultado),
+        "por_agente": agentes_stats,
+        "por_dia": dias_stats,
+    }
 
 
 # === FRONTEND ===

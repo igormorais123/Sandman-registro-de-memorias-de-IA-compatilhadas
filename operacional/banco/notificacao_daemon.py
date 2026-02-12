@@ -32,28 +32,41 @@ def log_execucao(payload):
 
 def ciclo(args):
     inicio = time.time()
-    agentes_online = None
-    if args.modo == "online":
-        agentes_online = db.obter_agentes_online(janela_min=args.online_janela_min)
+    try:
+        agentes_online = None
+        if args.modo == "online":
+            agentes_online = db.obter_agentes_online(janela_min=args.online_janela_min)
 
-    stats = db.processar_fila_notificacoes(
-        agentes_online=agentes_online,
-        limite=args.limite,
-        retry_delay_min=args.retry_delay_min,
-        entregador="daemon_online" if args.modo == "online" else "daemon_all",
-        ignorar_agendamento=args.modo == "all",
-    )
+        stats = db.processar_fila_notificacoes(
+            agentes_online=agentes_online,
+            limite=args.limite,
+            retry_delay_min=args.retry_delay_min,
+            entregador="daemon_online" if args.modo == "online" else "daemon_all",
+            ignorar_agendamento=args.modo == "all",
+        )
 
-    duracao_ms = int((time.time() - inicio) * 1000)
-    payload = {
-        "timestamp": datetime.now().isoformat(),
-        "modo": args.modo,
-        "agentes_online": agentes_online if agentes_online is not None else "all",
-        "stats": stats,
-        "duracao_ms": duracao_ms,
-    }
-    log_execucao(payload)
-    print(json.dumps(payload, ensure_ascii=False))
+        duracao_ms = int((time.time() - inicio) * 1000)
+        payload = {
+            "timestamp": datetime.now().isoformat(),
+            "modo": args.modo,
+            "agentes_online": agentes_online if agentes_online is not None else "all",
+            "stats": stats,
+            "duracao_ms": duracao_ms,
+        }
+        log_execucao(payload)
+        print(json.dumps(payload, ensure_ascii=False))
+
+    except Exception as e:
+        duracao_ms = int((time.time() - inicio) * 1000)
+        erro_payload = {
+            "timestamp": datetime.now().isoformat(),
+            "modo": args.modo,
+            "stats": {"erro": f"{type(e).__name__}: {e}"},
+            "duracao_ms": duracao_ms,
+        }
+        log_execucao(erro_payload)
+        import sys
+        print(f"ERRO no ciclo de notificacoes: {e}", file=sys.stderr)
 
 
 def main():

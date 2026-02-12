@@ -52,22 +52,16 @@
 
 ## O Que Falta Para Completar Fase 1
 
-### Critico (gate para soak test)
-1. **P022 — Agendamento**: Configurar Task Scheduler do Windows para rodar `heartbeat_runner.py` a cada 30min
-   - NEXO: minuto :00
-   - ONIR: minuto :02
-   - Sandman: minuto :04
-   - Comando: `python C:\Users\IgorPC\Colmeia\operacional\banco\heartbeat_runner.py <agente>`
+### EM ANDAMENTO
+1. **P032 — Soak test 7 dias**: Scheduler ativo desde 2026-02-11, 4 agentes (NEXO/ONIR/Sandman/Helena)
+   - Monitorar: `python scripts/verificar_heartbeats.py --dias 7`
+   - API: `GET /api/soak-test`
+   - Meta: >=90% taxa de sucesso em 7 dias
+   - Fim previsto: 2026-02-18
 
-2. **P030 — Teste 3 agentes**: Executar heartbeats dos 3 piloto simultaneamente com tarefas atribuidas a cada um
-
-### Importante (pos-agendamento)
-3. **P023-P024**: Daemon de notificacao com retry completo + auto-subscription
-4. **P032**: Soak test 7 dias — monitorar KPI >=90% heartbeat success rate
-5. **P033**: Ajustar custos baseado nos dados do soak test
-
-### Final (aceite)
-6. **P034**: Relatorio de aceite formal para Igor — KPIs, custos, decisao go/no-go Fase 2
+### PENDENTE (pos-soak)
+2. **P033 — Ajuste custo/token**: Analisar dados do soak test e recomendar modelo economico
+3. **P034 — Aceite formal**: Template pronto em `operacional/RELATORIO_ACEITE.md`, preencher pos-soak
 
 ---
 
@@ -87,12 +81,12 @@
 
 ---
 
-## Estado do Banco (snapshot)
+## Estado do Banco (snapshot 2026-02-11 22:00)
 
-- **Agentes:** 6 registrados, 3 com heartbeat (nexo, onir, sandman)
-- **Tarefas:** 7 (1 concluida, 1 em_progresso, 4 na caixa, 1 atribuida)
-- **Heartbeats registrados:** 4 (3 HEARTBEAT_OK + 1 TRABALHO_NOVO)
-- **Notificacoes:** 4 (2 pendentes para nexo, 2 entregues para onir)
+- **Agentes:** 7 registrados, 4 automatizados (nexo, onir, sandman, helena)
+- **Tarefas:** 10 (backlog real com projetos colmeia-v6, reconvencao, INTEIA)
+- **Heartbeats:** 45 ciclos dia 1, 100% sucesso, 4 agentes
+- **Scheduler:** 5 tarefas ativas (4 HBs + daemon), 0 missed runs
 - **Documentos:** 104 indexados (42 cartas + 62 sonhos)
 
 ---
@@ -101,13 +95,12 @@
 
 **Se voce esta lendo isto apos compactacao:**
 
-1. Leia `operacional/CHECKLIST_EXECUCAO.md` para status detalhado
-2. Leia `operacional/HEARTBEAT_V6.md` para entender o protocolo
-3. O runner esta em `operacional/banco/heartbeat_runner.py` — ja funciona
-4. A CLI esta em `operacional/banco/cli.py` — comandos documentados
-5. O banco esta em `operacional/banco/colmeia.db` (SQLite/WAL)
-6. Logs em `operacional/logs/heartbeat_*.jsonl`
-7. A proxima prioridade e **P022 (agendamento)** seguido de **P032 (soak test)**
+1. Leia `operacional/CHECKLIST_EXECUCAO.md` para status detalhado (91% completo)
+2. O soak test (P032) esta EM_ANDAMENTO — scheduler roda automaticamente
+3. Verificar soak: `python scripts/verificar_heartbeats.py --dias 7`
+4. Monitorar via API: `GET /api/soak-test` (porta 8765)
+5. Template de aceite pronto: `operacional/RELATORIO_ACEITE.md`
+6. Apos 7 dias: preencher relatorio e executar P033/P034
 
 ---
 
@@ -115,7 +108,7 @@
 
 ---
 
-## Atualizacao complementar - 2026-02-11 17:05 (Codex)
+## Atualizacao complementar - 2026-02-11 22:15 (Codex)
 
 ### Entregas implementadas nesta etapa
 
@@ -151,9 +144,16 @@
    - `modo online` com 0 agentes online => notificacoes reprogramadas.
    - `modo all` => pendencias entregues com sucesso.
 
-### Pendencia restante relevante
+### Harmonizacao com fonte oficial ONIR
 
-1. **P022 parcial**:
-   - `scripts/setup_heartbeat_scheduler.bat` atualizado para incluir daemon.
-   - Neste ambiente de execucao, `schtasks /create` falhou com erro de caminho do sistema.
-   - Requer ativacao no host Windows real do Igor.
+1. Fonte oficial adotada: `operacional/CHECKLIST_EXECUCAO.md` (atualizacao ONIR 2026-02-11 22:10).
+2. `P022` deve ser considerado **CONCLUIDO** (Task Scheduler ativo).
+3. `P032` deve ser considerado **EM_ANDAMENTO**.
+4. Pendencias finais permanecem: `P033` e `P034`.
+5. Parcial de `P033` publicado em `operacional/P033_ANALISE_CUSTO.md` (atualizar no fechamento do soak).
+6. Lembrete automatico criado no Task Scheduler:
+   - tarefa: `Colmeia_Lembrete_Fechamento_P032`
+   - primeira execucao: `18/02/2026 09:20`
+   - comando: `python scripts/fechamento_p032_p034.py`
+7. Tarefa operacional criada no banco para cobranca automatica:
+   - `#11 P034 - Fechar aceite final apos soak` atribuida a `nexo`.

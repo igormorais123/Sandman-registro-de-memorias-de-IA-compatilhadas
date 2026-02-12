@@ -1,13 +1,15 @@
 # Auditoria e Fiscalizacao do Plano Colmeia
 
-Atualizado em: 2026-02-11 (17:05)  
+Atualizado em: 2026-02-11 (22:15)  
 Auditor: Codex
 
 ---
 
 ## 1. Diagnostico Executivo
 
-Status geral de execucao: **85% (29/34 tarefas)**, conforme `operacional/CHECKLIST_EXECUCAO.md`.
+Status geral de execucao: **91% (31/34 tarefas)**, conforme `operacional/CHECKLIST_EXECUCAO.md`.
+
+Fonte oficial de status operacional adotada: `operacional/CHECKLIST_EXECUCAO.md` (atualizacao ONIR 2026-02-11 22:10).
 
 Conformidade documental: **alta**.  
 Conformidade de implantacao em producao (`/colmeia` no Render/Vercel): **ainda nao concluida**.
@@ -34,22 +36,24 @@ Conformidade de implantacao em producao (`/colmeia` no Render/Vercel): **ainda n
 - O plano canonico define producao em:
   - `https://inteia.com.br/colmeia`
   - `https://api.inteia.com.br/colmeia`
-- A execucao atual comprovada em `operacional/` ainda esta centrada em SQLite local e painel local.
+- A execucao operacional comprovada em `operacional/` segue majoritariamente no modo local.
 
-Impacto: sistema funcional localmente, mas sem cumprimento do objetivo de implantacao publica canonica.
+Impacto: sistema funcional localmente, mas sem cumprimento completo do objetivo de implantacao publica canonica.
 
-### NC-02 (Alta): Gate operacional com 1 item aberto no Bloco C
+### NC-02 (Media): Validacao final do piloto ainda nao encerrada
 
-- `P022` parcial (agendamento escalonado preparado em script, nao ativado no host por falha de `schtasks` neste ambiente).
-- `P023` e `P024` concluídos.
+- Bloco C foi fechado (`P022`, `P023`, `P024` concluidos).
+- `P032` esta em andamento (soak test 7 dias).
 
-Impacto: risco de instabilidade operacional e perda de notificacao em carga real.
+Impacto: ainda sem evidencia final consolidada de estabilidade do ciclo completo.
 
-### NC-03 (Alta): Validacao final incompleta
+### NC-03 (Alta): Aceite executivo ainda aberto
 
-- Pendencias: `P030`, `P031`, `P032`, `P033`, `P034`.
+- Pendencias finais: `P033` e `P034`.
+- `P032` em andamento.
+- Evidencia parcial de `P033` ja gerada em `operacional/P033_ANALISE_CUSTO.md`.
 
-Impacto: sem aceite formal, sem evidencia de robustez prolongada e sem fechamento oficial do piloto.
+Impacto: sem fechamento formal do piloto v0.1.
 
 ### NC-04 (Media): Producao sem prova de auth/RBAC em rotas `/colmeia/*`
 
@@ -71,11 +75,17 @@ Regra de governanca: **sem abrir nova frente enquanto houver NC-01 critica abert
 4. Executar `P032` (soak test) e registrar relatorio.
 5. Executar `P033` (ajuste de custo/token) com evidencias.
 
+Status atual do G1:
+
+1. `P022`, `P023`, `P024`, `P030`, `P031` concluidos.
+2. `P032` em andamento.
+3. `P033` pendente apos conclusao do soak.
+
 Critico de saida do G1:
 
 1. Heartbeat success rate >= 90%.
 2. Notificacao entregue >= 95%.
-3. Minimo 5 tasks completas sem quebra de fluxo.
+3. Minimo de 5 tasks completas sem quebra de fluxo.
 
 ### Gate G2 - Implantacao canonica em producao (`/colmeia`)
 
@@ -103,8 +113,8 @@ Critico de saida do G2:
 Prioridade maxima:
 
 1. Fechar NC-01 (migrar de piloto local para implantacao canonica).
-2. Fechar NC-02 (agendamento + daemon completo).
-3. Fechar NC-03 (testes finais + aceite).
+2. Encerrar `P032` e emitir evidencias.
+3. Fechar NC-03 (`P033`/`P034`).
 
 Prioridade alta:
 
@@ -125,5 +135,9 @@ Em cada ciclo de auditoria, o gerente deve atualizar:
 1. `operacional/CHECKLIST_EXECUCAO.md` (status real por tarefa).
 2. `operacional/PROGRESSO_FASE1.md` (evidencias tecnicas).
 3. `operacional/AUDITORIA_FISCAL_PLANO.md` (NCs abertas/fechadas).
+
+Nota de harmonizacao:
+
+1. Divergencias historicas entre atualizacoes ONIR/Codex devem ser resolvidas por precedencia do checklist oficial da sessao mais recente.
 
 Sem evidencia em arquivo versionado, item nao e considerado concluido.

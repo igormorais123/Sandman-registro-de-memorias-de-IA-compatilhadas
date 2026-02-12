@@ -1,13 +1,17 @@
 # WORKING.md — NEXO
 
 ## Tarefa Atual
-- ID: #1
-- Titulo: Completar heartbeat escalonado para 3 agentes piloto
+- ID: #11
+- Titulo: P034 - Fechar aceite final apos soak
 - Status: em_progresso
 - Projeto: colmeia-v6
 
-## Progresso
+## Progresso (runner)
 Continuando trabalho do ciclo anterior.
 
 ## Ultima Atualizacao
-2026-02-11 21:30
+2026-02-12 11:00
+
+<!-- ZONA DO AGENTE -->
+## Notas do Agente
+(Escreva aqui — esta secao e preservada entre ciclos)

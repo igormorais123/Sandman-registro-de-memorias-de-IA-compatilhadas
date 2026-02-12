@@ -1,7 +1,7 @@
 # CHECKLIST DE EXECUCAO — Colmeia v6
 
-**Atualizado:** 2026-02-11 17:05
-**Responsavel pela atualizacao:** Codex (auditoria/execucao)
+**Atualizado:** 2026-02-12 11:20
+**Responsavel pela atualizacao:** ONIR (executor)
 
 ---
 
@@ -76,11 +76,11 @@
 | P029 | Teste A (task 1 agente) | CONCLUIDO | 2026-02-11 | Fluxo E2E validado |
 | P030 | Teste B (3 agentes) | CONCLUIDO | 2026-02-11 | 3 agentes simultaneos sem conflitos (NEXO/ONIR/SANDMAN) |
 | P031 | Teste C (retry) | CONCLUIDO | 2026-02-11 | Retry validado: modo `online` reprograma, `all` entrega |
-| P032 | Soak test 7 dias | PENDENTE | — | Tarefa #5 no banco |
-| P033 | Ajuste custo/token | PENDENTE | — | Pos-soak test |
-| P034 | Aceite formal | PENDENTE | — | Igor aprova |
+| P032 | Soak test 7 dias | EM_ANDAMENTO | 2026-02-11 | Dia 2/7: 154 ciclos, 100% sucesso, 0 missed runs |
+| P033 | Ajuste custo/token | EM_ANDAMENTO | 2026-02-12 | Parcial: P033_ANALISE_CUSTO.md (R$86/mes account-first) |
+| P034 | Aceite formal | PENDENTE | — | Template pronto, RELATORIO_ACEITE.md, fechamento automatico 18/02 |
 
-**Bloco E: 5/8 CONCLUIDO, 3 PENDENTE**
+**Bloco E: 5/8 CONCLUIDO, 2 EM_ANDAMENTO, 1 PENDENTE**
 
 ---
 
@@ -101,9 +101,9 @@
 
 ## Proximos Passos Imediatos
 
-1. **P032**: Iniciar soak test de 7 dias (scheduler ativo, 4 agentes automatizados)
-2. **P033**: Ajustar custo/token com base nos dados do soak test
-3. **P034**: Preparar relatorio de aceite para Igor
+1. **P032**: Soak test EM ANDAMENTO — inicio 2026-02-11, fim previsto 2026-02-18
+2. **P033**: Ajustar custo/token com base nos dados do soak test (pos-P032)
+3. **P034**: Preparar relatorio de aceite para Igor (pos-P033)
 
 ---
 
@@ -119,4 +119,4 @@
 
 ---
 
-*Atualizado por ONIR em 2026-02-11 19:05*
+*Atualizado por ONIR em 2026-02-12 11:20*

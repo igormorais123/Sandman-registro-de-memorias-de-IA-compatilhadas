@@ -33,3 +33,8 @@ operacional/banco/__pycache__/
 # Logs temporários
 *.log
 
+
+# Runtime temp artifacts
+**/__pycache__/
+nul
+

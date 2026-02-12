@@ -85,17 +85,34 @@ def ler_working(agente_id):
         return f.read(), str(working_path)
 
 
+ZONA_AGENTE_MARCADOR = "<!-- ZONA DO AGENTE -->"
+
+
+def _extrair_zona_agente(conteudo):
+    """Extrai a zona do agente (preservada entre ciclos) do WORKING.md."""
+    if not conteudo or ZONA_AGENTE_MARCADOR not in conteudo:
+        return ""
+    idx = conteudo.index(ZONA_AGENTE_MARCADOR)
+    return conteudo[idx:].strip()
+
+
 def atualizar_working(agente_id, tarefa=None, progresso="", status="aguardando"):
-    """Atualiza o WORKING.md do agente com estado atual."""
+    """Atualiza o WORKING.md do agente preservando a zona do agente."""
     dir_name = AGENT_DIRS.get(agente_id, agente_id)
     working_path = INSTANCIAS_DIR / dir_name / "WORKING.md"
     working_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Preservar zona do agente existente
+    zona_agente = ""
+    if working_path.exists():
+        with open(working_path, "r", encoding="utf-8") as f:
+            zona_agente = _extrair_zona_agente(f.read())
 
     agora = datetime.now().strftime("%Y-%m-%d %H:%M")
     nome = agente_id.upper()
 
     if tarefa:
-        conteudo = f"""# WORKING.md — {nome}
+        zona_runner = f"""# WORKING.md — {nome}
 
 ## Tarefa Atual
 - ID: #{tarefa['id']}
@@ -103,14 +120,13 @@ def atualizar_working(agente_id, tarefa=None, progresso="", status="aguardando")
 - Status: {tarefa['status']}
 - Projeto: {tarefa.get('projeto') or '(nenhum)'}
 
-## Progresso
+## Progresso (runner)
 {progresso}
 
 ## Ultima Atualizacao
-{agora}
-"""
+{agora}"""
     else:
-        conteudo = f"""# WORKING.md — {nome}
+        zona_runner = f"""# WORKING.md — {nome}
 
 ## Tarefa Atual
 - ID: (nenhuma)
@@ -118,12 +134,17 @@ def atualizar_working(agente_id, tarefa=None, progresso="", status="aguardando")
 - Status: {status}
 - Projeto: —
 
-## Progresso
+## Progresso (runner)
 {progresso or 'Nenhuma tarefa em andamento.'}
 
 ## Ultima Atualizacao
-{agora}
-"""
+{agora}"""
+
+    # Montar conteudo final: zona runner + zona agente
+    if zona_agente:
+        conteudo = zona_runner + "\n\n" + zona_agente + "\n"
+    else:
+        conteudo = zona_runner + f"\n\n{ZONA_AGENTE_MARCADOR}\n## Notas do Agente\n(Escreva aqui — esta secao e preservada entre ciclos)\n"
 
     with open(working_path, "w", encoding="utf-8") as f:
         f.write(conteudo)
@@ -274,8 +295,16 @@ def main():
     # Garantir banco inicializado
     db.inicializar_banco()
 
-    # Executar
-    resultado, detalhes = executar_heartbeat(agente_id, dry_run=args.dry_run)
+    # Executar com captura de exceptions
+    try:
+        resultado, detalhes = executar_heartbeat(agente_id, dry_run=args.dry_run)
+    except Exception as e:
+        # Registrar erro no log estruturado
+        duracao_ms = 0
+        erro_msg = f"{type(e).__name__}: {e}"
+        print(f"  ERRO FATAL: {erro_msg}", file=sys.stderr)
+        log_ciclo(agente_id, "ERRO", {"erro": erro_msg, "acao": "exception_nao_tratada"}, duracao_ms)
+        sys.exit(2)
 
     # Exit code baseado no resultado
     if resultado == "HEARTBEAT_OK":
