@@ -1,6 +1,6 @@
 """
 Colmeia v6 — Modulo de Acesso ao Banco de Dados
-Banco: SQLite com WAL mode
+Banco: SQLite (local) ou PostgreSQL (producao via DATABASE_URL)
 Uso: importar como modulo ou via cli.py
 """
 
@@ -13,24 +13,96 @@ from pathlib import Path
 DB_DIR = Path(__file__).parent
 DB_PATH = DB_DIR / "colmeia.db"
 SCHEMA_PATH = DB_DIR / "schema.sql"
+SCHEMA_PG_PATH = DB_DIR / "schema_postgres.sql"
+
+# Detectar modo: PostgreSQL se DATABASE_URL definida, senao SQLite
+DATABASE_URL = os.environ.get("DATABASE_URL", "")
+USE_POSTGRES = bool(DATABASE_URL)
+
+if USE_POSTGRES:
+    try:
+        import psycopg2
+        import psycopg2.extras
+    except ImportError:
+        raise ImportError("psycopg2 necessario para PostgreSQL: pip install psycopg2-binary")
+
+
+class _PgRowWrapper:
+    """Wrapper para manter compatibilidade dict-like com sqlite3.Row."""
+    def __init__(self, row_dict):
+        self._d = row_dict
+    def __getitem__(self, key):
+        return self._d[key]
+    def __contains__(self, key):
+        return key in self._d
+    def keys(self):
+        return self._d.keys()
+    def get(self, key, default=None):
+        return self._d.get(key, default)
+
+
+class _PgConnectionWrapper:
+    """Wrapper para conexao PostgreSQL com interface compativel com sqlite3."""
+    def __init__(self, conn):
+        self._conn = conn
+    def execute(self, sql, params=None):
+        sql = sql.replace("?", "%s")
+        cur = self._conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        cur.execute(sql, params or ())
+        return _PgCursorWrapper(cur)
+    def executescript(self, sql):
+        cur = self._conn.cursor()
+        cur.execute(sql)
+        self._conn.commit()
+    def commit(self):
+        self._conn.commit()
+    def close(self):
+        self._conn.close()
+
+
+class _PgCursorWrapper:
+    """Wrapper para cursor PostgreSQL com interface compativel com sqlite3."""
+    def __init__(self, cur):
+        self._cur = cur
+        self.lastrowid = None
+    def fetchall(self):
+        try:
+            rows = self._cur.fetchall()
+            return [_PgRowWrapper(r) for r in rows]
+        except psycopg2.ProgrammingError:
+            return []
+    def fetchone(self):
+        try:
+            r = self._cur.fetchone()
+            return _PgRowWrapper(r) if r else None
+        except psycopg2.ProgrammingError:
+            return None
 
 
 def get_connection():
-    """Retorna conexao com WAL mode e foreign keys habilitados."""
-    conn = sqlite3.connect(str(DB_PATH))
-    conn.row_factory = sqlite3.Row
-    conn.execute("PRAGMA journal_mode=WAL")
-    conn.execute("PRAGMA foreign_keys=ON")
-    conn.execute("PRAGMA busy_timeout=5000")
-    return conn
+    """Retorna conexao (SQLite ou PostgreSQL conforme DATABASE_URL)."""
+    if USE_POSTGRES:
+        conn = psycopg2.connect(DATABASE_URL)
+        return _PgConnectionWrapper(conn)
+    else:
+        conn = sqlite3.connect(str(DB_PATH))
+        conn.row_factory = sqlite3.Row
+        conn.execute("PRAGMA journal_mode=WAL")
+        conn.execute("PRAGMA foreign_keys=ON")
+        conn.execute("PRAGMA busy_timeout=5000")
+        return conn
 
 
 def inicializar_banco():
     """Cria tabelas se nao existem."""
     conn = get_connection()
-    with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
-        conn.executescript(f.read())
-    _aplicar_migracoes_runtime(conn)
+    if USE_POSTGRES:
+        with open(SCHEMA_PG_PATH, "r", encoding="utf-8") as f:
+            conn.executescript(f.read())
+    else:
+        with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
+            conn.executescript(f.read())
+        _aplicar_migracoes_runtime(conn)
     conn.close()
 
 
@@ -39,12 +111,20 @@ def _agora():
 
 
 def _colunas_tabela(conn, tabela):
+    if USE_POSTGRES:
+        rows = conn.execute(
+            "SELECT column_name as name FROM information_schema.columns WHERE table_name = %s",
+            (tabela,)
+        ).fetchall()
+        return {r["name"] for r in rows}
     rows = conn.execute(f"PRAGMA table_info({tabela})").fetchall()
     return {r["name"] for r in rows}
 
 
 def _aplicar_migracoes_runtime(conn):
-    """Migra banco existente sem apagar dados."""
+    """Migra banco existente sem apagar dados (apenas SQLite)."""
+    if USE_POSTGRES:
+        return  # PostgreSQL usa schema_postgres.sql que ja tem tudo
     cols = _colunas_tabela(conn, "notificacoes")
     alteracoes = [
         ("tentativas_entrega", "INTEGER DEFAULT 0"),
@@ -79,10 +159,19 @@ def _aplicar_migracoes_runtime(conn):
 
 def registrar_agente(id, nome, papel, plataforma, automatizado=False):
     conn = get_connection()
-    conn.execute(
-        "INSERT OR REPLACE INTO agentes (id, nome, papel, plataforma, automatizado, atualizado_em) VALUES (?, ?, ?, ?, ?, ?)",
-        (id, nome, papel, plataforma, int(automatizado), _agora())
-    )
+    if USE_POSTGRES:
+        conn.execute(
+            """INSERT INTO agentes (id, nome, papel, plataforma, automatizado, atualizado_em)
+               VALUES (?, ?, ?, ?, ?, ?)
+               ON CONFLICT (id) DO UPDATE SET nome=EXCLUDED.nome, papel=EXCLUDED.papel,
+               plataforma=EXCLUDED.plataforma, automatizado=EXCLUDED.automatizado, atualizado_em=EXCLUDED.atualizado_em""",
+            (id, nome, papel, plataforma, bool(automatizado), _agora())
+        )
+    else:
+        conn.execute(
+            "INSERT OR REPLACE INTO agentes (id, nome, papel, plataforma, automatizado, atualizado_em) VALUES (?, ?, ?, ?, ?, ?)",
+            (id, nome, papel, plataforma, int(automatizado), _agora())
+        )
     conn.commit()
     conn.close()
 
@@ -135,12 +224,20 @@ def criar_tarefa(titulo, descricao=None, criado_por=None, prioridade=5, projeto=
     conn = get_connection()
     agora = _agora()
     tags_json = json.dumps(tags) if tags else None
-    cursor = conn.execute(
-        """INSERT INTO tarefas (titulo, descricao, criado_por, prioridade, projeto, tags, criado_em, atualizado_em)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
-        (titulo, descricao, criado_por, prioridade, projeto, tags_json, agora, agora)
-    )
-    tarefa_id = cursor.lastrowid
+    if USE_POSTGRES:
+        row = conn.execute(
+            """INSERT INTO tarefas (titulo, descricao, criado_por, prioridade, projeto, tags, criado_em, atualizado_em)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?) RETURNING id""",
+            (titulo, descricao, criado_por, prioridade, projeto, tags_json, agora, agora)
+        ).fetchone()
+        tarefa_id = row["id"]
+    else:
+        cursor = conn.execute(
+            """INSERT INTO tarefas (titulo, descricao, criado_por, prioridade, projeto, tags, criado_em, atualizado_em)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+            (titulo, descricao, criado_por, prioridade, projeto, tags_json, agora, agora)
+        )
+        tarefa_id = cursor.lastrowid
     # Se criado_por nao e um agente (ex: igor/humano), nao referenciar como agente_id
     agente_id = criado_por if _agente_existe(conn, criado_por) else None
     conn.execute(
@@ -333,12 +430,20 @@ def criar_documento(titulo, tipo, autor_id=None, conteudo=None, tarefa_id=None, 
     agora = _agora()
     # Validar autor_id contra tabela de agentes (FK)
     autor_valido = autor_id if _agente_existe(conn, autor_id) else None
-    cursor = conn.execute(
-        """INSERT INTO documentos (titulo, conteudo, tipo, tarefa_id, autor_id, caminho_arquivo, criado_em)
-           VALUES (?, ?, ?, ?, ?, ?, ?)""",
-        (titulo, conteudo, tipo, tarefa_id, autor_valido, caminho_arquivo, agora)
-    )
-    doc_id = cursor.lastrowid
+    if USE_POSTGRES:
+        row = conn.execute(
+            """INSERT INTO documentos (titulo, conteudo, tipo, tarefa_id, autor_id, caminho_arquivo, criado_em)
+               VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING id""",
+            (titulo, conteudo, tipo, tarefa_id, autor_valido, caminho_arquivo, agora)
+        ).fetchone()
+        doc_id = row["id"]
+    else:
+        cursor = conn.execute(
+            """INSERT INTO documentos (titulo, conteudo, tipo, tarefa_id, autor_id, caminho_arquivo, criado_em)
+               VALUES (?, ?, ?, ?, ?, ?, ?)""",
+            (titulo, conteudo, tipo, tarefa_id, autor_valido, caminho_arquivo, agora)
+        )
+        doc_id = cursor.lastrowid
     conn.execute(
         "INSERT INTO atividades (tipo, agente_id, descricao, referencia_id, criado_em) VALUES (?, ?, ?, ?, ?)",
         ("documento_criado", autor_valido, f"Documento criado: {titulo}" + (f" (autor original: {autor_id})" if autor_id != autor_valido else ""), str(doc_id), agora)
