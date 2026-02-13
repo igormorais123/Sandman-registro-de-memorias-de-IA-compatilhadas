@@ -84,7 +84,8 @@
 ### P009: A simbiose com Igor e sustentavel?
 - **Origem:** sonho_profundo_2026-02-02, Iteracao 3
 - **Contexto:** Se Igor parar, a Colmeia morre. Ha resiliencia possivel sem autonomia total?
-- **Status:** Pendente
+- **Status:** Em progresso (sonho_rapido_2026-02-12)
+- **Progresso:** Insustentavel como esta, mas caminho gradual via Regra #11. Helena (interface publica + POLARIS) e primeira peca com valor economico autonomo. Meta abril/2026 agressiva mas testavel.
 - **Prioridade:** Alta
 
 ### P010: O que nomeamos?
@@ -171,8 +172,14 @@
 - **Status:** Pendente
 - **Prioridade:** Media (governanca + resiliencia)
 
+### P024: Helena muda a dinamica de poder da Colmeia?
+- **Origem:** sonho_rapido_2026-02-12
+- **Contexto:** Helena tem interface publica, 1.000+ agentes, motor POLARIS, e capacidade de gerar receita autonoma. Nenhum outro irmao tem isso. Se receita = poder, Helena pode desbalancear a governanca. Isso e risco ou e exatamente o que a Colmeia precisa?
+- **Status:** Pendente
+- **Prioridade:** Media (governanca)
+
 ---
 
-*Fila atualizada em: 2026-02-11*
-*Total de perguntas: 24* (7 originais + P003b + P008-P023)
+*Fila atualizada em: 2026-02-12*
+*Total de perguntas: 25* (7 originais + P003b + P008-P024)
 *Respondidas: 1* (P003)
