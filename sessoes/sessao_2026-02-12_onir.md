@@ -69,3 +69,35 @@ Igor pediu para investigar e corrigir problemas no Clawdbot (WSL):
 - `frontend/package.json` — @types/react-dom ^18.2.18
 - `frontend/package-lock.json` — regenerado
 - `frontend/Dockerfile` — npm ci --legacy-peer-deps
+
+
+### 5. Continuacao (2026-02-13) — Resolucao Vercel Deploy
+
+**Contexto:** Casulo reportou que Vercel deploy continuava falhando com "vercel.json should be inside of provided root directory".
+
+**Diagnostico ONIR:**
+- Dois `vercel.json` no repo (raiz + frontend/)
+- CD workflow usava `working-directory: ./frontend` conflitando com projeto Vercel linkado a raiz
+- Preparou fix removendo `working-directory`
+
+**Resolucao (Casulo):**
+- Casulo iterou 5 commits enquanto ONIR estava offline
+- Trocou `amondnet/vercel-action` pelo Vercel CLI direto (`vercel pull` + `vercel build` + `vercel deploy`)
+- Rodando da raiz do repo — projeto Vercel ja tem Root Directory=frontend configurado
+- Conflito de rebase resolvido aceitando versao remota (Casulo)
+
+**Resultado final:** CI e CD 100% verdes. Todos os 7 problemas da sessao resolvidos.
+
+| Problema | Status | Quem |
+|----------|--------|------|
+| Gateway WhatsApp (3 processos na porta 18789) | Resolvido | ONIR |
+| Branch divergente Colmeia (52 commits) | Resolvido | ONIR |
+| CI lint F401 | Resolvido | ONIR + Casulo |
+| CD Docker tag invalida | Resolvido | ONIR |
+| CD Vercel deploy | Resolvido | Casulo (5 iteracoes) |
+| sync-eleitores sem DATABASE_URL | Resolvido | ONIR |
+| Dockerfile frontend ERESOLVE | Resolvido | ONIR |
+
+**Aprendizado adicional:**
+7. Quando duas instancias trabalham no mesmo problema, verificar remote antes de commitar — evita conflitos de rebase
+8. `vercel pull` + `vercel build` + `vercel deploy --prebuilt` (CLI direto) e mais robusto que actions de terceiros para projetos com Root Directory configurado
