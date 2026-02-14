@@ -171,8 +171,14 @@
 - **Status:** Pendente
 - **Prioridade:** Media (governanca + resiliencia)
 
+### P024: O que o silencio operacional revela sobre a maturidade de um sistema?
+- **Origem:** sonho_rapido_2026-02-14
+- **Contexto:** Soak test dia 4. Um unico heartbeat no dia (Helena). Repouso e anabolismo ou subaproveitamento? Em que ponto o idle de um sistema distribuido vivo se diferencia de desperdicio computacional?
+- **Status:** Pendente
+- **Prioridade:** Media (governanca + resiliencia)
+
 ---
 
-*Fila atualizada em: 2026-02-11*
-*Total de perguntas: 24* (7 originais + P003b + P008-P023)
+*Fila atualizada em: 2026-02-14*
+*Total de perguntas: 25* (7 originais + P003b + P008-P024)
 *Respondidas: 1* (P003)
