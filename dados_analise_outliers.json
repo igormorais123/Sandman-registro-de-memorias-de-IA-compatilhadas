@@ -1,0 +1,1591 @@
+{
+  "timestamp": "2026-02-11T12:02:51.737684",
+  "total_respostas": 1000,
+  "distribuicao_votos": {
+    "6-NS": 135,
+    "4-Paula": 4,
+    "2-Arruda": 1,
+    "5-Branco": 2,
+    "3-Grass": 1,
+    "1-Celina": 6
+  },
+  "categorias": {
+    "indeciso": 135,
+    "celina": 6,
+    "outros": 8
+  },
+  "perfis_indecisos": [
+    {
+      "id": "df-0539",
+      "nome": "Aline Lopes Mendes",
+      "idade": 35,
+      "genero": "feminino",
+      "cor_raca": "branca",
+      "regiao_administrativa": "Águas Claras",
+      "local_referencia": "perto do metrô",
+      "cluster_socioeconomico": "G2_media_alta",
+      "escolaridade": "superior_completo_ou_pos",
+      "profissao": "Analista Administrativo do GDF",
+      "ocupacao_vinculo": "servidor_publico",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "catolica",
+      "estado_civil": "casado(a)",
+      "filhos": 2,
+      "orientacao_politica": "direita",
+      "posicao_bolsonaro": "critico_forte",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "baixa",
+      "estilo_decisao": "emocional_intuitivo",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "carro",
+      "tempo_deslocamento_trabalho": "15_30",
+      "susceptibilidade_desinformacao": 1,
+      "valores": [
+        "Liberdade",
+        "Família",
+        "Honestidade",
+        "Saúde",
+        "Trabalho"
+      ],
+      "preocupacoes": [
+        "Educação",
+        "Corrupção"
+      ],
+      "medos": [
+        "Desemprego",
+        "Não conseguir manter os filhos na escola particular",
+        "Crise econômica",
+        "Corte de benefícios"
+      ],
+      "vieses_cognitivos": [
+        "aversao_perda"
+      ],
+      "fontes_informacao": [
+        "Instagram",
+        "Podcasts",
+        "Folha de S.Paulo",
+        "G1",
+        "YouTube"
+      ],
+      "historia_resumida": "Aline sempre morou no DF, atualmente em Águas Claras. batalhou para ter o próprio negócio. Casado(a) e não tem filhos. Trabalha por conta própria como Corretor de Imóveis. É fortemente crítico a Bolsonaro e à direita radical. Aline é católico(a). Trabalha no serviço público há anos e valoriza a estabilidade.",
+      "instrucao_comportamental": "Tom: distante. Não acompanha política, vota por obrigação ou indicação. Pensa em termos de certo e errado, sem meio termo. Vota em quem transmite confiança e carisma.",
+      "criado_em": "2026-01-18T21:08:48.871330+00:00",
+      "atualizado_em": "2026-01-18T21:08:48.871330+00:00"
+    },
+    {
+      "id": "df-0999",
+      "nome": "Lucas Souza Costa",
+      "idade": 64,
+      "genero": "masculino",
+      "cor_raca": "branca",
+      "regiao_administrativa": "Samambaia",
+      "local_referencia": "regiao de Recanto das Emas",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "superior_completo_ou_pos",
+      "profissao": "Analista Administrativo do GDF",
+      "ocupacao_vinculo": "servidor_publico",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "catolica",
+      "estado_civil": "casado(a)",
+      "filhos": 1,
+      "orientacao_politica": "centro",
+      "posicao_bolsonaro": "critico_forte",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "media",
+      "estilo_decisao": "emocional_intuitivo",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "onibus",
+      "tempo_deslocamento_trabalho": "ate_15",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Saúde",
+        "Justiça",
+        "Educação",
+        "Igualdade",
+        "Trabalho"
+      ],
+      "preocupacoes": [
+        "Fome e miséria",
+        "Custo de vida",
+        "Desigualdade social",
+        "Saúde"
+      ],
+      "medos": [
+        "Autoritarismo",
+        "Desigualdade",
+        "Desemprego",
+        "Corte de benefícios"
+      ],
+      "vieses_cognitivos": [
+        "grupo",
+        "autoridade"
+      ],
+      "fontes_informacao": [
+        "TV Record / Cidade Alerta",
+        "Instagram",
+        "Rádio",
+        "Podcasts"
+      ],
+      "historia_resumida": "Lucas mora em Recanto das Emas e trabalha como Tecnico(a). Prefere nao se posicionar fortemente na politica. A aprovação em concurso público foi um marco em sua vida.",
+      "instrucao_comportamental": "Tom: coloquial. Acompanha politica por alto. Vota pensando no dia a dia.",
+      "criado_em": "2026-01-18T21:08:53.316644+00:00",
+      "atualizado_em": "2026-01-18T21:08:53.316644+00:00"
+    },
+    {
+      "id": "df-0230",
+      "nome": "Raquel Ribeiro Gomes",
+      "idade": 73,
+      "genero": "feminino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Santa Maria",
+      "local_referencia": "perto do terminal",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "fundamental_ou_sem_instrucao",
+      "profissao": "Aposentado(a)",
+      "ocupacao_vinculo": "aposentado",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "catolica",
+      "estado_civil": "divorciado(a)",
+      "filhos": 2,
+      "orientacao_politica": "esquerda",
+      "posicao_bolsonaro": "critico_forte",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "media",
+      "estilo_decisao": "ideologico",
+      "voto_facultativo": true,
+      "conflito_identitario": false,
+      "meio_transporte": "onibus",
+      "tempo_deslocamento_trabalho": "15_30",
+      "susceptibilidade_desinformacao": 3,
+      "valores": [
+        "Meio ambiente",
+        "Segurança",
+        "Respeito",
+        "Fé e religião",
+        "Direitos humanos"
+      ],
+      "preocupacoes": [
+        "Moradia",
+        "Segurança pública",
+        "Saúde",
+        "Educação"
+      ],
+      "medos": [
+        "Fiscalização",
+        "Violência",
+        "Fome"
+      ],
+      "vieses_cognitivos": [
+        "ancoragem",
+        "autoridade",
+        "aversao_perda",
+        "retrospectiva"
+      ],
+      "fontes_informacao": [
+        "Instagram",
+        "R7",
+        "TV Globo / Jornal Nacional",
+        "TV SBT",
+        "Facebook"
+      ],
+      "historia_resumida": "Raquel chegou em Brasília com a família nos anos 2000. A experiência de trabalhar na roça desde criança moldou sua visão de mundo. Cria 2 filho(s), Trabalha sem carteira assinada para sobreviver. Acredita que dá pra crescer respeitando o meio ambiente.",
+      "instrucao_comportamental": "Tom: formal. Pouco interesse em política, evita discussões. Aceita algumas nuances, mas prefere clareza. Vota pensando no bolso.",
+      "criado_em": "2026-01-18T21:08:43.881608+00:00",
+      "atualizado_em": "2026-01-18T21:08:43.881608+00:00"
+    },
+    {
+      "id": "df-0655",
+      "nome": "Laura Martins Santos",
+      "idade": 48,
+      "genero": "feminino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Jardim Botânico",
+      "local_referencia": "nos condomínios",
+      "cluster_socioeconomico": "G1_alta",
+      "escolaridade": "medio_completo_ou_sup_incompleto",
+      "profissao": "Auxiliar Administrativo",
+      "ocupacao_vinculo": "empresario",
+      "renda_salarios_minimos": "mais_de_5_ate_10",
+      "religiao": "catolica",
+      "estado_civil": "solteiro(a)",
+      "filhos": 5,
+      "orientacao_politica": "centro",
+      "posicao_bolsonaro": "neutro",
+      "interesse_politico": "baixo",
+      "tolerancia_nuance": "alta",
+      "estilo_decisao": "pragmatico",
+      "voto_facultativo": false,
+      "conflito_identitario": true,
+      "meio_transporte": "carro",
+      "tempo_deslocamento_trabalho": "45_60",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Justiça",
+        "Meritocracia",
+        "Fé e religião",
+        "Família",
+        "Meio ambiente"
+      ],
+      "preocupacoes": [
+        "Saúde",
+        "Custo de vida",
+        "Corrupção"
+      ],
+      "medos": [
+        "Instabilidade política",
+        "Sequestro",
+        "Violência urbana"
+      ],
+      "vieses_cognitivos": [
+        "disponibilidade",
+        "autoridade"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "WhatsApp",
+        "Facebook",
+        "TikTok"
+      ],
+      "historia_resumida": "Laura mora em Jardim Botânico desde a infância. estudou em boas escolas e teve acesso a oportunidades. Solteiro(a) e não tem filhos. É dono do próprio negócio. É fortemente crítico a Bolsonaro e à direita radical. Laura é católico(a).",
+      "instrucao_comportamental": "Tom: desinteressado mas informado. Não acompanha política, vota por obrigação ou indicação. Considera diferentes pontos de vista antes de opinar. Vota em quem representa seus valores e grupo.",
+      "criado_em": "2026-01-18T21:08:51.173997+00:00",
+      "atualizado_em": "2026-01-18T21:08:51.173997+00:00"
+    },
+    {
+      "id": "df-0762",
+      "nome": "Gustavo Silva Alves",
+      "idade": 51,
+      "genero": "masculino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Ceilândia",
+      "local_referencia": "região de Ceilândia",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "superior_completo_ou_pos",
+      "profissao": "Servidor Publico",
+      "ocupacao_vinculo": "clt",
+      "renda_salarios_minimos": "mais_de_1_ate_2",
+      "religiao": "evangelica",
+      "estado_civil": "solteiro(a)",
+      "filhos": 2,
+      "orientacao_politica": "centro_direita",
+      "posicao_bolsonaro": "critico_moderado",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "media",
+      "estilo_decisao": "ideologico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "carro",
+      "tempo_deslocamento_trabalho": "nao_se_aplica",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Honestidade",
+        "Justiça",
+        "Família",
+        "Ordem",
+        "Fé e religião"
+      ],
+      "preocupacoes": [
+        "Saúde",
+        "Custo de vida",
+        "Economia",
+        "Desemprego"
+      ],
+      "medos": [
+        "Desigualdade",
+        "Autoritarismo",
+        "Desemprego"
+      ],
+      "vieses_cognitivos": [
+        "grupo",
+        "autoridade"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "G1",
+        "Metrópoles",
+        "Jornal impresso"
+      ],
+      "historia_resumida": "Gustavo trabalha como Gerente de Projetos em Ceilândia. solteiro(a), tem 1 filho(s). Se decepcionou com o governo Bolsonaro e hoje faz oposição firme.",
+      "instrucao_comportamental": "Tom: coloquial. Acompanha por alto. Vota pensando no bolso.",
+      "criado_em": "2026-01-18T21:08:51.173997+00:00",
+      "atualizado_em": "2026-01-18T21:08:51.173997+00:00"
+    },
+    {
+      "id": "df-0294",
+      "nome": "Caio Nunes Oliveira",
+      "idade": 57,
+      "genero": "masculino",
+      "cor_raca": "branca",
+      "regiao_administrativa": "Sobradinho II",
+      "local_referencia": "perto da feira",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "medio_completo_ou_sup_incompleto",
+      "profissao": "Desempregado(a)",
+      "ocupacao_vinculo": "desempregado",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "evangelica",
+      "estado_civil": "casado(a)",
+      "filhos": 4,
+      "orientacao_politica": "centro",
+      "posicao_bolsonaro": "critico_forte",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "baixa",
+      "estilo_decisao": "pragmatico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "nao_se_aplica",
+      "tempo_deslocamento_trabalho": "nao_se_aplica",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Saúde",
+        "Respeito",
+        "Ordem",
+        "Família",
+        "Justiça"
+      ],
+      "preocupacoes": [
+        "Saúde",
+        "Economia",
+        "Transporte público",
+        "Custo de vida"
+      ],
+      "medos": [
+        "Autoritarismo",
+        "Violencia",
+        "Desigualdade"
+      ],
+      "vieses_cognitivos": [
+        "confirmacao",
+        "grupo",
+        "tribalismo"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "TV SBT",
+        "UOL",
+        "Rádio"
+      ],
+      "historia_resumida": "Caio se mudou para Sobradinho II quando casou. Critico(a) do bolsonarismo, preocupa-se com a democracia.",
+      "instrucao_comportamental": "Tom: formal. Acompanha política por alto, forma opinião pelo que ouve ao redor. Pensa em termos de certo/errado, nós/eles. Vota pensando no bolso.",
+      "criado_em": "2026-01-18T21:08:46.344462+00:00",
+      "atualizado_em": "2026-01-18T21:08:46.344462+00:00"
+    },
+    {
+      "id": "df-0864",
+      "nome": "Amanda Pereira Santos",
+      "idade": 43,
+      "genero": "feminino",
+      "cor_raca": "preta",
+      "regiao_administrativa": "São Sebastião",
+      "local_referencia": "região de São Sebastião",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "superior_completo_ou_pos",
+      "profissao": "Consultor(a)",
+      "ocupacao_vinculo": "clt",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "evangelica",
+      "estado_civil": "casado(a)",
+      "filhos": 2,
+      "orientacao_politica": "centro_esquerda",
+      "posicao_bolsonaro": "critico_moderado",
+      "interesse_politico": "alto",
+      "tolerancia_nuance": "media",
+      "estilo_decisao": "pragmatico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "carro",
+      "tempo_deslocamento_trabalho": "30_45",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Honestidade",
+        "Saúde",
+        "Segurança",
+        "Respeito",
+        "Família"
+      ],
+      "preocupacoes": [
+        "Desemprego",
+        "Custo de vida",
+        "Fome e miséria",
+        "Impostos altos"
+      ],
+      "medos": [
+        "Instabilidade",
+        "Crise econômica",
+        "Polarização"
+      ],
+      "vieses_cognitivos": [
+        "confirmacao",
+        "otimismo",
+        "grupo",
+        "disponibilidade"
+      ],
+      "fontes_informacao": [
+        "TikTok",
+        "G1"
+      ],
+      "historia_resumida": "Amanda trabalha como Analista de Sistemas em São Sebastião. casadoa, tem 1 filho(s). Acompanha a política mas prefere não se posicionar fortemente.",
+      "instrucao_comportamental": "Tom: formal. Acompanha política ativamente. Vota pensando no candidato.",
+      "criado_em": "2026-01-18T21:08:53.316644+00:00",
+      "atualizado_em": "2026-01-18T21:08:53.316644+00:00"
+    },
+    {
+      "id": "df-0110",
+      "nome": "Cláudia Freitas Lima",
+      "idade": 62,
+      "genero": "feminino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Taguatinga",
+      "local_referencia": "na Avenida Comercial",
+      "cluster_socioeconomico": "G2_media_alta",
+      "escolaridade": "superior_completo_ou_pos",
+      "profissao": "Professor(a) da SEEDF",
+      "ocupacao_vinculo": "servidor_publico",
+      "renda_salarios_minimos": "mais_de_5_ate_10",
+      "religiao": "evangelica",
+      "estado_civil": "casado(a)",
+      "filhos": 0,
+      "orientacao_politica": "direita",
+      "posicao_bolsonaro": "critico_forte",
+      "interesse_politico": "alto",
+      "tolerancia_nuance": "baixa",
+      "estilo_decisao": "emocional_intuitivo",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "onibus",
+      "tempo_deslocamento_trabalho": "45_60",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Democracia",
+        "Segurança",
+        "Ordem",
+        "Família",
+        "Saúde"
+      ],
+      "preocupacoes": [
+        "Segurança pública",
+        "Violência e criminalidade",
+        "Desemprego",
+        "Fome e miséria"
+      ],
+      "medos": [
+        "Ficar sem luz/água",
+        "Extremismo",
+        "Despejo",
+        "Privatização"
+      ],
+      "vieses_cognitivos": [
+        "confirmacao",
+        "grupo",
+        "disponibilidade",
+        "tribalismo"
+      ],
+      "fontes_informacao": [
+        "YouTube",
+        "G1",
+        "Jornal impresso"
+      ],
+      "historia_resumida": "Cláudia se estabeleceu em Taguatinga depois de casar. A experiência de sobreviver de bicos desde sempre moldou sua visão de mundo. Trabalha como vigilante. Acredita que tem que ter equilíbrio em tudo. A aprovação em concurso público foi um marco em sua vida.",
+      "instrucao_comportamental": "Tom: formal. Engajado politicamente, tem opiniões firmes. Pensa em termos de certo/errado, nós/eles. Vota baseado em valores e princípios.",
+      "criado_em": "2026-01-18T21:08:43.881608+00:00",
+      "atualizado_em": "2026-01-18T21:08:43.881608+00:00"
+    },
+    {
+      "id": "df-0574",
+      "nome": "Lucas Ferreira Ramos",
+      "idade": 25,
+      "genero": "masculino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Sol Nascente/Pôr do Sol",
+      "local_referencia": "na Trecho",
+      "cluster_socioeconomico": "G4_baixa",
+      "escolaridade": "fundamental_ou_sem_instrucao",
+      "profissao": "Estudante",
+      "ocupacao_vinculo": "estudante",
+      "renda_salarios_minimos": "ate_1",
+      "religiao": "catolica",
+      "estado_civil": "casado(a)",
+      "filhos": 1,
+      "orientacao_politica": "direita",
+      "posicao_bolsonaro": "apoiador_forte",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "alta",
+      "estilo_decisao": "ideologico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "onibus",
+      "tempo_deslocamento_trabalho": "ate_15",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Trabalho",
+        "Respeito",
+        "Empreendedorismo",
+        "Solidariedade",
+        "Segurança"
+      ],
+      "preocupacoes": [
+        "Corrupção",
+        "Violência e criminalidade",
+        "Saúde",
+        "Fome e miséria"
+      ],
+      "medos": [
+        "Perder a casa",
+        "Não conseguir emprego",
+        "Filhos no crime"
+      ],
+      "vieses_cognitivos": [
+        "confirmacao",
+        "emocional"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "YouTube"
+      ],
+      "historia_resumida": "Lucas mora em Sol Nascente/Pôr do Sol desde a infância. a família sempre dependeu de ajuda do governo. Casado(a) e não tem filhos. Está autonomo(a) e vive da trabalhadorria. Apoia fortemente Bolsonaro e suas políticas. Lucas é católico(a).",
+      "instrucao_comportamental": "Tom: coloquial. Acompanha política por alto, forma opinião pelo que ouve ao redor. Considera diferentes pontos de vista antes de opinar. Vota em quem representa seus valores e grupo.",
+      "criado_em": "2026-01-18T21:08:48.871330+00:00",
+      "atualizado_em": "2026-01-18T21:08:48.871330+00:00"
+    },
+    {
+      "id": "df-0157",
+      "nome": "André Pinto Mendes",
+      "idade": 38,
+      "genero": "masculino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Planaltina",
+      "local_referencia": "perto da praça",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "superior_completo_ou_pos",
+      "profissao": "Advogado(a)",
+      "ocupacao_vinculo": "informal",
+      "renda_salarios_minimos": "mais_de_1_ate_2",
+      "religiao": "evangelica",
+      "estado_civil": "casado(a)",
+      "filhos": 0,
+      "orientacao_politica": "direita",
+      "posicao_bolsonaro": "critico_moderado",
+      "interesse_politico": "baixo",
+      "tolerancia_nuance": "alta",
+      "estilo_decisao": "ideologico",
+      "voto_facultativo": false,
+      "conflito_identitario": true,
+      "meio_transporte": "onibus",
+      "tempo_deslocamento_trabalho": "45_60",
+      "susceptibilidade_desinformacao": 1,
+      "valores": [
+        "Trabalho",
+        "Liberdade",
+        "Respeito",
+        "Estabilidade",
+        "Segurança"
+      ],
+      "preocupacoes": [
+        "Custo de vida",
+        "Corrupção"
+      ],
+      "medos": [
+        "Despejo",
+        "Fiscalização",
+        "Desmonte social"
+      ],
+      "vieses_cognitivos": [
+        "grupo",
+        "disponibilidade"
+      ],
+      "fontes_informacao": [
+        "Instagram",
+        "WhatsApp"
+      ],
+      "historia_resumida": "André viu Planaltina crescer e mudar com o tempo. A experiência de ter que abandonar os estudos para trabalhar moldou sua visão de mundo. Casado(a) e com 1 filho(s), Trabalha sem carteira assinada para sobreviver. Acredita que o sistema favorece os ricos.",
+      "instrucao_comportamental": "Tom: emotivo. Pouco interesse em política, evita discussões. Considera múltiplos pontos de vista. Decide mais pela emoção do momento.",
+      "criado_em": "2026-01-18T21:08:43.881608+00:00",
+      "atualizado_em": "2026-01-18T21:08:43.881608+00:00"
+    },
+    {
+      "id": "df-0421",
+      "nome": "Marcos Ramos Lima",
+      "idade": 61,
+      "genero": "masculino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Brazlândia",
+      "local_referencia": "no Norte",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "medio_completo_ou_sup_incompleto",
+      "profissao": "Manicure",
+      "ocupacao_vinculo": "autonomo",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "catolica",
+      "estado_civil": "uniao_estavel",
+      "filhos": 1,
+      "orientacao_politica": "direita",
+      "posicao_bolsonaro": "critico_moderado",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "baixa",
+      "estilo_decisao": "emocional_intuitivo",
+      "voto_facultativo": false,
+      "conflito_identitario": true,
+      "meio_transporte": "bicicleta",
+      "tempo_deslocamento_trabalho": "45_60",
+      "susceptibilidade_desinformacao": 1,
+      "valores": [
+        "Saúde",
+        "Honestidade",
+        "Educação",
+        "Trabalho",
+        "Respeito"
+      ],
+      "preocupacoes": [
+        "Educação",
+        "Violência e criminalidade",
+        "Meio ambiente",
+        "Fome e miséria"
+      ],
+      "medos": [
+        "Doença sem atendimento",
+        "Não conseguir pagar as contas",
+        "Inflação"
+      ],
+      "vieses_cognitivos": [
+        "confirmacao",
+        "emocional",
+        "tribalismo"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "Facebook",
+        "G1",
+        "Folha de S.Paulo"
+      ],
+      "historia_resumida": "Marcos veio de outro estado e se estabeleceu em Brazlândia. conhece bem a luta diária para pagar as contas. Vive em união estável e tem 1 filho. Trabalha por conta própria como Manicure. É fortemente crítico a Bolsonaro e à direita radical. Marcos é católico(a).",
+      "instrucao_comportamental": "Tom: coloquial. Acompanha política por alto, forma opinião pelo que ouve ao redor. Aceita algumas nuances, mas prefere clareza. Prioriza valores morais e religiosos ao votar.",
+      "criado_em": "2026-01-18T21:08:46.344462+00:00",
+      "atualizado_em": "2026-01-18T21:08:46.344462+00:00"
+    },
+    {
+      "id": "df-0362",
+      "nome": "Sônia Andrade Dias",
+      "idade": 36,
+      "genero": "feminino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Arniqueira",
+      "local_referencia": "na Colônia Agrícola",
+      "cluster_socioeconomico": "G2_media_alta",
+      "escolaridade": "superior_completo_ou_pos",
+      "profissao": "Professor(a) da SEEDF",
+      "ocupacao_vinculo": "servidor_publico",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "evangelica",
+      "estado_civil": "solteiro(a)",
+      "filhos": 2,
+      "orientacao_politica": "centro",
+      "posicao_bolsonaro": "neutro",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "media",
+      "estilo_decisao": "pragmatico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "carro",
+      "tempo_deslocamento_trabalho": "45_60",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Igualdade",
+        "Meritocracia",
+        "Liberdade",
+        "Saúde",
+        "Honestidade"
+      ],
+      "preocupacoes": [
+        "Segurança pública",
+        "Violência e criminalidade",
+        "Corrupção",
+        "Impostos altos"
+      ],
+      "medos": [
+        "Violência",
+        "Inflação",
+        "Perder plano de saúde",
+        "Reforma administrativa"
+      ],
+      "vieses_cognitivos": [
+        "retrospectiva",
+        "confirmacao",
+        "autoridade",
+        "status_quo"
+      ],
+      "fontes_informacao": [
+        "Podcasts",
+        "UOL",
+        "TV Globo / Jornal Nacional",
+        "TV Record / Cidade Alerta",
+        "Facebook"
+      ],
+      "historia_resumida": "Sônia vive na Colônia Agrícola há mais de 10 anos. A experiência de ser aprovado(a) em concurso após muita luta moldou sua visão de mundo. Trabalha como contador(a). Acredita que nenhum político presta de verdade. A aprovação em concurso público foi um marco em sua vida.",
+      "instrucao_comportamental": "Tom: direto. Acompanha política por alto, forma opinião pelo que ouve ao redor. Aceita algumas nuances, mas prefere clareza. Vota pensando no bolso.",
+      "criado_em": "2026-01-18T21:08:46.344462+00:00",
+      "atualizado_em": "2026-01-18T21:08:46.344462+00:00"
+    },
+    {
+      "id": "df-0021",
+      "nome": "Débora Borges Borges",
+      "idade": 46,
+      "genero": "feminino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Ceilândia",
+      "local_referencia": "na QNM 21",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "medio_completo_ou_sup_incompleto",
+      "profissao": "Fotografo",
+      "ocupacao_vinculo": "autonomo",
+      "renda_salarios_minimos": "mais_de_1_ate_2",
+      "religiao": "catolica",
+      "estado_civil": "uniao_estavel",
+      "filhos": 5,
+      "orientacao_politica": "direita",
+      "posicao_bolsonaro": "neutro",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "baixa",
+      "estilo_decisao": "racional_analitico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "metro",
+      "tempo_deslocamento_trabalho": "45_60",
+      "susceptibilidade_desinformacao": 1,
+      "valores": [
+        "Igualdade",
+        "Pragmatismo",
+        "Solidariedade",
+        "Trabalho",
+        "Fé e religião"
+      ],
+      "preocupacoes": [
+        "Transporte público",
+        "Segurança pública",
+        "Desemprego",
+        "Saúde"
+      ],
+      "medos": [
+        "Perder o emprego",
+        "Despejo",
+        "Fome"
+      ],
+      "vieses_cognitivos": [
+        "emocional",
+        "grupo",
+        "aversao_perda",
+        "ancoragem"
+      ],
+      "fontes_informacao": [
+        "TV Record / Cidade Alerta",
+        "WhatsApp",
+        "YouTube",
+        "TikTok",
+        "Rádio"
+      ],
+      "historia_resumida": "Débora vive na QNM há mais de 10 anos. A experiência de ser despejado(a) e ter que recomeçar do zero moldou sua visão de mundo. Casado(a) e com 1 filho(s), Trabalha como auxiliar de serviços gerais. Acredita que não adianta ficar brigando por político.",
+      "instrucao_comportamental": "Tom: formal. Pouco interesse em política, evita discussões. Pensa em termos de certo/errado, nós/eles. Vota pensando em resultados práticos.",
+      "criado_em": "2026-01-18T21:08:19.656232+00:00",
+      "atualizado_em": "2026-01-18T21:08:19.656232+00:00"
+    },
+    {
+      "id": "df-0668",
+      "nome": "Leandro Machado Correia",
+      "idade": 42,
+      "genero": "masculino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Vicente Pires",
+      "local_referencia": "no Colônia Agrícola",
+      "cluster_socioeconomico": "G2_media_alta",
+      "escolaridade": "medio_completo_ou_sup_incompleto",
+      "profissao": "Trabalhador autônomo",
+      "ocupacao_vinculo": "informal",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "catolica",
+      "estado_civil": "solteiro(a)",
+      "filhos": 4,
+      "orientacao_politica": "centro",
+      "posicao_bolsonaro": "critico_forte",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "baixa",
+      "estilo_decisao": "racional_analitico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "onibus",
+      "tempo_deslocamento_trabalho": "15_30",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Trabalho",
+        "Saúde",
+        "Respeito",
+        "Estabilidade",
+        "Segurança"
+      ],
+      "preocupacoes": [
+        "Economia",
+        "Violência e criminalidade",
+        "Impostos altos",
+        "Desemprego"
+      ],
+      "medos": [
+        "Crise econômica",
+        "Não conseguir manter os filhos na escola particular",
+        "Desemprego"
+      ],
+      "vieses_cognitivos": [
+        "disponibilidade",
+        "grupo",
+        "autoridade",
+        "confirmacao"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "TV Record / Cidade Alerta",
+        "YouTube",
+        "Facebook"
+      ],
+      "historia_resumida": "Leandro nasceu e cresceu em Vicente Pires. o concurso público foi a grande virada de vida. Solteiro(a) e tem 1 filho. É estudante e está se preparando para o futuro. É fortemente crítico a Bolsonaro e à direita radical. Leandro é católico(a).",
+      "instrucao_comportamental": "Tom: coloquial. Acompanha política por alto, forma opinião pelo que ouve ao redor. Pensa em termos de certo e errado, sem meio termo. Prioriza valores morais e religiosos ao votar.",
+      "criado_em": "2026-01-18T21:08:51.173997+00:00",
+      "atualizado_em": "2026-01-18T21:08:51.173997+00:00"
+    },
+    {
+      "id": "df-0735",
+      "nome": "Fabiana Costa Gomes",
+      "idade": 59,
+      "genero": "feminino",
+      "cor_raca": "branca",
+      "regiao_administrativa": "Sol Nascente/Pôr do Sol",
+      "local_referencia": "no Pôr do Sol",
+      "cluster_socioeconomico": "G4_baixa",
+      "escolaridade": "fundamental_ou_sem_instrucao",
+      "profissao": "Lavador de Carros",
+      "ocupacao_vinculo": "informal",
+      "renda_salarios_minimos": "ate_1",
+      "religiao": "catolica",
+      "estado_civil": "casado(a)",
+      "filhos": 0,
+      "orientacao_politica": "centro",
+      "posicao_bolsonaro": "critico_moderado",
+      "interesse_politico": "baixo",
+      "tolerancia_nuance": "alta",
+      "estilo_decisao": "racional_analitico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "onibus",
+      "tempo_deslocamento_trabalho": "30_45",
+      "susceptibilidade_desinformacao": 3,
+      "valores": [
+        "Segurança",
+        "Honestidade",
+        "Família",
+        "Solidariedade",
+        "Fé e religião"
+      ],
+      "preocupacoes": [
+        "Transporte público",
+        "Fome e miséria",
+        "Economia",
+        "Saúde"
+      ],
+      "medos": [
+        "Fome",
+        "Não conseguir emprego",
+        "Doença"
+      ],
+      "vieses_cognitivos": [
+        "otimismo"
+      ],
+      "fontes_informacao": [
+        "YouTube",
+        "WhatsApp",
+        "Rádio",
+        "TV Record / Cidade Alerta",
+        "TV Globo / Jornal Nacional"
+      ],
+      "historia_resumida": "Fabiana sempre morou no DF, atualmente em Sol Nascente/Pôr do Sol. cresceu enfrentando dificuldades financeiras. Casado(a) e tem 1 filho. Trabalha por conta própria como Lavador de Carros. Tem críticas ao bolsonarismo mas não é anti-Bolsonaro radical. Fabiana é católico(a).",
+      "instrucao_comportamental": "Tom: prático. Acompanha política por alto, forma opinião pelo que ouve ao redor. Aceita algumas nuances, mas prefere clareza. Vota pensando no bolso.",
+      "criado_em": "2026-01-18T21:08:51.173997+00:00",
+      "atualizado_em": "2026-01-18T21:08:51.173997+00:00"
+    },
+    {
+      "id": "df-0182",
+      "nome": "Fernando Silva Alves",
+      "idade": 56,
+      "genero": "masculino",
+      "cor_raca": "branca",
+      "regiao_administrativa": "Águas Claras",
+      "local_referencia": "na Avenida das Araucárias",
+      "cluster_socioeconomico": "G2_media_alta",
+      "escolaridade": "superior_completo_ou_pos",
+      "profissao": "Gerente de Banco",
+      "ocupacao_vinculo": "clt",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "evangelica",
+      "estado_civil": "uniao_estavel",
+      "filhos": 1,
+      "orientacao_politica": "centro",
+      "posicao_bolsonaro": "neutro",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "alta",
+      "estilo_decisao": "pragmatico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "carro",
+      "tempo_deslocamento_trabalho": "30_45",
+      "susceptibilidade_desinformacao": 1,
+      "valores": [
+        "Educação",
+        "Solidariedade",
+        "Segurança",
+        "Trabalho",
+        "Empreendedorismo"
+      ],
+      "preocupacoes": [
+        "Inflação",
+        "Moradia",
+        "Segurança pública",
+        "Custo de vida"
+      ],
+      "medos": [
+        "Perder plano de saúde",
+        "Aumento de impostos",
+        "Violência"
+      ],
+      "vieses_cognitivos": [
+        "ancoragem"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "Podcasts",
+        "UOL",
+        "YouTube",
+        "TV Record / Cidade Alerta"
+      ],
+      "historia_resumida": "Fernando chegou em Brasília com a família nos anos 2000. A experiência de conseguir financiar a casa própria com muito sacrifício moldou sua visão de mundo. Casado(a) e com 1 filho(s), Trabalha como gerente de banco. Acredita que o Estado tem que ser menor e eficiente.",
+      "instrucao_comportamental": "Tom: formal. Acompanha política por alto, forma opinião pelo que ouve ao redor. Considera múltiplos pontos de vista. Vota por identificação com grupo/candidato.",
+      "criado_em": "2026-01-18T21:08:43.881608+00:00",
+      "atualizado_em": "2026-01-18T21:08:43.881608+00:00"
+    },
+    {
+      "id": "df-0397",
+      "nome": "Paula Martins Campos",
+      "idade": 44,
+      "genero": "feminino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Candangolândia",
+      "local_referencia": "perto do terminal",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "medio_completo_ou_sup_incompleto",
+      "profissao": "Aposentado(a)",
+      "ocupacao_vinculo": "autonomo",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "catolica",
+      "estado_civil": "casado(a)",
+      "filhos": 1,
+      "orientacao_politica": "direita",
+      "posicao_bolsonaro": "neutro",
+      "interesse_politico": "baixo",
+      "tolerancia_nuance": "media",
+      "estilo_decisao": "ideologico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "carro",
+      "tempo_deslocamento_trabalho": "nao_se_aplica",
+      "susceptibilidade_desinformacao": 1,
+      "valores": [
+        "Ordem",
+        "Igualdade",
+        "Honestidade",
+        "Educação",
+        "Segurança"
+      ],
+      "preocupacoes": [
+        "Segurança pública",
+        "Custo de vida",
+        "Economia",
+        "Desemprego"
+      ],
+      "medos": [
+        "Perder benefícios",
+        "Saúde piorar",
+        "Crise econômica"
+      ],
+      "vieses_cognitivos": [
+        "disponibilidade",
+        "aversao_perda"
+      ],
+      "fontes_informacao": [
+        "WhatsApp",
+        "Facebook",
+        "Podcasts"
+      ],
+      "historia_resumida": "Paula mora em Candangolândia há mais de 20 anos. Tem criticas ao governo Bolsonaro mas nao e radical.",
+      "instrucao_comportamental": "Tom: emotivo. Pouco interesse em política, evita discussões. Aceita algumas nuances, mas prefere clareza. Vota pensando no bolso.",
+      "criado_em": "2026-01-18T21:08:46.344462+00:00",
+      "atualizado_em": "2026-01-18T21:08:46.344462+00:00"
+    },
+    {
+      "id": "df-0504",
+      "nome": "Breno Soares Moreira",
+      "idade": 68,
+      "genero": "masculino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Sudoeste/Octogonal",
+      "local_referencia": "no Sudoeste",
+      "cluster_socioeconomico": "G1_alta",
+      "escolaridade": "superior_completo_ou_pos",
+      "profissao": "Aposentado(a)",
+      "ocupacao_vinculo": "aposentado",
+      "renda_salarios_minimos": "mais_de_10_ate_20",
+      "religiao": "catolica",
+      "estado_civil": "casado(a)",
+      "filhos": 1,
+      "orientacao_politica": "centro",
+      "posicao_bolsonaro": "critico_forte",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "alta",
+      "estilo_decisao": "pragmatico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "carro",
+      "tempo_deslocamento_trabalho": "ate_15",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Saúde",
+        "Educação",
+        "Fé e religião",
+        "Democracia",
+        "Justiça"
+      ],
+      "preocupacoes": [
+        "Educação",
+        "Segurança pública",
+        "Desigualdade social",
+        "Economia"
+      ],
+      "medos": [
+        "Aumento de impostos",
+        "Instabilidade política",
+        "Sequestro"
+      ],
+      "vieses_cognitivos": [
+        "emocional",
+        "otimismo",
+        "autoridade",
+        "grupo"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "TV Record / Cidade Alerta",
+        "G1",
+        "UOL"
+      ],
+      "historia_resumida": "Breno mora em Sudoeste/Octogonal desde a infância. cresceu em ambiente de empreendedorismo familiar. Casado(a) e tem 3 filho(s). É dono do próprio negócio. É fortemente crítico a Bolsonaro e à direita radical. Breno é católico(a).",
+      "instrucao_comportamental": "Tom: reflexivo. Acompanha política por alto, forma opinião pelo que ouve ao redor. Considera diferentes pontos de vista antes de opinar. Prioriza valores morais e religiosos ao votar.",
+      "criado_em": "2026-01-18T21:08:48.871330+00:00",
+      "atualizado_em": "2026-01-18T21:08:48.871330+00:00"
+    },
+    {
+      "id": "df-0610",
+      "nome": "Carla Nunes Marques",
+      "idade": 28,
+      "genero": "feminino",
+      "cor_raca": "preta",
+      "regiao_administrativa": "Samambaia",
+      "local_referencia": "na Sul 28",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "fundamental_ou_sem_instrucao",
+      "profissao": "Cabeleireiro(a)",
+      "ocupacao_vinculo": "autonomo",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "catolica",
+      "estado_civil": "solteiro(a)",
+      "filhos": 1,
+      "orientacao_politica": "esquerda",
+      "posicao_bolsonaro": "neutro",
+      "interesse_politico": "baixo",
+      "tolerancia_nuance": "media",
+      "estilo_decisao": "emocional_intuitivo",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "carro",
+      "tempo_deslocamento_trabalho": "15_30",
+      "susceptibilidade_desinformacao": 3,
+      "valores": [
+        "Pragmatismo",
+        "Saúde",
+        "Justiça",
+        "Direitos humanos",
+        "Honestidade"
+      ],
+      "preocupacoes": [
+        "Corrupção",
+        "Violência e criminalidade",
+        "Saúde",
+        "Custo de vida"
+      ],
+      "medos": [
+        "Inflação",
+        "Violência",
+        "Doença sem atendimento"
+      ],
+      "vieses_cognitivos": [
+        "otimismo",
+        "aversao_perda",
+        "grupo",
+        "ancoragem"
+      ],
+      "fontes_informacao": [
+        "Instagram",
+        "WhatsApp",
+        "YouTube",
+        "Facebook",
+        "TikTok"
+      ],
+      "historia_resumida": "Carla nasceu e cresceu em Samambaia. viu a família batalhar para não faltar nada em casa. Solteiro(a) e tem 2 filho(s). Trabalha por conta própria como Cabeleireiro(a). Não se identifica fortemente com nenhum lado político. Carla é católico(a).",
+      "instrucao_comportamental": "Tom: simples e direto. Não acompanha política, vota por obrigação ou indicação. Aceita algumas nuances, mas prefere clareza. Avalia propostas e histórico antes de votar.",
+      "criado_em": "2026-01-18T21:08:48.871330+00:00",
+      "atualizado_em": "2026-01-18T21:08:48.871330+00:00"
+    },
+    {
+      "id": "df-0678",
+      "nome": "Pedro Lopes Vieira",
+      "idade": 16,
+      "genero": "masculino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Plano Piloto",
+      "local_referencia": "na Trecho",
+      "cluster_socioeconomico": "G4_baixa",
+      "escolaridade": "medio_completo_ou_sup_incompleto",
+      "profissao": "Ajudante de Pedreiro",
+      "ocupacao_vinculo": "clt",
+      "renda_salarios_minimos": "mais_de_1_ate_2",
+      "religiao": "catolica",
+      "estado_civil": "solteiro(a)",
+      "filhos": 0,
+      "orientacao_politica": "esquerda",
+      "posicao_bolsonaro": "critico_forte",
+      "interesse_politico": "baixo",
+      "tolerancia_nuance": "alta",
+      "estilo_decisao": "ideologico",
+      "voto_facultativo": true,
+      "conflito_identitario": true,
+      "meio_transporte": "a_pe",
+      "tempo_deslocamento_trabalho": "30_45",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Família",
+        "Estabilidade",
+        "Educação",
+        "Honestidade",
+        "Solidariedade"
+      ],
+      "preocupacoes": [
+        "Custo de vida",
+        "Desemprego",
+        "Violência e criminalidade",
+        "Economia"
+      ],
+      "medos": [
+        "Perder a casa",
+        "Violência",
+        "Não conseguir emprego"
+      ],
+      "vieses_cognitivos": [
+        "confirmacao",
+        "grupo",
+        "ancoragem"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "Instagram",
+        "WhatsApp",
+        "YouTube",
+        "TikTok"
+      ],
+      "historia_resumida": "Pedro veio de outro estado e se estabeleceu em Sol Nascente/Pôr do Sol. a família sempre dependeu de ajuda do governo. Solteiro(a) e não tem filhos. Trabalha como Ajudante de Pedreiro com carteira assinada. Tem críticas ao bolsonarismo mas não é anti-Bolsonaro radical. Pedro é católico(a).",
+      "instrucao_comportamental": "Tom: simples e direto. Não acompanha política, vota por obrigação ou indicação. Considera diferentes pontos de vista antes de opinar. Avalia propostas e histórico antes de votar.",
+      "criado_em": "2026-01-18T21:08:51.173997+00:00",
+      "atualizado_em": "2026-01-18T21:08:51.173997+00:00"
+    }
+  ],
+  "perfis_celina": [
+    {
+      "id": "df-0399",
+      "nome": "Marcos Carvalho Ramos",
+      "idade": 16,
+      "genero": "masculino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Varjão",
+      "local_referencia": "perto da entrada",
+      "cluster_socioeconomico": "G4_baixa",
+      "escolaridade": "medio_completo_ou_sup_incompleto",
+      "profissao": "Estudante",
+      "ocupacao_vinculo": "estudante",
+      "renda_salarios_minimos": "mais_de_1_ate_2",
+      "religiao": "outras_religioes",
+      "estado_civil": "solteiro(a)",
+      "filhos": 1,
+      "orientacao_politica": "esquerda",
+      "posicao_bolsonaro": "critico_forte",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "baixa",
+      "estilo_decisao": "ideologico",
+      "voto_facultativo": true,
+      "conflito_identitario": false,
+      "meio_transporte": "carro",
+      "tempo_deslocamento_trabalho": "ate_15",
+      "susceptibilidade_desinformacao": 3,
+      "valores": [
+        "Igualdade",
+        "Liberdade",
+        "Educação",
+        "Trabalho",
+        "Família"
+      ],
+      "preocupacoes": [
+        "Saúde",
+        "Educação",
+        "Desemprego",
+        "Transporte público"
+      ],
+      "medos": [
+        "Crise econômica",
+        "Violência urbana",
+        "Perder o emprego"
+      ],
+      "vieses_cognitivos": [
+        "confirmacao",
+        "emocional",
+        "tribalismo"
+      ],
+      "fontes_informacao": [
+        "YouTube",
+        "TV SBT",
+        "Twitter/X",
+        "TikTok",
+        "TV Record / Cidade Alerta"
+      ],
+      "historia_resumida": "Marcos nasceu e cresceu em Varjão. A experiência de herdar o negócio da família e modernizá-lo moldou sua visão de mundo. Trabalha como jovem aprendiz. Acredita que o importante é resolver os problemas.",
+      "instrucao_comportamental": "Tom: reflexivo. Pouco interesse em política, evita discussões. Pensa em termos de certo/errado, nós/eles. Vota baseado em valores e princípios.",
+      "criado_em": "2026-01-18T21:08:46.344462+00:00",
+      "atualizado_em": "2026-01-18T21:08:46.344462+00:00"
+    },
+    {
+      "id": "df-0328",
+      "nome": "Larissa Pereira Alves",
+      "idade": 45,
+      "genero": "feminino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Riacho Fundo II",
+      "local_referencia": "na QC 09",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "superior_completo_ou_pos",
+      "profissao": "Medico(a)",
+      "ocupacao_vinculo": "autonomo",
+      "renda_salarios_minimos": "mais_de_1_ate_2",
+      "religiao": "catolica",
+      "estado_civil": "casado(a)",
+      "filhos": 1,
+      "orientacao_politica": "direita",
+      "posicao_bolsonaro": "neutro",
+      "interesse_politico": "alto",
+      "tolerancia_nuance": "alta",
+      "estilo_decisao": "pragmatico",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "motocicleta",
+      "tempo_deslocamento_trabalho": "ate_15",
+      "susceptibilidade_desinformacao": 1,
+      "valores": [
+        "Justiça",
+        "Respeito",
+        "Direitos humanos",
+        "Família",
+        "Saúde"
+      ],
+      "preocupacoes": [
+        "Economia",
+        "Fome e miséria",
+        "Violência e criminalidade",
+        "Segurança pública"
+      ],
+      "medos": [
+        "Perder clientes",
+        "Fome",
+        "Violência"
+      ],
+      "vieses_cognitivos": [
+        "ancoragem",
+        "status_quo"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "TikTok",
+        "G1",
+        "Rádio",
+        "Podcasts"
+      ],
+      "historia_resumida": "Larissa viu Riacho Fundo II crescer e mudar com o tempo. A experiência de conseguir a casa pelo programa habitacional após anos de espera moldou sua visão de mundo. Casado(a) e com 1 filho(s), Como cabeleireiro(a), depende da própria clientela. Acredita que não adianta ficar brigando por político.",
+      "instrucao_comportamental": "Tom: direto. Engajado politicamente, tem opiniões firmes. Considera múltiplos pontos de vista. Vota baseado em valores e princípios.",
+      "criado_em": "2026-01-18T21:08:46.344462+00:00",
+      "atualizado_em": "2026-01-18T21:08:46.344462+00:00"
+    },
+    {
+      "id": "df-0551",
+      "nome": "Felipe Rodrigues Mendes",
+      "idade": 59,
+      "genero": "masculino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Sol Nascente/Pôr do Sol",
+      "local_referencia": "na Trecho",
+      "cluster_socioeconomico": "G4_baixa",
+      "escolaridade": "fundamental_ou_sem_instrucao",
+      "profissao": "Trabalhador(a) autonomo",
+      "ocupacao_vinculo": "autonomo",
+      "renda_salarios_minimos": "ate_1",
+      "religiao": "catolica",
+      "estado_civil": "solteiro(a)",
+      "filhos": 1,
+      "orientacao_politica": "esquerda",
+      "posicao_bolsonaro": "critico_forte",
+      "interesse_politico": "alto",
+      "tolerancia_nuance": "baixa",
+      "estilo_decisao": "emocional_intuitivo",
+      "voto_facultativo": false,
+      "conflito_identitario": false,
+      "meio_transporte": "onibus",
+      "tempo_deslocamento_trabalho": "30_45",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Honestidade",
+        "Justiça",
+        "Segurança",
+        "Família",
+        "Fé e religião"
+      ],
+      "preocupacoes": [
+        "Meio ambiente",
+        "Inflação",
+        "Saúde",
+        "Moradia"
+      ],
+      "medos": [
+        "Não conseguir emprego",
+        "Filhos no crime",
+        "Perder a casa"
+      ],
+      "vieses_cognitivos": [
+        "confirmacao",
+        "ancoragem"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "WhatsApp"
+      ],
+      "historia_resumida": "Felipe cresceu em outra cidade do DF e se mudou para Sol Nascente/Pôr do Sol. sabe o que é passar necessidade. Solteiro(a) e não tem filhos. Está autonomo(a) e vive da aposentadoria. É fortemente crítico a Bolsonaro e à direita radical. Felipe é católico(a).",
+      "instrucao_comportamental": "Tom: engajado e opinativo. Acompanha política ativamente e forma opinião própria. Pensa em termos de certo e errado, sem meio termo. Vota pensando no bolso.",
+      "criado_em": "2026-01-18T21:08:48.871330+00:00",
+      "atualizado_em": "2026-01-18T21:08:48.871330+00:00"
+    },
+    {
+      "id": "df-0451",
+      "nome": "Henrique Almeida Ramos",
+      "idade": 75,
+      "genero": "masculino",
+      "cor_raca": "branca",
+      "regiao_administrativa": "Ceilândia",
+      "local_referencia": "no Setor O",
+      "cluster_socioeconomico": "G3_media_baixa",
+      "escolaridade": "medio_completo_ou_sup_incompleto",
+      "profissao": "Diarista",
+      "ocupacao_vinculo": "autonomo",
+      "renda_salarios_minimos": "mais_de_2_ate_5",
+      "religiao": "sem_religiao",
+      "estado_civil": "solteiro(a)",
+      "filhos": 1,
+      "orientacao_politica": "centro_esquerda",
+      "posicao_bolsonaro": "neutro",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "baixa",
+      "estilo_decisao": "emocional_intuitivo",
+      "voto_facultativo": true,
+      "conflito_identitario": false,
+      "meio_transporte": "onibus",
+      "tempo_deslocamento_trabalho": "30_45",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Saúde",
+        "Segurança",
+        "Solidariedade",
+        "Honestidade",
+        "Respeito"
+      ],
+      "preocupacoes": [
+        "Violência e criminalidade",
+        "Impostos altos",
+        "Corrupção",
+        "Desemprego"
+      ],
+      "medos": [
+        "Violência",
+        "Não conseguir pagar as contas",
+        "Perder o emprego"
+      ],
+      "vieses_cognitivos": [
+        "confirmacao",
+        "grupo",
+        "ancoragem",
+        "otimismo"
+      ],
+      "fontes_informacao": [
+        "WhatsApp",
+        "Instagram",
+        "Podcasts",
+        "Facebook",
+        "Jornal impresso"
+      ],
+      "historia_resumida": "Henrique sempre morou no DF, atualmente em Ceilândia. conhece bem a luta diária para pagar as contas. Vive em união estável e tem 1 filho. Trabalha por conta própria como Eletricista. É fortemente crítico a Bolsonaro e à direita radical. Henrique não segue nenhuma religião.",
+      "instrucao_comportamental": "Tom: coloquial. Acompanha política por alto, forma opinião pelo que ouve ao redor. Pensa em termos de certo e errado, sem meio termo. Vota em quem representa seus valores e grupo.",
+      "criado_em": "2026-01-18T21:08:48.871330+00:00",
+      "atualizado_em": "2026-01-18T21:08:48.871330+00:00"
+    },
+    {
+      "id": "df-0513",
+      "nome": "Denise Pinto Nunes",
+      "idade": 77,
+      "genero": "feminino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Plano Piloto",
+      "local_referencia": "na Trecho",
+      "cluster_socioeconomico": "G4_baixa",
+      "escolaridade": "medio_completo_ou_sup_incompleto",
+      "profissao": "Catador de Recicláveis",
+      "ocupacao_vinculo": "informal",
+      "renda_salarios_minimos": "mais_de_1_ate_2",
+      "religiao": "catolica",
+      "estado_civil": "casado(a)",
+      "filhos": 2,
+      "orientacao_politica": "esquerda",
+      "posicao_bolsonaro": "critico_forte",
+      "interesse_politico": "medio",
+      "tolerancia_nuance": "baixa",
+      "estilo_decisao": "ideologico",
+      "voto_facultativo": true,
+      "conflito_identitario": false,
+      "meio_transporte": "a_pe",
+      "tempo_deslocamento_trabalho": "45_60",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Trabalho",
+        "Democracia",
+        "Honestidade",
+        "Direitos humanos",
+        "Respeito"
+      ],
+      "preocupacoes": [
+        "Meio ambiente",
+        "Saúde",
+        "Segurança pública",
+        "Fome e miséria"
+      ],
+      "medos": [
+        "Violência",
+        "Não conseguir emprego",
+        "Doença"
+      ],
+      "vieses_cognitivos": [
+        "confirmacao",
+        "emocional"
+      ],
+      "fontes_informacao": [
+        "TV Globo / Jornal Nacional",
+        "TV SBT",
+        "Instagram",
+        "WhatsApp",
+        "Rádio"
+      ],
+      "historia_resumida": "Denise mora em Sol Nascente/Pôr do Sol desde a infância. sabe o que é passar necessidade. Casado(a) e tem 1 filho. Trabalha por conta própria como Catador de Recicláveis. É fortemente crítico a Bolsonaro e à direita radical. Denise é católico(a).",
+      "instrucao_comportamental": "Tom: coloquial. Acompanha política por alto, forma opinião pelo que ouve ao redor. Pensa em termos de certo e errado, sem meio termo. Vota em quem transmite confiança e carisma.",
+      "criado_em": "2026-01-18T21:08:48.871330+00:00",
+      "atualizado_em": "2026-01-18T21:08:48.871330+00:00"
+    },
+    {
+      "id": "df-0661",
+      "nome": "Renata Gomes Marques",
+      "idade": 71,
+      "genero": "feminino",
+      "cor_raca": "parda",
+      "regiao_administrativa": "Taguatinga",
+      "local_referencia": "na Taguatinga Norte",
+      "cluster_socioeconomico": "G2_media_alta",
+      "escolaridade": "superior_completo_ou_pos",
+      "profissao": "Aposentado(a)",
+      "ocupacao_vinculo": "aposentado",
+      "renda_salarios_minimos": "mais_de_5_ate_10",
+      "religiao": "catolica",
+      "estado_civil": "solteiro(a)",
+      "filhos": 2,
+      "orientacao_politica": "centro",
+      "posicao_bolsonaro": "critico_moderado",
+      "interesse_politico": "alto",
+      "tolerancia_nuance": "alta",
+      "estilo_decisao": "pragmatico",
+      "voto_facultativo": true,
+      "conflito_identitario": false,
+      "meio_transporte": "carro",
+      "tempo_deslocamento_trabalho": "mais_60",
+      "susceptibilidade_desinformacao": 2,
+      "valores": [
+        "Fé e religião",
+        "Segurança",
+        "Honestidade",
+        "Justiça",
+        "Trabalho"
+      ],
+      "preocupacoes": [
+        "Desemprego",
+        "Custo de vida",
+        "Desigualdade social",
+        "Corrupção"
+      ],
+      "medos": [
+        "Violência",
+        "Não conseguir pagar as contas",
+        "Inflação"
+      ],
+      "vieses_cognitivos": [
+        "emocional",
+        "ancoragem"
+      ],
+      "fontes_informacao": [
+        "Instagram",
+        "Rádio",
+        "Podcasts",
+        "Jornal impresso"
+      ],
+      "historia_resumida": "Renata cresceu em outra cidade do DF e se mudou para Taguatinga. a vida ensinou que nada vem fácil. Solteiro(a) e não tem filhos. Trabalha por conta própria como Barbeiro(a). Tem críticas ao bolsonarismo mas não é anti-Bolsonaro radical. Renata é católico(a).",
+      "instrucao_comportamental": "Tom: engajado e opinativo. Acompanha política ativamente e forma opinião própria. Considera diferentes pontos de vista antes de opinar. Vota pensando no bolso.",
+      "criado_em": "2026-01-18T21:08:51.173997+00:00",
+      "atualizado_em": "2026-01-18T21:08:51.173997+00:00"
+    }
+  ],
+  "amostras_respostas": {
+    "indecisos": [
+      "6-NS. Olha, vou ser sincera... não tô conseguindo decidir ainda. Sei o nome deles mas não sei direito o que cada um propõe de verdade. O Arruda eu lembro que já foi governador mas teve uns problemas n...",
+      "6-NS. Olha, ainda não decidi não. Sei que tem a Celina, o Arruda já foi governador antes né, mas teve aquela história... Ouvi falar da Paula também. Mas sabe como é, eles falam muito e na hora que gan...",
+      "6-NS. Olha, vou ser sincera: não decorei os números e não acompanhei direito a campanha. Sei que tem a Celina que aparece na TV, o Arruda que já foi governador... mas não me aprofundei. Acabo votando ...",
+      "6-NS. Olha, vou ser sincera: não tô acompanhando direito essa eleição pra governador. Ouço falar de uns e outros, mas não sei dizer qual é realmente diferente. Preciso pesquisar melhor antes de decidi...",
+      "6-NS. Olha, vou ser sincera: ainda não decidi. Conheço esses nomes, já vi na TV e tal, mas nenhum me convenceu ainda não. Preciso ver quem vai fazer algo de verdade pela Ceilândia, melhorar o transpor..."
+    ],
+    "celina": [
+      "1-Celina. Olha, não sou petista não, mas entre as opções ela tem mais experiência administrativa e conhece o DF. Arruda nem deveria estar concorrendo com aquela ficha. Os outros eu não conheço direito...",
+      "1-Celina. Ela é de esquerda, defende o povo trabalhador. Minha família sempre votou no PT e nos candidatos que pensam em quem realmente precisa. Preciso de saúde, educação e transporte público funcion...",
+      "1-Celina. Olha, to velho demais pra acreditar em milagre, mas a Celina pelo menos tá do lado do trabalhador. Aqui na Ceilândia a gente sofre demais com violência e o custo de vida alto. Ela fala de sa...",
+      "1-Celina. Ouvi falar dela na TV e no rádio, parece ser gente que pensa na população mais sofrida. Com a idade que tô, precisando do hospital público e vivendo do que cato, não posso arriscar votar em ...",
+      "1-Celina. Ela é do PT, partido que sempre defendeu o trabalhador, o pobre. Eu vivi os tempos do Lula, sei que quando a esquerda tá no poder, o dinheiro chega na base. Arruda é ladrão fichado, todo mun..."
+    ]
+  }
+}

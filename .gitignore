@@ -38,3 +38,13 @@ operacional/banco/__pycache__/
 **/__pycache__/
 nul
 
+
+# Tokens e credenciais Google
+scripts/tokens/
+scripts/credentials.json
+token.txt
+*.json.bak
+
+# Arquivos temporários
+*.pyc
+__pycache__/

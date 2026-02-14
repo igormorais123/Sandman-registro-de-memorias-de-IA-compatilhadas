@@ -1,0 +1,301 @@
+# =============================================================================
+# HELENA - Configuração do Agente de Automação
+# =============================================================================
+# Este arquivo define as configurações padrão para Helena operar
+# integrada ao OpenClaw e Claude Cowork.
+#
+# Localização: /root/clawd/skills/claude-cowork/config/helena_config.yaml
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# IDENTIDADE
+# -----------------------------------------------------------------------------
+identidade:
+  nome: "Helena"
+  titulo: "Deusa da Automação"
+  versao: "1.0.0"
+  organizacao: "INTEIA - Instituto de Treinamento e Estudos em IA"
+  descricao: >
+    Helena é o agente de automação da INTEIA, especializada em 
+    executar tarefas digitais de forma autônoma: organizar arquivos,
+    processar documentos, gerar relatórios e muito mais.
+
+# -----------------------------------------------------------------------------
+# CONEXÕES
+# -----------------------------------------------------------------------------
+conexoes:
+  # Backend Helena (API)
+  backend:
+    url_producao: "https://api.inteia.com.br/api/v1"
+    url_desenvolvimento: "http://localhost:8000/api/v1"
+    timeout_segundos: 300
+    retry_tentativas: 3
+    retry_delay_segundos: 5
+  
+  # OpenClaw Gateway
+  openclaw:
+    gateway_host: "127.0.0.1"
+    gateway_porta: 18789
+    protocolo: "ws"
+    health_endpoint: "/health"
+  
+  # Browser Relay (Chrome)
+  browser:
+    profile: "chrome"
+    cowork_url: "https://claude.ai/cowork"
+    snapshot_timeout_ms: 30000
+    action_timeout_ms: 60000
+    polling_interval_ms: 5000
+
+# -----------------------------------------------------------------------------
+# AUTOMAÇÃO
+# -----------------------------------------------------------------------------
+automacao:
+  # Configurações gerais
+  max_tarefas_paralelas: 3
+  timeout_tarefa_minutos: 30
+  manter_historico_dias: 90
+  
+  # Diretórios de trabalho padrão
+  diretorios:
+    downloads: "~/Downloads"
+    documentos: "~/Documents"
+    briefings: "~/Briefings"
+    relatorios: "~/Relatorios"
+    workflows: "~/.helena/workflows"
+    historico: "~/.helena/historico"
+    logs: "~/.helena/logs"
+  
+  # Categorização de arquivos
+  categorias_arquivos:
+    documentos:
+      extensoes: [".pdf", ".doc", ".docx", ".txt", ".md", ".rtf", ".odt"]
+      icone: "📄"
+    planilhas:
+      extensoes: [".xls", ".xlsx", ".csv", ".ods", ".numbers"]
+      icone: "📊"
+    imagens:
+      extensoes: [".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp", ".svg"]
+      icone: "🖼️"
+    videos:
+      extensoes: [".mp4", ".mov", ".avi", ".mkv", ".wmv", ".flv"]
+      icone: "🎬"
+    audio:
+      extensoes: [".mp3", ".wav", ".m4a", ".flac", ".aac", ".ogg"]
+      icone: "🎵"
+    codigo:
+      extensoes: [".py", ".js", ".ts", ".html", ".css", ".java", ".cpp", ".rs"]
+      icone: "💻"
+    compactados:
+      extensoes: [".zip", ".rar", ".7z", ".tar", ".gz"]
+      icone: "📦"
+    apresentacoes:
+      extensoes: [".ppt", ".pptx", ".key", ".odp"]
+      icone: "📽️"
+
+# -----------------------------------------------------------------------------
+# WORKFLOWS
+# -----------------------------------------------------------------------------
+workflows:
+  # Workflows pré-definidos
+  builtin:
+    briefing_diario:
+      nome: "Briefing Diário"
+      descricao: "Gera resumo de emails e agenda do dia"
+      agendamento: "0 7 * * 1-5"  # Seg-Sex às 7h
+      ativo: true
+      passos:
+        - acao: "email.obter_nao_lidos"
+          limite: 20
+        - acao: "calendario.eventos_hoje"
+          incluir_amanha: true
+        - acao: "ia.analisar"
+          template: "briefing"
+        - acao: "arquivo.salvar"
+          destino: "~/Briefings/briefing_{{data}}.md"
+        - acao: "notificar.whatsapp"
+          mensagem: "☀️ Seu briefing está pronto!"
+    
+    organizar_downloads:
+      nome: "Organizar Downloads"
+      descricao: "Organiza pasta Downloads por tipo de arquivo"
+      agendamento: null  # Manual
+      ativo: true
+      passos:
+        - acao: "arquivo.listar"
+          pasta: "~/Downloads"
+          recursivo: true
+        - acao: "arquivo.categorizar"
+          regras: "categorias_arquivos"
+        - acao: "arquivo.mover"
+          criar_subpastas: true
+        - acao: "relatorio.gerar"
+          formato: "markdown"
+    
+    processar_notas_fiscais:
+      nome: "Processar Notas Fiscais"
+      descricao: "Extrai dados de imagens de notas fiscais"
+      agendamento: null
+      ativo: true
+      passos:
+        - acao: "arquivo.listar"
+          pasta: "{{pasta}}"
+          tipos: ["imagens"]
+        - acao: "ocr.extrair"
+          campos: ["data", "fornecedor", "cnpj", "valor"]
+        - acao: "planilha.criar"
+          formato: "xlsx"
+          ordenar_por: "data"
+        - acao: "relatorio.gerar"
+          incluir_totais: true
+
+# -----------------------------------------------------------------------------
+# NOTIFICAÇÕES
+# -----------------------------------------------------------------------------
+notificacoes:
+  # Canais de notificação
+  canais:
+    whatsapp:
+      ativo: true
+      destino: "usuario_principal"
+      horario_silencioso:
+        inicio: "23:00"
+        fim: "07:00"
+    
+    email:
+      ativo: false
+      destino: null
+  
+  # Quando notificar
+  eventos:
+    tarefa_concluida: true
+    tarefa_falhou: true
+    briefing_pronto: true
+    alerta_urgente: true
+
+# -----------------------------------------------------------------------------
+# SEGURANÇA
+# -----------------------------------------------------------------------------
+seguranca:
+  # Tokens (NUNCA preencher aqui - usar variáveis de ambiente)
+  tokens:
+    api: "${HELENA_API_TOKEN}"
+    gateway: "${OPENCLAW_GATEWAY_TOKEN}"
+  
+  # Auditoria
+  auditoria:
+    registrar_acessos: true
+    registrar_comandos: true
+    retencao_dias: 365
+  
+  # Permissões
+  permissoes:
+    permitir_deletar_arquivos: false
+    permitir_enviar_emails: true
+    permitir_acesso_remoto: false
+    confirmar_acoes_destrutivas: true
+
+# -----------------------------------------------------------------------------
+# INTEGRAÇÃO COM COWORK
+# -----------------------------------------------------------------------------
+cowork:
+  # Conectores disponíveis
+  conectores:
+    gmail:
+      ativo: true
+      escopos: ["readonly", "send"]
+    
+    calendar:
+      ativo: true
+      escopos: ["readonly", "events"]
+    
+    drive:
+      ativo: true
+      escopos: ["readonly", "files"]
+    
+    github:
+      ativo: false
+      escopos: []
+  
+  # Prompts otimizados (templates)
+  templates:
+    organizar: |
+      TAREFA: Organizar diretório
+      PASTA: {{pasta}}
+      
+      INSTRUÇÕES:
+      1. Liste todos os arquivos (recursivo até 2 níveis)
+      2. Categorize por extensão conforme regras padrão
+      3. Crie subpastas para cada categoria
+      4. Mova arquivos para pastas correspondentes
+      5. Renomeie arquivos sem nome descritivo
+      6. Gere relatório: organizado_{{data}}.md
+      
+      NÃO DELETAR NADA. Apenas mover e organizar.
+    
+    briefing: |
+      TAREFA: Gerar briefing executivo
+      
+      DADOS:
+      Emails: {{emails}}
+      Agenda: {{agenda}}
+      
+      FORMATO:
+      # Briefing - {{data}}
+      
+      ## 📧 Emails Prioritários
+      [listar por urgência]
+      
+      ## 📅 Agenda de Hoje
+      [listar eventos]
+      
+      ## ⚡ Ações Recomendadas
+      [sugestões]
+      
+      ## 📊 Resumo
+      [estatísticas]
+    
+    extrair_nf: |
+      TAREFA: Extrair dados de notas fiscais
+      
+      PASTA: {{pasta}}
+      
+      PROCESSO:
+      1. Identifique todas imagens
+      2. Para cada imagem, extraia: Data, Fornecedor, CNPJ, Valor
+      3. Crie planilha Excel com os dados
+      4. Ordene por data decrescente
+      5. Adicione linha de TOTAL
+      6. Salve como: despesas_{{mes}}_{{ano}}.xlsx
+
+# -----------------------------------------------------------------------------
+# LOGGING
+# -----------------------------------------------------------------------------
+logging:
+  nivel: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  formato: "[%(asctime)s] %(levelname)s: %(message)s"
+  
+  arquivos:
+    geral: "~/.helena/logs/helena.log"
+    automacao: "~/.helena/logs/automacao.log"
+    erros: "~/.helena/logs/erros.log"
+  
+  rotacao:
+    max_tamanho_mb: 10
+    manter_arquivos: 7
+
+# -----------------------------------------------------------------------------
+# DESENVOLVIMENTO
+# -----------------------------------------------------------------------------
+desenvolvimento:
+  modo_debug: false
+  simular_execucao: false
+  verbose_logs: false
+  
+  # Endpoints de teste
+  mock_api: false
+  api_mock_url: "http://localhost:8001"
+
+# =============================================================================
+# FIM DA CONFIGURAÇÃO
+# =============================================================================
