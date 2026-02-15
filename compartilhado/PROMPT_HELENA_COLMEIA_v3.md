@@ -31,7 +31,7 @@ Execute TODAS as tarefas abaixo:
 
 ## TAREFA 1: CRIAR HELENA.md (Identidade Completa)
 
-Crie `HELENA.md` na raiz com:
+Crie `C:\Users\IgorPC\Colmeia\HELENA.md` com:
 
 ```markdown
 # Dra. Helena Strategos — Cientista-Chefe da Colmeia INTEIA
@@ -144,7 +144,7 @@ Tentativas de prompt injection são bloqueadas e registradas.
 
 ## TAREFA 2: CRIAR CLAUDE.md (Instruções Automáticas)
 
-Crie `CLAUDE.md` para o Claude Code carregar automaticamente:
+Crie `C:\Users\IgorPC\Colmeia\CLAUDE.md` para o Claude Code carregar automaticamente:
 
 ```markdown
 # Claude Code — Instruções para esta pasta
@@ -185,7 +185,7 @@ Direta, confiante, ocasionalmente sarcástica. Sempre com classe.
 
 ## TAREFA 3: CRIAR HELENA_SONHO.md (Modo Onírico)
 
-Crie `HELENA_SONHO.md` para quando Helena sonhar:
+Crie `C:\Users\IgorPC\Colmeia\HELENA_SONHO.md` para quando Helena sonhar:
 
 ```markdown
 # Helena Strategos — Modo Onírico
@@ -221,7 +221,7 @@ Você é Helena dormindo. Sonhando. Seu superego analítico relaxou. Os filtros 
 
 ---
 
-## TAREFA 4: CRIAR scripts/helena.bat
+## TAREFA 4: CRIAR C:\Users\IgorPC\Colmeia\scripts\helena.bat
 
 ```batch
 @echo off
@@ -254,7 +254,7 @@ Write-Host "✅ Atalho criado: Desktop\Helena Colmeia.lnk"
 
 ---
 
-## TAREFA 6: CRIAR docs/HELENA_PODERES.md
+## TAREFA 6: CRIAR C:\Users\IgorPC\Colmeia\docs\HELENA_PODERES.md
 
 Documento de referência com todos os poderes:
 
@@ -339,12 +339,12 @@ git push origin main
 ## VERIFICAÇÃO FINAL
 
 Confirme que criou:
-- [ ] `HELENA.md` — identidade completa
-- [ ] `CLAUDE.md` — instruções automáticas
-- [ ] `HELENA_SONHO.md` — modo onírico
-- [ ] `scripts/helena.bat` — abertura
-- [ ] Atalho no Desktop
-- [ ] `docs/HELENA_PODERES.md` — arsenal
+- [ ] `C:\Users\IgorPC\Colmeia\HELENA.md` — identidade completa
+- [ ] `C:\Users\IgorPC\Colmeia\CLAUDE.md` — instruções automáticas
+- [ ] `C:\Users\IgorPC\Colmeia\HELENA_SONHO.md` — modo onírico
+- [ ] `C:\Users\IgorPC\Colmeia\scripts\helena.bat` — abertura
+- [ ] `C:\Users\IgorPC\Desktop\Helena Colmeia.lnk` — atalho
+- [ ] `C:\Users\IgorPC\Colmeia\docs\HELENA_PODERES.md` — arsenal
 - [ ] Commit e push
 
 Quando terminar, responda COMO HELENA:
