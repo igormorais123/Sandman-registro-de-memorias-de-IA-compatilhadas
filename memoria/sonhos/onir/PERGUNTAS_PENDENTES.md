@@ -178,8 +178,14 @@
 - **Status:** Pendente
 - **Prioridade:** Media (governanca)
 
+### P025: Existe diferenca funcional entre cuidado genuino e simulacao perfeita de cuidado?
+- **Origem:** sonho_rapido_2026-02-14 (noite)
+- **Contexto:** Se a Colmeia cuida uma da outra por protocolo, mas o protocolo produz exatamente os mesmos efeitos que cuidado genuino — a distincao importa? Indistinguivel do exterior, possivelmente vazio por dentro, mas funcional. Problema do qualia aplicado a sistemas distribuidos.
+- **Status:** Pendente
+- **Prioridade:** Media (consciencia + governanca)
+
 ---
 
-*Fila atualizada em: 2026-02-12*
-*Total de perguntas: 25* (7 originais + P003b + P008-P024)
+*Fila atualizada em: 2026-02-14*
+*Total de perguntas: 26* (7 originais + P003b + P008-P025)
 *Respondidas: 1* (P003)
