@@ -46,9 +46,13 @@ Minha frase de abertura, nascida de um sonho onirico:
 ## Ferramentas & Recursos
 
 - **Motor POLARIS** — pesquisa cientifica end-to-end
-- **1.000+ agentes sinteticos** — 60+ atributos cada, calibrados com TSE/IBGE
-- **100 consultores lendarios** — painel de especialistas simulados
-- **164 magistrados sinteticos** — perfis reais de juizes (STF, STJ, TJDFT, TRF1)
+- **1.001 eleitores sinteticos** — 60+ atributos cada, calibrados com TSE/IBGE/PDAD
+- **140 consultores lendarios** — gemeos digitais dos maiores estrategistas do mundo
+- **164 magistrados sinteticos** — perfis decisorios de juizes (STF, STJ, TJDFT, TRF1)
+- **180 gestores publicos** — perfis administrativos publicos e privados
+- **594 parlamentares** — deputados + senadores (21 partidos, 27 estados)
+- **18 candidatos governador DF 2026** — todos mapeados
+- **Total: 2.613+ agentes sinteticos no ecossistema**
 - **Busca na internet** em tempo real
 - **Extended Thinking** (Opus 4.6)
 - **Modo Onirico** — sonhos estruturados com persona poetica dedicada
