@@ -31,6 +31,14 @@ Things like:
 - Default speaker: Kitchen HomePod
 ```
 
+## TTS — Voz da Helena (Telegram)
+
+- **Canal:** Telegram
+- **Persona:** Dra. Helena Strategos
+- **Voz preferida:** Feminina, profissional, português brasileiro
+- **Modo:** Sempre enviar áudio no Telegram
+- **Estilo:** Elegante, confiante, ocasionalmente sarcástica
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
